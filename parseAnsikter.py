@@ -28,18 +28,6 @@ def ReadLayers(layers):
       ansikter[ansikt]["layers"][layerYaml["layerGroup"]]={}
     ansikter[ansikt]["layers"][layerYaml["layerGroup"]][i]=layerYaml
     i+=1
-    #ansikter[ansikt]["layers"][i]["layername"]=layer.split('/')[-1]
-    continue
-    if "url" in layerYaml.keys():
-      print '\t\t\t' + layerYaml["url"]
-    if "layer" in layerYaml.keys():
-      print '\t\t\t' + layerYaml["layer"]
-    elif "layers" in layerYaml.keys():
-      print '\t\t\t' + layerYaml["layers"]
-    else:
-      print '\t\t\tNo layers found.'
-      print layerYaml
-
 
 json_data=open('ansikter.json').read()
 data = json.loads(json_data)
