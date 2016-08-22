@@ -10,7 +10,6 @@ def LoadFile(fileName):
 json_data=open('out.json').read()
 data = json.loads(json_data)
 
-
 for ansikt in data:
   print ansikt
   projectConfig=project.Project()
@@ -27,5 +26,11 @@ for ansikt in data:
     print '\t' + group
     for layer in data[ansikt]["groups"][group]:
       print '\t\t' + data[ansikt]["groups"][group][layer]["name"]
+      if(data[ansikt]["groups"][group][layer]["template"] == 'layers/wms'):
+        print '\t\tWMS'
+      elif(data[ansikt]["groups"][group][layer]["template"] == 'layers/wmts'):
+        print '\t\tWMTS'
+      else:
+        print '\t\tVector'
 
     mapgroups+=1
