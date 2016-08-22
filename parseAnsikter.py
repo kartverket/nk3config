@@ -1,7 +1,9 @@
+#!/usr/bin/python
 import json
 import yaml
 import urllib
 import pprint
+
 
 def GetYaml(url):
   stream=urllib.urlopen(url).read()
@@ -24,9 +26,9 @@ def GetLayers(layers):
     layerUrl=base + branch + '/themes/' + layer + '.yaml'
     layerYaml=GetYaml(layerUrl)
     layerGroup=layerYaml["layerGroup"]
-    if layerGroup not in ansikter[ansikt]["layers"].keys():
-      ansikter[ansikt]["layers"][layerYaml["layerGroup"]]={}
-    ansikter[ansikt]["layers"][layerYaml["layerGroup"]][i]=layerYaml
+    if layerGroup not in ansikter[ansikt]["groups"].keys():
+      ansikter[ansikt]["groups"][layerYaml["layerGroup"]]={}
+    ansikter[ansikt]["groups"][layerYaml["layerGroup"]][i]=layerYaml
     i+=1
 
 json_data=open('ansikter.json').read()
@@ -47,12 +49,12 @@ for ansikt in data["ansikter"]:
 
   ansikter[ansikt]["baselayers"]=GetYamlNodes(indexYaml["baselayers"], "template")
   overlays=GetYamlNodes(indexYaml["overlays"], "include")
-  ansikter[ansikt]["layers"] = {}
+  ansikter[ansikt]["groups"] = {}
 
   GetLayers(overlays)
 #  break
  
-#pprint.pprint(ansikter)
+pprint.pprint(ansikter)
 file=open('out.json','w')
 file.write(json.dumps(ansikter))
 #  secondary=base + branch + data["urls"]["secondary"]
