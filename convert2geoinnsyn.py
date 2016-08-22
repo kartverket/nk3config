@@ -31,19 +31,19 @@ for ansikt in data:
       if(layer["template"] == 'layers/wms'):
         print '\t\tWMS'
         wmsConfig=wms.Wms()
-        wmsConfig.type="overlay"
-        wmsConfig.groupid=groupid
-        wmsConfig.url=layer["url"] + " " + layer["layers"]
-        wmsConfig.opencacheurl="Map/GetMap?" + layer["url"] + " " + layer["layers"]
-        wmsConfig.grouptitle=group
-        wmsConfig.name=layer["name"]
-        wmsConfig.params["Layers"]=layer["layers"]
-        wmsConfig.Layers["Layer"]["title"]=layer["layers"]
-        wmsConfig.Layers["Layer"]["name"]=layer["layers"]
+        wmsConfig.params["type"]="overlay"
+        wmsConfig.params["groupid"]=str(groupid)
+        wmsConfig.params["url"]=layer["url"] + " " + layer["layers"]
+        wmsConfig.params["opencacheurl"]="Map/GetMap?" + layer["url"] + " " + layer["layers"]
+        wmsConfig.params["grouptitle"]=str(group)
+        wmsConfig.params["name"]=layer["name"]
+        wmsConfig.params["params"]["Layers"]=layer["layers"]
+        wmsConfig.params["Layers"]["Layer"]["title"]=layer["layers"]
+        wmsConfig.params["Layers"]["Layer"]["name"]=layer["layers"]
         if ("getfeature" in layer.keys()):
           print "\t\tgetfeature: " + str(layer["getfeature"])
-          wmsConfig.Layers["Layer"]["queryable"]=layer["getfeature"]
-        print wmsConfig.GetXml().text
+          wmsConfig.params["Layers"]["Layer"]["queryable"]=str(layer["getfeature"])
+        print ET.dump(wmsConfig.GetXml())
 
       elif(layer["template"] == 'layers/wmts'):
         print '\t\tWMTS'

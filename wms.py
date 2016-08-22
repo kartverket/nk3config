@@ -2,39 +2,53 @@ import xml.etree.ElementTree as ET
 
 class Wms():
   def __init__(self):
-    self.type="type"
-    self.guid="guid"
-    self.name="name"
-    self.display="false"
-    self.gatekeeper="false"
-    self.hidden="false"
-    self.opencacheurl="Map/GetMap?http://wms.geonorge.no/skwms1/wms.topo2?LAYERS=topo2"
-    self.url="http://wms.geonorge.no/skwms1/wms.topo2?"
-    self.zindex=0
-    self.groupid=0
-    self.grouptitle="grouptitle"
-
-    self.options={}
-    self.options["isbaselayer"]="false"
-    self.options["minscale"]=1000
-    self.options["opacity"]=1
-    self.options["singletile"]="false"
-    self.options["transitioneffect"]="resize"
-    self.options["visibility"]="false"
-
     self.params={}
-    self.params["format"]="image/png"
-    self.params["layers"]="topo2"
-    self.params["bgcolor"]="0x000000"
-    self.params["transparent"]="true"
+    self.params["type"]="type"
+    self.params["guid"]="guid"
+    self.params["name"]="name"
+    self.params["display"]="false"
+    self.params["gatekeeper"]="false"
+    self.params["hidden"]="false"
+    self.params["opencacheurl"]="Map/GetMap?http://wms.geonorge.no/skwms1/wms.topo2?LAYERS=topo2"
+    self.params["url"]="http://wms.geonorge.no/skwms1/wms.topo2?"
+    self.params["zindex"]="0"
+    self.params["groupid"]="0"
+    self.params["grouptitle"]="grouptitle"
 
-    self.Layers={}
-    self.Layers["Layer"]={}
-    self.Layers["Layer"]["title"]="topografisk norgeskart 2"
-    self.Layers["Layer"]["name"]="topografisk norgeskart 2"
-    self.Layers["Layer"]["queryable"]="false"
+    self.params["options"]={}
+    self.params["options"]["isbaselayer"]="false"
+    self.params["options"]["minscale"]="1000"
+    self.params["options"]["opacity"]="1"
+    self.params["options"]["singletile"]="false"
+    self.params["options"]["transitioneffect"]="resize"
+    self.params["options"]["visibility"]="false"
+
+    self.params["params"]={}
+    self.params["params"]["format"]="image/png"
+    self.params["params"]["layers"]="topo2"
+    self.params["params"]["bgcolor"]="0x000000"
+    self.params["params"]["transparent"]="true"
+
+    self.params["Layers"]={}
+    self.params["Layers"]["Layer"]={}
+    self.params["Layers"]["Layer"]["title"]="topografisk norgeskart 2"
+    self.params["Layers"]["Layer"]["name"]="topografisk norgeskart 2"
+    self.params["Layers"]["Layer"]["queryable"]="false"
 
   def GetXml(self):
-    element=ET.Element("type")
-    element.text=self.type
-    return element
+    wms=ET.Element("wms")
+    for name in self.params.keys():
+      element=ET.SubElement(wms,name)
+      if isinstance(self.params[name], dict):
+        for subName in self.params[name].keys():
+          subElement=ET.SubElement(element,subName)
+          if isinstance(self.params[name][subName], dict):
+            for subSubName in self.params[name][subName]:
+              subSubElement=ET.SubElement(subElement,subSubName)
+              subSubElement.text=self.params[name][subName][subSubName]
+          else:
+            subElement=ET.SubElement(element,subName)
+            subElement.text=self.params[name][subName]
+      else:
+        element.text=self.params[name]
+    return wms
