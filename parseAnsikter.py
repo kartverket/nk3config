@@ -18,7 +18,7 @@ def GetYamlNodes(yaml, name):
     nodes.append(node[name])
   return nodes
 
-def ReadLayers(layers):
+def GetLayers(layers):
   i=0
   for layer in layers:
     layerUrl=base + branch + '/themes/' + layer + '.yaml'
@@ -41,18 +41,19 @@ for ansikt in data["ansikter"]:
 
   branch=data["ansikter"][ansikt]
   base=data["urls"]["rawbase"]
-  ansikter[ansikt]["index"]=base + branch + data["urls"]["index"]
 
-  indexYaml=GetYaml(ansikter[ansikt]["index"])
+  indexYaml=GetYaml(base + branch + data["urls"]["index"])
+#  secondaryYaml=GetYaml(secondary=base + branch + data["urls"]["secondary"])
 
   ansikter[ansikt]["baselayers"]=GetYamlNodes(indexYaml["baselayers"], "template")
   overlays=GetYamlNodes(indexYaml["overlays"], "include")
   ansikter[ansikt]["layers"] = {}
 
-  ReadLayers(overlays)
-  break
+  GetLayers(overlays)
+#  break
  
-pprint.pprint(ansikter)
-
+#pprint.pprint(ansikter)
+file=open('out.json','w')
+file.write(json.dumps(ansikter))
 #  secondary=base + branch + data["urls"]["secondary"]
 #  Get(secondary)
