@@ -4,6 +4,8 @@ import xml.etree.ElementTree as ET
 import project
 import maplayer
 import wms
+from xml.dom import minidom
+#import pprint
 
 def LoadFile(fileName):
   return file.open(fileName)
@@ -20,10 +22,10 @@ for ansikt in data:
   baselayer=data[ansikt]["baselayers"]
   for group in data[ansikt]["groups"]:
     maplayerConfig=maplayer.Maplayer()
-    maplayerConfig.groupid=groupid
-    maplayerConfig.index=groupid
-    maplayerConfig.name=group
-    projectConfig.maplayer.append(maplayerConfig)
+    maplayerConfig.params["groupid"]=groupid
+    maplayerConfig.params["index"]=groupid
+    maplayerConfig.params["name"]=group
+    projectConfig.params["maplayer"].append(maplayerConfig)
     print '\t' + group
     for layerName in data[ansikt]["groups"][group]:
       layer=data[ansikt]["groups"][group][layerName]
@@ -43,7 +45,8 @@ for ansikt in data:
         if ("getfeature" in layer.keys()):
           print "\t\tgetfeature: " + str(layer["getfeature"])
           wmsConfig.params["Layers"]["Layer"]["queryable"]=str(layer["getfeature"])
-        print ET.dump(wmsConfig.GetXml())
+        print minidom.parseString(ET.tostring(wmsConfig.GetXml())).toprettyxml(indent="   ")
+#        ET.dump(wmsConfig.GetXml())
 
       elif(layer["template"] == 'layers/wmts'):
         print '\t\tWMTS'

@@ -35,8 +35,19 @@ class Wms():
     self.params["Layers"]["Layer"]["name"]="topografisk norgeskart 2"
     self.params["Layers"]["Layer"]["queryable"]="false"
 
+  def looper(self,dictionary,element):
+    for key in dictionary.keys():
+      subElement=ET.SubElement(element,key)
+      if isinstance(dictionary[key], dict):
+        subElement.insert(0,looper(dictionary[key], subElement))
+      else:
+        subElement.text=dictionary[key]
+    return subElement
+
   def GetXml(self):
     wms=ET.Element("wms")
+    #wms.insert(0,self.looper(wms, self.params))
+    #return wms
     for name in self.params.keys():
       element=ET.SubElement(wms,name)
       if isinstance(self.params[name], dict):
@@ -47,8 +58,9 @@ class Wms():
               subSubElement=ET.SubElement(subElement,subSubName)
               subSubElement.text=self.params[name][subName][subSubName]
           else:
-            subElement=ET.SubElement(element,subName)
             subElement.text=self.params[name][subName]
       else:
         element.text=self.params[name]
     return wms
+
+
