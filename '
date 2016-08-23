@@ -1,0 +1,13 @@
+import json
+import xml.etree.ElementTree as ET
+
+def LoadFile(fileName):
+  return file.open(fileName)
+
+json_data=open('out.json').read()
+data = json.loads(json_data)
+displayCenter="378604,7226208"
+
+for project in data:
+  print project
+  

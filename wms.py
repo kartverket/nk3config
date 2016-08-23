@@ -49,6 +49,9 @@ class Wms():
     #wms.insert(0,self.looper(wms, self.params))
     #return wms
     for name in self.params.keys():
+      if(name=="type"):
+        wms.attrib[name]=self.params[name]
+        continue
       element=ET.SubElement(wms,name)
       if isinstance(self.params[name], dict):
         for subName in self.params[name].keys():

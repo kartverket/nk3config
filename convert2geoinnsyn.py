@@ -18,20 +18,23 @@ for ansikt in data:
   projectConfig=project.Project()
   projectConfig.sidetitle=ansikt
   projectConfig.headertitle=ansikt
+  projectXml=projectConfig.GetXml()
+
   groupid=0
   baselayer=data[ansikt]["baselayers"]
   for group in data[ansikt]["groups"]:
     maplayerConfig=maplayer.Maplayer()
-    maplayerConfig.params["groupid"]=groupid
-    maplayerConfig.params["index"]=groupid
+    maplayerConfig.params["groupid"]=str(groupid)
+    maplayerConfig.params["index"]=str(groupid)
     maplayerConfig.params["name"]=group
-    projectConfig.params["maplayer"].append(maplayerConfig)
+    projectXml.append(maplayerConfig.GetXml())
+#    projectConfig.params["maplayer"].append(maplayerConfig)
     print '\t' + group
     for layerName in data[ansikt]["groups"][group]:
       layer=data[ansikt]["groups"][group][layerName]
       print '\t\t' + layer["name"]
       if(layer["template"] == 'layers/wms'):
-        print '\t\tWMS'
+#        print '\t\tWMS'
         wmsConfig=wms.Wms()
         wmsConfig.params["type"]="overlay"
         wmsConfig.params["groupid"]=str(groupid)
@@ -45,7 +48,9 @@ for ansikt in data:
         if ("getfeature" in layer.keys()):
           print "\t\tgetfeature: " + str(layer["getfeature"])
           wmsConfig.params["Layers"]["Layer"]["queryable"]=str(layer["getfeature"])
-        print minidom.parseString(ET.tostring(wmsConfig.GetXml())).toprettyxml(indent="   ")
+
+        projectXml.append(wmsConfig.GetXml())
+#        print minidom.parseString(ET.tostring(projectConfig.GetXml())).toprettyxml(indent="   ")
 #        ET.dump(wmsConfig.GetXml())
 
       elif(layer["template"] == 'layers/wmts'):
@@ -55,3 +60,4 @@ for ansikt in data:
         print '\t\t' + layer["template"]
 
     groupid+=1
+  print minidom.parseString(ET.tostring(projectXml)).toprettyxml(indent="   ")
