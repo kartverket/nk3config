@@ -6,8 +6,8 @@ class Maplayer():
     self.params["name"]=""
     self.params["groupid"]="0"
     self.params["index"]="0"
-    self.params["vectorlayer"]=""
-    self.params["overlaylayer"]=""
+#    self.params["vectorlayer"]=""
+#    self.params["overlaylayer"]=""
 
   def GetXml(self):
     maplayer=ET.Element("maplayer")

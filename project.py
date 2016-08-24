@@ -6,7 +6,7 @@ class Project():
     self.params["displayCenter"]="378604,7226208"
     self.params["sidetitle"]="sideTitle"
     self.params["headertitle"]="headerTitle"
-    self.params["displaycenterepsgcode"]="epsg:32633"
+    self.params["displaycenterepsgcode"]="EPSG:32633"
     self.params["displayprojectionepsgcode"]=self.params["displaycenterepsgcode"]
     self.params["displaysetscale"]="10"
     self.params["mapbackgroundcolor"]="#FFFFFF"
