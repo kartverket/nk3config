@@ -25,7 +25,7 @@ class Wms():
 
     self.params["params"]={}
     self.params["params"]["format"]="image/png"
-    self.params["params"]["layers"]="topo2"
+    self.params["params"]["layers"]="topo2" #used by WMS
     self.params["params"]["bgcolor"]="0x000000"
     self.params["params"]["transparent"]="true"
 

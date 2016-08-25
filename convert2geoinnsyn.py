@@ -48,14 +48,19 @@ for ansikt in data:
         
         if (layer["template"] == 'layers/wmts'):
           layerKey="layer"
-          wmsConfig.params["url"]=cacheUrlStart + "1" + cacheUrlEnd + layer[layerKey] + "|" + cacheUrlStart + "2" + cacheUrlEnd + layer[layerKey]
+          wmsConfig.params["opencacheurl"]="Map/GetMap?" + cacheUrlStart + "1" + cacheUrlEnd + layer[layerKey]
+          if "url" in layer.keys():
+            wmsConfig.params["url"]=layer["url"].replace('?','') + '?LAYERS=' + layer[layerKey]
+            wmsConfig.params["opencacheurl"]="Map/GetMap?" + wmsConfig.params["url"]
+          else:
+            wmsConfig.params["url"]=cacheUrlStart + "1" + cacheUrlEnd + layer[layerKey] + "|" + cacheUrlStart + "2" + cacheUrlEnd + layer[layerKey]
           wmsConfig.params["type"]="map"
-          wmsConfig.params["visibility"]="true"
           wmsConfig.params["options"]["isbaselayer"]="true"
 
 
         else:
-          wmsConfig.params["url"]=layer["url"].replace('?','') + "?LAYERS=" + layer[layerKey]
+          wmsConfig.params["zindex"]="1"
+          wmsConfig.params["url"]=layer["url"] # + " " + layer[layerKey]
           wmsConfig.params["options"]["singletile"]="true"
           wmsConfig.params["type"]="overlay"
           wmsConfig.params["groupid"]=str(groupid)
