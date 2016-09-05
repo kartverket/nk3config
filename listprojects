@@ -1,0 +1,15 @@
+#!/usr/bin/python
+
+#configFolder='projects/'
+#name='__projects.json'
+#config=configFolder + name
+#projects=open(config).read()
+
+projects='[{"SiteTitle": "Tilgjengelighet", "ProjectName": "Tilgjengelighet", "HeaderIcon": "", "HeaderTitle": "Tilgjengelighet"}, {"SiteTitle": "Fastmerker", "ProjectName": "Fastmerker", "HeaderIcon": "", "HeaderTitle": "Fastmerker"}, {"SiteTitle": "Norgeskart", "ProjectName": "Norgeskart", "HeaderIcon": "", "HeaderTitle": "Norgeskart"}, {"SiteTitle": "Luftfartshindre (NRL)", "ProjectName": "Luftfartshindre (NRL)", "HeaderIcon": "", "HeaderTitle": "Luftfartshindre (NRL)"}, {"SiteTitle": "Stedsnavn", "ProjectName": "Stedsnavn", "HeaderIcon": "", "HeaderTitle": "Stedsnavn"}]'
+
+#print "Status: 200 OK"
+print "Content-type: application/json"
+#print "Length: " + str(len(projects))
+print 
+
+print(projects)

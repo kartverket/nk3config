@@ -1,0 +1,37 @@
+#!/usr/bin/python
+import os
+#import cgi
+#import sys
+import xml.etree.ElementTree as ET
+
+def GetQueryDict():
+  queryDict= {}
+  for query in os.environ['QUERY_STRING'].split('&'):
+    queryDict[query.split('=')[0]]=query.split('=')[1]
+  return queryDict  
+
+#configFolder='/home/japed/src/ansikt2prosjekt/xml/'
+configFolder='projects/'
+queryDict = GetQueryDict()
+
+if (('application' not in queryDict.keys()) or ('name' not in queryDict.keys())):
+  print 'No application found'
+else:
+#  application=queryDict['application']
+  name=queryDict['name']
+  config=configFolder + name + '.xml'
+
+root=ET.parse(config).getroot()
+mapbounds=ET.parse('mapbounds.xml').getroot()
+project=ET.parse('project.xml').getroot()
+
+nameElement=ET.SubElement(project,'name')
+nameElement.text=name
+
+root.append(mapbounds)
+for node in project:
+  root[0].append(node)
+
+print "Content-type: text/xml"
+print
+ET.dump(root)

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <!--2016-04-29 16:44:13-->
+  <project lon="568700" lat="7031800" zoom="12" epsg="EPSG:32632" mapepsg="EPSG:32632">
+    <!--
+use lat, lon, zoom, epsg, mapepsg
+displaycenter: centerpoint
+displaycenterepsgcode: centerpoint epsgcode
+displayprojectionepsgcode: project-epsgcode - display in this epsgcode
+mapbackgroundcolor: backgroundcolor of the div
+-->
+    <displaycenter>568700, 7031800</displaycenter>
+    <sitetitle>Trondheim</sitetitle>
+    <headertitle>GeoInnsyn</headertitle>
+    <displaycenterepsgcode>EPSG:32632</displaycenterepsgcode>
+    <displayprojectionepsgcode>EPSG:32632</displayprojectionepsgcode>
+    <displaysetscale>12</displaysetscale>
+    <defaultmunicipality>1601</defaultmunicipality>
+    <displaymaptype>0</displaymaptype>
+    <minimizebuttons>false</minimizebuttons>
+    <sak>false</sak>
+    <showheader>true</showheader>
+    <headericonurl>http://kart2.nois.no/trondheim_neste</headericonurl>
+    <showcoordsportable>false</showcoordsportable>
+    <defaultkommune>1601</defaultkommune>
+    <searchadresse>16</searchadresse>
+    <searchsted>13</searchsted>
+    <searchmatr>15</searchmatr>
+    <searchkoord>16</searchkoord>
+    <webservices>
+      <usesinglegiurl>true</usesinglegiurl>
+    </webservices>
+    <codelists />
+  </project>
+  <wms type="map">
+    <guid>wms.nibcache</guid>
+    <layerindex>0</layerindex>
+    <name>Flyfoto</name>
+    <display>false</display>
+    <gatekeeper>true</gatekeeper>
+    <hidden>false</hidden>
+    <opencacheurl>Map/GetMap?http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nibcache</opencacheurl>
+    <url>http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nibcache|http://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.nibcache</url>
+    <options>
+      <isbaselayer>true</isbaselayer>
+      <opacity>1</opacity>
+      <singletile>false</singletile>
+      <transitioneffect>resize</transitioneffect>
+      <visibility>false</visibility>
+    </options>
+    <params>
+      <format>image/jpeg</format>
+      <layers>NiB</layers>
+      <bgcolor>0x000000</bgcolor>
+      <transparent>true</transparent>
+    </params>
+    <Layers>
+      <Layer>
+        <name>NiB</name>
+        <queryable>false</queryable>
+      </Layer>
+    </Layers>
+  </wms>
+  <wms type="overlay">
+    <guid>efb17cfb-d95a-4457-be20-247f690b7cff</guid>
+    <layerindex>1</layerindex>
+    <name>Skolekrets</name>
+    <display>false</display>
+    <gatekeeper>false</gatekeeper>
+    <hidden>false</hidden>
+    <opencacheurl>Map/GetMap?http://153.110.194.144/geoserver/Skole/wms</opencacheurl>
+    <url>http://153.110.194.144/geoserver/Skole/wms</url>
+    <zindex>1</zindex>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <opacity>1</opacity>
+      <singletile>false</singletile>
+      <transitioneffect>resize</transitioneffect>
+      <visibility>false</visibility>
+    </options>
+    <params>
+      <format>image/png</format>
+      <layers>Skole:Skolekrets_polygon</layers>
+      <bgcolor>0x000000</bgcolor>
+      <transparent>true</transparent>
+    </params>
+    <Layers>
+      <Layer>
+        <title>Skolekrets_polygon</title>
+        <name>Skole:Skolekrets_polygon</name>
+        <queryable>false</queryable>
+      </Layer>
+    </Layers>
+  </wms>
+</config>
