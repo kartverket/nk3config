@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <config>
-   <project lat="7226208" lon="378604" mapepsg="EPSG:32633" zoom="10">
+   <project lat="7226208" lon="378604" mapepsg="EPSG:32633" zoom="5">
       <sak>false</sak>
       <displayprojectionprefix>Euref89 UTM</displayprojectionprefix>
       <defaultkommune>1804</defaultkommune>
@@ -12,7 +12,7 @@
       <webservicesUsesinglegiurl>false</webservicesUsesinglegiurl>
       <sidetitle>sideTitle</sidetitle>
       <searchadresse>17</searchadresse>
-      <displaysetscale>10</displaysetscale>
+      <displaysetscale>5</displaysetscale>
       <defaultmunicipality>1804</defaultmunicipality>
       <showheader>false</showheader>
       <searchkoord>15</searchkoord>
