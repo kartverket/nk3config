@@ -57,7 +57,6 @@ for ansikt in data:
 
 
         else:
-          wmsConfig.params["zindex"]="1"
           wmsConfig.params["url"]=layer["url"]
           wmsConfig.params["options"]["singletile"]="true"
           wmsConfig.params["type"]="overlay"

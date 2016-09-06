@@ -6,24 +6,16 @@ class Wms():
     self.params["type"]="type"
     self.params["guid"]="guid"
     self.params["name"]="name"
-    self.params["display"]="false"
     self.params["gatekeeper"]="true"
-    self.params["hidden"]="false"
-    self.params["zindex"]="0"
-    self.params["grouptitle"]="grouptitle"
 
     self.params["options"]={}
     self.params["options"]["isbaselayer"]="false"
-    self.params["options"]["opacity"]="1"
     self.params["options"]["singletile"]="false"
-    self.params["options"]["transitioneffect"]="resize"
     self.params["options"]["visibility"]="false"
 
     self.params["params"]={}
     self.params["params"]["format"]="image/png"
     self.params["params"]["layers"]="topo2" #used by WMS
-    self.params["params"]["bgcolor"]="0x000000"
-    self.params["params"]["transparent"]="true"
 
     self.params["Layers"]={}
     self.params["Layers"]["Layer"]={}
