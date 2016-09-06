@@ -64,11 +64,11 @@ for ansikt in data:
 
 
         wmsConfig.params["params"]["layers"]=layer[layerKey]
-        wmsConfig.params["Layers"]["Layer"]["title"]=layer[layerKey]
+        wmsConfig.params["Layers"]["Layer"]["title"]=layer['name']
         wmsConfig.params["Layers"]["Layer"]["name"]=layer[layerKey]
         wmsConfig.params["grouptitle"]=str(group)
         wmsConfig.params["name"]=layer["name"]
-        wmsConfig.params["guid"]=str(groupid) + "." + layer["name"]
+        wmsConfig.params["guid"]=str(groupid) + "." + layer[layerKey]
         if ("getfeature" in layer.keys()):
           wmsConfig.params["Layers"]["Layer"]["queryable"]=str(layer["getfeature"])
 
