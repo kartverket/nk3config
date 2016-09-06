@@ -1,27 +1,10 @@
 <?xml version="1.0" ?>
 <config>
-   <project lat="7226208" lon="378604" mapepsg="EPSG:32633" zoom="10">
-      <sak>false</sak>
-      <displayprojectionprefix>Euref89 UTM</displayprojectionprefix>
-      <defaultkommune>1804</defaultkommune>
-      <headertitle>headerTitle</headertitle>
+   <project lat="7226208" lon="378604" mapepsg="EPSG:32633" zoom="5">
       <mapbackgroundcolor>#FFFFFF</mapbackgroundcolor>
       <displaycenterepsgcode>EPSG:32633</displaycenterepsgcode>
-      <showcoordsportable>true</showcoordsportable>
-      <displayprojectionepsgcode>EPSG:32633</displayprojectionepsgcode>
-      <webservicesUsesinglegiurl>false</webservicesUsesinglegiurl>
-      <sidetitle>sideTitle</sidetitle>
-      <searchadresse>17</searchadresse>
-      <displaysetscale>10</displaysetscale>
-      <defaultmunicipality>1804</defaultmunicipality>
-      <showheader>false</showheader>
-      <searchkoord>15</searchkoord>
-      <minimizebuttons>false</minimizebuttons>
-      <searchsted>9</searchsted>
       <displayCenter>378604,7226208</displayCenter>
-      <headericon/>
-      <displaymaptype>0</displaymaptype>
-      <searchmatr>15</searchmatr>
+      <displayprojectionepsgcode>EPSG:32633</displayprojectionepsgcode>
       <maplayer>
          <index>0</index>
          <name>land</name>
@@ -85,23 +68,16 @@
       <grouptitle>land</grouptitle>
       <name>Rasterkart</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>0</zindex>
       <params>
          <layers>toporaster3</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>0.Rasterkart</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>true</isbaselayer>
+         <singletile>false</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="map">
       <Layers>
@@ -115,23 +91,16 @@
       <grouptitle>land</grouptitle>
       <name>Land</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>0</zindex>
       <params>
          <layers>topo2_dybde</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>0.Land</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>true</isbaselayer>
+         <singletile>false</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -145,24 +114,17 @@
       <grouptitle>land</grouptitle>
       <name>Fly&amp;shy;bilder</name>
       <url>//wms.geonorge.no/skwms1/wms.nib</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>0</groupid>
       <params>
          <layers>ortofoto</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>0.Fly&amp;shy;bilder</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="map">
       <Layers>
@@ -176,23 +138,16 @@
       <grouptitle>land</grouptitle>
       <name>Enkel</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>0</zindex>
       <params>
          <layers>norges_grunnkart</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>0.Enkel</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>true</isbaselayer>
+         <singletile>false</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="map">
       <Layers>
@@ -206,23 +161,16 @@
       <grouptitle>land</grouptitle>
       <name>Terreng</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>0</zindex>
       <params>
          <layers>terreng_norgeskart</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>0.Terreng</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>true</isbaselayer>
+         <singletile>false</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="map">
       <Layers>
@@ -236,23 +184,16 @@
       <grouptitle>flere</grouptitle>
       <name>Jan Mayen</name>
       <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_JanMayen_WMTS_25833/MapServer/WMTS?LAYERS=Basisdata_NP_Basiskart_JanMayen_WMTS_25833</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>0</zindex>
       <params>
          <layers>Basisdata_NP_Basiskart_JanMayen_WMTS_25833</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>2.Jan Mayen</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>true</isbaselayer>
+         <singletile>false</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="map">
       <Layers>
@@ -266,23 +207,16 @@
       <grouptitle>flere</grouptitle>
       <name>Svalbard</name>
       <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_Svalbard_WMTS_25833/MapServer/WMTS?LAYERS=Basisdata_NP_Basiskart_Svalbard_WMTS_25833</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>0</zindex>
       <params>
          <layers>Basisdata_NP_Basiskart_Svalbard_WMTS_25833</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>2.Svalbard</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>true</isbaselayer>
+         <singletile>false</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -296,24 +230,17 @@
       <grouptitle>tjenester.friluftsyn</grouptitle>
       <name>Friluftsomr&amp;aring;de</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>3</groupid>
       <params>
          <layers>friluftsomrade_03</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>3.Friluftsomr&amp;aring;de</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -327,24 +254,17 @@
       <grouptitle>tjenester.friluftsyn</grouptitle>
       <name>HC-parkering</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>3</groupid>
       <params>
          <layers>hc_parkering_friluft_03</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>3.HC-parkering</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -358,24 +278,17 @@
       <grouptitle>tjenester.friluftsyn</grouptitle>
       <name>Baderampe</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>3</groupid>
       <params>
          <layers>baderampe_03</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>3.Baderampe</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -389,24 +302,17 @@
       <grouptitle>tjenester.friluftsyn</grouptitle>
       <name>Parkeringsomr&amp;aring;der</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>3</groupid>
       <params>
          <layers>parkeringsomrader_friluft_03</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>3.Parkeringsomr&amp;aring;der</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -420,24 +326,17 @@
       <grouptitle>tjenester.friluftsyn</grouptitle>
       <name>Statlig sikra</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>3</groupid>
       <params>
          <layers>statlig_sikra_polygon_03</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>3.Statlig sikra</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -451,24 +350,17 @@
       <grouptitle>tjenester.friluftsyn</grouptitle>
       <name>Grillbalplass</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>3</groupid>
       <params>
          <layers>grillbalplass_03</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>3.Grillbalplass</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -482,24 +374,17 @@
       <grouptitle>tjenester.friluftsyn</grouptitle>
       <name>Gapahukhytte</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>3</groupid>
       <params>
          <layers>gapahukhytte_03</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>3.Gapahukhytte</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -513,24 +398,17 @@
       <grouptitle>tjenester.friluftsyn</grouptitle>
       <name>Fiskeplass</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>3</groupid>
       <params>
          <layers>fiskeplass_03</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>3.Fiskeplass</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -544,24 +422,17 @@
       <grouptitle>tjenester.friluftsyn</grouptitle>
       <name>Toalett</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>3</groupid>
       <params>
          <layers>toalett_03</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>3.Toalett</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -575,24 +446,17 @@
       <grouptitle>tjenester.friluftsyn</grouptitle>
       <name>Turishytte</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>3</groupid>
       <params>
          <layers>turishytte_03</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>3.Turishytte</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -606,24 +470,17 @@
       <grouptitle>tjenester.friluftsyn</grouptitle>
       <name>Turvei</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>3</groupid>
       <params>
          <layers>turvei_03</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>3.Turvei</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -637,24 +494,17 @@
       <grouptitle>tjenester.friluftsyn</grouptitle>
       <name>Sittegruppe</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>3</groupid>
       <params>
          <layers>sittegruppe_03</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>3.Sittegruppe</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -668,24 +518,17 @@
       <grouptitle>tjenester.friluftsyn</grouptitle>
       <name>Alle</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>3</groupid>
       <params>
          <layers>f_syn</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>3.Alle</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="map">
       <Layers>
@@ -699,23 +542,16 @@
       <grouptitle>sjo</grouptitle>
       <name>Hovedkart</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>0</zindex>
       <params>
          <layers>sjokartraster</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>4.Hovedkart</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>true</isbaselayer>
+         <singletile>false</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -729,24 +565,17 @@
       <grouptitle>sjo</grouptitle>
       <name>Elektron. Sj&amp;oslash;kart</name>
       <url>http://wms.geonorge.no/skwms1/wms.ecc_enc</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>4</groupid>
       <params>
          <layers>cells</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>4.Elektron. Sj&amp;oslash;kart</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -760,24 +589,17 @@
       <grouptitle>tjenester.friluft_rullestol</grouptitle>
       <name>Toalett</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>5</groupid>
       <params>
          <layers>toalett_01</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>5.Toalett</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -791,24 +613,17 @@
       <grouptitle>tjenester.friluft_rullestol</grouptitle>
       <name>Parkeringsomr&amp;aring;der</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>5</groupid>
       <params>
          <layers>parkeringsomrader_friluft_01</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>5.Parkeringsomr&amp;aring;der</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -822,24 +637,17 @@
       <grouptitle>tjenester.friluft_rullestol</grouptitle>
       <name>HC-parkering</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>5</groupid>
       <params>
          <layers>hc_parkering_friluft_01</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>5.HC-parkering</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -853,24 +661,17 @@
       <grouptitle>tjenester.friluft_rullestol</grouptitle>
       <name>Baderampe</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>5</groupid>
       <params>
          <layers>baderampe_01</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>5.Baderampe</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -884,24 +685,17 @@
       <grouptitle>tjenester.friluft_rullestol</grouptitle>
       <name>Friluftsomr&amp;aring;de</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>5</groupid>
       <params>
          <layers>friluftsomrade_01</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>5.Friluftsomr&amp;aring;de</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -915,24 +709,17 @@
       <grouptitle>tjenester.friluft_rullestol</grouptitle>
       <name>Grillbalplass</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>5</groupid>
       <params>
          <layers>grillbalplass_01</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>5.Grillbalplass</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -946,24 +733,17 @@
       <grouptitle>tjenester.friluft_rullestol</grouptitle>
       <name>Gapahukhytte</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>5</groupid>
       <params>
          <layers>gapahukhytte_01</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>5.Gapahukhytte</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -977,24 +757,17 @@
       <grouptitle>tjenester.friluft_rullestol</grouptitle>
       <name>Fiskeplass</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>5</groupid>
       <params>
          <layers>fiskeplass_01</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>5.Fiskeplass</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1008,24 +781,17 @@
       <grouptitle>tjenester.friluft_rullestol</grouptitle>
       <name>Turishytte</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>5</groupid>
       <params>
          <layers>turishytte_01</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>5.Turishytte</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1039,24 +805,17 @@
       <grouptitle>tjenester.friluft_rullestol</grouptitle>
       <name>Statlig sikra</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>5</groupid>
       <params>
          <layers>statlig_sikra_polygon_01</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>5.Statlig sikra</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1070,24 +829,17 @@
       <grouptitle>tjenester.friluft_rullestol</grouptitle>
       <name>Turvei</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>5</groupid>
       <params>
          <layers>turvei_01</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>5.Turvei</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1101,24 +853,17 @@
       <grouptitle>tjenester.friluft_rullestol</grouptitle>
       <name>Sittegruppe</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>5</groupid>
       <params>
          <layers>sittegruppe_01</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>5.Sittegruppe</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1132,24 +877,17 @@
       <grouptitle>tjenester.friluft_rullestol</grouptitle>
       <name>Alle</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>5</groupid>
       <params>
          <layers>f_rullestol</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>5.Alle</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1163,24 +901,17 @@
       <grouptitle>tjenester.Tettsted_Rullestol</grouptitle>
       <name>Vei</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>6</groupid>
       <params>
          <layers>t_vei_r</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>6.Vei</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1194,24 +925,17 @@
       <grouptitle>tjenester.Tettsted_Rullestol</grouptitle>
       <name>HC-parkering</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>6</groupid>
       <params>
          <layers>t_HC_parkering_r</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>6.HC-parkering</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1225,24 +949,17 @@
       <grouptitle>tjenester.Tettsted_Rullestol</grouptitle>
       <name>Inngang bygg</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>6</groupid>
       <params>
          <layers>t_inngangbygg_r_01</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>6.Inngang bygg</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1256,24 +973,17 @@
       <grouptitle>tjenester.Tettsted_Rullestol</grouptitle>
       <name>Parkerings omr&amp;aring;de</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>6</groupid>
       <params>
          <layers>t_parkeringsomrade_r</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>6.Parkerings omr&amp;aring;de</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1287,24 +997,17 @@
       <grouptitle>tjenester.Tettsted_Rullestol</grouptitle>
       <name>Alle</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>6</groupid>
       <params>
          <layers>t_rullestol</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>6.Alle</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1318,24 +1021,17 @@
       <grouptitle>tjenester.friluft_elektrisk_rullestol</grouptitle>
       <name>Friluftsomr&amp;aring;de</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>7</groupid>
       <params>
          <layers>friluftsomrade_02</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>7.Friluftsomr&amp;aring;de</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1349,24 +1045,17 @@
       <grouptitle>tjenester.friluft_elektrisk_rullestol</grouptitle>
       <name>Toalett</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>7</groupid>
       <params>
          <layers>toalett_02</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>7.Toalett</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1380,24 +1069,17 @@
       <grouptitle>tjenester.friluft_elektrisk_rullestol</grouptitle>
       <name>HC-parkering</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>7</groupid>
       <params>
          <layers>hc_parkering_friluft_02</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>7.HC-parkering</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1411,24 +1093,17 @@
       <grouptitle>tjenester.friluft_elektrisk_rullestol</grouptitle>
       <name>Grillbalplass</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>7</groupid>
       <params>
          <layers>grillbalplass_02</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>7.Grillbalplass</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1442,24 +1117,17 @@
       <grouptitle>tjenester.friluft_elektrisk_rullestol</grouptitle>
       <name>Statlig sikra</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>7</groupid>
       <params>
          <layers>statlig_sikra_polygon_02</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>7.Statlig sikra</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1473,24 +1141,17 @@
       <grouptitle>tjenester.friluft_elektrisk_rullestol</grouptitle>
       <name>Parkeringsomr&amp;aring;der</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>7</groupid>
       <params>
          <layers>parkeringsomrader_friluft_02</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>7.Parkeringsomr&amp;aring;der</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1504,24 +1165,17 @@
       <grouptitle>tjenester.friluft_elektrisk_rullestol</grouptitle>
       <name>Fiskeplass</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>7</groupid>
       <params>
          <layers>fiskeplass_02</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>7.Fiskeplass</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1535,24 +1189,17 @@
       <grouptitle>tjenester.friluft_elektrisk_rullestol</grouptitle>
       <name>Gapahukhytte</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>7</groupid>
       <params>
          <layers>gapahukhytte_02</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>7.Gapahukhytte</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1566,24 +1213,17 @@
       <grouptitle>tjenester.friluft_elektrisk_rullestol</grouptitle>
       <name>Turishytte</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>7</groupid>
       <params>
          <layers>turishytte_02</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>7.Turishytte</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1597,24 +1237,17 @@
       <grouptitle>tjenester.friluft_elektrisk_rullestol</grouptitle>
       <name>Turvei</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>7</groupid>
       <params>
          <layers>turvei_02</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>7.Turvei</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1628,24 +1261,17 @@
       <grouptitle>tjenester.friluft_elektrisk_rullestol</grouptitle>
       <name>Alle</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>7</groupid>
       <params>
          <layers>f_el_rullestol</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>7.Alle</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1659,24 +1285,17 @@
       <grouptitle>tjenester.friluft_elektrisk_rullestol</grouptitle>
       <name>Sittegruppe</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>7</groupid>
       <params>
          <layers>sittegruppe_02</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>7.Sittegruppe</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1690,24 +1309,17 @@
       <grouptitle>tjenester.Tettsted_Syn</grouptitle>
       <name>Inngang bygg</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>8</groupid>
       <params>
          <layers>t_inngangbygg</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>8.Inngang bygg</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1721,24 +1333,17 @@
       <grouptitle>tjenester.Tettsted_Syn</grouptitle>
       <name>HC-parkering</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>8</groupid>
       <params>
          <layers>t_HC_parkering</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>8.HC-parkering</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1752,24 +1357,17 @@
       <grouptitle>tjenester.Tettsted_Syn</grouptitle>
       <name>Parkerings omr&amp;aring;de</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>8</groupid>
       <params>
          <layers>t_parkeringsomrade</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>8.Parkerings omr&amp;aring;de</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1783,24 +1381,17 @@
       <grouptitle>tjenester.Tettsted_Syn</grouptitle>
       <name>Vei</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>8</groupid>
       <params>
          <layers>t_vei</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>8.Vei</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1814,24 +1405,17 @@
       <grouptitle>tjenester.Tettsted_Syn</grouptitle>
       <name>Alle</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>8</groupid>
       <params>
          <layers>t_syn</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>8.Alle</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1845,24 +1429,17 @@
       <grouptitle>tjenester.Tettsted_Elektrisk_rullestol</grouptitle>
       <name>HC-parkering</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>9</groupid>
       <params>
          <layers>t_HC_parkering_el</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>9.HC-parkering</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1876,24 +1453,17 @@
       <grouptitle>tjenester.Tettsted_Elektrisk_rullestol</grouptitle>
       <name>Vei</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>9</groupid>
       <params>
          <layers>t_vei_el</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>9.Vei</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1907,24 +1477,17 @@
       <grouptitle>tjenester.Tettsted_Elektrisk_rullestol</grouptitle>
       <name>Alle</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>9</groupid>
       <params>
          <layers>t_el_rullestol</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>9.Alle</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1938,24 +1501,17 @@
       <grouptitle>tjenester.Tettsted_Elektrisk_rullestol</grouptitle>
       <name>Inngang bygg</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>9</groupid>
       <params>
          <layers>t_inngangbygg_r_02</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>9.Inngang bygg</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1969,23 +1525,16 @@
       <grouptitle>tjenester.Tettsted_Elektrisk_rullestol</grouptitle>
       <name>Parkerings omr&amp;aring;de</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>9</groupid>
       <params>
          <layers>t_parkeringsomrade_el</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>9.Parkerings omr&amp;aring;de</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
 </config>

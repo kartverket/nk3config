@@ -1,27 +1,10 @@
 <?xml version="1.0" ?>
 <config>
-   <project lat="7226208" lon="378604" mapepsg="EPSG:32633" zoom="10">
-      <sak>false</sak>
-      <displayprojectionprefix>Euref89 UTM</displayprojectionprefix>
-      <defaultkommune>1804</defaultkommune>
-      <headertitle>headerTitle</headertitle>
+   <project lat="7226208" lon="378604" mapepsg="EPSG:32633" zoom="5">
       <mapbackgroundcolor>#FFFFFF</mapbackgroundcolor>
       <displaycenterepsgcode>EPSG:32633</displaycenterepsgcode>
-      <showcoordsportable>true</showcoordsportable>
-      <displayprojectionepsgcode>EPSG:32633</displayprojectionepsgcode>
-      <webservicesUsesinglegiurl>false</webservicesUsesinglegiurl>
-      <sidetitle>sideTitle</sidetitle>
-      <searchadresse>17</searchadresse>
-      <displaysetscale>10</displaysetscale>
-      <defaultmunicipality>1804</defaultmunicipality>
-      <showheader>false</showheader>
-      <searchkoord>15</searchkoord>
-      <minimizebuttons>false</minimizebuttons>
-      <searchsted>9</searchsted>
       <displayCenter>378604,7226208</displayCenter>
-      <headericon/>
-      <displaymaptype>0</displaymaptype>
-      <searchmatr>15</searchmatr>
+      <displayprojectionepsgcode>EPSG:32633</displayprojectionepsgcode>
       <maplayer>
          <index>0</index>
          <name>tjenester.Vedtaksstatus-dato</name>
@@ -90,24 +73,17 @@
       <grouptitle>tjenester.Vedtaksstatus-dato</grouptitle>
       <name>Vedteke siste 6md</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>0</groupid>
       <params>
          <layers>Vedtatt_siste_6md</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>0.Vedteke siste 6md</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -121,24 +97,17 @@
       <grouptitle>tjenester.Vedtaksstatus-dato</grouptitle>
       <name>Vedteke siste 12md</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>0</groupid>
       <params>
          <layers>Vedtatt_siste_12md</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>0.Vedteke siste 12md</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -152,24 +121,17 @@
       <grouptitle>tjenester.Vedtaksstatus-dato</grouptitle>
       <name>Vedteke siste 24md</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>0</groupid>
       <params>
          <layers>Vedtatt_siste_24md</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>0.Vedteke siste 24md</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -183,24 +145,17 @@
       <grouptitle>tjenester.Vedtaksstatus-dato</grouptitle>
       <name>Vedteke siste md</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>0</groupid>
       <params>
          <layers>Vedtatt_siste_md</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>0.Vedteke siste md</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -214,24 +169,17 @@
       <grouptitle>tjenester.Vedtaksstatus-dato</grouptitle>
       <name>Vedteke siste 3md</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>0</groupid>
       <params>
          <layers>Vedtatt_siste_3md</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>0.Vedteke siste 3md</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="map">
       <Layers>
@@ -245,23 +193,16 @@
       <grouptitle>land</grouptitle>
       <name>Rasterkart</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>0</zindex>
       <params>
          <layers>toporaster3</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>1.Rasterkart</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>true</isbaselayer>
+         <singletile>false</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="map">
       <Layers>
@@ -275,23 +216,16 @@
       <grouptitle>land</grouptitle>
       <name>Land</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>0</zindex>
       <params>
          <layers>topo2_dybde</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>1.Land</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>true</isbaselayer>
+         <singletile>false</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -305,24 +239,17 @@
       <grouptitle>land</grouptitle>
       <name>Fly&amp;shy;bilete</name>
       <url>http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nibcache</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>1</groupid>
       <params>
          <layers>NiB</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>1.Fly&amp;shy;bilete</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="map">
       <Layers>
@@ -336,23 +263,16 @@
       <grouptitle>land</grouptitle>
       <name>Enkelt</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>0</zindex>
       <params>
          <layers>norges_grunnkart</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>1.Enkelt</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>true</isbaselayer>
+         <singletile>false</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="map">
       <Layers>
@@ -366,23 +286,16 @@
       <grouptitle>land</grouptitle>
       <name>Terreng</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>0</zindex>
       <params>
          <layers>terreng_norgeskart</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>1.Terreng</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>true</isbaselayer>
+         <singletile>false</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -396,24 +309,17 @@
       <grouptitle>tjenester.ikke_autoriserte_skrivemaate</grouptitle>
       <name>Historisk</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>3</groupid>
       <params>
          <layers>Historisk</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>3.Historisk</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -427,24 +333,17 @@
       <grouptitle>tjenester.ikke_autoriserte_skrivemaate</grouptitle>
       <name>Uvurdert</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>3</groupid>
       <params>
          <layers>Uvurdert</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>3.Uvurdert</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -458,24 +357,17 @@
       <grouptitle>tjenester.ikke_autoriserte_skrivemaate</grouptitle>
       <name>F&amp;oslash;reslege</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>3</groupid>
       <params>
          <layers>Foreslaatt</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>3.F&amp;oslash;reslege</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -489,24 +381,17 @@
       <grouptitle>tjenester.ikke_autoriserte_skrivemaate</grouptitle>
       <name>Avslege</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>3</groupid>
       <params>
          <layers>Avslaatt</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>3.Avslege</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -520,24 +405,17 @@
       <grouptitle>tjenester.Navnetype</grouptitle>
       <name>Busetnad/ eigedom</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>4</groupid>
       <params>
          <layers>Bygninger_eiendom</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>4.Busetnad/ eigedom</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -551,24 +429,17 @@
       <grouptitle>tjenester.Navnetype</grouptitle>
       <name>Samferdsle</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>4</groupid>
       <params>
          <layers>Samferdsel</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>4.Samferdsle</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -582,24 +453,17 @@
       <grouptitle>tjenester.Navnetype</grouptitle>
       <name>Terrengformer</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>4</groupid>
       <params>
          <layers>Terrengformer</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>4.Terrengformer</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -613,24 +477,17 @@
       <grouptitle>tjenester.Navnetype</grouptitle>
       <name>Vasskontur</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>4</groupid>
       <params>
          <layers>Vannkontur</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>4.Vasskontur</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -644,24 +501,17 @@
       <grouptitle>tjenester.Navnetype</grouptitle>
       <name>Administrative omr&amp;aring;de</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>4</groupid>
       <params>
          <layers>Administrative_omraader</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>4.Administrative omr&amp;aring;de</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -675,24 +525,17 @@
       <grouptitle>tjenester.Navnetype</grouptitle>
       <name>Andre namnetypar</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>4</groupid>
       <params>
          <layers>Andre_navnetyper</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>4.Andre namnetypar</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -706,24 +549,17 @@
       <grouptitle>tjenester.Navnetype</grouptitle>
       <name>Kystdata</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>4</groupid>
       <params>
          <layers>Kystdata</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>4.Kystdata</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -737,24 +573,17 @@
       <grouptitle>tjenester.Navnetype</grouptitle>
       <name>Markslag</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>4</groupid>
       <params>
          <layers>Markslag</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>4.Markslag</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="map">
       <Layers>
@@ -768,23 +597,16 @@
       <grouptitle>flere</grouptitle>
       <name>Jan Mayen</name>
       <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_JanMayen_WMTS_25833/MapServer/WMTS?LAYERS=Basisdata_NP_Basiskart_JanMayen_WMTS_25833</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>0</zindex>
       <params>
          <layers>Basisdata_NP_Basiskart_JanMayen_WMTS_25833</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>5.Jan Mayen</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>true</isbaselayer>
+         <singletile>false</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="map">
       <Layers>
@@ -798,23 +620,16 @@
       <grouptitle>flere</grouptitle>
       <name>Svalbard</name>
       <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_Svalbard_WMTS_25833/MapServer/WMTS?LAYERS=Basisdata_NP_Basiskart_Svalbard_WMTS_25833</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>0</zindex>
       <params>
          <layers>Basisdata_NP_Basiskart_Svalbard_WMTS_25833</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>5.Svalbard</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>true</isbaselayer>
+         <singletile>false</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -828,24 +643,17 @@
       <grouptitle>tjenester.alle</grouptitle>
       <name>Skrivem&amp;aring;te&amp;ndash;statusar</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>6</groupid>
       <params>
          <layers>Vedtatt_og_godkjent_skrivemaate</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>6.Skrivem&amp;aring;te&amp;ndash;statusar</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -859,24 +667,17 @@
       <grouptitle>tjenester.alle</grouptitle>
       <name>Namnetypar</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>6</groupid>
       <params>
          <layers>Navnetype</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>6.Namnetypar</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -890,24 +691,17 @@
       <grouptitle>tjenester.alle</grouptitle>
       <name>Spr&amp;aring;k</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>6</groupid>
       <params>
          <layers>Spraak</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>6.Spr&amp;aring;k</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="map">
       <Layers>
@@ -921,23 +715,16 @@
       <grouptitle>sjo</grouptitle>
       <name>Hovudkart</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>0</zindex>
       <params>
          <layers>sjokartraster</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>7.Hovudkart</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>true</isbaselayer>
+         <singletile>false</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -951,24 +738,17 @@
       <grouptitle>sjo</grouptitle>
       <name>Elektron. Sj&amp;oslash;kart</name>
       <url>http://wms.geonorge.no/skwms1/wms.ecc_enc</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>7</groupid>
       <params>
          <layers>cells</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>7.Elektron. Sj&amp;oslash;kart</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -982,24 +762,17 @@
       <grouptitle>tjenester.autoriserte_skrivemaate</grouptitle>
       <name>Samlevedtak</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>8</groupid>
       <params>
          <layers>Samlevedtak</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>8.Samlevedtak</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1013,24 +786,17 @@
       <grouptitle>tjenester.autoriserte_skrivemaate</grouptitle>
       <name>Godkjent</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>8</groupid>
       <params>
          <layers>Godkjent</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>8.Godkjent</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1044,24 +810,17 @@
       <grouptitle>tjenester.autoriserte_skrivemaate</grouptitle>
       <name>Vedteke</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>8</groupid>
       <params>
          <layers>Vedtatt</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>8.Vedteke</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1075,24 +834,17 @@
       <grouptitle>tjenester.autoriserte_skrivemaate</grouptitle>
       <name>Internasjonalt</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>8</groupid>
       <params>
          <layers>Internasjonalt</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>8.Internasjonalt</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1106,24 +858,17 @@
       <grouptitle>tjenester.autoriserte_skrivemaate</grouptitle>
       <name>Vedtak p&amp;aring;klaga</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>8</groupid>
       <params>
          <layers>Vedtak_paaklaget</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>8.Vedtak p&amp;aring;klaga</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1137,24 +882,17 @@
       <grouptitle>tjenester.autoriserte_skrivemaate</grouptitle>
       <name>Privat</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>8</groupid>
       <params>
          <layers>Privat</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>8.Privat</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1168,24 +906,17 @@
       <grouptitle>tjenester.Spraak</grouptitle>
       <name>Lulesamisk</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>9</groupid>
       <params>
          <layers>Lulesamisk</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>9.Lulesamisk</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1199,24 +930,17 @@
       <grouptitle>tjenester.Spraak</grouptitle>
       <name>Nordsamisk</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>9</groupid>
       <params>
          <layers>Nordsamisk</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>9.Nordsamisk</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1230,24 +954,17 @@
       <grouptitle>tjenester.Spraak</grouptitle>
       <name>S&amp;oslash;rsamisk</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>9</groupid>
       <params>
          <layers>Sorsamisk</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>9.S&amp;oslash;rsamisk</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1261,24 +978,17 @@
       <grouptitle>tjenester.Spraak</grouptitle>
       <name>Kvensk</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>9</groupid>
       <params>
          <layers>Kvensk</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>9.Kvensk</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1292,24 +1002,17 @@
       <grouptitle>tjenester.Spraak</grouptitle>
       <name>Norsk</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>9</groupid>
       <params>
          <layers>Norsk</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>9.Norsk</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1323,24 +1026,17 @@
       <grouptitle>historik</grouptitle>
       <name>&amp;Oslash;k&amp;ndash;1&amp;sdot;utg&amp;aring;ve</name>
       <url>http://wms.geonorge.no/skwms1/wms.n5raster2</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>10</groupid>
       <params>
          <layers>n5raster_foerstegang_metadata,n5raster_foerstegang</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>10.&amp;Oslash;k&amp;ndash;1&amp;sdot;utg&amp;aring;ve</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -1354,23 +1050,16 @@
       <grouptitle>historik</grouptitle>
       <name>Amts&amp;shy;kart</name>
       <url>http://wms.geonorge.no/skwms1/wms.historiskekart</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>10</groupid>
       <params>
          <layers>amt1</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>10.Amts&amp;shy;kart</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
 </config>

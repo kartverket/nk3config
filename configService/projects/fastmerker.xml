@@ -1,27 +1,10 @@
 <?xml version="1.0" ?>
 <config>
-   <project lat="7226208" lon="378604" mapepsg="EPSG:32633" zoom="10">
-      <sak>false</sak>
-      <displayprojectionprefix>Euref89 UTM</displayprojectionprefix>
-      <defaultkommune>1804</defaultkommune>
-      <headertitle>headerTitle</headertitle>
+   <project lat="7226208" lon="378604" mapepsg="EPSG:32633" zoom="5">
       <mapbackgroundcolor>#FFFFFF</mapbackgroundcolor>
       <displaycenterepsgcode>EPSG:32633</displaycenterepsgcode>
-      <showcoordsportable>true</showcoordsportable>
-      <displayprojectionepsgcode>EPSG:32633</displayprojectionepsgcode>
-      <webservicesUsesinglegiurl>false</webservicesUsesinglegiurl>
-      <sidetitle>sideTitle</sidetitle>
-      <searchadresse>17</searchadresse>
-      <displaysetscale>10</displaysetscale>
-      <defaultmunicipality>1804</defaultmunicipality>
-      <showheader>false</showheader>
-      <searchkoord>15</searchkoord>
-      <minimizebuttons>false</minimizebuttons>
-      <searchsted>9</searchsted>
       <displayCenter>378604,7226208</displayCenter>
-      <headericon/>
-      <displaymaptype>0</displaymaptype>
-      <searchmatr>15</searchmatr>
+      <displayprojectionepsgcode>EPSG:32633</displayprojectionepsgcode>
       <maplayer>
          <index>0</index>
          <name>land</name>
@@ -70,23 +53,16 @@
       <grouptitle>land</grouptitle>
       <name>Rasterkart</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>0</zindex>
       <params>
          <layers>toporaster3</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>0.Rasterkart</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>true</isbaselayer>
+         <singletile>false</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="map">
       <Layers>
@@ -100,23 +76,16 @@
       <grouptitle>land</grouptitle>
       <name>Land</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>0</zindex>
       <params>
          <layers>topo2_dybde</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>0.Land</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>true</isbaselayer>
+         <singletile>false</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -130,24 +99,17 @@
       <grouptitle>land</grouptitle>
       <name>Fly&amp;shy;bilder</name>
       <url>http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nibcache</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>0</groupid>
       <params>
          <layers>NiB</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>0.Fly&amp;shy;bilder</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="map">
       <Layers>
@@ -161,23 +123,16 @@
       <grouptitle>land</grouptitle>
       <name>Enkel</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>0</zindex>
       <params>
          <layers>norges_grunnkart</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>0.Enkel</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>true</isbaselayer>
+         <singletile>false</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="map">
       <Layers>
@@ -191,23 +146,16 @@
       <grouptitle>land</grouptitle>
       <name>Terreng</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>0</zindex>
       <params>
          <layers>terreng_norgeskart</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>0.Terreng</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>true</isbaselayer>
+         <singletile>false</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -221,24 +169,17 @@
       <grouptitle>tjenester.Fastmerker</grouptitle>
       <name>Trekantpunkter</name>
       <url>http://wms.geonorge.no/skwms1/wms.fastmerker2</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>2</groupid>
       <params>
          <layers>Trekantpunkt</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>2.Trekantpunkter</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -252,24 +193,17 @@
       <grouptitle>tjenester.Fastmerker</grouptitle>
       <name>Niv. fastmerker</name>
       <url>http://wms.geonorge.no/skwms1/wms.fastmerker2</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>2</groupid>
       <params>
          <layers>Niv_fastmerker</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>2.Niv. fastmerker</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -283,24 +217,17 @@
       <grouptitle>tjenester.Fastmerker</grouptitle>
       <name>Stamnettpunkter</name>
       <url>http://wms.geonorge.no/skwms1/wms.fastmerker2</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>2</groupid>
       <params>
          <layers>Stamnettpunkt</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>2.Stamnettpunkter</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -314,24 +241,17 @@
       <grouptitle>tjenester.Fastmerker</grouptitle>
       <name>Landsnettpunkter</name>
       <url>http://wms.geonorge.no/skwms1/wms.fastmerker2</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>2</groupid>
       <params>
          <layers>Landsnettpunkt</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>2.Landsnettpunkter</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="map">
       <Layers>
@@ -345,23 +265,16 @@
       <grouptitle>flere</grouptitle>
       <name>Jan Mayen</name>
       <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_JanMayen_WMTS_25833/MapServer/WMTS?LAYERS=Basisdata_NP_Basiskart_JanMayen_WMTS_25833</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>0</zindex>
       <params>
          <layers>Basisdata_NP_Basiskart_JanMayen_WMTS_25833</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>3.Jan Mayen</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>true</isbaselayer>
+         <singletile>false</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="map">
       <Layers>
@@ -375,23 +288,16 @@
       <grouptitle>flere</grouptitle>
       <name>Svalbard</name>
       <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_Svalbard_WMTS_25833/MapServer/WMTS?LAYERS=Basisdata_NP_Basiskart_Svalbard_WMTS_25833</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>0</zindex>
       <params>
          <layers>Basisdata_NP_Basiskart_Svalbard_WMTS_25833</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>3.Svalbard</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>true</isbaselayer>
+         <singletile>false</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="map">
       <Layers>
@@ -405,23 +311,16 @@
       <grouptitle>sjo</grouptitle>
       <name>Hovedkart</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>0</zindex>
       <params>
          <layers>sjokartraster</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>4.Hovedkart</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>true</isbaselayer>
+         <singletile>false</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -435,24 +334,17 @@
       <grouptitle>sjo</grouptitle>
       <name>Elektron. Sj&amp;oslash;kart</name>
       <url>http://wms.geonorge.no/skwms1/wms.ecc_enc</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>4</groupid>
       <params>
          <layers>cells</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>4.Elektron. Sj&amp;oslash;kart</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -466,24 +358,17 @@
       <grouptitle>tjenester.UTM-rutenett</grouptitle>
       <name>UTM-rutenett</name>
       <url>http://openwms.statkart.no/skwms1/wms.rutenett?</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>5</groupid>
       <params>
          <layers>UTMrutenett</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>5.UTM-rutenett</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -497,24 +382,17 @@
       <grouptitle>tjenester.stasjoner</grouptitle>
       <name>Norske stasjoner</name>
       <url>http://wms.geonorge.no/skwms1/wms.fastmerker2</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>6</groupid>
       <params>
          <layers>Stasjoner</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>6.Norske stasjoner</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
    <wms type="overlay">
       <Layers>
@@ -528,23 +406,16 @@
       <grouptitle>tjenester.stasjoner</grouptitle>
       <name>Svenske og finske stasjoner</name>
       <url>http://wms.geonorge.no/skwms1/wms.fastmerker2</url>
-      <options>
-         <opacity>1</opacity>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <transitioneffect>resize</transitioneffect>
-         <visibility>false</visibility>
-      </options>
-      <zindex>1</zindex>
       <groupid>6</groupid>
       <params>
          <layers>Svenske_finske_stasjoner</layers>
-         <bgcolor>0x000000</bgcolor>
-         <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <hidden>false</hidden>
       <guid>6.Svenske og finske stasjoner</guid>
-      <display>false</display>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
    </wms>
 </config>
