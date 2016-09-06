@@ -29,8 +29,8 @@ if name == "":
 config=configFolder + name + '.xml'
 
 root=ET.parse(config).getroot()
-mapbounds=ET.parse('mapbounds.xml').getroot()
-project=ET.parse('project.xml').getroot()
+mapbounds=ET.parse('global/mapbounds.xml').getroot()
+project=ET.parse('global/project.xml').getroot()
 
 nameElement=ET.SubElement(project,'name')
 nameElement.text=name
