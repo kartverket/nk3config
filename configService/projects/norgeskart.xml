@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <config>
-   <project lat="7226208" lon="378604" mapepsg="EPSG:32633" zoom="5">
+   <project lat="7226208" lon="378604" mapepsg="EPSG:32633" zoom="10">
       <sak>false</sak>
       <displayprojectionprefix>Euref89 UTM</displayprojectionprefix>
       <defaultkommune>1804</defaultkommune>
@@ -12,7 +12,7 @@
       <webservicesUsesinglegiurl>false</webservicesUsesinglegiurl>
       <sidetitle>sideTitle</sidetitle>
       <searchadresse>17</searchadresse>
-      <displaysetscale>5</displaysetscale>
+      <displaysetscale>10</displaysetscale>
       <defaultmunicipality>1804</defaultmunicipality>
       <showheader>false</showheader>
       <searchkoord>15</searchkoord>
@@ -64,7 +64,7 @@
       <gatekeeper>true</gatekeeper>
       <grouptitle>land</grouptitle>
       <name>Rasterkart</name>
-      <url>http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3|http://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3</url>
+      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3</url>
       <options>
          <opacity>1</opacity>
          <isbaselayer>true</isbaselayer>
@@ -79,7 +79,7 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3</opencacheurl>
+      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3</opencacheurl>
       <hidden>false</hidden>
       <guid>0.Rasterkart</guid>
       <display>false</display>
@@ -95,7 +95,7 @@
       <gatekeeper>true</gatekeeper>
       <grouptitle>land</grouptitle>
       <name>Land</name>
-      <url>http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde|http://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde</url>
+      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde</url>
       <options>
          <opacity>1</opacity>
          <isbaselayer>true</isbaselayer>
@@ -110,7 +110,7 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde</opencacheurl>
+      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde</opencacheurl>
       <hidden>false</hidden>
       <guid>0.Land</guid>
       <display>false</display>
@@ -142,7 +142,7 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=ortofoto</opencacheurl>
+      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=ortofoto</opencacheurl>
       <hidden>false</hidden>
       <guid>0.Fly&amp;shy;bilder</guid>
       <display>false</display>
@@ -158,7 +158,7 @@
       <gatekeeper>true</gatekeeper>
       <grouptitle>land</grouptitle>
       <name>Enkel</name>
-      <url>http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart|http://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart</url>
+      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart</url>
       <options>
          <opacity>1</opacity>
          <isbaselayer>true</isbaselayer>
@@ -173,7 +173,7 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart</opencacheurl>
+      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart</opencacheurl>
       <hidden>false</hidden>
       <guid>0.Enkel</guid>
       <display>false</display>
@@ -189,7 +189,7 @@
       <gatekeeper>true</gatekeeper>
       <grouptitle>land</grouptitle>
       <name>Terreng</name>
-      <url>http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart|http://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart</url>
+      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart</url>
       <options>
          <opacity>1</opacity>
          <isbaselayer>true</isbaselayer>
@@ -204,7 +204,7 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart</opencacheurl>
+      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart</opencacheurl>
       <hidden>false</hidden>
       <guid>0.Terreng</guid>
       <display>false</display>
@@ -235,7 +235,7 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=Basisdata_NP_Basiskart_JanMayen_WMTS_25833</opencacheurl>
+      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=Basisdata_NP_Basiskart_JanMayen_WMTS_25833</opencacheurl>
       <hidden>false</hidden>
       <guid>2.Jan Mayen</guid>
       <display>false</display>
@@ -266,7 +266,7 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=Basisdata_NP_Basiskart_Svalbard_WMTS_25833</opencacheurl>
+      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=Basisdata_NP_Basiskart_Svalbard_WMTS_25833</opencacheurl>
       <hidden>false</hidden>
       <guid>2.Svalbard</guid>
       <display>false</display>
@@ -282,7 +282,7 @@
       <gatekeeper>true</gatekeeper>
       <grouptitle>sjo</grouptitle>
       <name>Hovedkart</name>
-      <url>http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster|http://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster</url>
+      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster</url>
       <options>
          <opacity>1</opacity>
          <isbaselayer>true</isbaselayer>
@@ -297,7 +297,7 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster</opencacheurl>
+      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster</opencacheurl>
       <hidden>false</hidden>
       <guid>4.Hovedkart</guid>
       <display>false</display>
@@ -329,7 +329,7 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=cells</opencacheurl>
+      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=cells</opencacheurl>
       <hidden>false</hidden>
       <guid>4.Elektron. Sj&amp;oslash;kart</guid>
       <display>false</display>
@@ -361,7 +361,7 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=Friluftslivtilrettelegging</opencacheurl>
+      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=Friluftslivtilrettelegging</opencacheurl>
       <hidden>false</hidden>
       <guid>5.Tilrette- legging</guid>
       <display>false</display>
@@ -393,7 +393,7 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=AnnenRute</opencacheurl>
+      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=AnnenRute</opencacheurl>
       <hidden>false</hidden>
       <guid>5.Annen</guid>
       <display>false</display>
@@ -425,7 +425,7 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=Fotrute</opencacheurl>
+      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=Fotrute</opencacheurl>
       <hidden>false</hidden>
       <guid>5.Fotruter</guid>
       <display>false</display>
@@ -457,7 +457,7 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=Skiloype</opencacheurl>
+      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=Skiloype</opencacheurl>
       <hidden>false</hidden>
       <guid>5.Skil&amp;oslash;yper</guid>
       <display>false</display>
@@ -489,7 +489,7 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=Sykkelrute</opencacheurl>
+      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=Sykkelrute</opencacheurl>
       <hidden>false</hidden>
       <guid>5.Sykkelruter</guid>
       <display>false</display>

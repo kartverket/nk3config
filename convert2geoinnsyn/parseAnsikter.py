@@ -26,9 +26,9 @@ def GetLayers(layers):
     layerUrl=base + branch + '/themes/' + layer + '.yaml'
     layerYaml=GetYaml(layerUrl)
     layerGroup=layerYaml["layerGroup"]
-    if layerGroup not in ansikter[ansikt]["groups"].keys():
-      ansikter[ansikt]["groups"][layerYaml["layerGroup"]]={}
-    ansikter[ansikt]["groups"][layerYaml["layerGroup"]][i]=layerYaml
+    if layerGroup not in ansikter[branch]["groups"].keys():
+      ansikter[branch]["groups"][layerYaml["layerGroup"]]={}
+    ansikter[branch]["groups"][layerYaml["layerGroup"]][i]=layerYaml
     i+=1
 
 json_data=open('ansikter.json').read()
@@ -39,17 +39,17 @@ ansikter = {}
 for ansikt in data["ansikter"]:
   print "Ansikt: " + ansikt
 
-  ansikter[ansikt] = {}
-
   branch=data["ansikter"][ansikt]
+  ansikter[branch] = {}
+
   base=data["urls"]["rawbase"]
 
   indexYaml=GetYaml(base + branch + data["urls"]["index"])
 #  secondaryYaml=GetYaml(secondary=base + branch + data["urls"]["secondary"])
 
-  ansikter[ansikt]["baselayers"]=GetYamlNodes(indexYaml["baselayers"], "template")
+  ansikter[branch]["baselayers"]=GetYamlNodes(indexYaml["baselayers"], "template")
   overlays=GetYamlNodes(indexYaml["overlays"], "include")
-  ansikter[ansikt]["groups"] = {}
+  ansikter[branch]["groups"] = {}
 
   GetLayers(overlays)
 #  break

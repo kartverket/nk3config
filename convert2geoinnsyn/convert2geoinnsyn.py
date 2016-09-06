@@ -10,7 +10,8 @@ from xml.dom import minidom
 def LoadFile(fileName):
   return file.open(fileName)
 
-cacheUrlStart="http://gatekeeper"
+projectsFolder="../configService/projects/"
+cacheUrlStart="https://gatekeeper"
 cacheUrlEnd=".geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS="
 json_data=open('out.json').read()
 data = json.loads(json_data)
@@ -89,7 +90,7 @@ for ansikt in data:
 
     groupid+=1
 
-  projextXmlFile=open('norgeskart3/MapServices/' + ansikt + '.xml','w')
+  projextXmlFile=open(projectsFolder + ansikt + '.xml','w')
   projextXmlFile.write(minidom.parseString(ET.tostring(configXml)).toprettyxml(indent="   "))
-file=open('norgeskart3/MapServices/__projects.json','w')
+file=open(projectsFolder + '__projects.json','w')
 file.write(json.dumps(projects))
