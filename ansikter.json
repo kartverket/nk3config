@@ -1,0 +1,25 @@
+{ 
+"urls": {
+"rawbase":"https://raw.githubusercontent.com/kartverket/anathem/",
+"guibase":"https://github.com/kartverket/anathem/blob/",
+"index":"/themes/index.yaml",
+"secondary":"/themes/toolbars/secondary.yaml"
+},
+"ansikter": {
+"Norgeskart":
+"norgeskart"
+,
+"Stedsnavn": 
+"ssr"
+,
+"Tilgjengelighet": 
+"tilgjengelighet"
+,
+"Luftfartshindre (NRL)": 
+"nrl"
+,
+"Fastmerker": 
+"fastmerker"
+
+}
+}
