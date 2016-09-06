@@ -51,7 +51,7 @@
          <Layer>
             <name>toporaster3</name>
             <queryable>false</queryable>
-            <title>toporaster3</title>
+            <title>Rasterkart</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -62,7 +62,7 @@
          <layers>toporaster3</layers>
          <format>image/png</format>
       </params>
-      <guid>0.Rasterkart</guid>
+      <guid>0.toporaster3</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -74,7 +74,7 @@
          <Layer>
             <name>topo2_dybde</name>
             <queryable>false</queryable>
-            <title>topo2_dybde</title>
+            <title>Land</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -85,7 +85,7 @@
          <layers>topo2_dybde</layers>
          <format>image/png</format>
       </params>
-      <guid>0.Land</guid>
+      <guid>0.topo2_dybde</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -97,7 +97,7 @@
          <Layer>
             <name>NiB</name>
             <queryable>false</queryable>
-            <title>NiB</title>
+            <title>Fly&amp;shy;bilder</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -109,7 +109,7 @@
          <layers>NiB</layers>
          <format>image/png</format>
       </params>
-      <guid>0.Fly&amp;shy;bilder</guid>
+      <guid>0.NiB</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -121,7 +121,7 @@
          <Layer>
             <name>norges_grunnkart</name>
             <queryable>false</queryable>
-            <title>norges_grunnkart</title>
+            <title>Enkel</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -132,7 +132,7 @@
          <layers>norges_grunnkart</layers>
          <format>image/png</format>
       </params>
-      <guid>0.Enkel</guid>
+      <guid>0.norges_grunnkart</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -144,7 +144,7 @@
          <Layer>
             <name>terreng_norgeskart</name>
             <queryable>false</queryable>
-            <title>terreng_norgeskart</title>
+            <title>Terreng</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -155,7 +155,7 @@
          <layers>terreng_norgeskart</layers>
          <format>image/png</format>
       </params>
-      <guid>0.Terreng</guid>
+      <guid>0.terreng_norgeskart</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -167,7 +167,7 @@
          <Layer>
             <name>Basisdata_NP_Basiskart_JanMayen_WMTS_25833</name>
             <queryable>false</queryable>
-            <title>Basisdata_NP_Basiskart_JanMayen_WMTS_25833</title>
+            <title>Jan Mayen</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -178,7 +178,7 @@
          <layers>Basisdata_NP_Basiskart_JanMayen_WMTS_25833</layers>
          <format>image/png</format>
       </params>
-      <guid>2.Jan Mayen</guid>
+      <guid>2.Basisdata_NP_Basiskart_JanMayen_WMTS_25833</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -190,7 +190,7 @@
          <Layer>
             <name>Basisdata_NP_Basiskart_Svalbard_WMTS_25833</name>
             <queryable>false</queryable>
-            <title>Basisdata_NP_Basiskart_Svalbard_WMTS_25833</title>
+            <title>Svalbard</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -201,7 +201,7 @@
          <layers>Basisdata_NP_Basiskart_Svalbard_WMTS_25833</layers>
          <format>image/png</format>
       </params>
-      <guid>2.Svalbard</guid>
+      <guid>2.Basisdata_NP_Basiskart_Svalbard_WMTS_25833</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -213,7 +213,7 @@
          <Layer>
             <name>kraftledning_uten_hoyde</name>
             <queryable>false</queryable>
-            <title>kraftledning_uten_hoyde</title>
+            <title>Kraftledning uten hoyde</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -225,7 +225,7 @@
          <layers>kraftledning_uten_hoyde</layers>
          <format>image/png</format>
       </params>
-      <guid>3.Kraftledning uten hoyde</guid>
+      <guid>3.kraftledning_uten_hoyde</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -237,7 +237,7 @@
          <Layer>
             <name>kraftstolpe_60m_og_over</name>
             <queryable>false</queryable>
-            <title>kraftstolpe_60m_og_over</title>
+            <title>Kraftstolpe 60m og over</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -249,7 +249,7 @@
          <layers>kraftstolpe_60m_og_over</layers>
          <format>image/png</format>
       </params>
-      <guid>3.Kraftstolpe 60m og over</guid>
+      <guid>3.kraftstolpe_60m_og_over</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -261,7 +261,7 @@
          <Layer>
             <name>kraftstolpe_mellom_40m_60m</name>
             <queryable>false</queryable>
-            <title>kraftstolpe_mellom_40m_60m</title>
+            <title>Kraftstolpe 40m-60m</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -273,7 +273,7 @@
          <layers>kraftstolpe_mellom_40m_60m</layers>
          <format>image/png</format>
       </params>
-      <guid>3.Kraftstolpe 40m-60m</guid>
+      <guid>3.kraftstolpe_mellom_40m_60m</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -285,7 +285,7 @@
          <Layer>
             <name>kraftstolpe_under_40m</name>
             <queryable>false</queryable>
-            <title>kraftstolpe_under_40m</title>
+            <title>Kraftstolpe under 40 m</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -297,7 +297,7 @@
          <layers>kraftstolpe_under_40m</layers>
          <format>image/png</format>
       </params>
-      <guid>3.Kraftstolpe under 40 m</guid>
+      <guid>3.kraftstolpe_under_40m</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -309,7 +309,7 @@
          <Layer>
             <name>kraftledning_60m_og_over</name>
             <queryable>false</queryable>
-            <title>kraftledning_60m_og_over</title>
+            <title>Kraftledning 60m og over</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -321,7 +321,7 @@
          <layers>kraftledning_60m_og_over</layers>
          <format>image/png</format>
       </params>
-      <guid>3.Kraftledning 60m og over</guid>
+      <guid>3.kraftledning_60m_og_over</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -333,7 +333,7 @@
          <Layer>
             <name>kraftledning_mellom_40m_60m</name>
             <queryable>false</queryable>
-            <title>kraftledning_mellom_40m_60m</title>
+            <title>Kraftledning 40m-60m</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -345,7 +345,7 @@
          <layers>kraftledning_mellom_40m_60m</layers>
          <format>image/png</format>
       </params>
-      <guid>3.Kraftledning 40m-60m</guid>
+      <guid>3.kraftledning_mellom_40m_60m</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -357,7 +357,7 @@
          <Layer>
             <name>kraftledning_under_40m</name>
             <queryable>false</queryable>
-            <title>kraftledning_under_40m</title>
+            <title>Kraftledning under 40 m</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -369,7 +369,7 @@
          <layers>kraftledning_under_40m</layers>
          <format>image/png</format>
       </params>
-      <guid>3.Kraftledning under 40 m</guid>
+      <guid>3.kraftledning_under_40m</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -381,7 +381,7 @@
          <Layer>
             <name>kraftstolpe_uten_hoyde</name>
             <queryable>false</queryable>
-            <title>kraftstolpe_uten_hoyde</title>
+            <title>Kraftstolpe uten hoyde</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -393,7 +393,7 @@
          <layers>kraftstolpe_uten_hoyde</layers>
          <format>image/png</format>
       </params>
-      <guid>3.Kraftstolpe uten hoyde</guid>
+      <guid>3.kraftstolpe_uten_hoyde</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -405,7 +405,7 @@
          <Layer>
             <name>alle_linjepunkt</name>
             <queryable>false</queryable>
-            <title>alle_linjepunkt</title>
+            <title>Alle linjepunkthindre</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -417,7 +417,7 @@
          <layers>alle_linjepunkt</layers>
          <format>image/png</format>
       </params>
-      <guid>4.Alle linjepunkthindre</guid>
+      <guid>4.alle_linjepunkt</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -429,7 +429,7 @@
          <Layer>
             <name>alle_linjehindre</name>
             <queryable>false</queryable>
-            <title>alle_linjehindre</title>
+            <title>Alle linjehindre</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -441,7 +441,7 @@
          <layers>alle_linjehindre</layers>
          <format>image/png</format>
       </params>
-      <guid>4.Alle linjehindre</guid>
+      <guid>4.alle_linjehindre</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -453,7 +453,7 @@
          <Layer>
             <name>alle_punkthindre</name>
             <queryable>false</queryable>
-            <title>alle_punkthindre</title>
+            <title>Alle punkthindre</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -465,7 +465,7 @@
          <layers>alle_punkthindre</layers>
          <format>image/png</format>
       </params>
-      <guid>4.Alle punkthindre</guid>
+      <guid>4.alle_punkthindre</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -477,7 +477,7 @@
          <Layer>
             <name>andre_linjer_uten_hoyde</name>
             <queryable>false</queryable>
-            <title>andre_linjer_uten_hoyde</title>
+            <title>Andre linjer uten hoyde</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -489,7 +489,7 @@
          <layers>andre_linjer_uten_hoyde</layers>
          <format>image/png</format>
       </params>
-      <guid>5.Andre linjer uten hoyde</guid>
+      <guid>5.andre_linjer_uten_hoyde</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -501,7 +501,7 @@
          <Layer>
             <name>andre_linjer_60m_og_over</name>
             <queryable>false</queryable>
-            <title>andre_linjer_60m_og_over</title>
+            <title>Andre linjer 60m og over</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -513,7 +513,7 @@
          <layers>andre_linjer_60m_og_over</layers>
          <format>image/png</format>
       </params>
-      <guid>5.Andre linjer 60m og over</guid>
+      <guid>5.andre_linjer_60m_og_over</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -525,7 +525,7 @@
          <Layer>
             <name>andre_linjer_under_40m</name>
             <queryable>false</queryable>
-            <title>andre_linjer_under_40m</title>
+            <title>Andre linjer under 40 m</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -537,7 +537,7 @@
          <layers>andre_linjer_under_40m</layers>
          <format>image/png</format>
       </params>
-      <guid>5.Andre linjer under 40 m</guid>
+      <guid>5.andre_linjer_under_40m</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -549,7 +549,7 @@
          <Layer>
             <name>linjepunkt_uten_hoyde</name>
             <queryable>false</queryable>
-            <title>linjepunkt_uten_hoyde</title>
+            <title>Linjepunkt uten hoyde</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -561,7 +561,7 @@
          <layers>linjepunkt_uten_hoyde</layers>
          <format>image/png</format>
       </params>
-      <guid>5.Linjepunkt uten hoyde</guid>
+      <guid>5.linjepunkt_uten_hoyde</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -573,7 +573,7 @@
          <Layer>
             <name>linjepunkt_under_40m</name>
             <queryable>false</queryable>
-            <title>linjepunkt_under_40m</title>
+            <title>Linjepunkt under 40 m</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -585,7 +585,7 @@
          <layers>linjepunkt_under_40m</layers>
          <format>image/png</format>
       </params>
-      <guid>5.Linjepunkt under 40 m</guid>
+      <guid>5.linjepunkt_under_40m</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -597,7 +597,7 @@
          <Layer>
             <name>linjepunkt_mellom_40m_60m</name>
             <queryable>false</queryable>
-            <title>linjepunkt_mellom_40m_60m</title>
+            <title>Linjepunkt 40m-60m</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -609,7 +609,7 @@
          <layers>linjepunkt_mellom_40m_60m</layers>
          <format>image/png</format>
       </params>
-      <guid>5.Linjepunkt 40m-60m</guid>
+      <guid>5.linjepunkt_mellom_40m_60m</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -621,7 +621,7 @@
          <Layer>
             <name>linjepunkt_60m_og_over</name>
             <queryable>false</queryable>
-            <title>linjepunkt_60m_og_over</title>
+            <title>Linjepunkt 60m og over</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -633,7 +633,7 @@
          <layers>linjepunkt_60m_og_over</layers>
          <format>image/png</format>
       </params>
-      <guid>5.Linjepunkt 60m og over</guid>
+      <guid>5.linjepunkt_60m_og_over</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -645,7 +645,7 @@
          <Layer>
             <name>andre_linjer_mellom_40m_60m</name>
             <queryable>false</queryable>
-            <title>andre_linjer_mellom_40m_60m</title>
+            <title>Andre linjer 40m-60m</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -657,7 +657,7 @@
          <layers>andre_linjer_mellom_40m_60m</layers>
          <format>image/png</format>
       </params>
-      <guid>5.Andre linjer 40m-60m</guid>
+      <guid>5.andre_linjer_mellom_40m_60m</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -669,7 +669,7 @@
          <Layer>
             <name>sjokartraster</name>
             <queryable>false</queryable>
-            <title>sjokartraster</title>
+            <title>Hovedkart</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -680,7 +680,7 @@
          <layers>sjokartraster</layers>
          <format>image/png</format>
       </params>
-      <guid>6.Hovedkart</guid>
+      <guid>6.sjokartraster</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -692,7 +692,7 @@
          <Layer>
             <name>cells</name>
             <queryable>false</queryable>
-            <title>cells</title>
+            <title>Elektron. Sj&amp;oslash;kart</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -704,7 +704,7 @@
          <layers>cells</layers>
          <format>image/png</format>
       </params>
-      <guid>6.Elektron. Sj&amp;oslash;kart</guid>
+      <guid>6.cells</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -716,7 +716,7 @@
          <Layer>
             <name>Punkthindre_60m_og_over</name>
             <queryable>false</queryable>
-            <title>Punkthindre_60m_og_over</title>
+            <title>Punkthindre 60m og over</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -728,7 +728,7 @@
          <layers>Punkthindre_60m_og_over</layers>
          <format>image/png</format>
       </params>
-      <guid>7.Punkthindre 60m og over</guid>
+      <guid>7.Punkthindre_60m_og_over</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -740,7 +740,7 @@
          <Layer>
             <name>punkthindre_uten_hoyde</name>
             <queryable>false</queryable>
-            <title>punkthindre_uten_hoyde</title>
+            <title>Punkthindre uten hoyde</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -752,7 +752,7 @@
          <layers>punkthindre_uten_hoyde</layers>
          <format>image/png</format>
       </params>
-      <guid>7.Punkthindre uten hoyde</guid>
+      <guid>7.punkthindre_uten_hoyde</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -764,7 +764,7 @@
          <Layer>
             <name>punkthindre_under_40m</name>
             <queryable>false</queryable>
-            <title>punkthindre_under_40m</title>
+            <title>Punkthindre under 40</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -776,7 +776,7 @@
          <layers>punkthindre_under_40m</layers>
          <format>image/png</format>
       </params>
-      <guid>7.Punkthindre under 40</guid>
+      <guid>7.punkthindre_under_40m</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -788,7 +788,7 @@
          <Layer>
             <name>punkthindre_mellom_40m_60m</name>
             <queryable>false</queryable>
-            <title>punkthindre_mellom_40m_60m</title>
+            <title>Punkthindre 40m-60m</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -800,7 +800,7 @@
          <layers>punkthindre_mellom_40m_60m</layers>
          <format>image/png</format>
       </params>
-      <guid>7.Punkthindre 40m-60m</guid>
+      <guid>7.punkthindre_mellom_40m_60m</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>

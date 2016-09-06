@@ -41,7 +41,7 @@
          <Layer>
             <name>toporaster3</name>
             <queryable>false</queryable>
-            <title>toporaster3</title>
+            <title>Rasterkart</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -52,7 +52,7 @@
          <layers>toporaster3</layers>
          <format>image/png</format>
       </params>
-      <guid>0.Rasterkart</guid>
+      <guid>0.toporaster3</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -64,7 +64,7 @@
          <Layer>
             <name>topo2_dybde</name>
             <queryable>false</queryable>
-            <title>topo2_dybde</title>
+            <title>Land</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -75,7 +75,7 @@
          <layers>topo2_dybde</layers>
          <format>image/png</format>
       </params>
-      <guid>0.Land</guid>
+      <guid>0.topo2_dybde</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -87,7 +87,7 @@
          <Layer>
             <name>ortofoto</name>
             <queryable>false</queryable>
-            <title>ortofoto</title>
+            <title>Fly&amp;shy;bilder</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -99,7 +99,7 @@
          <layers>ortofoto</layers>
          <format>image/png</format>
       </params>
-      <guid>0.Fly&amp;shy;bilder</guid>
+      <guid>0.ortofoto</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -111,7 +111,7 @@
          <Layer>
             <name>norges_grunnkart</name>
             <queryable>false</queryable>
-            <title>norges_grunnkart</title>
+            <title>Enkel</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -122,7 +122,7 @@
          <layers>norges_grunnkart</layers>
          <format>image/png</format>
       </params>
-      <guid>0.Enkel</guid>
+      <guid>0.norges_grunnkart</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -134,7 +134,7 @@
          <Layer>
             <name>terreng_norgeskart</name>
             <queryable>false</queryable>
-            <title>terreng_norgeskart</title>
+            <title>Terreng</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -145,7 +145,7 @@
          <layers>terreng_norgeskart</layers>
          <format>image/png</format>
       </params>
-      <guid>0.Terreng</guid>
+      <guid>0.terreng_norgeskart</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -157,7 +157,7 @@
          <Layer>
             <name>Basisdata_NP_Basiskart_JanMayen_WMTS_25833</name>
             <queryable>false</queryable>
-            <title>Basisdata_NP_Basiskart_JanMayen_WMTS_25833</title>
+            <title>Jan Mayen</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -168,7 +168,7 @@
          <layers>Basisdata_NP_Basiskart_JanMayen_WMTS_25833</layers>
          <format>image/png</format>
       </params>
-      <guid>2.Jan Mayen</guid>
+      <guid>2.Basisdata_NP_Basiskart_JanMayen_WMTS_25833</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -180,7 +180,7 @@
          <Layer>
             <name>Basisdata_NP_Basiskart_Svalbard_WMTS_25833</name>
             <queryable>false</queryable>
-            <title>Basisdata_NP_Basiskart_Svalbard_WMTS_25833</title>
+            <title>Svalbard</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -191,7 +191,7 @@
          <layers>Basisdata_NP_Basiskart_Svalbard_WMTS_25833</layers>
          <format>image/png</format>
       </params>
-      <guid>2.Svalbard</guid>
+      <guid>2.Basisdata_NP_Basiskart_Svalbard_WMTS_25833</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -203,7 +203,7 @@
          <Layer>
             <name>sjokartraster</name>
             <queryable>false</queryable>
-            <title>sjokartraster</title>
+            <title>Hovedkart</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -214,7 +214,7 @@
          <layers>sjokartraster</layers>
          <format>image/png</format>
       </params>
-      <guid>4.Hovedkart</guid>
+      <guid>4.sjokartraster</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -226,7 +226,7 @@
          <Layer>
             <name>cells</name>
             <queryable>false</queryable>
-            <title>cells</title>
+            <title>Elektron. Sj&amp;oslash;kart</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -238,7 +238,7 @@
          <layers>cells</layers>
          <format>image/png</format>
       </params>
-      <guid>4.Elektron. Sj&amp;oslash;kart</guid>
+      <guid>4.cells</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -250,7 +250,7 @@
          <Layer>
             <name>Friluftslivtilrettelegging</name>
             <queryable>false</queryable>
-            <title>Friluftslivtilrettelegging</title>
+            <title>Tilrette- legging</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -262,7 +262,7 @@
          <layers>Friluftslivtilrettelegging</layers>
          <format>image/png</format>
       </params>
-      <guid>5.Tilrette- legging</guid>
+      <guid>5.Friluftslivtilrettelegging</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -274,7 +274,7 @@
          <Layer>
             <name>AnnenRute</name>
             <queryable>false</queryable>
-            <title>AnnenRute</title>
+            <title>Annen</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -286,7 +286,7 @@
          <layers>AnnenRute</layers>
          <format>image/png</format>
       </params>
-      <guid>5.Annen</guid>
+      <guid>5.AnnenRute</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -298,7 +298,7 @@
          <Layer>
             <name>Fotrute</name>
             <queryable>false</queryable>
-            <title>Fotrute</title>
+            <title>Fotruter</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -310,7 +310,7 @@
          <layers>Fotrute</layers>
          <format>image/png</format>
       </params>
-      <guid>5.Fotruter</guid>
+      <guid>5.Fotrute</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -322,7 +322,7 @@
          <Layer>
             <name>Skiloype</name>
             <queryable>false</queryable>
-            <title>Skiloype</title>
+            <title>Skil&amp;oslash;yper</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -334,7 +334,7 @@
          <layers>Skiloype</layers>
          <format>image/png</format>
       </params>
-      <guid>5.Skil&amp;oslash;yper</guid>
+      <guid>5.Skiloype</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -346,7 +346,7 @@
          <Layer>
             <name>Sykkelrute</name>
             <queryable>false</queryable>
-            <title>Sykkelrute</title>
+            <title>Sykkelruter</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -358,7 +358,7 @@
          <layers>Sykkelrute</layers>
          <format>image/png</format>
       </params>
-      <guid>5.Sykkelruter</guid>
+      <guid>5.Sykkelrute</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>

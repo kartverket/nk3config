@@ -66,7 +66,7 @@
          <Layer>
             <name>Vedtatt_siste_6md</name>
             <queryable>false</queryable>
-            <title>Vedtatt_siste_6md</title>
+            <title>Vedteke siste 6md</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -78,7 +78,7 @@
          <layers>Vedtatt_siste_6md</layers>
          <format>image/png</format>
       </params>
-      <guid>0.Vedteke siste 6md</guid>
+      <guid>0.Vedtatt_siste_6md</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -90,7 +90,7 @@
          <Layer>
             <name>Vedtatt_siste_12md</name>
             <queryable>false</queryable>
-            <title>Vedtatt_siste_12md</title>
+            <title>Vedteke siste 12md</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -102,7 +102,7 @@
          <layers>Vedtatt_siste_12md</layers>
          <format>image/png</format>
       </params>
-      <guid>0.Vedteke siste 12md</guid>
+      <guid>0.Vedtatt_siste_12md</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -114,7 +114,7 @@
          <Layer>
             <name>Vedtatt_siste_24md</name>
             <queryable>false</queryable>
-            <title>Vedtatt_siste_24md</title>
+            <title>Vedteke siste 24md</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -126,7 +126,7 @@
          <layers>Vedtatt_siste_24md</layers>
          <format>image/png</format>
       </params>
-      <guid>0.Vedteke siste 24md</guid>
+      <guid>0.Vedtatt_siste_24md</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -138,7 +138,7 @@
          <Layer>
             <name>Vedtatt_siste_md</name>
             <queryable>false</queryable>
-            <title>Vedtatt_siste_md</title>
+            <title>Vedteke siste md</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -150,7 +150,7 @@
          <layers>Vedtatt_siste_md</layers>
          <format>image/png</format>
       </params>
-      <guid>0.Vedteke siste md</guid>
+      <guid>0.Vedtatt_siste_md</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -162,7 +162,7 @@
          <Layer>
             <name>Vedtatt_siste_3md</name>
             <queryable>false</queryable>
-            <title>Vedtatt_siste_3md</title>
+            <title>Vedteke siste 3md</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -174,7 +174,7 @@
          <layers>Vedtatt_siste_3md</layers>
          <format>image/png</format>
       </params>
-      <guid>0.Vedteke siste 3md</guid>
+      <guid>0.Vedtatt_siste_3md</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -186,7 +186,7 @@
          <Layer>
             <name>toporaster3</name>
             <queryable>false</queryable>
-            <title>toporaster3</title>
+            <title>Rasterkart</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -197,7 +197,7 @@
          <layers>toporaster3</layers>
          <format>image/png</format>
       </params>
-      <guid>1.Rasterkart</guid>
+      <guid>1.toporaster3</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -209,7 +209,7 @@
          <Layer>
             <name>topo2_dybde</name>
             <queryable>false</queryable>
-            <title>topo2_dybde</title>
+            <title>Land</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -220,7 +220,7 @@
          <layers>topo2_dybde</layers>
          <format>image/png</format>
       </params>
-      <guid>1.Land</guid>
+      <guid>1.topo2_dybde</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -232,7 +232,7 @@
          <Layer>
             <name>NiB</name>
             <queryable>false</queryable>
-            <title>NiB</title>
+            <title>Fly&amp;shy;bilete</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -244,7 +244,7 @@
          <layers>NiB</layers>
          <format>image/png</format>
       </params>
-      <guid>1.Fly&amp;shy;bilete</guid>
+      <guid>1.NiB</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -256,7 +256,7 @@
          <Layer>
             <name>norges_grunnkart</name>
             <queryable>false</queryable>
-            <title>norges_grunnkart</title>
+            <title>Enkelt</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -267,7 +267,7 @@
          <layers>norges_grunnkart</layers>
          <format>image/png</format>
       </params>
-      <guid>1.Enkelt</guid>
+      <guid>1.norges_grunnkart</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -279,7 +279,7 @@
          <Layer>
             <name>terreng_norgeskart</name>
             <queryable>false</queryable>
-            <title>terreng_norgeskart</title>
+            <title>Terreng</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -290,7 +290,7 @@
          <layers>terreng_norgeskart</layers>
          <format>image/png</format>
       </params>
-      <guid>1.Terreng</guid>
+      <guid>1.terreng_norgeskart</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -350,7 +350,7 @@
          <Layer>
             <name>Foreslaatt</name>
             <queryable>false</queryable>
-            <title>Foreslaatt</title>
+            <title>F&amp;oslash;reslege</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -362,7 +362,7 @@
          <layers>Foreslaatt</layers>
          <format>image/png</format>
       </params>
-      <guid>3.F&amp;oslash;reslege</guid>
+      <guid>3.Foreslaatt</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -374,7 +374,7 @@
          <Layer>
             <name>Avslaatt</name>
             <queryable>false</queryable>
-            <title>Avslaatt</title>
+            <title>Avslege</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -386,7 +386,7 @@
          <layers>Avslaatt</layers>
          <format>image/png</format>
       </params>
-      <guid>3.Avslege</guid>
+      <guid>3.Avslaatt</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -398,7 +398,7 @@
          <Layer>
             <name>Bygninger_eiendom</name>
             <queryable>false</queryable>
-            <title>Bygninger_eiendom</title>
+            <title>Busetnad/ eigedom</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -410,7 +410,7 @@
          <layers>Bygninger_eiendom</layers>
          <format>image/png</format>
       </params>
-      <guid>4.Busetnad/ eigedom</guid>
+      <guid>4.Bygninger_eiendom</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -422,7 +422,7 @@
          <Layer>
             <name>Samferdsel</name>
             <queryable>false</queryable>
-            <title>Samferdsel</title>
+            <title>Samferdsle</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -434,7 +434,7 @@
          <layers>Samferdsel</layers>
          <format>image/png</format>
       </params>
-      <guid>4.Samferdsle</guid>
+      <guid>4.Samferdsel</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -470,7 +470,7 @@
          <Layer>
             <name>Vannkontur</name>
             <queryable>false</queryable>
-            <title>Vannkontur</title>
+            <title>Vasskontur</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -482,7 +482,7 @@
          <layers>Vannkontur</layers>
          <format>image/png</format>
       </params>
-      <guid>4.Vasskontur</guid>
+      <guid>4.Vannkontur</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -494,7 +494,7 @@
          <Layer>
             <name>Administrative_omraader</name>
             <queryable>false</queryable>
-            <title>Administrative_omraader</title>
+            <title>Administrative omr&amp;aring;de</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -506,7 +506,7 @@
          <layers>Administrative_omraader</layers>
          <format>image/png</format>
       </params>
-      <guid>4.Administrative omr&amp;aring;de</guid>
+      <guid>4.Administrative_omraader</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -518,7 +518,7 @@
          <Layer>
             <name>Andre_navnetyper</name>
             <queryable>false</queryable>
-            <title>Andre_navnetyper</title>
+            <title>Andre namnetypar</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -530,7 +530,7 @@
          <layers>Andre_navnetyper</layers>
          <format>image/png</format>
       </params>
-      <guid>4.Andre namnetypar</guid>
+      <guid>4.Andre_navnetyper</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -590,7 +590,7 @@
          <Layer>
             <name>Basisdata_NP_Basiskart_JanMayen_WMTS_25833</name>
             <queryable>false</queryable>
-            <title>Basisdata_NP_Basiskart_JanMayen_WMTS_25833</title>
+            <title>Jan Mayen</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -601,7 +601,7 @@
          <layers>Basisdata_NP_Basiskart_JanMayen_WMTS_25833</layers>
          <format>image/png</format>
       </params>
-      <guid>5.Jan Mayen</guid>
+      <guid>5.Basisdata_NP_Basiskart_JanMayen_WMTS_25833</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -613,7 +613,7 @@
          <Layer>
             <name>Basisdata_NP_Basiskart_Svalbard_WMTS_25833</name>
             <queryable>false</queryable>
-            <title>Basisdata_NP_Basiskart_Svalbard_WMTS_25833</title>
+            <title>Svalbard</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -624,7 +624,7 @@
          <layers>Basisdata_NP_Basiskart_Svalbard_WMTS_25833</layers>
          <format>image/png</format>
       </params>
-      <guid>5.Svalbard</guid>
+      <guid>5.Basisdata_NP_Basiskart_Svalbard_WMTS_25833</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -636,7 +636,7 @@
          <Layer>
             <name>Vedtatt_og_godkjent_skrivemaate</name>
             <queryable>false</queryable>
-            <title>Vedtatt_og_godkjent_skrivemaate</title>
+            <title>Skrivem&amp;aring;te&amp;ndash;statusar</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -648,7 +648,7 @@
          <layers>Vedtatt_og_godkjent_skrivemaate</layers>
          <format>image/png</format>
       </params>
-      <guid>6.Skrivem&amp;aring;te&amp;ndash;statusar</guid>
+      <guid>6.Vedtatt_og_godkjent_skrivemaate</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -660,7 +660,7 @@
          <Layer>
             <name>Navnetype</name>
             <queryable>false</queryable>
-            <title>Navnetype</title>
+            <title>Namnetypar</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -672,7 +672,7 @@
          <layers>Navnetype</layers>
          <format>image/png</format>
       </params>
-      <guid>6.Namnetypar</guid>
+      <guid>6.Navnetype</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -684,7 +684,7 @@
          <Layer>
             <name>Spraak</name>
             <queryable>false</queryable>
-            <title>Spraak</title>
+            <title>Spr&amp;aring;k</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -696,7 +696,7 @@
          <layers>Spraak</layers>
          <format>image/png</format>
       </params>
-      <guid>6.Spr&amp;aring;k</guid>
+      <guid>6.Spraak</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -708,7 +708,7 @@
          <Layer>
             <name>sjokartraster</name>
             <queryable>false</queryable>
-            <title>sjokartraster</title>
+            <title>Hovudkart</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -719,7 +719,7 @@
          <layers>sjokartraster</layers>
          <format>image/png</format>
       </params>
-      <guid>7.Hovudkart</guid>
+      <guid>7.sjokartraster</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -731,7 +731,7 @@
          <Layer>
             <name>cells</name>
             <queryable>false</queryable>
-            <title>cells</title>
+            <title>Elektron. Sj&amp;oslash;kart</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -743,7 +743,7 @@
          <layers>cells</layers>
          <format>image/png</format>
       </params>
-      <guid>7.Elektron. Sj&amp;oslash;kart</guid>
+      <guid>7.cells</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -803,7 +803,7 @@
          <Layer>
             <name>Vedtatt</name>
             <queryable>false</queryable>
-            <title>Vedtatt</title>
+            <title>Vedteke</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -815,7 +815,7 @@
          <layers>Vedtatt</layers>
          <format>image/png</format>
       </params>
-      <guid>8.Vedteke</guid>
+      <guid>8.Vedtatt</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -851,7 +851,7 @@
          <Layer>
             <name>Vedtak_paaklaget</name>
             <queryable>false</queryable>
-            <title>Vedtak_paaklaget</title>
+            <title>Vedtak p&amp;aring;klaga</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -863,7 +863,7 @@
          <layers>Vedtak_paaklaget</layers>
          <format>image/png</format>
       </params>
-      <guid>8.Vedtak p&amp;aring;klaga</guid>
+      <guid>8.Vedtak_paaklaget</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -947,7 +947,7 @@
          <Layer>
             <name>Sorsamisk</name>
             <queryable>false</queryable>
-            <title>Sorsamisk</title>
+            <title>S&amp;oslash;rsamisk</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -959,7 +959,7 @@
          <layers>Sorsamisk</layers>
          <format>image/png</format>
       </params>
-      <guid>9.S&amp;oslash;rsamisk</guid>
+      <guid>9.Sorsamisk</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -1019,7 +1019,7 @@
          <Layer>
             <name>n5raster_foerstegang_metadata,n5raster_foerstegang</name>
             <queryable>false</queryable>
-            <title>n5raster_foerstegang_metadata,n5raster_foerstegang</title>
+            <title>&amp;Oslash;k&amp;ndash;1&amp;sdot;utg&amp;aring;ve</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -1031,7 +1031,7 @@
          <layers>n5raster_foerstegang_metadata,n5raster_foerstegang</layers>
          <format>image/png</format>
       </params>
-      <guid>10.&amp;Oslash;k&amp;ndash;1&amp;sdot;utg&amp;aring;ve</guid>
+      <guid>10.n5raster_foerstegang_metadata,n5raster_foerstegang</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -1043,7 +1043,7 @@
          <Layer>
             <name>amt1</name>
             <queryable>false</queryable>
-            <title>amt1</title>
+            <title>Amts&amp;shy;kart</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -1055,7 +1055,7 @@
          <layers>amt1</layers>
          <format>image/png</format>
       </params>
-      <guid>10.Amts&amp;shy;kart</guid>
+      <guid>10.amt1</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>

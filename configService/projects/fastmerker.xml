@@ -46,7 +46,7 @@
          <Layer>
             <name>toporaster3</name>
             <queryable>false</queryable>
-            <title>toporaster3</title>
+            <title>Rasterkart</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -57,7 +57,7 @@
          <layers>toporaster3</layers>
          <format>image/png</format>
       </params>
-      <guid>0.Rasterkart</guid>
+      <guid>0.toporaster3</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -69,7 +69,7 @@
          <Layer>
             <name>topo2_dybde</name>
             <queryable>false</queryable>
-            <title>topo2_dybde</title>
+            <title>Land</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -80,7 +80,7 @@
          <layers>topo2_dybde</layers>
          <format>image/png</format>
       </params>
-      <guid>0.Land</guid>
+      <guid>0.topo2_dybde</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -92,7 +92,7 @@
          <Layer>
             <name>NiB</name>
             <queryable>false</queryable>
-            <title>NiB</title>
+            <title>Fly&amp;shy;bilder</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -104,7 +104,7 @@
          <layers>NiB</layers>
          <format>image/png</format>
       </params>
-      <guid>0.Fly&amp;shy;bilder</guid>
+      <guid>0.NiB</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -116,7 +116,7 @@
          <Layer>
             <name>norges_grunnkart</name>
             <queryable>false</queryable>
-            <title>norges_grunnkart</title>
+            <title>Enkel</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -127,7 +127,7 @@
          <layers>norges_grunnkart</layers>
          <format>image/png</format>
       </params>
-      <guid>0.Enkel</guid>
+      <guid>0.norges_grunnkart</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -139,7 +139,7 @@
          <Layer>
             <name>terreng_norgeskart</name>
             <queryable>false</queryable>
-            <title>terreng_norgeskart</title>
+            <title>Terreng</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -150,7 +150,7 @@
          <layers>terreng_norgeskart</layers>
          <format>image/png</format>
       </params>
-      <guid>0.Terreng</guid>
+      <guid>0.terreng_norgeskart</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -162,7 +162,7 @@
          <Layer>
             <name>Trekantpunkt</name>
             <queryable>false</queryable>
-            <title>Trekantpunkt</title>
+            <title>Trekantpunkter</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -174,7 +174,7 @@
          <layers>Trekantpunkt</layers>
          <format>image/png</format>
       </params>
-      <guid>2.Trekantpunkter</guid>
+      <guid>2.Trekantpunkt</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -186,7 +186,7 @@
          <Layer>
             <name>Niv_fastmerker</name>
             <queryable>false</queryable>
-            <title>Niv_fastmerker</title>
+            <title>Niv. fastmerker</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -198,7 +198,7 @@
          <layers>Niv_fastmerker</layers>
          <format>image/png</format>
       </params>
-      <guid>2.Niv. fastmerker</guid>
+      <guid>2.Niv_fastmerker</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -210,7 +210,7 @@
          <Layer>
             <name>Stamnettpunkt</name>
             <queryable>false</queryable>
-            <title>Stamnettpunkt</title>
+            <title>Stamnettpunkter</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -222,7 +222,7 @@
          <layers>Stamnettpunkt</layers>
          <format>image/png</format>
       </params>
-      <guid>2.Stamnettpunkter</guid>
+      <guid>2.Stamnettpunkt</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -234,7 +234,7 @@
          <Layer>
             <name>Landsnettpunkt</name>
             <queryable>false</queryable>
-            <title>Landsnettpunkt</title>
+            <title>Landsnettpunkter</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -246,7 +246,7 @@
          <layers>Landsnettpunkt</layers>
          <format>image/png</format>
       </params>
-      <guid>2.Landsnettpunkter</guid>
+      <guid>2.Landsnettpunkt</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -258,7 +258,7 @@
          <Layer>
             <name>Basisdata_NP_Basiskart_JanMayen_WMTS_25833</name>
             <queryable>false</queryable>
-            <title>Basisdata_NP_Basiskart_JanMayen_WMTS_25833</title>
+            <title>Jan Mayen</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -269,7 +269,7 @@
          <layers>Basisdata_NP_Basiskart_JanMayen_WMTS_25833</layers>
          <format>image/png</format>
       </params>
-      <guid>3.Jan Mayen</guid>
+      <guid>3.Basisdata_NP_Basiskart_JanMayen_WMTS_25833</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -281,7 +281,7 @@
          <Layer>
             <name>Basisdata_NP_Basiskart_Svalbard_WMTS_25833</name>
             <queryable>false</queryable>
-            <title>Basisdata_NP_Basiskart_Svalbard_WMTS_25833</title>
+            <title>Svalbard</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -292,7 +292,7 @@
          <layers>Basisdata_NP_Basiskart_Svalbard_WMTS_25833</layers>
          <format>image/png</format>
       </params>
-      <guid>3.Svalbard</guid>
+      <guid>3.Basisdata_NP_Basiskart_Svalbard_WMTS_25833</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -304,7 +304,7 @@
          <Layer>
             <name>sjokartraster</name>
             <queryable>false</queryable>
-            <title>sjokartraster</title>
+            <title>Hovedkart</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -315,7 +315,7 @@
          <layers>sjokartraster</layers>
          <format>image/png</format>
       </params>
-      <guid>4.Hovedkart</guid>
+      <guid>4.sjokartraster</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -327,7 +327,7 @@
          <Layer>
             <name>cells</name>
             <queryable>false</queryable>
-            <title>cells</title>
+            <title>Elektron. Sj&amp;oslash;kart</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -339,7 +339,7 @@
          <layers>cells</layers>
          <format>image/png</format>
       </params>
-      <guid>4.Elektron. Sj&amp;oslash;kart</guid>
+      <guid>4.cells</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -351,7 +351,7 @@
          <Layer>
             <name>UTMrutenett</name>
             <queryable>false</queryable>
-            <title>UTMrutenett</title>
+            <title>UTM-rutenett</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -363,7 +363,7 @@
          <layers>UTMrutenett</layers>
          <format>image/png</format>
       </params>
-      <guid>5.UTM-rutenett</guid>
+      <guid>5.UTMrutenett</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -375,7 +375,7 @@
          <Layer>
             <name>Stasjoner</name>
             <queryable>false</queryable>
-            <title>Stasjoner</title>
+            <title>Norske stasjoner</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -387,7 +387,7 @@
          <layers>Stasjoner</layers>
          <format>image/png</format>
       </params>
-      <guid>6.Norske stasjoner</guid>
+      <guid>6.Stasjoner</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -399,7 +399,7 @@
          <Layer>
             <name>Svenske_finske_stasjoner</name>
             <queryable>false</queryable>
-            <title>Svenske_finske_stasjoner</title>
+            <title>Svenske og finske stasjoner</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
@@ -411,7 +411,7 @@
          <layers>Svenske_finske_stasjoner</layers>
          <format>image/png</format>
       </params>
-      <guid>6.Svenske og finske stasjoner</guid>
+      <guid>6.Svenske_finske_stasjoner</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
