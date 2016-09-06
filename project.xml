@@ -1,12 +1,15 @@
 <project>
+<!--
 <isy3dflyurl>http://kart5.nois.no/trondheim/trondheim.FLY</isy3dflyurl>
 <isyauth>http://geoinnsyn3.nois.no/services/isy.gis.isyauth</isyauth>
 <isyattachment>
 http://geoinnsyn3.nois.no/services/isy.gis.isyattachment
 </isyattachment>
+-->
 <isygatekeeper>
-http://geoinnsyn3.nois.no/services/isy.gis.isygatekeeper
+https://www.norgeskart.no/ws/gkt.py
 </isygatekeeper>
+<!--
 <isypicklist>
 http://geoinnsyn3.nois.no/services/isy.gis.isypicklist
 </isypicklist>
@@ -19,4 +22,5 @@ http://geoinnsyn3.nois.no/services/isy.gis.isysearch
 <isymetadata>http://geoinnsyn3.nois.no/metadata</isymetadata>
 <isymetadataclient>http://geoinnsyn3.nois.no/metadataclient</isymetadataclient>
 <isyuseradmin>https://kart.nois.no/useradmininterntest</isyuseradmin>
+-->
 </project>
