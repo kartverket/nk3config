@@ -1,0 +1,14 @@
+#!/usr/bin/python
+
+configFolder='projects/'
+name='__projects.json'
+config=configFolder + name
+projects=open(config).read()
+
+print "Status: 200 OK"
+print "Access-Control-Allow-Origin: *"
+print "Content-type: application/json"
+print "Length: " + str(len(projects))
+print 
+
+print(projects)
