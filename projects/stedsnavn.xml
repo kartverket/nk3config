@@ -250,7 +250,6 @@
       <grouptitle>land</grouptitle>
       <name>Rasterkart</name>
       <url>http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3|http://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3</url>
-      <visibility>true</visibility>
       <options>
          <opacity>1</opacity>
          <isbaselayer>true</isbaselayer>
@@ -282,7 +281,6 @@
       <grouptitle>land</grouptitle>
       <name>Land</name>
       <url>http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde|http://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde</url>
-      <visibility>true</visibility>
       <options>
          <opacity>1</opacity>
          <isbaselayer>true</isbaselayer>
@@ -346,7 +344,6 @@
       <grouptitle>land</grouptitle>
       <name>Enkelt</name>
       <url>http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart|http://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart</url>
-      <visibility>true</visibility>
       <options>
          <opacity>1</opacity>
          <isbaselayer>true</isbaselayer>
@@ -378,7 +375,6 @@
       <grouptitle>land</grouptitle>
       <name>Terreng</name>
       <url>http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart|http://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart</url>
-      <visibility>true</visibility>
       <options>
          <opacity>1</opacity>
          <isbaselayer>true</isbaselayer>
@@ -794,7 +790,6 @@
       <grouptitle>flere</grouptitle>
       <name>Jan Mayen</name>
       <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_JanMayen_WMTS_25833/MapServer/WMTS?LAYERS=Basisdata_NP_Basiskart_JanMayen_WMTS_25833</url>
-      <visibility>true</visibility>
       <options>
          <opacity>1</opacity>
          <isbaselayer>true</isbaselayer>
@@ -826,7 +821,6 @@
       <grouptitle>flere</grouptitle>
       <name>Svalbard</name>
       <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_Svalbard_WMTS_25833/MapServer/WMTS?LAYERS=Basisdata_NP_Basiskart_Svalbard_WMTS_25833</url>
-      <visibility>true</visibility>
       <options>
          <opacity>1</opacity>
          <isbaselayer>true</isbaselayer>
@@ -954,7 +948,6 @@
       <grouptitle>sjo</grouptitle>
       <name>Hovudkart</name>
       <url>http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster|http://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster</url>
-      <visibility>true</visibility>
       <options>
          <opacity>1</opacity>
          <isbaselayer>true</isbaselayer>
