@@ -40,6 +40,7 @@ for node in project:
   root[0].append(node)
 
 print "Content-type: text/xml"
+print "Access-Control-Allow-Origin: *"
 print "Status: 200 OK"
 print
 
