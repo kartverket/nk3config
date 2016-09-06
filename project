@@ -1,25 +1,32 @@
 #!/usr/bin/python
 import os
 #import cgi
-#import sys
+import sys
 import xml.etree.ElementTree as ET
+import traceback
 
 def GetQueryDict():
   queryDict= {}
+  if 'QUERY_STRING' not in os.environ.keys(): return queryDict
   for query in os.environ['QUERY_STRING'].split('&'):
     queryDict[query.split('=')[0]]=query.split('=')[1]
   return queryDict  
 
-#configFolder='/home/japed/src/ansikt2prosjekt/xml/'
 configFolder='projects/'
 queryDict = GetQueryDict()
 
-if (('application' not in queryDict.keys()) or ('name' not in queryDict.keys())):
-  print 'No application found'
-else:
-#  application=queryDict['application']
+if 'name' in queryDict.keys():
   name=queryDict['name']
-  config=configFolder + name + '.xml'
+else:
+  print "Status: 400 Bad Request"
+  print
+  print "Name missing from url"
+  sys.exit(1)
+
+if name == "":
+  name="__defaults"
+
+config=configFolder + name + '.xml'
 
 root=ET.parse(config).getroot()
 mapbounds=ET.parse('mapbounds.xml').getroot()
@@ -33,5 +40,7 @@ for node in project:
   root[0].append(node)
 
 print "Content-type: text/xml"
+print "Status: 200 OK"
 print
+
 ET.dump(root)
