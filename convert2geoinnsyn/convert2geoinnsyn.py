@@ -37,22 +37,19 @@ for ansikt in data:
     maplayerConfig.params["index"]=str(groupid)
     maplayerConfig.params["name"]=group
     projectXml.append(maplayerConfig.GetXml())
-#    projectConfig.params["maplayer"].append(maplayerConfig)
     print '\t' + group
     for layerName in data[ansikt]["groups"][group]:
       layerKey="layers"
       layer=data[ansikt]["groups"][group][layerName]
-#      print '\t\t' + layer["name"]
       if((layer["template"] == 'layers/wms') or (layer["template"] == 'layers/wmts')):
         print '\t\t' + layer["template"]
         wmsConfig=wms.Wms()
         
         if (layer["template"] == 'layers/wmts'):
           layerKey="layer"
-          wmsConfig.params["opencacheurl"]="Map/GetMap?" + cacheUrlStart + "1" + cacheUrlEnd + layer[layerKey]
           if "url" in layer.keys():
-            wmsConfig.params["url"]=layer["url"].replace('?','') + '?LAYERS=' + layer[layerKey]
-            wmsConfig.params["opencacheurl"]="Map/GetMap?" + wmsConfig.params["url"]
+            url=layer["url"].replace('?','') + '?LAYERS=' + layer[layerKey]
+            wmsConfig.params["url"]=url
           else:
             wmsConfig.params["url"]=cacheUrlStart + "1" + cacheUrlEnd + layer[layerKey] + "|" + cacheUrlStart + "2" + cacheUrlEnd + layer[layerKey]
           wmsConfig.params["type"]="map"
@@ -61,13 +58,12 @@ for ansikt in data:
 
         else:
           wmsConfig.params["zindex"]="1"
-          wmsConfig.params["url"]=layer["url"] # + " " + layer[layerKey]
+          wmsConfig.params["url"]=layer["url"]
           wmsConfig.params["options"]["singletile"]="true"
           wmsConfig.params["type"]="overlay"
           wmsConfig.params["groupid"]=str(groupid)
 
 
-        wmsConfig.params["opencacheurl"]="Map/GetMap?" + cacheUrlStart + "1" + cacheUrlEnd + layer[layerKey]
         wmsConfig.params["params"]["layers"]=layer[layerKey]
         wmsConfig.params["Layers"]["Layer"]["title"]=layer[layerKey]
         wmsConfig.params["Layers"]["Layer"]["name"]=layer[layerKey]
@@ -75,18 +71,9 @@ for ansikt in data:
         wmsConfig.params["name"]=layer["name"]
         wmsConfig.params["guid"]=str(groupid) + "." + layer["name"]
         if ("getfeature" in layer.keys()):
-#          print "\t\tgetfeature: " + str(layer["getfeature"])
           wmsConfig.params["Layers"]["Layer"]["queryable"]=str(layer["getfeature"])
 
         configXml.append(wmsConfig.GetXml())
-#        print minidom.parseString(ET.tostring(projectConfig.GetXml())).toprettyxml(indent="   ")
-#        ET.dump(wmsConfig.GetXml())
-
-#      elif(layer["template"] == 'layers/wmts'):
-#        print '\t\tWMTS'
-
-#      else:
-#        print '\t\t' + layer["template"]
 
     groupid+=1
 

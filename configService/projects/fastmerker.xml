@@ -84,7 +84,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3</opencacheurl>
       <hidden>false</hidden>
       <guid>0.Rasterkart</guid>
       <display>false</display>
@@ -115,7 +114,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde</opencacheurl>
       <hidden>false</hidden>
       <guid>0.Land</guid>
       <display>false</display>
@@ -147,7 +145,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=NiB</opencacheurl>
       <hidden>false</hidden>
       <guid>0.Fly&amp;shy;bilder</guid>
       <display>false</display>
@@ -178,7 +175,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart</opencacheurl>
       <hidden>false</hidden>
       <guid>0.Enkel</guid>
       <display>false</display>
@@ -209,7 +205,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart</opencacheurl>
       <hidden>false</hidden>
       <guid>0.Terreng</guid>
       <display>false</display>
@@ -241,7 +236,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=Trekantpunkt</opencacheurl>
       <hidden>false</hidden>
       <guid>2.Trekantpunkter</guid>
       <display>false</display>
@@ -273,7 +267,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=Niv_fastmerker</opencacheurl>
       <hidden>false</hidden>
       <guid>2.Niv. fastmerker</guid>
       <display>false</display>
@@ -305,7 +298,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=Stamnettpunkt</opencacheurl>
       <hidden>false</hidden>
       <guid>2.Stamnettpunkter</guid>
       <display>false</display>
@@ -337,7 +329,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=Landsnettpunkt</opencacheurl>
       <hidden>false</hidden>
       <guid>2.Landsnettpunkter</guid>
       <display>false</display>
@@ -368,7 +359,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=Basisdata_NP_Basiskart_JanMayen_WMTS_25833</opencacheurl>
       <hidden>false</hidden>
       <guid>3.Jan Mayen</guid>
       <display>false</display>
@@ -399,7 +389,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=Basisdata_NP_Basiskart_Svalbard_WMTS_25833</opencacheurl>
       <hidden>false</hidden>
       <guid>3.Svalbard</guid>
       <display>false</display>
@@ -430,7 +419,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster</opencacheurl>
       <hidden>false</hidden>
       <guid>4.Hovedkart</guid>
       <display>false</display>
@@ -462,7 +450,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=cells</opencacheurl>
       <hidden>false</hidden>
       <guid>4.Elektron. Sj&amp;oslash;kart</guid>
       <display>false</display>
@@ -494,7 +481,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=UTMrutenett</opencacheurl>
       <hidden>false</hidden>
       <guid>5.UTM-rutenett</guid>
       <display>false</display>
@@ -526,7 +512,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=Stasjoner</opencacheurl>
       <hidden>false</hidden>
       <guid>6.Norske stasjoner</guid>
       <display>false</display>
@@ -558,7 +543,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=Svenske_finske_stasjoner</opencacheurl>
       <hidden>false</hidden>
       <guid>6.Svenske og finske stasjoner</guid>
       <display>false</display>

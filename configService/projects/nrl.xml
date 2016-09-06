@@ -89,7 +89,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3</opencacheurl>
       <hidden>false</hidden>
       <guid>0.Rasterkart</guid>
       <display>false</display>
@@ -120,7 +119,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde</opencacheurl>
       <hidden>false</hidden>
       <guid>0.Land</guid>
       <display>false</display>
@@ -152,7 +150,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=NiB</opencacheurl>
       <hidden>false</hidden>
       <guid>0.Fly&amp;shy;bilder</guid>
       <display>false</display>
@@ -183,7 +180,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart</opencacheurl>
       <hidden>false</hidden>
       <guid>0.Enkel</guid>
       <display>false</display>
@@ -214,7 +210,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart</opencacheurl>
       <hidden>false</hidden>
       <guid>0.Terreng</guid>
       <display>false</display>
@@ -245,7 +240,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=Basisdata_NP_Basiskart_JanMayen_WMTS_25833</opencacheurl>
       <hidden>false</hidden>
       <guid>2.Jan Mayen</guid>
       <display>false</display>
@@ -276,7 +270,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=Basisdata_NP_Basiskart_Svalbard_WMTS_25833</opencacheurl>
       <hidden>false</hidden>
       <guid>2.Svalbard</guid>
       <display>false</display>
@@ -308,7 +301,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=kraftledning_uten_hoyde</opencacheurl>
       <hidden>false</hidden>
       <guid>3.Kraftledning uten hoyde</guid>
       <display>false</display>
@@ -340,7 +332,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=kraftstolpe_60m_og_over</opencacheurl>
       <hidden>false</hidden>
       <guid>3.Kraftstolpe 60m og over</guid>
       <display>false</display>
@@ -372,7 +363,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=kraftstolpe_mellom_40m_60m</opencacheurl>
       <hidden>false</hidden>
       <guid>3.Kraftstolpe 40m-60m</guid>
       <display>false</display>
@@ -404,7 +394,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=kraftstolpe_under_40m</opencacheurl>
       <hidden>false</hidden>
       <guid>3.Kraftstolpe under 40 m</guid>
       <display>false</display>
@@ -436,7 +425,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=kraftledning_60m_og_over</opencacheurl>
       <hidden>false</hidden>
       <guid>3.Kraftledning 60m og over</guid>
       <display>false</display>
@@ -468,7 +456,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=kraftledning_mellom_40m_60m</opencacheurl>
       <hidden>false</hidden>
       <guid>3.Kraftledning 40m-60m</guid>
       <display>false</display>
@@ -500,7 +487,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=kraftledning_under_40m</opencacheurl>
       <hidden>false</hidden>
       <guid>3.Kraftledning under 40 m</guid>
       <display>false</display>
@@ -532,7 +518,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=kraftstolpe_uten_hoyde</opencacheurl>
       <hidden>false</hidden>
       <guid>3.Kraftstolpe uten hoyde</guid>
       <display>false</display>
@@ -564,7 +549,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=alle_linjepunkt</opencacheurl>
       <hidden>false</hidden>
       <guid>4.Alle linjepunkthindre</guid>
       <display>false</display>
@@ -596,7 +580,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=alle_linjehindre</opencacheurl>
       <hidden>false</hidden>
       <guid>4.Alle linjehindre</guid>
       <display>false</display>
@@ -628,7 +611,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=alle_punkthindre</opencacheurl>
       <hidden>false</hidden>
       <guid>4.Alle punkthindre</guid>
       <display>false</display>
@@ -660,7 +642,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=andre_linjer_uten_hoyde</opencacheurl>
       <hidden>false</hidden>
       <guid>5.Andre linjer uten hoyde</guid>
       <display>false</display>
@@ -692,7 +673,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=andre_linjer_60m_og_over</opencacheurl>
       <hidden>false</hidden>
       <guid>5.Andre linjer 60m og over</guid>
       <display>false</display>
@@ -724,7 +704,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=andre_linjer_under_40m</opencacheurl>
       <hidden>false</hidden>
       <guid>5.Andre linjer under 40 m</guid>
       <display>false</display>
@@ -756,7 +735,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=linjepunkt_uten_hoyde</opencacheurl>
       <hidden>false</hidden>
       <guid>5.Linjepunkt uten hoyde</guid>
       <display>false</display>
@@ -788,7 +766,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=linjepunkt_under_40m</opencacheurl>
       <hidden>false</hidden>
       <guid>5.Linjepunkt under 40 m</guid>
       <display>false</display>
@@ -820,7 +797,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=linjepunkt_mellom_40m_60m</opencacheurl>
       <hidden>false</hidden>
       <guid>5.Linjepunkt 40m-60m</guid>
       <display>false</display>
@@ -852,7 +828,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=linjepunkt_60m_og_over</opencacheurl>
       <hidden>false</hidden>
       <guid>5.Linjepunkt 60m og over</guid>
       <display>false</display>
@@ -884,7 +859,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=andre_linjer_mellom_40m_60m</opencacheurl>
       <hidden>false</hidden>
       <guid>5.Andre linjer 40m-60m</guid>
       <display>false</display>
@@ -915,7 +889,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster</opencacheurl>
       <hidden>false</hidden>
       <guid>6.Hovedkart</guid>
       <display>false</display>
@@ -947,7 +920,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=cells</opencacheurl>
       <hidden>false</hidden>
       <guid>6.Elektron. Sj&amp;oslash;kart</guid>
       <display>false</display>
@@ -979,7 +951,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=Punkthindre_60m_og_over</opencacheurl>
       <hidden>false</hidden>
       <guid>7.Punkthindre 60m og over</guid>
       <display>false</display>
@@ -1011,7 +982,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=punkthindre_uten_hoyde</opencacheurl>
       <hidden>false</hidden>
       <guid>7.Punkthindre uten hoyde</guid>
       <display>false</display>
@@ -1043,7 +1013,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=punkthindre_under_40m</opencacheurl>
       <hidden>false</hidden>
       <guid>7.Punkthindre under 40</guid>
       <display>false</display>
@@ -1075,7 +1044,6 @@
          <transparent>true</transparent>
          <format>image/png</format>
       </params>
-      <opencacheurl>Map/GetMap?https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=punkthindre_mellom_40m_60m</opencacheurl>
       <hidden>false</hidden>
       <guid>7.Punkthindre 40m-60m</guid>
       <display>false</display>

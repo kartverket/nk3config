@@ -9,15 +9,11 @@ class Wms():
     self.params["display"]="false"
     self.params["gatekeeper"]="true"
     self.params["hidden"]="false"
-    self.params["opencacheurl"]="Map/GetMap?http://wms.geonorge.no/skwms1/wms.topo2?LAYERS=topo2"
-    self.params["url"]="http://wms.geonorge.no/skwms1/wms.topo2?"
     self.params["zindex"]="0"
-#    self.params["groupid"]="0"
     self.params["grouptitle"]="grouptitle"
 
     self.params["options"]={}
     self.params["options"]["isbaselayer"]="false"
-#    self.params["options"]["minscale"]="1000000000"
     self.params["options"]["opacity"]="1"
     self.params["options"]["singletile"]="false"
     self.params["options"]["transitioneffect"]="resize"
@@ -35,19 +31,8 @@ class Wms():
     self.params["Layers"]["Layer"]["name"]="topografisk norgeskart 2"
     self.params["Layers"]["Layer"]["queryable"]="false"
 
-  def looper(self,dictionary,element):
-    for key in dictionary.keys():
-      subElement=ET.SubElement(element,key)
-      if isinstance(dictionary[key], dict):
-        subElement.insert(0,looper(dictionary[key], subElement))
-      else:
-        subElement.text=dictionary[key]
-    return subElement
-
   def GetXml(self):
     wms=ET.Element("wms")
-    #wms.insert(0,self.looper(wms, self.params))
-    #return wms
     for name in self.params.keys():
       if(name=="type"):
         wms.attrib[name]=self.params[name]
