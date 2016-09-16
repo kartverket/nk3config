@@ -31,6 +31,10 @@ def GetLayers(layers):
     ansikter[branch]["groups"][layerYaml["layerGroup"]][i]=layerYaml
     i+=1
 
+def GetBaseLayers():
+  baselayers=GetYamlNodes(indexYaml["baselayers"], "template")
+  return baselayers 
+
 json_data=open('ansikter.json').read()
 data = json.loads(json_data)
 ansikter = {}
@@ -47,7 +51,7 @@ for ansikt in data["ansikter"]:
   indexYaml=GetYaml(base + branch + data["urls"]["index"])
 #  secondaryYaml=GetYaml(secondary=base + branch + data["urls"]["secondary"])
 
-  ansikter[branch]["baselayers"]=GetYamlNodes(indexYaml["baselayers"], "template")
+  ansikter[branch]["baselayers"]=GetBaseLayers()
   overlays=GetYamlNodes(indexYaml["overlays"], "include")
   ansikter[branch]["groups"] = {}
 
