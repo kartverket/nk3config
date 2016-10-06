@@ -107,12 +107,12 @@
          <Layer>
             <name>ortofoto</name>
             <queryable>false</queryable>
-            <title>Fly&amp;shy;bilder</title>
+            <title>Fly­bilder</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <grouptitle>land</grouptitle>
-      <name>Fly&amp;shy;bilder</name>
+      <name>Fly­bilder</name>
       <url>//wms.geonorge.no/skwms1/wms.nib</url>
       <groupid>0</groupid>
       <params>
@@ -223,12 +223,12 @@
          <Layer>
             <name>friluftsomrade_03</name>
             <queryable>True</queryable>
-            <title>Friluftsomr&amp;aring;de</title>
+            <title>Friluftsområde</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <grouptitle>tjenester.friluftsyn</grouptitle>
-      <name>Friluftsomr&amp;aring;de</name>
+      <name>Friluftsområde</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>3</groupid>
       <params>
@@ -295,12 +295,12 @@
          <Layer>
             <name>parkeringsomrader_friluft_03</name>
             <queryable>True</queryable>
-            <title>Parkeringsomr&amp;aring;der</title>
+            <title>Parkeringsområder</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <grouptitle>tjenester.friluftsyn</grouptitle>
-      <name>Parkeringsomr&amp;aring;der</name>
+      <name>Parkeringsområder</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>3</groupid>
       <params>
@@ -558,12 +558,12 @@
          <Layer>
             <name>cells</name>
             <queryable>false</queryable>
-            <title>Elektron. Sj&amp;oslash;kart</title>
+            <title>Elektron. Sjøkart</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <grouptitle>sjo</grouptitle>
-      <name>Elektron. Sj&amp;oslash;kart</name>
+      <name>Elektron. Sjøkart</name>
       <url>http://wms.geonorge.no/skwms1/wms.ecc_enc</url>
       <groupid>4</groupid>
       <params>
@@ -606,12 +606,12 @@
          <Layer>
             <name>parkeringsomrader_friluft_01</name>
             <queryable>True</queryable>
-            <title>Parkeringsomr&amp;aring;der</title>
+            <title>Parkeringsområder</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <grouptitle>tjenester.friluft_rullestol</grouptitle>
-      <name>Parkeringsomr&amp;aring;der</name>
+      <name>Parkeringsområder</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>5</groupid>
       <params>
@@ -678,12 +678,12 @@
          <Layer>
             <name>friluftsomrade_01</name>
             <queryable>True</queryable>
-            <title>Friluftsomr&amp;aring;de</title>
+            <title>Friluftsområde</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <grouptitle>tjenester.friluft_rullestol</grouptitle>
-      <name>Friluftsomr&amp;aring;de</name>
+      <name>Friluftsområde</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>5</groupid>
       <params>
@@ -966,12 +966,12 @@
          <Layer>
             <name>t_parkeringsomrade_r</name>
             <queryable>True</queryable>
-            <title>Parkerings omr&amp;aring;de</title>
+            <title>Parkerings område</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <grouptitle>tjenester.Tettsted_Rullestol</grouptitle>
-      <name>Parkerings omr&amp;aring;de</name>
+      <name>Parkerings område</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>6</groupid>
       <params>
@@ -1014,12 +1014,12 @@
          <Layer>
             <name>friluftsomrade_02</name>
             <queryable>True</queryable>
-            <title>Friluftsomr&amp;aring;de</title>
+            <title>Friluftsområde</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <grouptitle>tjenester.friluft_elektrisk_rullestol</grouptitle>
-      <name>Friluftsomr&amp;aring;de</name>
+      <name>Friluftsområde</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>7</groupid>
       <params>
@@ -1134,12 +1134,12 @@
          <Layer>
             <name>parkeringsomrader_friluft_02</name>
             <queryable>True</queryable>
-            <title>Parkeringsomr&amp;aring;der</title>
+            <title>Parkeringsområder</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <grouptitle>tjenester.friluft_elektrisk_rullestol</grouptitle>
-      <name>Parkeringsomr&amp;aring;der</name>
+      <name>Parkeringsområder</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>7</groupid>
       <params>
@@ -1350,12 +1350,12 @@
          <Layer>
             <name>t_parkeringsomrade</name>
             <queryable>True</queryable>
-            <title>Parkerings omr&amp;aring;de</title>
+            <title>Parkerings område</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <grouptitle>tjenester.Tettsted_Syn</grouptitle>
-      <name>Parkerings omr&amp;aring;de</name>
+      <name>Parkerings område</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>8</groupid>
       <params>
@@ -1518,12 +1518,12 @@
          <Layer>
             <name>t_parkeringsomrade_el</name>
             <queryable>True</queryable>
-            <title>Parkerings omr&amp;aring;de</title>
+            <title>Parkerings område</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <grouptitle>tjenester.Tettsted_Elektrisk_rullestol</grouptitle>
-      <name>Parkerings omr&amp;aring;de</name>
+      <name>Parkerings område</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>9</groupid>
       <params>

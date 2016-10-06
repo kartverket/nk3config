@@ -87,12 +87,12 @@
          <Layer>
             <name>ortofoto</name>
             <queryable>false</queryable>
-            <title>Fly&amp;shy;bilder</title>
+            <title>Fly­bilder</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <grouptitle>land</grouptitle>
-      <name>Fly&amp;shy;bilder</name>
+      <name>Fly­bilder</name>
       <url>//wms.geonorge.no/skwms1/wms.nib</url>
       <groupid>0</groupid>
       <params>
@@ -226,12 +226,12 @@
          <Layer>
             <name>cells</name>
             <queryable>false</queryable>
-            <title>Elektron. Sj&amp;oslash;kart</title>
+            <title>Elektron. Sjøkart</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <grouptitle>sjo</grouptitle>
-      <name>Elektron. Sj&amp;oslash;kart</name>
+      <name>Elektron. Sjøkart</name>
       <url>//wms.geonorge.no/skwms1/wms.ecc_enc</url>
       <groupid>4</groupid>
       <params>
@@ -322,12 +322,12 @@
          <Layer>
             <name>Skiloype</name>
             <queryable>false</queryable>
-            <title>Skil&amp;oslash;yper</title>
+            <title>Skiløyper</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <grouptitle>tjenester.friluft</grouptitle>
-      <name>Skil&amp;oslash;yper</name>
+      <name>Skiløyper</name>
       <url>//wms.geonorge.no/skwms1/wms.friluftsruter</url>
       <groupid>5</groupid>
       <params>

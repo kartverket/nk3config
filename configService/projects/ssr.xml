@@ -232,12 +232,12 @@
          <Layer>
             <name>NiB</name>
             <queryable>false</queryable>
-            <title>Fly&amp;shy;bilete</title>
+            <title>Fly­bilete</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <grouptitle>land</grouptitle>
-      <name>Fly&amp;shy;bilete</name>
+      <name>Fly­bilete</name>
       <url>http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nibcache</url>
       <groupid>1</groupid>
       <params>
@@ -350,12 +350,12 @@
          <Layer>
             <name>Foreslaatt</name>
             <queryable>false</queryable>
-            <title>F&amp;oslash;reslege</title>
+            <title>Føreslege</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <grouptitle>tjenester.ikke_autoriserte_skrivemaate</grouptitle>
-      <name>F&amp;oslash;reslege</name>
+      <name>Føreslege</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
       <groupid>3</groupid>
       <params>
@@ -494,12 +494,12 @@
          <Layer>
             <name>Administrative_omraader</name>
             <queryable>false</queryable>
-            <title>Administrative omr&amp;aring;de</title>
+            <title>Administrative område</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <grouptitle>tjenester.Navnetype</grouptitle>
-      <name>Administrative omr&amp;aring;de</name>
+      <name>Administrative område</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
       <groupid>4</groupid>
       <params>
@@ -636,12 +636,12 @@
          <Layer>
             <name>Vedtatt_og_godkjent_skrivemaate</name>
             <queryable>false</queryable>
-            <title>Skrivem&amp;aring;te&amp;ndash;statusar</title>
+            <title>Skrivemåte–statusar</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <grouptitle>tjenester.alle</grouptitle>
-      <name>Skrivem&amp;aring;te&amp;ndash;statusar</name>
+      <name>Skrivemåte–statusar</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
       <groupid>6</groupid>
       <params>
@@ -684,12 +684,12 @@
          <Layer>
             <name>Spraak</name>
             <queryable>false</queryable>
-            <title>Spr&amp;aring;k</title>
+            <title>Språk</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <grouptitle>tjenester.alle</grouptitle>
-      <name>Spr&amp;aring;k</name>
+      <name>Språk</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
       <groupid>6</groupid>
       <params>
@@ -731,12 +731,12 @@
          <Layer>
             <name>cells</name>
             <queryable>false</queryable>
-            <title>Elektron. Sj&amp;oslash;kart</title>
+            <title>Elektron. Sjøkart</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <grouptitle>sjo</grouptitle>
-      <name>Elektron. Sj&amp;oslash;kart</name>
+      <name>Elektron. Sjøkart</name>
       <url>http://wms.geonorge.no/skwms1/wms.ecc_enc</url>
       <groupid>7</groupid>
       <params>
@@ -851,12 +851,12 @@
          <Layer>
             <name>Vedtak_paaklaget</name>
             <queryable>false</queryable>
-            <title>Vedtak p&amp;aring;klaga</title>
+            <title>Vedtak påklaga</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <grouptitle>tjenester.autoriserte_skrivemaate</grouptitle>
-      <name>Vedtak p&amp;aring;klaga</name>
+      <name>Vedtak påklaga</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
       <groupid>8</groupid>
       <params>
@@ -947,12 +947,12 @@
          <Layer>
             <name>Sorsamisk</name>
             <queryable>false</queryable>
-            <title>S&amp;oslash;rsamisk</title>
+            <title>Sørsamisk</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <grouptitle>tjenester.Spraak</grouptitle>
-      <name>S&amp;oslash;rsamisk</name>
+      <name>Sørsamisk</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
       <groupid>9</groupid>
       <params>
@@ -1019,12 +1019,12 @@
          <Layer>
             <name>n5raster_foerstegang_metadata,n5raster_foerstegang</name>
             <queryable>false</queryable>
-            <title>&amp;Oslash;k&amp;ndash;1&amp;sdot;utg&amp;aring;ve</title>
+            <title>Øk–1⋅utgåve</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <grouptitle>historik</grouptitle>
-      <name>&amp;Oslash;k&amp;ndash;1&amp;sdot;utg&amp;aring;ve</name>
+      <name>Øk–1⋅utgåve</name>
       <url>http://wms.geonorge.no/skwms1/wms.n5raster2</url>
       <groupid>10</groupid>
       <params>
@@ -1043,12 +1043,12 @@
          <Layer>
             <name>amt1</name>
             <queryable>false</queryable>
-            <title>Amts&amp;shy;kart</title>
+            <title>Amts­kart</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <grouptitle>historik</grouptitle>
-      <name>Amts&amp;shy;kart</name>
+      <name>Amts­kart</name>
       <url>http://wms.geonorge.no/skwms1/wms.historiskekart</url>
       <groupid>10</groupid>
       <params>

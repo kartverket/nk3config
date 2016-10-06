@@ -97,12 +97,12 @@
          <Layer>
             <name>NiB</name>
             <queryable>false</queryable>
-            <title>Fly&amp;shy;bilder</title>
+            <title>Fly­bilder</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <grouptitle>land</grouptitle>
-      <name>Fly&amp;shy;bilder</name>
+      <name>Fly­bilder</name>
       <url>http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nibcache</url>
       <groupid>0</groupid>
       <params>
@@ -692,12 +692,12 @@
          <Layer>
             <name>cells</name>
             <queryable>false</queryable>
-            <title>Elektron. Sj&amp;oslash;kart</title>
+            <title>Elektron. Sjøkart</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <grouptitle>sjo</grouptitle>
-      <name>Elektron. Sj&amp;oslash;kart</name>
+      <name>Elektron. Sjøkart</name>
       <url>http://wms.geonorge.no/skwms1/wms.ecc_enc</url>
       <groupid>6</groupid>
       <params>

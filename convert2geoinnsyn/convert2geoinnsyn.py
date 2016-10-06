@@ -4,6 +4,7 @@ import xml.etree.ElementTree as ET
 import project
 import maplayer
 import wms
+from HTMLParser import HTMLParser
 from xml.dom import minidom
 #import pprint
 
@@ -64,10 +65,13 @@ for ansikt in data:
 
 
         wmsConfig.params["params"]["layers"]=layer[layerKey]
-        wmsConfig.params["Layers"]["Layer"]["title"]=layer['name']
-        wmsConfig.params["Layers"]["Layer"]["name"]=layer[layerKey]
+        wmsLayerTitle=HTMLParser().unescape(layer['name'])
+        wmsConfig.params["Layers"]["Layer"]["title"]=wmsLayerTitle
+        wmsLayerName=HTMLParser().unescape(layer[layerKey])
+        wmsConfig.params["Layers"]["Layer"]["name"]=wmsLayerName
         wmsConfig.params["grouptitle"]=str(group)
-        wmsConfig.params["name"]=layer["name"]
+        layerName=HTMLParser().unescape(layer["name"])
+        wmsConfig.params["name"]=layerName
         wmsConfig.params["guid"]=str(groupid) + "." + layer[layerKey]
         if ("getfeature" in layer.keys()):
           wmsConfig.params["Layers"]["Layer"]["queryable"]=str(layer["getfeature"])
@@ -77,6 +81,7 @@ for ansikt in data:
     groupid+=1
 
   projextXmlFile=open(projectsFolder + ansikt + '.xml','w')
-  projextXmlFile.write(minidom.parseString(ET.tostring(configXml)).toprettyxml(indent="   "))
+  xmlstr=minidom.parseString(ET.tostring(configXml, 'utf-8')).toprettyxml(indent="   ")
+  projextXmlFile.write(xmlstr.encode('utf-8'))
 file=open(projectsFolder + '__projects.json','w')
 file.write(json.dumps(projects))
