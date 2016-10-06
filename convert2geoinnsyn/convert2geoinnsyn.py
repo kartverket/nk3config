@@ -13,6 +13,7 @@ from xml.dom import minidom
 def LoadFile(fileName):
   return file.open(fileName)
 
+wmsBackgroundMaps=['Fly­bilder','Elektron. Sjøkart', 'Fly­bilete']
 projectsFolder="../configService/projects/"
 cacheUrlStart="https://gatekeeper"
 cacheUrlEnd=".geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS="
@@ -41,9 +42,10 @@ for ansikt in data:
     maplayerConfig.params["name"]=group
     projectXml.append(maplayerConfig.GetXml())
     print '\t' + group
-    for layerName in data[ansikt]["groups"][group]:
+    for layerID in data[ansikt]["groups"][group]:
       layerKey="layers"
-      layer=data[ansikt]["groups"][group][layerName]
+      layer=data[ansikt]["groups"][group][layerID]
+      layerName=HTMLParser().unescape(layer["name"])
       if((layer["template"] == 'layers/wms') or (layer["template"] == 'layers/wmts')):
         print '\t\t' + layer["template"]
         wmsConfig=wms.Wms()
@@ -63,22 +65,21 @@ for ansikt in data:
           wmsConfig.params["url"]=layer["url"]
           wmsConfig.params["options"]["singletile"]="true"
           wmsConfig.params["type"]="overlay"
-          wmsConfig.params["groupid"]=str(groupid)
-
+          if (layerName.encode('utf-8') not in wmsBackgroundMaps ): 
+            wmsConfig.params["groupid"]=str(groupid)
 
         wmsConfig.params["params"]["layers"]=layer[layerKey]
         wmsLayerTitle=HTMLParser().unescape(layer['name'])
         wmsConfig.params["Layers"]["Layer"]["title"]=wmsLayerTitle
         wmsLayerName=HTMLParser().unescape(layer[layerKey])
         wmsConfig.params["Layers"]["Layer"]["name"]=wmsLayerName
-        wmsConfig.params["grouptitle"]=str(group)
-        layerName=HTMLParser().unescape(layer["name"])
         wmsConfig.params["name"]=layerName
         wmsConfig.params["guid"]=str(groupid) + "." + layer[layerKey]
         if ("getfeature" in layer.keys()):
           wmsConfig.params["Layers"]["Layer"]["queryable"]=str(layer["getfeature"])
-        if (layerName.encode('utf-8') in ['Fly­bilder','Elektron. Sjøkart', 'Fly­bilete'] ): 
+        if (layerName.encode('utf-8') in wmsBackgroundMaps): 
           wmsConfig.params['options']["isbaselayer"]="true"
+          wmsConfig.params["grouptitle"]=str(group)
         configXml.append(wmsConfig.GetXml())
 
     groupid+=1

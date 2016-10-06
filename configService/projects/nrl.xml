@@ -55,7 +55,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>land</grouptitle>
       <name>Rasterkart</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3</url>
       <params>
@@ -78,7 +77,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>land</grouptitle>
       <name>Land</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde</url>
       <params>
@@ -104,7 +102,6 @@
       <grouptitle>land</grouptitle>
       <name>Fly­bilder</name>
       <url>http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nibcache</url>
-      <groupid>0</groupid>
       <params>
          <layers>NiB</layers>
          <format>image/png</format>
@@ -125,7 +122,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>land</grouptitle>
       <name>Enkel</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart</url>
       <params>
@@ -148,7 +144,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>land</grouptitle>
       <name>Terreng</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart</url>
       <params>
@@ -171,7 +166,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>flere</grouptitle>
       <name>Jan Mayen</name>
       <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_JanMayen_WMTS_25833/MapServer/WMTS?LAYERS=Basisdata_NP_Basiskart_JanMayen_WMTS_25833</url>
       <params>
@@ -194,7 +188,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>flere</grouptitle>
       <name>Svalbard</name>
       <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_Svalbard_WMTS_25833/MapServer/WMTS?LAYERS=Basisdata_NP_Basiskart_Svalbard_WMTS_25833</url>
       <params>
@@ -217,7 +210,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.kraftledninger</grouptitle>
       <name>Kraftledning uten hoyde</name>
       <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
       <groupid>3</groupid>
@@ -241,7 +233,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.kraftledninger</grouptitle>
       <name>Kraftstolpe 60m og over</name>
       <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
       <groupid>3</groupid>
@@ -265,7 +256,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.kraftledninger</grouptitle>
       <name>Kraftstolpe 40m-60m</name>
       <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
       <groupid>3</groupid>
@@ -289,7 +279,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.kraftledninger</grouptitle>
       <name>Kraftstolpe under 40 m</name>
       <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
       <groupid>3</groupid>
@@ -313,7 +302,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.kraftledninger</grouptitle>
       <name>Kraftledning 60m og over</name>
       <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
       <groupid>3</groupid>
@@ -337,7 +325,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.kraftledninger</grouptitle>
       <name>Kraftledning 40m-60m</name>
       <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
       <groupid>3</groupid>
@@ -361,7 +348,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.kraftledninger</grouptitle>
       <name>Kraftledning under 40 m</name>
       <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
       <groupid>3</groupid>
@@ -385,7 +371,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.kraftledninger</grouptitle>
       <name>Kraftstolpe uten hoyde</name>
       <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
       <groupid>3</groupid>
@@ -409,7 +394,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.alle_hindre</grouptitle>
       <name>Alle linjepunkthindre</name>
       <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
       <groupid>4</groupid>
@@ -433,7 +417,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.alle_hindre</grouptitle>
       <name>Alle linjehindre</name>
       <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
       <groupid>4</groupid>
@@ -457,7 +440,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.alle_hindre</grouptitle>
       <name>Alle punkthindre</name>
       <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
       <groupid>4</groupid>
@@ -481,7 +463,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.andre_linjethindre</grouptitle>
       <name>Andre linjer uten hoyde</name>
       <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
       <groupid>5</groupid>
@@ -505,7 +486,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.andre_linjethindre</grouptitle>
       <name>Andre linjer 60m og over</name>
       <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
       <groupid>5</groupid>
@@ -529,7 +509,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.andre_linjethindre</grouptitle>
       <name>Andre linjer under 40 m</name>
       <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
       <groupid>5</groupid>
@@ -553,7 +532,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.andre_linjethindre</grouptitle>
       <name>Linjepunkt uten hoyde</name>
       <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
       <groupid>5</groupid>
@@ -577,7 +555,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.andre_linjethindre</grouptitle>
       <name>Linjepunkt under 40 m</name>
       <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
       <groupid>5</groupid>
@@ -601,7 +578,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.andre_linjethindre</grouptitle>
       <name>Linjepunkt 40m-60m</name>
       <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
       <groupid>5</groupid>
@@ -625,7 +601,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.andre_linjethindre</grouptitle>
       <name>Linjepunkt 60m og over</name>
       <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
       <groupid>5</groupid>
@@ -649,7 +624,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.andre_linjethindre</grouptitle>
       <name>Andre linjer 40m-60m</name>
       <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
       <groupid>5</groupid>
@@ -673,7 +647,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>sjo</grouptitle>
       <name>Hovedkart</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster</url>
       <params>
@@ -699,7 +672,6 @@
       <grouptitle>sjo</grouptitle>
       <name>Elektron. Sjøkart</name>
       <url>http://wms.geonorge.no/skwms1/wms.ecc_enc</url>
-      <groupid>6</groupid>
       <params>
          <layers>cells</layers>
          <format>image/png</format>
@@ -720,7 +692,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.punkthindre</grouptitle>
       <name>Punkthindre 60m og over</name>
       <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
       <groupid>7</groupid>
@@ -744,7 +715,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.punkthindre</grouptitle>
       <name>Punkthindre uten hoyde</name>
       <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
       <groupid>7</groupid>
@@ -768,7 +738,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.punkthindre</grouptitle>
       <name>Punkthindre under 40</name>
       <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
       <groupid>7</groupid>
@@ -792,7 +761,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.punkthindre</grouptitle>
       <name>Punkthindre 40m-60m</name>
       <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
       <groupid>7</groupid>

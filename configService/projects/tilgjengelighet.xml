@@ -65,7 +65,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>land</grouptitle>
       <name>Rasterkart</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3</url>
       <params>
@@ -88,7 +87,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>land</grouptitle>
       <name>Land</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde</url>
       <params>
@@ -114,7 +112,6 @@
       <grouptitle>land</grouptitle>
       <name>Fly­bilder</name>
       <url>//wms.geonorge.no/skwms1/wms.nib</url>
-      <groupid>0</groupid>
       <params>
          <layers>ortofoto</layers>
          <format>image/png</format>
@@ -135,7 +132,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>land</grouptitle>
       <name>Enkel</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart</url>
       <params>
@@ -158,7 +154,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>land</grouptitle>
       <name>Terreng</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart</url>
       <params>
@@ -181,7 +176,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>flere</grouptitle>
       <name>Jan Mayen</name>
       <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_JanMayen_WMTS_25833/MapServer/WMTS?LAYERS=Basisdata_NP_Basiskart_JanMayen_WMTS_25833</url>
       <params>
@@ -204,7 +198,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>flere</grouptitle>
       <name>Svalbard</name>
       <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_Svalbard_WMTS_25833/MapServer/WMTS?LAYERS=Basisdata_NP_Basiskart_Svalbard_WMTS_25833</url>
       <params>
@@ -227,7 +220,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluftsyn</grouptitle>
       <name>Friluftsområde</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>3</groupid>
@@ -251,7 +243,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluftsyn</grouptitle>
       <name>HC-parkering</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>3</groupid>
@@ -275,7 +266,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluftsyn</grouptitle>
       <name>Baderampe</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>3</groupid>
@@ -299,7 +289,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluftsyn</grouptitle>
       <name>Parkeringsområder</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>3</groupid>
@@ -323,7 +312,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluftsyn</grouptitle>
       <name>Statlig sikra</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>3</groupid>
@@ -347,7 +335,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluftsyn</grouptitle>
       <name>Grillbalplass</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>3</groupid>
@@ -371,7 +358,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluftsyn</grouptitle>
       <name>Gapahukhytte</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>3</groupid>
@@ -395,7 +381,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluftsyn</grouptitle>
       <name>Fiskeplass</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>3</groupid>
@@ -419,7 +404,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluftsyn</grouptitle>
       <name>Toalett</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>3</groupid>
@@ -443,7 +427,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluftsyn</grouptitle>
       <name>Turishytte</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>3</groupid>
@@ -467,7 +450,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluftsyn</grouptitle>
       <name>Turvei</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>3</groupid>
@@ -491,7 +473,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluftsyn</grouptitle>
       <name>Sittegruppe</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>3</groupid>
@@ -515,7 +496,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluftsyn</grouptitle>
       <name>Alle</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>3</groupid>
@@ -539,7 +519,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>sjo</grouptitle>
       <name>Hovedkart</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster</url>
       <params>
@@ -565,7 +544,6 @@
       <grouptitle>sjo</grouptitle>
       <name>Elektron. Sjøkart</name>
       <url>http://wms.geonorge.no/skwms1/wms.ecc_enc</url>
-      <groupid>4</groupid>
       <params>
          <layers>cells</layers>
          <format>image/png</format>
@@ -586,7 +564,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft_rullestol</grouptitle>
       <name>Toalett</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>5</groupid>
@@ -610,7 +587,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft_rullestol</grouptitle>
       <name>Parkeringsområder</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>5</groupid>
@@ -634,7 +610,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft_rullestol</grouptitle>
       <name>HC-parkering</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>5</groupid>
@@ -658,7 +633,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft_rullestol</grouptitle>
       <name>Baderampe</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>5</groupid>
@@ -682,7 +656,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft_rullestol</grouptitle>
       <name>Friluftsområde</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>5</groupid>
@@ -706,7 +679,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft_rullestol</grouptitle>
       <name>Grillbalplass</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>5</groupid>
@@ -730,7 +702,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft_rullestol</grouptitle>
       <name>Gapahukhytte</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>5</groupid>
@@ -754,7 +725,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft_rullestol</grouptitle>
       <name>Fiskeplass</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>5</groupid>
@@ -778,7 +748,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft_rullestol</grouptitle>
       <name>Turishytte</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>5</groupid>
@@ -802,7 +771,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft_rullestol</grouptitle>
       <name>Statlig sikra</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>5</groupid>
@@ -826,7 +794,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft_rullestol</grouptitle>
       <name>Turvei</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>5</groupid>
@@ -850,7 +817,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft_rullestol</grouptitle>
       <name>Sittegruppe</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>5</groupid>
@@ -874,7 +840,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft_rullestol</grouptitle>
       <name>Alle</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>5</groupid>
@@ -898,7 +863,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.Tettsted_Rullestol</grouptitle>
       <name>Vei</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>6</groupid>
@@ -922,7 +886,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.Tettsted_Rullestol</grouptitle>
       <name>HC-parkering</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>6</groupid>
@@ -946,7 +909,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.Tettsted_Rullestol</grouptitle>
       <name>Inngang bygg</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>6</groupid>
@@ -970,7 +932,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.Tettsted_Rullestol</grouptitle>
       <name>Parkerings område</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>6</groupid>
@@ -994,7 +955,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.Tettsted_Rullestol</grouptitle>
       <name>Alle</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>6</groupid>
@@ -1018,7 +978,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft_elektrisk_rullestol</grouptitle>
       <name>Friluftsområde</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>7</groupid>
@@ -1042,7 +1001,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft_elektrisk_rullestol</grouptitle>
       <name>Toalett</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>7</groupid>
@@ -1066,7 +1024,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft_elektrisk_rullestol</grouptitle>
       <name>HC-parkering</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>7</groupid>
@@ -1090,7 +1047,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft_elektrisk_rullestol</grouptitle>
       <name>Grillbalplass</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>7</groupid>
@@ -1114,7 +1070,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft_elektrisk_rullestol</grouptitle>
       <name>Statlig sikra</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>7</groupid>
@@ -1138,7 +1093,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft_elektrisk_rullestol</grouptitle>
       <name>Parkeringsområder</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>7</groupid>
@@ -1162,7 +1116,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft_elektrisk_rullestol</grouptitle>
       <name>Fiskeplass</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>7</groupid>
@@ -1186,7 +1139,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft_elektrisk_rullestol</grouptitle>
       <name>Gapahukhytte</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>7</groupid>
@@ -1210,7 +1162,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft_elektrisk_rullestol</grouptitle>
       <name>Turishytte</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>7</groupid>
@@ -1234,7 +1185,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft_elektrisk_rullestol</grouptitle>
       <name>Turvei</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>7</groupid>
@@ -1258,7 +1208,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft_elektrisk_rullestol</grouptitle>
       <name>Alle</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>7</groupid>
@@ -1282,7 +1231,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft_elektrisk_rullestol</grouptitle>
       <name>Sittegruppe</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>7</groupid>
@@ -1306,7 +1254,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.Tettsted_Syn</grouptitle>
       <name>Inngang bygg</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>8</groupid>
@@ -1330,7 +1277,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.Tettsted_Syn</grouptitle>
       <name>HC-parkering</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>8</groupid>
@@ -1354,7 +1300,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.Tettsted_Syn</grouptitle>
       <name>Parkerings område</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>8</groupid>
@@ -1378,7 +1323,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.Tettsted_Syn</grouptitle>
       <name>Vei</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>8</groupid>
@@ -1402,7 +1346,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.Tettsted_Syn</grouptitle>
       <name>Alle</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>8</groupid>
@@ -1426,7 +1369,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.Tettsted_Elektrisk_rullestol</grouptitle>
       <name>HC-parkering</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>9</groupid>
@@ -1450,7 +1392,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.Tettsted_Elektrisk_rullestol</grouptitle>
       <name>Vei</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>9</groupid>
@@ -1474,7 +1415,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.Tettsted_Elektrisk_rullestol</grouptitle>
       <name>Alle</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>9</groupid>
@@ -1498,7 +1438,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.Tettsted_Elektrisk_rullestol</grouptitle>
       <name>Inngang bygg</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>9</groupid>
@@ -1522,7 +1461,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.Tettsted_Elektrisk_rullestol</grouptitle>
       <name>Parkerings område</name>
       <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
       <groupid>9</groupid>

@@ -45,7 +45,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>land</grouptitle>
       <name>Rasterkart</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3</url>
       <params>
@@ -68,7 +67,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>land</grouptitle>
       <name>Land</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde</url>
       <params>
@@ -94,7 +92,6 @@
       <grouptitle>land</grouptitle>
       <name>Fly­bilder</name>
       <url>//wms.geonorge.no/skwms1/wms.nib</url>
-      <groupid>0</groupid>
       <params>
          <layers>ortofoto</layers>
          <format>image/png</format>
@@ -115,7 +112,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>land</grouptitle>
       <name>Enkel</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart</url>
       <params>
@@ -138,7 +134,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>land</grouptitle>
       <name>Terreng</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart</url>
       <params>
@@ -161,7 +156,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>flere</grouptitle>
       <name>Jan Mayen</name>
       <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_JanMayen_WMTS_25833/MapServer/WMTS?LAYERS=Basisdata_NP_Basiskart_JanMayen_WMTS_25833</url>
       <params>
@@ -184,7 +178,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>flere</grouptitle>
       <name>Svalbard</name>
       <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_Svalbard_WMTS_25833/MapServer/WMTS?LAYERS=Basisdata_NP_Basiskart_Svalbard_WMTS_25833</url>
       <params>
@@ -207,7 +200,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>sjo</grouptitle>
       <name>Hovedkart</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster</url>
       <params>
@@ -233,7 +225,6 @@
       <grouptitle>sjo</grouptitle>
       <name>Elektron. Sjøkart</name>
       <url>//wms.geonorge.no/skwms1/wms.ecc_enc</url>
-      <groupid>4</groupid>
       <params>
          <layers>cells</layers>
          <format>image/png</format>
@@ -254,7 +245,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft</grouptitle>
       <name>Tilrette- legging</name>
       <url>//wms.geonorge.no/skwms1/wms.friluftsruter</url>
       <groupid>5</groupid>
@@ -278,7 +268,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft</grouptitle>
       <name>Annen</name>
       <url>//wms.geonorge.no/skwms1/wms.friluftsruter</url>
       <groupid>5</groupid>
@@ -302,7 +291,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft</grouptitle>
       <name>Fotruter</name>
       <url>//wms.geonorge.no/skwms1/wms.friluftsruter</url>
       <groupid>5</groupid>
@@ -326,7 +314,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft</grouptitle>
       <name>Skiløyper</name>
       <url>//wms.geonorge.no/skwms1/wms.friluftsruter</url>
       <groupid>5</groupid>
@@ -350,7 +337,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>tjenester.friluft</grouptitle>
       <name>Sykkelruter</name>
       <url>//wms.geonorge.no/skwms1/wms.friluftsruter</url>
       <groupid>5</groupid>
