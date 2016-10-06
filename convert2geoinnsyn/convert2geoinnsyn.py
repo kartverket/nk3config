@@ -1,4 +1,6 @@
 #!/usr/bin/python 
+# -*- coding: utf-8 -*-
+
 import json
 import xml.etree.ElementTree as ET
 import project
@@ -75,7 +77,8 @@ for ansikt in data:
         wmsConfig.params["guid"]=str(groupid) + "." + layer[layerKey]
         if ("getfeature" in layer.keys()):
           wmsConfig.params["Layers"]["Layer"]["queryable"]=str(layer["getfeature"])
-
+        if (layerName.encode('utf-8') in ['Fly­bilder','Elektron. Sjøkart', 'Fly­bilete'] ): 
+          wmsConfig.params['options']["isbaselayer"]="true"
         configXml.append(wmsConfig.GetXml())
 
     groupid+=1

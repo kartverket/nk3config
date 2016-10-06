@@ -246,7 +246,7 @@
       </params>
       <guid>1.NiB</guid>
       <options>
-         <isbaselayer>false</isbaselayer>
+         <isbaselayer>true</isbaselayer>
          <singletile>true</singletile>
          <visibility>false</visibility>
       </options>
@@ -745,7 +745,7 @@
       </params>
       <guid>7.cells</guid>
       <options>
-         <isbaselayer>false</isbaselayer>
+         <isbaselayer>true</isbaselayer>
          <singletile>true</singletile>
          <visibility>false</visibility>
       </options>
