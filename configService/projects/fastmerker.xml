@@ -5,41 +5,6 @@
       <displaycenterepsgcode>EPSG:32633</displaycenterepsgcode>
       <displayCenter>378604,7226208</displayCenter>
       <displayprojectionepsgcode>EPSG:32633</displayprojectionepsgcode>
-      <maplayer>
-         <index>0</index>
-         <name>land</name>
-         <groupid>0</groupid>
-      </maplayer>
-      <maplayer>
-         <index>1</index>
-         <name>dekning</name>
-         <groupid>1</groupid>
-      </maplayer>
-      <maplayer>
-         <index>2</index>
-         <name>tjenester.Fastmerker</name>
-         <groupid>2</groupid>
-      </maplayer>
-      <maplayer>
-         <index>3</index>
-         <name>flere</name>
-         <groupid>3</groupid>
-      </maplayer>
-      <maplayer>
-         <index>4</index>
-         <name>sjo</name>
-         <groupid>4</groupid>
-      </maplayer>
-      <maplayer>
-         <index>5</index>
-         <name>tjenester.UTM-rutenett</name>
-         <groupid>5</groupid>
-      </maplayer>
-      <maplayer>
-         <index>6</index>
-         <name>tjenester.stasjoner</name>
-         <groupid>6</groupid>
-      </maplayer>
    </project>
    <wms type="map">
       <Layers>
@@ -94,7 +59,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>land</grouptitle>
       <name>Fly­bilder</name>
       <url>http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nibcache</url>
       <params>
@@ -152,6 +116,11 @@
          <visibility>false</visibility>
       </options>
    </wms>
+   <maplayer>
+      <index>2</index>
+      <name>Fastmerker</name>
+      <groupid>2</groupid>
+   </maplayer>
    <wms type="overlay">
       <Layers>
          <Layer>
@@ -319,7 +288,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>sjo</grouptitle>
       <name>Elektron. Sjøkart</name>
       <url>http://wms.geonorge.no/skwms1/wms.ecc_enc</url>
       <params>
@@ -333,6 +301,11 @@
          <visibility>false</visibility>
       </options>
    </wms>
+   <maplayer>
+      <index>5</index>
+      <name>UTM-rutenett</name>
+      <groupid>5</groupid>
+   </maplayer>
    <wms type="overlay">
       <Layers>
          <Layer>
@@ -356,6 +329,11 @@
          <visibility>false</visibility>
       </options>
    </wms>
+   <maplayer>
+      <index>6</index>
+      <name>stasjoner</name>
+      <groupid>6</groupid>
+   </maplayer>
    <wms type="overlay">
       <Layers>
          <Layer>

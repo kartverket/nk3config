@@ -5,56 +5,6 @@
       <displaycenterepsgcode>EPSG:32633</displaycenterepsgcode>
       <displayCenter>378604,7226208</displayCenter>
       <displayprojectionepsgcode>EPSG:32633</displayprojectionepsgcode>
-      <maplayer>
-         <index>0</index>
-         <name>land</name>
-         <groupid>0</groupid>
-      </maplayer>
-      <maplayer>
-         <index>1</index>
-         <name>dekning</name>
-         <groupid>1</groupid>
-      </maplayer>
-      <maplayer>
-         <index>2</index>
-         <name>flere</name>
-         <groupid>2</groupid>
-      </maplayer>
-      <maplayer>
-         <index>3</index>
-         <name>tjenester.friluftsyn</name>
-         <groupid>3</groupid>
-      </maplayer>
-      <maplayer>
-         <index>4</index>
-         <name>sjo</name>
-         <groupid>4</groupid>
-      </maplayer>
-      <maplayer>
-         <index>5</index>
-         <name>tjenester.friluft_rullestol</name>
-         <groupid>5</groupid>
-      </maplayer>
-      <maplayer>
-         <index>6</index>
-         <name>tjenester.Tettsted_Rullestol</name>
-         <groupid>6</groupid>
-      </maplayer>
-      <maplayer>
-         <index>7</index>
-         <name>tjenester.friluft_elektrisk_rullestol</name>
-         <groupid>7</groupid>
-      </maplayer>
-      <maplayer>
-         <index>8</index>
-         <name>tjenester.Tettsted_Syn</name>
-         <groupid>8</groupid>
-      </maplayer>
-      <maplayer>
-         <index>9</index>
-         <name>tjenester.Tettsted_Elektrisk_rullestol</name>
-         <groupid>9</groupid>
-      </maplayer>
    </project>
    <wms type="map">
       <Layers>
@@ -109,7 +59,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>land</grouptitle>
       <name>Fly­bilder</name>
       <url>//wms.geonorge.no/skwms1/wms.nib</url>
       <params>
@@ -211,6 +160,11 @@
          <visibility>false</visibility>
       </options>
    </wms>
+   <maplayer>
+      <index>3</index>
+      <name>friluftsyn</name>
+      <groupid>3</groupid>
+   </maplayer>
    <wms type="overlay">
       <Layers>
          <Layer>
@@ -541,7 +495,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>sjo</grouptitle>
       <name>Elektron. Sjøkart</name>
       <url>http://wms.geonorge.no/skwms1/wms.ecc_enc</url>
       <params>
@@ -555,6 +508,11 @@
          <visibility>false</visibility>
       </options>
    </wms>
+   <maplayer>
+      <index>5</index>
+      <name>friluft_rullestol</name>
+      <groupid>5</groupid>
+   </maplayer>
    <wms type="overlay">
       <Layers>
          <Layer>
@@ -854,6 +812,11 @@
          <visibility>false</visibility>
       </options>
    </wms>
+   <maplayer>
+      <index>6</index>
+      <name>Tettsted_Rullestol</name>
+      <groupid>6</groupid>
+   </maplayer>
    <wms type="overlay">
       <Layers>
          <Layer>
@@ -969,6 +932,11 @@
          <visibility>false</visibility>
       </options>
    </wms>
+   <maplayer>
+      <index>7</index>
+      <name>friluft_elektrisk_rullestol</name>
+      <groupid>7</groupid>
+   </maplayer>
    <wms type="overlay">
       <Layers>
          <Layer>
@@ -1245,6 +1213,11 @@
          <visibility>false</visibility>
       </options>
    </wms>
+   <maplayer>
+      <index>8</index>
+      <name>Tettsted_Syn</name>
+      <groupid>8</groupid>
+   </maplayer>
    <wms type="overlay">
       <Layers>
          <Layer>
@@ -1360,6 +1333,11 @@
          <visibility>false</visibility>
       </options>
    </wms>
+   <maplayer>
+      <index>9</index>
+      <name>Tettsted_Elektrisk_rullestol</name>
+      <groupid>9</groupid>
+   </maplayer>
    <wms type="overlay">
       <Layers>
          <Layer>

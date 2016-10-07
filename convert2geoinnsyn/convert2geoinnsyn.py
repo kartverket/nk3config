@@ -20,7 +20,6 @@ cacheUrlEnd=".geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS="
 json_data=open('out.json').read()
 data = json.loads(json_data)
 projects=[]
-
 for ansikt in data:
   projectHeader={
   "ProjectName":ansikt,"SiteTitle":ansikt,"HeaderIcon":"","HeaderTitle":ansikt
@@ -36,18 +35,24 @@ for ansikt in data:
   groupid=0
   baselayer=data[ansikt]["baselayers"]
   for group in data[ansikt]["groups"]:
+    useGroup=False
     maplayerConfig=maplayer.Maplayer()
     maplayerConfig.params["groupid"]=str(groupid)
     maplayerConfig.params["index"]=str(groupid)
-    maplayerConfig.params["name"]=group
-    projectXml.append(maplayerConfig.GetXml())
-    print '\t' + group
+    if('.' in group):
+      useGroup=True
+      maplayerConfig.params["name"]=group.split('.')[1]
+      configXml.append(maplayerConfig.GetXml())
+      print '\tOverlay: ' + group
+    else:
+      print '\tBackground map: ' + group
+      
     for layerID in data[ansikt]["groups"][group]:
       layerKey="layers"
       layer=data[ansikt]["groups"][group][layerID]
       layerName=HTMLParser().unescape(layer["name"])
+      print '\t\t' + layerName + ': ' + layer["template"]
       if((layer["template"] == 'layers/wms') or (layer["template"] == 'layers/wmts')):
-        print '\t\t' + layer["template"]
         wmsConfig=wms.Wms()
         
         if (layer["template"] == 'layers/wmts'):
@@ -60,12 +65,11 @@ for ansikt in data:
           wmsConfig.params["type"]="map"
           wmsConfig.params["options"]["isbaselayer"]="true"
 
-
         else:
           wmsConfig.params["url"]=layer["url"]
           wmsConfig.params["options"]["singletile"]="true"
           wmsConfig.params["type"]="overlay"
-          if (layerName.encode('utf-8') not in wmsBackgroundMaps ): 
+          if ((layerName.encode('utf-8') not in wmsBackgroundMaps) and (useGroup)): 
             wmsConfig.params["groupid"]=str(groupid)
 
         wmsConfig.params["params"]["layers"]=layer[layerKey]
@@ -79,7 +83,8 @@ for ansikt in data:
           wmsConfig.params["Layers"]["Layer"]["queryable"]=str(layer["getfeature"])
         if (layerName.encode('utf-8') in wmsBackgroundMaps): 
           wmsConfig.params['options']["isbaselayer"]="true"
-          wmsConfig.params["grouptitle"]=str(group)
+          if(useGroup):
+            wmsConfig.params["grouptitle"]=str(group)
         configXml.append(wmsConfig.GetXml())
 
     groupid+=1

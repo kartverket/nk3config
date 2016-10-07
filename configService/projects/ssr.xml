@@ -5,62 +5,12 @@
       <displaycenterepsgcode>EPSG:32633</displaycenterepsgcode>
       <displayCenter>378604,7226208</displayCenter>
       <displayprojectionepsgcode>EPSG:32633</displayprojectionepsgcode>
-      <maplayer>
-         <index>0</index>
-         <name>tjenester.Vedtaksstatus-dato</name>
-         <groupid>0</groupid>
-      </maplayer>
-      <maplayer>
-         <index>1</index>
-         <name>land</name>
-         <groupid>1</groupid>
-      </maplayer>
-      <maplayer>
-         <index>2</index>
-         <name>dekning</name>
-         <groupid>2</groupid>
-      </maplayer>
-      <maplayer>
-         <index>3</index>
-         <name>tjenester.ikke_autoriserte_skrivemaate</name>
-         <groupid>3</groupid>
-      </maplayer>
-      <maplayer>
-         <index>4</index>
-         <name>tjenester.Navnetype</name>
-         <groupid>4</groupid>
-      </maplayer>
-      <maplayer>
-         <index>5</index>
-         <name>flere</name>
-         <groupid>5</groupid>
-      </maplayer>
-      <maplayer>
-         <index>6</index>
-         <name>tjenester.alle</name>
-         <groupid>6</groupid>
-      </maplayer>
-      <maplayer>
-         <index>7</index>
-         <name>sjo</name>
-         <groupid>7</groupid>
-      </maplayer>
-      <maplayer>
-         <index>8</index>
-         <name>tjenester.autoriserte_skrivemaate</name>
-         <groupid>8</groupid>
-      </maplayer>
-      <maplayer>
-         <index>9</index>
-         <name>tjenester.Spraak</name>
-         <groupid>9</groupid>
-      </maplayer>
-      <maplayer>
-         <index>10</index>
-         <name>historik</name>
-         <groupid>10</groupid>
-      </maplayer>
    </project>
+   <maplayer>
+      <index>0</index>
+      <name>Vedtaksstatus-dato</name>
+      <groupid>0</groupid>
+   </maplayer>
    <wms type="overlay">
       <Layers>
          <Layer>
@@ -229,7 +179,6 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>land</grouptitle>
       <name>Fly­bilete</name>
       <url>http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nibcache</url>
       <params>
@@ -287,6 +236,11 @@
          <visibility>false</visibility>
       </options>
    </wms>
+   <maplayer>
+      <index>3</index>
+      <name>ikke_autoriserte_skrivemaate</name>
+      <groupid>3</groupid>
+   </maplayer>
    <wms type="overlay">
       <Layers>
          <Layer>
@@ -379,6 +333,11 @@
          <visibility>false</visibility>
       </options>
    </wms>
+   <maplayer>
+      <index>4</index>
+      <name>Navnetype</name>
+      <groupid>4</groupid>
+   </maplayer>
    <wms type="overlay">
       <Layers>
          <Layer>
@@ -563,6 +522,57 @@
          <visibility>false</visibility>
       </options>
    </wms>
+   <maplayer>
+      <index>5</index>
+      <name>historik</name>
+      <groupid>5</groupid>
+   </maplayer>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>n5raster_foerstegang_metadata,n5raster_foerstegang</name>
+            <queryable>false</queryable>
+            <title>Øk–1⋅utgåve</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Øk–1⋅utgåve</name>
+      <url>http://wms.geonorge.no/skwms1/wms.n5raster2</url>
+      <groupid>5</groupid>
+      <params>
+         <layers>n5raster_foerstegang_metadata,n5raster_foerstegang</layers>
+         <format>image/png</format>
+      </params>
+      <guid>5.n5raster_foerstegang_metadata,n5raster_foerstegang</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>amt1</name>
+            <queryable>false</queryable>
+            <title>Amts­kart</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Amts­kart</name>
+      <url>http://wms.geonorge.no/skwms1/wms.historiskekart</url>
+      <groupid>5</groupid>
+      <params>
+         <layers>amt1</layers>
+         <format>image/png</format>
+      </params>
+      <guid>5.amt1</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
    <wms type="map">
       <Layers>
          <Layer>
@@ -578,7 +588,7 @@
          <layers>Basisdata_NP_Basiskart_JanMayen_WMTS_25833</layers>
          <format>image/png</format>
       </params>
-      <guid>5.Basisdata_NP_Basiskart_JanMayen_WMTS_25833</guid>
+      <guid>6.Basisdata_NP_Basiskart_JanMayen_WMTS_25833</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -600,13 +610,18 @@
          <layers>Basisdata_NP_Basiskart_Svalbard_WMTS_25833</layers>
          <format>image/png</format>
       </params>
-      <guid>5.Basisdata_NP_Basiskart_Svalbard_WMTS_25833</guid>
+      <guid>6.Basisdata_NP_Basiskart_Svalbard_WMTS_25833</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
          <visibility>false</visibility>
       </options>
    </wms>
+   <maplayer>
+      <index>7</index>
+      <name>alle</name>
+      <groupid>7</groupid>
+   </maplayer>
    <wms type="overlay">
       <Layers>
          <Layer>
@@ -618,12 +633,12 @@
       <gatekeeper>true</gatekeeper>
       <name>Skrivemåte–statusar</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>6</groupid>
+      <groupid>7</groupid>
       <params>
          <layers>Vedtatt_og_godkjent_skrivemaate</layers>
          <format>image/png</format>
       </params>
-      <guid>6.Vedtatt_og_godkjent_skrivemaate</guid>
+      <guid>7.Vedtatt_og_godkjent_skrivemaate</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -641,12 +656,12 @@
       <gatekeeper>true</gatekeeper>
       <name>Namnetypar</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>6</groupid>
+      <groupid>7</groupid>
       <params>
          <layers>Navnetype</layers>
          <format>image/png</format>
       </params>
-      <guid>6.Navnetype</guid>
+      <guid>7.Navnetype</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -664,12 +679,12 @@
       <gatekeeper>true</gatekeeper>
       <name>Språk</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>6</groupid>
+      <groupid>7</groupid>
       <params>
          <layers>Spraak</layers>
          <format>image/png</format>
       </params>
-      <guid>6.Spraak</guid>
+      <guid>7.Spraak</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -691,7 +706,7 @@
          <layers>sjokartraster</layers>
          <format>image/png</format>
       </params>
-      <guid>7.sjokartraster</guid>
+      <guid>8.sjokartraster</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -707,20 +722,24 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <grouptitle>sjo</grouptitle>
       <name>Elektron. Sjøkart</name>
       <url>http://wms.geonorge.no/skwms1/wms.ecc_enc</url>
       <params>
          <layers>cells</layers>
          <format>image/png</format>
       </params>
-      <guid>7.cells</guid>
+      <guid>8.cells</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>true</singletile>
          <visibility>false</visibility>
       </options>
    </wms>
+   <maplayer>
+      <index>9</index>
+      <name>autoriserte_skrivemaate</name>
+      <groupid>9</groupid>
+   </maplayer>
    <wms type="overlay">
       <Layers>
          <Layer>
@@ -732,12 +751,12 @@
       <gatekeeper>true</gatekeeper>
       <name>Samlevedtak</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>8</groupid>
+      <groupid>9</groupid>
       <params>
          <layers>Samlevedtak</layers>
          <format>image/png</format>
       </params>
-      <guid>8.Samlevedtak</guid>
+      <guid>9.Samlevedtak</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -755,12 +774,12 @@
       <gatekeeper>true</gatekeeper>
       <name>Godkjent</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>8</groupid>
+      <groupid>9</groupid>
       <params>
          <layers>Godkjent</layers>
          <format>image/png</format>
       </params>
-      <guid>8.Godkjent</guid>
+      <guid>9.Godkjent</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -778,12 +797,12 @@
       <gatekeeper>true</gatekeeper>
       <name>Vedteke</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>8</groupid>
+      <groupid>9</groupid>
       <params>
          <layers>Vedtatt</layers>
          <format>image/png</format>
       </params>
-      <guid>8.Vedtatt</guid>
+      <guid>9.Vedtatt</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -801,12 +820,12 @@
       <gatekeeper>true</gatekeeper>
       <name>Internasjonalt</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>8</groupid>
+      <groupid>9</groupid>
       <params>
          <layers>Internasjonalt</layers>
          <format>image/png</format>
       </params>
-      <guid>8.Internasjonalt</guid>
+      <guid>9.Internasjonalt</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -824,12 +843,12 @@
       <gatekeeper>true</gatekeeper>
       <name>Vedtak påklaga</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>8</groupid>
+      <groupid>9</groupid>
       <params>
          <layers>Vedtak_paaklaget</layers>
          <format>image/png</format>
       </params>
-      <guid>8.Vedtak_paaklaget</guid>
+      <guid>9.Vedtak_paaklaget</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -847,18 +866,23 @@
       <gatekeeper>true</gatekeeper>
       <name>Privat</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>8</groupid>
+      <groupid>9</groupid>
       <params>
          <layers>Privat</layers>
          <format>image/png</format>
       </params>
-      <guid>8.Privat</guid>
+      <guid>9.Privat</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
          <visibility>false</visibility>
       </options>
    </wms>
+   <maplayer>
+      <index>10</index>
+      <name>Spraak</name>
+      <groupid>10</groupid>
+   </maplayer>
    <wms type="overlay">
       <Layers>
          <Layer>
@@ -870,12 +894,12 @@
       <gatekeeper>true</gatekeeper>
       <name>Lulesamisk</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>9</groupid>
+      <groupid>10</groupid>
       <params>
          <layers>Lulesamisk</layers>
          <format>image/png</format>
       </params>
-      <guid>9.Lulesamisk</guid>
+      <guid>10.Lulesamisk</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -893,12 +917,12 @@
       <gatekeeper>true</gatekeeper>
       <name>Nordsamisk</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>9</groupid>
+      <groupid>10</groupid>
       <params>
          <layers>Nordsamisk</layers>
          <format>image/png</format>
       </params>
-      <guid>9.Nordsamisk</guid>
+      <guid>10.Nordsamisk</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -916,12 +940,12 @@
       <gatekeeper>true</gatekeeper>
       <name>Sørsamisk</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>9</groupid>
+      <groupid>10</groupid>
       <params>
          <layers>Sorsamisk</layers>
          <format>image/png</format>
       </params>
-      <guid>9.Sorsamisk</guid>
+      <guid>10.Sorsamisk</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -939,12 +963,12 @@
       <gatekeeper>true</gatekeeper>
       <name>Kvensk</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>9</groupid>
+      <groupid>10</groupid>
       <params>
          <layers>Kvensk</layers>
          <format>image/png</format>
       </params>
-      <guid>9.Kvensk</guid>
+      <guid>10.Kvensk</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -962,58 +986,12 @@
       <gatekeeper>true</gatekeeper>
       <name>Norsk</name>
       <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>9</groupid>
+      <groupid>10</groupid>
       <params>
          <layers>Norsk</layers>
          <format>image/png</format>
       </params>
-      <guid>9.Norsk</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>n5raster_foerstegang_metadata,n5raster_foerstegang</name>
-            <queryable>false</queryable>
-            <title>Øk–1⋅utgåve</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Øk–1⋅utgåve</name>
-      <url>http://wms.geonorge.no/skwms1/wms.n5raster2</url>
-      <groupid>10</groupid>
-      <params>
-         <layers>n5raster_foerstegang_metadata,n5raster_foerstegang</layers>
-         <format>image/png</format>
-      </params>
-      <guid>10.n5raster_foerstegang_metadata,n5raster_foerstegang</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>amt1</name>
-            <queryable>false</queryable>
-            <title>Amts­kart</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Amts­kart</name>
-      <url>http://wms.geonorge.no/skwms1/wms.historiskekart</url>
-      <groupid>10</groupid>
-      <params>
-         <layers>amt1</layers>
-         <format>image/png</format>
-      </params>
-      <guid>10.amt1</guid>
+      <guid>10.Norsk</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
