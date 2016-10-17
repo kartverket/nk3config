@@ -6,6 +6,7 @@ import xml.etree.ElementTree as ET
 import project
 import maplayer
 import wms
+import vector
 from HTMLParser import HTMLParser
 from xml.dom import minidom
 #import pprint
@@ -13,6 +14,7 @@ from xml.dom import minidom
 def LoadFile(fileName):
   return file.open(fileName)
 
+norgeskartUrl='http://www.norgeskart.no'
 wmsBackgroundMaps=['Fly­bilder','Elektron. Sjøkart', 'Fly­bilete']
 projectsFolder="../configService/projects/"
 cacheUrlStart="https://gatekeeper"
@@ -39,9 +41,12 @@ for ansikt in data:
     maplayerConfig=maplayer.Maplayer()
     maplayerConfig.params["groupid"]=str(groupid)
     maplayerConfig.params["index"]=str(groupid)
-    if('.' in group):
+    if('.' in group or group == 'dekning'):
       useGroup=True
-      maplayerConfig.params["name"]=group.split('.')[1]
+      if ('.' in group):
+        maplayerConfig.params["name"]=group.split('.')[1]
+      else:
+        maplayerConfig.params["name"]=group
       configXml.append(maplayerConfig.GetXml())
       print '\tOverlay: ' + group
     else:
@@ -86,7 +91,15 @@ for ansikt in data:
           if(useGroup):
             wmsConfig.params["grouptitle"]=str(group)
         configXml.append(wmsConfig.GetXml())
-
+      else:
+        vectorConfig=vector.Vector()
+        vectorName=HTMLParser().unescape(layer['name'])
+        vectorConfig.params['guid']=str(groupid) + "." + vectorName
+        vectorConfig.params['name']=vectorName
+        vectorConfig.params['params']['url']=norgeskartUrl+layer['url']
+#        vectorConfig['Layers']['Layer']['title']=layer[layerKey]
+#        vectorConfig['Layers']['Layer']['name']=layer[layerKey]
+        configXml.append(vectorConfig.GetXml())
     groupid+=1
 
   projextXmlFile=open(projectsFolder + ansikt + '.xml','w')

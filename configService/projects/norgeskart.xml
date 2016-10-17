@@ -116,6 +116,66 @@
          <visibility>false</visibility>
       </options>
    </wms>
+   <maplayer>
+      <index>1</index>
+      <name>dekning</name>
+      <groupid>1</groupid>
+   </maplayer>
+   <vector type="overlay">
+      <params>
+         <url>http://www.norgeskart.no/json/dekning/sjo/hovedserie_ny.json</url>
+         <format>GeoJSON</format>
+      </params>
+      <guid>1.Hoved­kart sjø</guid>
+      <name>Hoved­kart sjø</name>
+      <options>
+         <visibility>false</visibility>
+      </options>
+   </vector>
+   <vector type="overlay">
+      <params>
+         <url>http://www.norgeskart.no/json/dekning/land/n50/pod-inndeling2015-flaterl.json</url>
+         <format>GeoJSON</format>
+      </params>
+      <guid>1.Norge 1:50000</guid>
+      <name>Norge 1:50000</name>
+      <options>
+         <visibility>false</visibility>
+      </options>
+   </vector>
+   <vector type="overlay">
+      <params>
+         <url>http://www.norgeskart.no/json/dekning/sjo/overseilingskart_ny.json</url>
+         <format>GeoJSON</format>
+      </params>
+      <guid>1.Overseilingskart</guid>
+      <name>Overseilingskart</name>
+      <options>
+         <visibility>false</visibility>
+      </options>
+   </vector>
+   <vector type="overlay">
+      <params>
+         <url>http://www.norgeskart.no/json/dekning/sjo/kystkart_ny.json</url>
+         <format>GeoJSON</format>
+      </params>
+      <guid>1.Kyst­kart</guid>
+      <name>Kyst­kart</name>
+      <options>
+         <visibility>false</visibility>
+      </options>
+   </vector>
+   <vector type="overlay">
+      <params>
+         <url>http://www.norgeskart.no/json/dekning/sjo/havnekart_ny.json</url>
+         <format>GeoJSON</format>
+      </params>
+      <guid>1.Havne­kart</guid>
+      <name>Havne­kart</name>
+      <options>
+         <visibility>false</visibility>
+      </options>
+   </vector>
    <wms type="map">
       <Layers>
          <Layer>
@@ -165,6 +225,17 @@
       <name>fakta</name>
       <groupid>3</groupid>
    </maplayer>
+   <vector type="overlay">
+      <params>
+         <url>http://www.norgeskart.no/json/tema/kommunefjell/Kommunefjell.geojson</url>
+         <format>GeoJSON</format>
+      </params>
+      <guid>3.Kommunenes fjelltopper</guid>
+      <name>Kommunenes fjelltopper</name>
+      <options>
+         <visibility>false</visibility>
+      </options>
+   </vector>
    <wms type="map">
       <Layers>
          <Layer>
