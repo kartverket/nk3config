@@ -7,6 +7,7 @@ class Vector():
     self.params["guid"]="guid"
     self.params["name"]="name"
 #    self.params["gatekeeper"]="true"
+    self.params['epsg']="EPSG:4326"
 
     self.params["options"]={}
 #    self.params["options"]["isbaselayer"]="false"
@@ -14,7 +15,7 @@ class Vector():
     self.params["options"]["visibility"]="false"
 
     self.params["params"]={}
-    self.params["params"]["format"]="GeoJSON"
+    self.params["params"]["format"]="application/json"
 #    self.params["params"]["layers"]="topo2" #used by WMS
 
 #    self.params["Layers"]={}

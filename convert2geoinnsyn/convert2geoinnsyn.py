@@ -96,7 +96,10 @@ for ansikt in data:
         vectorName=HTMLParser().unescape(layer['name'])
         vectorConfig.params['guid']=str(groupid) + "." + vectorName
         vectorConfig.params['name']=vectorName
-        vectorConfig.params['params']['url']=norgeskartUrl+layer['url']
+        vectorConfig.params['url']=norgeskartUrl+layer['url']
+        vectorConfig.params['groupid']=str(groupid)
+        if('epsgCode' in layer.keys()):
+          vectorConfig.params['epsg']='EPSG:' + str(layer['epsgCode'])
 #        vectorConfig['Layers']['Layer']['title']=layer[layerKey]
 #        vectorConfig['Layers']['Layer']['name']=layer[layerKey]
         configXml.append(vectorConfig.GetXml())
