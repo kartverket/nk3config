@@ -26,7 +26,7 @@ else:
 if name == "":
   name="__defaults"
 
-config=configFolder + name + '.xml'
+config=configFolder + name.lower() + '.xml'
 
 root=ET.parse(config).getroot()
 mapbounds=ET.parse('global/mapbounds.xml').getroot()
@@ -39,9 +39,9 @@ root.append(mapbounds)
 for node in project:
   root[0].append(node)
 
-print "Content-type: text/xml"
+print "Content-type: text/xml; charset=utf-8"
 print "Access-Control-Allow-Origin: *"
 print "Status: 200 OK"
 print
 
-ET.dump(root)
+print ET.tostring(root, encoding='utf-8', method='xml')
