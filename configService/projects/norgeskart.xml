@@ -118,7 +118,7 @@
    </wms>
    <maplayer>
       <index>1</index>
-      <name>dekning</name>
+      <name>Dekning</name>
       <groupid>1</groupid>
    </maplayer>
    <vector type="overlay">
@@ -509,6 +509,8 @@
          <singletile>true</singletile>
          <visibility>false</visibility>
       </options>
+      <includedFields capitalize="true">
+      </includedFields> 
    </wms>
    <wms type="overlay">
       <Layers>
