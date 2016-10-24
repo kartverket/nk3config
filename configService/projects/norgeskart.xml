@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <config>
    <project lat="7226208" lon="378604" mapepsg="EPSG:32633" zoom="5">
       <mapbackgroundcolor>#FFFFFF</mapbackgroundcolor>
@@ -55,11 +55,11 @@
          <Layer>
             <name>ortofoto</name>
             <queryable>false</queryable>
-            <title>Fly­bilder</title>
+            <title>Flybilder</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Fly­bilder</name>
+      <name>Flybilder</name>
       <url>//wms.geonorge.no/skwms1/wms.nib</url>
       <params>
          <layers>ortofoto</layers>
@@ -122,22 +122,48 @@
       <groupid>1</groupid>
    </maplayer>
    <vector type="overlay">
-      <name>Hoved­kart sjø</name>
+      <name>Hoved kart sjø</name>
       <url>http://www.norgeskart.no/json/dekning/sjo/hovedserie_ny.json</url>
       <epsg>EPSG:4326</epsg>
       <groupid>1</groupid>
       <params>
          <format>application/json</format>
       </params>
-      <guid>1.Hoved­kart sjø</guid>
+      <guid>1.Hovedkart sjø</guid>
       <options>
          <visibility>false</visibility>
       </options>
+      <style>
+        <fill>
+          <color>rgba(128, 128, 128, 0.1)</color>
+        </fill>
+        <stroke>
+          <color>rgb(64, 128, 64)</color>
+          <width>1</width>
+        </stroke>
+<!--
+        <text>
+          <font>20px sans-serif, helvetica</font>
+          <text>{_id}</text>
+          <stroke>
+            <color>#ffffff</color>
+            <width>4</width>
+          </stroke>
+         </text>
+-->
+      </style>
+      <includedFields>
+        <field name="d" alias="Datum"/>
+        <field name="n" alias="Navn"/>
+        <field name="p" alias="Projeksjon"/>
+        <field name="s" alias="Målestokk"/>
+        <field name="u" alias="Ny utgave"/>
+      </includedFields>
    </vector>
    <vector type="overlay">
       <name>Norge 1:50000</name>
       <url>http://www.norgeskart.no/json/dekning/land/n50/pod-inndeling2015-flaterl.json</url>
-      <epsg>EPSG:4326</epsg>
+      <epsg>EPSG:32633</epsg>
       <groupid>1</groupid>
       <params>
          <format>application/json</format>
@@ -146,6 +172,25 @@
       <options>
          <visibility>false</visibility>
       </options>
+      <style>
+        <fill>
+          <color>rgba(128, 128, 128, 0.1)</color>
+        </fill>
+        <stroke>
+          <color>rgb(64, 128, 64)</color>
+          <width>1</width>
+        </stroke>
+<!--
+        <text>
+          <font>15px sans-serif, helvetica</font>
+          <text>{POD_KARTNR}</text>
+          <stroke>
+            <color>#ffffff</color>
+            <width>4</width>
+          </stroke>
+         </text>
+-->
+      </style>
    </vector>
    <vector type="overlay">
       <name>Overseilingskart</name>
@@ -159,32 +204,89 @@
       <options>
          <visibility>false</visibility>
       </options>
+      <style>
+        <fill>
+          <color>rgba(128, 128, 128, 0.1)</color>
+        </fill>
+        <stroke>
+          <color>rgb(64, 64, 128)</color>
+          <width>1</width>
+        </stroke>
+<!--
+        <text>
+          <font>20px sans-serif, helvetica</font>
+          <text>{_id}</text>
+          <stroke>
+            <color>#ffffff</color>
+            <width>4</width>
+          </stroke>
+         </text>
+-->
+      </style>
    </vector>
    <vector type="overlay">
-      <name>Kyst­kart</name>
+      <name>Kystkart</name>
       <url>http://www.norgeskart.no/json/dekning/sjo/kystkart_ny.json</url>
       <epsg>EPSG:4326</epsg>
       <groupid>1</groupid>
       <params>
          <format>application/json</format>
       </params>
-      <guid>1.Kyst­kart</guid>
+      <guid>1.Kystkart</guid>
       <options>
          <visibility>false</visibility>
       </options>
+      <style>
+        <fill>
+          <color>rgba(128, 128, 128, 0.1)</color>
+        </fill>
+        <stroke>
+          <color>rgb(128, 64, 64)</color>
+          <width>1</width>
+        </stroke>
+<!--
+        <text>
+          <font>20px sans-serif, helvetica</font>
+          <text>{_id}</text>
+          <stroke>
+            <color>#ffffff</color>
+            <width>4</width>
+          </stroke>
+         </text>
+-->
+      </style>
    </vector>
    <vector type="overlay">
-      <name>Havne­kart</name>
+      <name>Havnekart</name>
       <url>http://www.norgeskart.no/json/dekning/sjo/havnekart_ny.json</url>
       <epsg>EPSG:4326</epsg>
       <groupid>1</groupid>
       <params>
          <format>application/json</format>
       </params>
-      <guid>1.Havne­kart</guid>
+      <guid>1.Havnekart</guid>
       <options>
          <visibility>false</visibility>
       </options>
+      <style>
+        <fill>
+          <color>rgba(128, 128, 128, 0.1)</color>
+        </fill>
+        <stroke>
+          <color>rgb(128, 64, 64)</color>
+          <width>1</width>
+        </stroke>
+<!--
+        <text>
+          <font>20px sans-serif, helvetica</font>
+          <text>{_id}</text>
+          <stroke>
+            <color>#ffffff</color>
+            <width>4</width>
+          </stroke>
+         </text>
+-->
+      </style>
    </vector>
    <wms type="map">
       <Layers>
@@ -247,7 +349,16 @@
       <options>
          <visibility>false</visibility>
       </options>
-   </vector>
+      <style>
+        <regularshape>
+          <fill>
+            <color>#000000</color>
+          </fill>
+          <points>3</points>
+          <radius>9</radius>
+        </regularshape>
+      </style>
+     </vector>
    <wms type="map">
       <Layers>
          <Layer>
@@ -301,7 +412,7 @@
       <Layers>
          <Layer>
             <name>Friluftslivtilrettelegging</name>
-            <queryable>false</queryable>
+            <queryable>true</queryable>
             <title>Tilrette- legging</title>
          </Layer>
       </Layers>
@@ -324,7 +435,7 @@
       <Layers>
          <Layer>
             <name>AnnenRute</name>
-            <queryable>false</queryable>
+            <queryable>true</queryable>
             <title>Annen</title>
          </Layer>
       </Layers>
@@ -347,7 +458,7 @@
       <Layers>
          <Layer>
             <name>Fotrute</name>
-            <queryable>false</queryable>
+            <queryable>true</queryable>
             <title>Fotruter</title>
          </Layer>
       </Layers>
@@ -365,12 +476,22 @@
          <singletile>true</singletile>
          <visibility>false</visibility>
       </options>
+      <includedFields capitalize="true">
+        <field name="kommunenummer"/>
+        <field name="navn"/>
+        <field name="oppdateringsdato" alias="Oppdatering"/>
+        <field name="opphav"/>
+        <field name="rutefølger"/>
+        <field name="rutemerking"/>
+        <field name="rutenummer"/>
+        <field name="vedlikeholdsansvarlig" alias="Ansvarlig"/>
+      </includedFields>
    </wms>
    <wms type="overlay">
       <Layers>
          <Layer>
             <name>Skiloype</name>
-            <queryable>false</queryable>
+            <queryable>true</queryable>
             <title>Skiløyper</title>
          </Layer>
       </Layers>
@@ -393,7 +514,7 @@
       <Layers>
          <Layer>
             <name>Sykkelrute</name>
-            <queryable>false</queryable>
+            <queryable>true</queryable>
             <title>Sykkelruter</title>
          </Layer>
       </Layers>
