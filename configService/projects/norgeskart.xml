@@ -6,7 +6,30 @@
       <displayCenter>378604,7226208</displayCenter>
       <displayprojectionepsgcode>EPSG:32633</displayprojectionepsgcode>
    </project>
-   <wms type="map">
+   <wmts type="map">
+      <Layers>
+         <Layer>
+            <name>topo2_dybde</name>
+            <queryable>false</queryable>
+            <title>Landkart</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Land</name>
+      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?LAYERS=topo2_dybde|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?LAYERS=topo2_dybde</url>
+      <params>
+         <layers>topo2_dybde</layers>
+         <format>image/png</format>
+      </params>
+      <matrixPrefix>true</matrixPrefix>
+      <guid>0.topo2_dybde</guid>
+      <options>
+         <isbaselayer>true</isbaselayer>
+         <singletile>false</singletile>
+         <visibility>true</visibility>
+      </options>
+   </wmts>
+   <wmts type="map">
       <Layers>
          <Layer>
             <name>toporaster3</name>
@@ -16,63 +39,43 @@
       </Layers>
       <gatekeeper>true</gatekeeper>
       <name>Rasterkart</name>
-      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3</url>
+      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?LAYERS=toporaster3|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?LAYERS=toporaster3</url>
       <params>
          <layers>toporaster3</layers>
          <format>image/png</format>
       </params>
+      <matrixPrefix>true</matrixPrefix>
       <guid>0.toporaster3</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
          <visibility>false</visibility>
       </options>
-   </wms>
-   <wms type="map">
+   </wmts>
+   <wmts type="map">
       <Layers>
          <Layer>
-            <name>topo2_dybde</name>
-            <queryable>false</queryable>
-            <title>Land</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Land</name>
-      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde</url>
-      <params>
-         <layers>topo2_dybde</layers>
-         <format>image/png</format>
-      </params>
-      <guid>0.topo2_dybde</guid>
-      <options>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>ortofoto</name>
+            <name>Nibcache_UTM33_EUREF89</name>
             <queryable>false</queryable>
             <title>Flybilder</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <name>Flybilder</name>
-      <url>//wms.geonorge.no/skwms1/wms.nib</url>
+      <url>http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nib_utm33_wmts_v2?|http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nib_utm33_wmts_v2?</url>
       <params>
-         <layers>ortofoto</layers>
+         <layers>Nibcache_UTM33_EUREF89</layers>
          <format>image/png</format>
       </params>
+      <matrixSet>default028mm</matrixSet>
       <guid>0.ortofoto</guid>
       <options>
          <isbaselayer>true</isbaselayer>
-         <singletile>true</singletile>
+         <singletile>false</singletile>
          <visibility>false</visibility>
       </options>
-   </wms>
-   <wms type="map">
+   </wmts>
+   <wmts type="map">
       <Layers>
          <Layer>
             <name>norges_grunnkart</name>
@@ -82,19 +85,20 @@
       </Layers>
       <gatekeeper>true</gatekeeper>
       <name>Enkel</name>
-      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart</url>
+      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
       <params>
          <layers>norges_grunnkart</layers>
          <format>image/png</format>
       </params>
+      <matrixPrefix>true</matrixPrefix>
       <guid>0.norges_grunnkart</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
          <visibility>false</visibility>
       </options>
-   </wms>
-   <wms type="map">
+   </wmts>
+   <wmts type="map">
       <Layers>
          <Layer>
             <name>terreng_norgeskart</name>
@@ -104,18 +108,19 @@
       </Layers>
       <gatekeeper>true</gatekeeper>
       <name>Terreng</name>
-      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart</url>
+      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?LAYERS=terreng_norgeskart|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?LAYERS=terreng_norgeskart</url>
       <params>
          <layers>terreng_norgeskart</layers>
          <format>image/png</format>
       </params>
+      <matrixPrefix>true</matrixPrefix>
       <guid>0.terreng_norgeskart</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
          <visibility>false</visibility>
       </options>
-   </wms>
+   </wmts>
    <maplayer>
       <index>1</index>
       <name>Dekning</name>
@@ -288,7 +293,8 @@
 -->
       </style>
    </vector>
-   <wms type="map">
+<!--
+   <wmts type="map">
       <Layers>
          <Layer>
             <name>Basisdata_NP_Basiskart_JanMayen_WMTS_25833</name>
@@ -296,7 +302,6 @@
             <title>Jan Mayen</title>
          </Layer>
       </Layers>
-      <gatekeeper>true</gatekeeper>
       <name>Jan Mayen</name>
       <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_JanMayen_WMTS_25833/MapServer/WMTS?LAYERS=Basisdata_NP_Basiskart_JanMayen_WMTS_25833</url>
       <params>
@@ -309,8 +314,8 @@
          <singletile>false</singletile>
          <visibility>false</visibility>
       </options>
-   </wms>
-   <wms type="map">
+   </wmts>
+   <wmts type="map">
       <Layers>
          <Layer>
             <name>Basisdata_NP_Basiskart_Svalbard_WMTS_25833</name>
@@ -318,20 +323,21 @@
             <title>Svalbard</title>
          </Layer>
       </Layers>
-      <gatekeeper>true</gatekeeper>
       <name>Svalbard</name>
       <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_Svalbard_WMTS_25833/MapServer/WMTS?LAYERS=Basisdata_NP_Basiskart_Svalbard_WMTS_25833</url>
       <params>
          <layers>Basisdata_NP_Basiskart_Svalbard_WMTS_25833</layers>
          <format>image/png</format>
       </params>
-      <guid>2.Basisdata_NP_Basiskart_Svalbard_WMTS_25833</guid>
+     <TopLeftCorner>-5120900.0 9998100.0</TopLeftCorner> 
+     <guid>2.Basisdata_NP_Basiskart_Svalbard_WMTS_25833</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
          <visibility>false</visibility>
       </options>
-   </wms>
+   </wmts>
+-->
    <maplayer>
       <index>3</index>
       <name>fakta</name>
@@ -359,7 +365,7 @@
         </regularshape>
       </style>
      </vector>
-   <wms type="map">
+   <wmts type="map">
       <Layers>
          <Layer>
             <name>sjokartraster</name>
@@ -368,19 +374,21 @@
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Hovedkart</name>
-      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster</url>
+      <name>Sjøkart</name>
+      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
       <params>
          <layers>sjokartraster</layers>
          <format>image/png</format>
       </params>
+      <matrixPrefix>true</matrixPrefix>
       <guid>4.sjokartraster</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
          <visibility>false</visibility>
       </options>
-   </wms>
+   </wmts>
+<!--
    <wms type="overlay">
       <Layers>
          <Layer>
@@ -403,6 +411,7 @@
          <visibility>false</visibility>
       </options>
    </wms>
+-->
    <maplayer>
       <index>5</index>
       <name>friluft</name>
