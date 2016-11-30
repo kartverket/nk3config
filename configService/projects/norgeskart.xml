@@ -16,7 +16,7 @@
       </Layers>
       <gatekeeper>true</gatekeeper>
       <name>Land</name>
-      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?LAYERS=topo2_dybde|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?LAYERS=topo2_dybde</url>
+      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
       <params>
          <layers>topo2_dybde</layers>
          <format>image/png</format>
@@ -39,7 +39,7 @@
       </Layers>
       <gatekeeper>true</gatekeeper>
       <name>Rasterkart</name>
-      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?LAYERS=toporaster3|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?LAYERS=toporaster3</url>
+      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
       <params>
          <layers>toporaster3</layers>
          <format>image/png</format>
@@ -108,7 +108,7 @@
       </Layers>
       <gatekeeper>true</gatekeeper>
       <name>Terreng</name>
-      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?LAYERS=terreng_norgeskart|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?LAYERS=terreng_norgeskart</url>
+      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
       <params>
          <layers>terreng_norgeskart</layers>
          <format>image/png</format>
@@ -293,7 +293,7 @@
 -->
       </style>
    </vector>
-<!--
+
    <wmts type="map">
       <Layers>
          <Layer>
@@ -303,11 +303,14 @@
          </Layer>
       </Layers>
       <name>Jan Mayen</name>
-      <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_JanMayen_WMTS_25833/MapServer/WMTS?LAYERS=Basisdata_NP_Basiskart_JanMayen_WMTS_25833</url>
+      <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_JanMayen_WMTS_25833/MapServer/WMTS?</url>
       <params>
          <layers>Basisdata_NP_Basiskart_JanMayen_WMTS_25833</layers>
          <format>image/png</format>
       </params>
+      <matrixSet>default028mm</matrixSet>
+      <wmtsExtent>-393783.2540000008,7978220.98008712,-276963.7430000013,8084965.524000007</wmtsExtent> 
+      <getCapabilities>true</getCapabilities> 
       <guid>2.Basisdata_NP_Basiskart_JanMayen_WMTS_25833</guid>
       <options>
          <isbaselayer>true</isbaselayer>
@@ -315,6 +318,7 @@
          <visibility>false</visibility>
       </options>
    </wmts>
+
    <wmts type="map">
       <Layers>
          <Layer>
@@ -324,20 +328,21 @@
          </Layer>
       </Layers>
       <name>Svalbard</name>
-      <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_Svalbard_WMTS_25833/MapServer/WMTS?LAYERS=Basisdata_NP_Basiskart_Svalbard_WMTS_25833</url>
+      <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_Svalbard_WMTS_25833/MapServer/WMTS?</url>
       <params>
          <layers>Basisdata_NP_Basiskart_Svalbard_WMTS_25833</layers>
          <format>image/png</format>
       </params>
-     <TopLeftCorner>-5120900.0 9998100.0</TopLeftCorner> 
-     <guid>2.Basisdata_NP_Basiskart_Svalbard_WMTS_25833</guid>
+      <matrixSet>default028mm</matrixSet>
+      <wmtsExtent>369976.3899489096,8221306.539890718,878234.7199568129,9010718.76990194</wmtsExtent>
+      <getCapabilities>true</getCapabilities> 
+      <guid>2.Basisdata_NP_Basiskart_Svalbard_WMTS_25833</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
          <visibility>false</visibility>
       </options>
    </wmts>
--->
    <maplayer>
       <index>3</index>
       <name>fakta</name>
