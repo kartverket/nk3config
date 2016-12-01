@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+   <project lat="7226208" lon="378604" mapepsg="EPSG:32633" zoom="5">
+      <mapbackgroundcolor>#FFFFFF</mapbackgroundcolor>
+      <displaycenterepsgcode>EPSG:32633</displaycenterepsgcode>
+      <displayCenter>378604,7226208</displayCenter>
+      <displayprojectionepsgcode>EPSG:32633</displayprojectionepsgcode>
+   </project>
+   <wms type="map">
+      <gatekeeper>false</gatekeeper>
+      <name>Topo2</name>
+      <url>http://cache2.kartverket.no/wms?</url>
+      <params>
+         <layers>matrikkel_bakgrunn</layers>
+         <format>image/jpeg</format>
+      </params>
+      <matrixPrefix>true</matrixPrefix>
+      <guid>0.matrikkel_bakgrunn</guid>
+      <options>
+         <isbaselayer>true</isbaselayer>
+         <singletile>false</singletile>
+         <visibility>true</visibility>
+      </options>
+   </wms>
+   <wmts type="map">
+      <gatekeeper>true</gatekeeper>
+      <name>Flybilder</name>
+      <url>http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nib_utm33_wmts_v2?|http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nib_utm33_wmts_v2?</url>
+      <params>
+         <layers>Nibcache_UTM33_EUREF89</layers>
+         <format>image/png</format>
+      </params>
+      <matrixSet>default028mm</matrixSet>
+      <guid>0.ortofoto</guid>
+      <options>
+         <isbaselayer>true</isbaselayer>
+         <singletile>false</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wmts>
+   <maplayer>
+      <index>1</index>
+      <name>Matrikkel-data</name>
+      <groupid>1</groupid>
+   </maplayer>
+   <wms type="overlay">
+      <gatekeeper>true</gatekeeper>
+      <name>ADRESSER</name>
+      <url>//wms.geonorge.no/skwms1/wms.matrikkel.v1</url>
+      <groupid>1</groupid>
+      <params>
+         <layers>matrikkel:MATRIKKELADRESSEWFS,matrikkel:VEGADRESSEWFS</layers>
+         <format>image/png</format>
+      </params>
+      <guid>1.matrikkeladresse</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <gatekeeper>true</gatekeeper>
+      <name>BYGNINGER</name>
+      <url>//wms.geonorge.no/skwms1/wms.matrikkel.v1</url>
+      <groupid>1</groupid>
+      <params>
+         <layers>matrikkel:BYGNINGWFS</layers>
+         <format>image/png</format>
+      </params>
+      <guid>1.bygning</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <gatekeeper>true</gatekeeper>
+      <name>TEIGER OG GRENSER</name>
+      <url>//wms.geonorge.no/skwms1/wms.matrikkel.v1</url>
+      <groupid>1</groupid>
+      <params>
+         <layers>matrikkel:TEIGGRENSEWFS,matrikkel:TEIGWFS</layers>
+         <format>image/png</format>
+      </params>
+      <guid>1.teiggrense</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>true</visibility>
+      </options>
+   </wms>
+</config>
