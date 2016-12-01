@@ -7,13 +7,6 @@
       <displayprojectionepsgcode>EPSG:32633</displayprojectionepsgcode>
    </project>
    <wmts type="map">
-      <Layers>
-         <Layer>
-            <name>topo2_dybde</name>
-            <queryable>false</queryable>
-            <title>Landkart</title>
-         </Layer>
-      </Layers>
       <gatekeeper>true</gatekeeper>
       <name>Land</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
@@ -30,13 +23,6 @@
       </options>
    </wmts>
    <wmts type="map">
-      <Layers>
-         <Layer>
-            <name>toporaster3</name>
-            <queryable>false</queryable>
-            <title>Rasterkart</title>
-         </Layer>
-      </Layers>
       <gatekeeper>true</gatekeeper>
       <name>Rasterkart</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
@@ -53,13 +39,6 @@
       </options>
    </wmts>
    <wmts type="map">
-      <Layers>
-         <Layer>
-            <name>Nibcache_UTM33_EUREF89</name>
-            <queryable>false</queryable>
-            <title>Flybilder</title>
-         </Layer>
-      </Layers>
       <gatekeeper>true</gatekeeper>
       <name>Flybilder</name>
       <url>http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nib_utm33_wmts_v2?|http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nib_utm33_wmts_v2?</url>
@@ -76,13 +55,6 @@
       </options>
    </wmts>
    <wmts type="map">
-      <Layers>
-         <Layer>
-            <name>norges_grunnkart</name>
-            <queryable>false</queryable>
-            <title>Enkel</title>
-         </Layer>
-      </Layers>
       <gatekeeper>true</gatekeeper>
       <name>Enkel</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
@@ -99,13 +71,6 @@
       </options>
    </wmts>
    <wmts type="map">
-      <Layers>
-         <Layer>
-            <name>terreng_norgeskart</name>
-            <queryable>false</queryable>
-            <title>Terreng</title>
-         </Layer>
-      </Layers>
       <gatekeeper>true</gatekeeper>
       <name>Terreng</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
@@ -295,13 +260,6 @@
    </vector>
 
    <wmts type="map">
-      <Layers>
-         <Layer>
-            <name>Basisdata_NP_Basiskart_JanMayen_WMTS_25833</name>
-            <queryable>false</queryable>
-            <title>Jan Mayen</title>
-         </Layer>
-      </Layers>
       <name>Jan Mayen</name>
       <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_JanMayen_WMTS_25833/MapServer/WMTS?</url>
       <params>
@@ -320,13 +278,6 @@
    </wmts>
 
    <wmts type="map">
-      <Layers>
-         <Layer>
-            <name>Basisdata_NP_Basiskart_Svalbard_WMTS_25833</name>
-            <queryable>false</queryable>
-            <title>Svalbard</title>
-         </Layer>
-      </Layers>
       <name>Svalbard</name>
       <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_Svalbard_WMTS_25833/MapServer/WMTS?</url>
       <params>
@@ -371,13 +322,6 @@
       </style>
      </vector>
    <wmts type="map">
-      <Layers>
-         <Layer>
-            <name>sjokartraster</name>
-            <queryable>false</queryable>
-            <title>Hovedkart</title>
-         </Layer>
-      </Layers>
       <gatekeeper>true</gatekeeper>
       <name>Sjøkart</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
@@ -394,24 +338,23 @@
       </options>
    </wmts>
 <!--
+   <maplayer>
+      <index>4</index>
+      <name>Elekron. Sjøkart</name>
+      <groupid>4</groupid>
+   </maplayer>
    <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>cells</name>
-            <queryable>false</queryable>
-            <title>Elektron. Sjøkart</title>
-         </Layer>
-      </Layers>
       <gatekeeper>true</gatekeeper>
       <name>Elektron. Sjøkart</name>
       <url>//wms.geonorge.no/skwms1/wms.ecc_enc</url>
+      <groupid>4</groupid>
       <params>
          <layers>cells</layers>
          <format>image/png</format>
       </params>
       <guid>4.cells</guid>
       <options>
-         <isbaselayer>true</isbaselayer>
+         <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
          <visibility>false</visibility>
       </options>
@@ -423,13 +366,6 @@
       <groupid>5</groupid>
    </maplayer>
    <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>Friluftslivtilrettelegging</name>
-            <queryable>true</queryable>
-            <title>Tilrette- legging</title>
-         </Layer>
-      </Layers>
       <gatekeeper>true</gatekeeper>
       <name>Tilrette- legging</name>
       <url>//wms.geonorge.no/skwms1/wms.friluftsruter</url>
@@ -446,13 +382,6 @@
       </options>
    </wms>
    <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>AnnenRute</name>
-            <queryable>true</queryable>
-            <title>Annen</title>
-         </Layer>
-      </Layers>
       <gatekeeper>true</gatekeeper>
       <name>Annen</name>
       <url>//wms.geonorge.no/skwms1/wms.friluftsruter</url>
@@ -469,13 +398,6 @@
       </options>
    </wms>
    <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>Fotrute</name>
-            <queryable>true</queryable>
-            <title>Fotruter</title>
-         </Layer>
-      </Layers>
       <gatekeeper>true</gatekeeper>
       <name>Fotruter</name>
       <url>//wms.geonorge.no/skwms1/wms.friluftsruter</url>
@@ -502,13 +424,6 @@
       </includedFields>
    </wms>
    <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>Skiloype</name>
-            <queryable>true</queryable>
-            <title>Skiløyper</title>
-         </Layer>
-      </Layers>
       <gatekeeper>true</gatekeeper>
       <name>Skiløyper</name>
       <url>//wms.geonorge.no/skwms1/wms.friluftsruter</url>
@@ -527,13 +442,6 @@
       </includedFields> 
    </wms>
    <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>Sykkelrute</name>
-            <queryable>true</queryable>
-            <title>Sykkelruter</title>
-         </Layer>
-      </Layers>
       <gatekeeper>true</gatekeeper>
       <name>Sykkelruter</name>
       <url>//wms.geonorge.no/skwms1/wms.friluftsruter</url>
