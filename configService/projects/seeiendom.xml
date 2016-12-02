@@ -46,7 +46,7 @@
    <wms type="overlay">
       <gatekeeper>true</gatekeeper>
       <name>ADRESSER</name>
-      <url>//wms.geonorge.no/skwms1/wms.matrikkel.v1</url>
+      <url>//wms.geonorge.no/skwms1/wms.matrikkel.seeiendom2</url>
       <groupid>1</groupid>
       <params>
          <layers>matrikkel:MATRIKKELADRESSEWFS,matrikkel:VEGADRESSEWFS</layers>
@@ -62,7 +62,7 @@
    <wms type="overlay">
       <gatekeeper>true</gatekeeper>
       <name>BYGNINGER</name>
-      <url>//wms.geonorge.no/skwms1/wms.matrikkel.v1</url>
+      <url>//wms.geonorge.no/skwms1/wms.matrikkel.seeiendom2</url>
       <groupid>1</groupid>
       <params>
          <layers>matrikkel:BYGNINGWFS</layers>
@@ -78,10 +78,11 @@
    <wms type="overlay">
       <gatekeeper>true</gatekeeper>
       <name>TEIGER OG GRENSER</name>
-      <url>//wms.geonorge.no/skwms1/wms.matrikkel.v1</url>
+      <url>//wms.geonorge.no/skwms1/wms.matrikkel.seeiendom2</url>
       <groupid>1</groupid>
       <params>
-         <layers>matrikkel:TEIGGRENSEWFS,matrikkel:TEIGWFS</layers>
+         <!--layers>matrikkel:TEIGGRENSEWFS,matrikkel:TEIGWFS</layers-->
+         <layers>matrikkel:TEIGGRENSEWFS</layers>
          <format>image/png</format>
       </params>
       <guid>1.teiggrense</guid>
