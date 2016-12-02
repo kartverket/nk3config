@@ -64,6 +64,7 @@
       <name>ADRESSER</name>
       <url>//wms.geonorge.no/skwms1/wms.matrikkel.seeiendom2</url>
       <groupid>1</groupid>
+      <maxResolution>2</maxResolution>
       <params>
          <layers>matrikkel:MATRIKKELADRESSEWFS,matrikkel:VEGADRESSEWFS</layers>
          <format>image/png</format>
@@ -80,6 +81,7 @@
       <name>BYGNINGER</name>
       <url>//wms.geonorge.no/skwms1/wms.matrikkel.seeiendom2</url>
       <groupid>1</groupid>
+      <maxResolution>2</maxResolution>
       <params>
          <layers>matrikkel:BYGNINGWFS</layers>
          <format>image/png</format>
@@ -96,6 +98,7 @@
       <name>TEIGER OG GRENSER</name>
       <url>//wms.geonorge.no/skwms1/wms.matrikkel.seeiendom2</url>
       <groupid>1</groupid>
+      <maxResolution>2</maxResolution>
       <params>
          <layers>matrikkel:TEIGGRENSEWFS,matrikkel:TEIGWFS</layers>
          <format>image/png</format>
