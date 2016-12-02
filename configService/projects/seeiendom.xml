@@ -6,13 +6,13 @@
       <displayCenter>378604,7226208</displayCenter>
       <displayprojectionepsgcode>EPSG:32633</displayprojectionepsgcode>
    </project>
-   <wms type="map">
-      <gatekeeper>false</gatekeeper>
-      <name>Topo2</name>
-      <url>http://cache2.kartverket.no/wms?</url>
+   <wmts type="map">
+      <gatekeeper>true</gatekeeper>
+      <name>Landkart</name>
+      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
       <params>
          <layers>matrikkel_bakgrunn</layers>
-         <format>image/jpeg</format>
+         <format>image/png</format>
       </params>
       <matrixPrefix>true</matrixPrefix>
       <guid>0.matrikkel_bakgrunn</guid>
@@ -21,7 +21,7 @@
          <singletile>false</singletile>
          <visibility>true</visibility>
       </options>
-   </wms>
+   </wmts>
    <wmts type="map">
       <gatekeeper>true</gatekeeper>
       <name>Flybilder</name>
