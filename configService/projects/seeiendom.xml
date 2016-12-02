@@ -77,11 +77,27 @@
    </wms>
    <wms type="overlay">
       <gatekeeper>true</gatekeeper>
-      <name>TEIGER OG GRENSER</name>
+      <name>TEIGER</name>
       <url>//wms.geonorge.no/skwms1/wms.matrikkel.seeiendom2</url>
       <groupid>1</groupid>
       <params>
-         <!--layers>matrikkel:TEIGGRENSEWFS,matrikkel:TEIGWFS</layers-->
+         <layers>matrikkel:TEIGWFS</layers>
+         <format>image/png</format>
+         <styles>Matrikkelnummer</styles>
+      </params>
+      <guid>1.teig</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>true</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <gatekeeper>true</gatekeeper>
+      <name>GRENSER</name>
+      <url>//wms.geonorge.no/skwms1/wms.matrikkel.seeiendom2</url>
+      <groupid>1</groupid>
+      <params>
          <layers>matrikkel:TEIGGRENSEWFS</layers>
          <format>image/png</format>
       </params>
