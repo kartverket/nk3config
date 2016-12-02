@@ -6,126 +6,6 @@
       <displayCenter>378604,7226208</displayCenter>
       <displayprojectionepsgcode>EPSG:32633</displayprojectionepsgcode>
    </project>
-   <maplayer>
-      <index>0</index>
-      <name>Vedtaksstatus-dato</name>
-      <groupid>0</groupid>
-   </maplayer>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>Vedtatt_siste_6md</name>
-            <queryable>false</queryable>
-            <title>Vedteke siste 6md</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Vedteke siste 6md</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>0</groupid>
-      <params>
-         <layers>Vedtatt_siste_6md</layers>
-         <format>image/png</format>
-      </params>
-      <guid>0.Vedtatt_siste_6md</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>Vedtatt_siste_12md</name>
-            <queryable>false</queryable>
-            <title>Vedteke siste 12md</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Vedteke siste 12md</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>0</groupid>
-      <params>
-         <layers>Vedtatt_siste_12md</layers>
-         <format>image/png</format>
-      </params>
-      <guid>0.Vedtatt_siste_12md</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>Vedtatt_siste_24md</name>
-            <queryable>false</queryable>
-            <title>Vedteke siste 24md</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Vedteke siste 24md</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>0</groupid>
-      <params>
-         <layers>Vedtatt_siste_24md</layers>
-         <format>image/png</format>
-      </params>
-      <guid>0.Vedtatt_siste_24md</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>Vedtatt_siste_md</name>
-            <queryable>false</queryable>
-            <title>Vedteke siste md</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Vedteke siste md</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>0</groupid>
-      <params>
-         <layers>Vedtatt_siste_md</layers>
-         <format>image/png</format>
-      </params>
-      <guid>0.Vedtatt_siste_md</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>Vedtatt_siste_3md</name>
-            <queryable>false</queryable>
-            <title>Vedteke siste 3md</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Vedteke siste 3md</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>0</groupid>
-      <params>
-         <layers>Vedtatt_siste_3md</layers>
-         <format>image/png</format>
-      </params>
-      <guid>0.Vedtatt_siste_3md</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
    <wms type="map">
       <Layers>
          <Layer>
@@ -141,7 +21,7 @@
          <layers>toporaster3</layers>
          <format>image/png</format>
       </params>
-      <guid>1.toporaster3</guid>
+      <guid>0.toporaster3</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -163,32 +43,32 @@
          <layers>topo2_dybde</layers>
          <format>image/png</format>
       </params>
-      <guid>1.topo2_dybde</guid>
+      <guid>0.topo2_dybde</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
          <visibility>false</visibility>
       </options>
    </wms>
-   <wms type="overlay">
+   <wms type="map">
       <Layers>
          <Layer>
-            <name>NiB</name>
+            <name>Nibcache_UTM33_EUREF89</name>
             <queryable>false</queryable>
-            <title>Fly­bilete</title>
+            <title>Fly­bilder</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Fly­bilete</name>
-      <url>http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nibcache</url>
+      <name>Fly­bilder</name>
+      <url>//gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nib_utm33_wmts_v2?LAYERS=Nibcache_UTM33_EUREF89</url>
       <params>
-         <layers>NiB</layers>
+         <layers>Nibcache_UTM33_EUREF89</layers>
          <format>image/png</format>
       </params>
-      <guid>1.NiB</guid>
+      <guid>0.Nibcache_UTM33_EUREF89</guid>
       <options>
          <isbaselayer>true</isbaselayer>
-         <singletile>true</singletile>
+         <singletile>false</singletile>
          <visibility>false</visibility>
       </options>
    </wms>
@@ -207,7 +87,7 @@
          <layers>norges_grunnkart</layers>
          <format>image/png</format>
       </params>
-      <guid>1.norges_grunnkart</guid>
+      <guid>0.norges_grunnkart</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -229,7 +109,7 @@
          <layers>terreng_norgeskart</layers>
          <format>image/png</format>
       </params>
-      <guid>1.terreng_norgeskart</guid>
+      <guid>0.terreng_norgeskart</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -237,19 +117,19 @@
       </options>
    </wms>
    <maplayer>
-      <index>2</index>
+      <index>1</index>
       <name>dekning</name>
-      <groupid>2</groupid>
+      <groupid>1</groupid>
    </maplayer>
    <vector type="overlay">
       <name>Hovud­kart sjø</name>
       <url>http://www.norgeskart.no/json/dekning/sjo/hovedserie_ny.json</url>
       <epsg>EPSG:4326</epsg>
-      <groupid>2</groupid>
+      <groupid>1</groupid>
       <params>
          <format>application/json</format>
       </params>
-      <guid>2.Hovud­kart sjø</guid>
+      <guid>1.Hovud­kart sjø</guid>
       <options>
          <visibility>false</visibility>
       </options>
@@ -258,11 +138,11 @@
       <name>Hamne­kart</name>
       <url>http://www.norgeskart.no/json/dekning/sjo/havnekart_ny.json</url>
       <epsg>EPSG:4326</epsg>
-      <groupid>2</groupid>
+      <groupid>1</groupid>
       <params>
          <format>application/json</format>
       </params>
-      <guid>2.Hamne­kart</guid>
+      <guid>1.Hamne­kart</guid>
       <options>
          <visibility>false</visibility>
       </options>
@@ -271,11 +151,11 @@
       <name>Norge 1:50000</name>
       <url>http://www.norgeskart.no/json/dekning/land/n50/pod-inndeling2015-flaterl.json</url>
       <epsg>EPSG:4326</epsg>
-      <groupid>2</groupid>
+      <groupid>1</groupid>
       <params>
          <format>application/json</format>
       </params>
-      <guid>2.Norge 1:50000</guid>
+      <guid>1.Norge 1:50000</guid>
       <options>
          <visibility>false</visibility>
       </options>
@@ -284,11 +164,11 @@
       <name>Oversiglingskart</name>
       <url>http://www.norgeskart.no/json/dekning/sjo/overseilingskart_ny.json</url>
       <epsg>EPSG:4326</epsg>
-      <groupid>2</groupid>
+      <groupid>1</groupid>
       <params>
          <format>application/json</format>
       </params>
-      <guid>2.Oversiglingskart</guid>
+      <guid>1.Oversiglingskart</guid>
       <options>
          <visibility>false</visibility>
       </options>
@@ -297,37 +177,341 @@
       <name>Kyst­kart</name>
       <url>http://www.norgeskart.no/json/dekning/sjo/kystkart_ny.json</url>
       <epsg>EPSG:4326</epsg>
-      <groupid>2</groupid>
+      <groupid>1</groupid>
       <params>
          <format>application/json</format>
       </params>
-      <guid>2.Kyst­kart</guid>
+      <guid>1.Kyst­kart</guid>
       <options>
          <visibility>false</visibility>
       </options>
    </vector>
    <maplayer>
+      <index>2</index>
+      <name>navnesakstatus</name>
+      <groupid>2</groupid>
+   </maplayer>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>samlevedtak_tilbake</name>
+            <queryable>false</queryable>
+            <title>Samlevedtak trekt tilbake</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Samlevedtak trekt tilbake</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>2</groupid>
+      <params>
+         <layers>samlevedtak_tilbake</layers>
+         <format>image/png</format>
+      </params>
+      <guid>2.samlevedtak_tilbake</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>reist</name>
+            <queryable>false</queryable>
+            <title>Namnesak reist</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Namnesak reist</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>2</groupid>
+      <params>
+         <layers>reist</layers>
+         <format>image/png</format>
+      </params>
+      <guid>2.reist</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>navnemyndighet</name>
+            <queryable>false</queryable>
+            <title>Namneval vedteke/gjort av namnemyndet</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Namneval vedteke/gjort av namnemyndet</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>2</groupid>
+      <params>
+         <layers>navnemyndighet</layers>
+         <format>image/png</format>
+      </params>
+      <guid>2.navnemyndighet</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>samlevedtak</name>
+            <queryable>false</queryable>
+            <title>Samlevedtak</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Samlevedtak</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>2</groupid>
+      <params>
+         <layers>samlevedtak</layers>
+         <format>image/png</format>
+      </params>
+      <guid>2.samlevedtak</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>navnesakstatus_ubehandlet</name>
+            <queryable>false</queryable>
+            <title>Namnesaksstatus uhandsama</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Namnesaksstatus uhandsama</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>2</groupid>
+      <params>
+         <layers>navnesakstatus_ubehandlet</layers>
+         <format>image/png</format>
+      </params>
+      <guid>2.navnesakstatus_ubehandlet</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>skalikkebehandles</name>
+            <queryable>false</queryable>
+            <title>Skal ikkje handsamast etter lova</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Skal ikkje handsamast etter lova</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>2</groupid>
+      <params>
+         <layers>skalikkebehandles</layers>
+         <format>image/png</format>
+      </params>
+      <guid>2.skalikkebehandles</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>vedtakutsatt</name>
+            <queryable>false</queryable>
+            <title>Vedtak utsett</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Vedtak utsett</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>2</groupid>
+      <params>
+         <layers>vedtakutsatt</layers>
+         <format>image/png</format>
+      </params>
+      <guid>2.vedtakutsatt</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>navnesakstatus</name>
+            <queryable>false</queryable>
+            <title>Namnesakstatus</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Namnesakstatus</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>2</groupid>
+      <params>
+         <layers>navnesakstatus</layers>
+         <format>image/png</format>
+      </params>
+      <guid>2.navnesakstatus</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>klage_trukket</name>
+            <queryable>false</queryable>
+            <title>Klage, vedtak trekt tilbake</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Klage, vedtak trekt tilbake</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>2</groupid>
+      <params>
+         <layers>klage_trukket</layers>
+         <format>image/png</format>
+      </params>
+      <guid>2.klage_trukket</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>navnesak_vedtak</name>
+            <queryable>false</queryable>
+            <title>Namnesak vedteke</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Namnesak vedteke</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>2</groupid>
+      <params>
+         <layers>navnesak_vedtak</layers>
+         <format>image/png</format>
+      </params>
+      <guid>2.navnesak_vedtak</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>forenkletvedtak</name>
+            <queryable>false</queryable>
+            <title>Forenkla vedtak</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Forenkla vedtak</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>2</groupid>
+      <params>
+         <layers>forenkletvedtak</layers>
+         <format>image/png</format>
+      </params>
+      <guid>2.forenkletvedtak</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>klagevedtakutsatt</name>
+            <queryable>false</queryable>
+            <title>Klage, vedtak utsett</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Klage, vedtak utsett</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>2</groupid>
+      <params>
+         <layers>klagevedtakutsatt</layers>
+         <format>image/png</format>
+      </params>
+      <guid>2.klagevedtakutsatt</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>klage_ikke_trukket</name>
+            <queryable>false</queryable>
+            <title>Klage, vedtak ikkje trekt tilbake</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Klage, vedtak ikkje trekt tilbake</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>2</groupid>
+      <params>
+         <layers>klage_ikke_trukket</layers>
+         <format>image/png</format>
+      </params>
+      <guid>2.klage_ikke_trukket</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <maplayer>
       <index>3</index>
-      <name>ikke_autoriserte_skrivemaate</name>
+      <name>Navnetype</name>
       <groupid>3</groupid>
    </maplayer>
    <wms type="overlay">
       <Layers>
          <Layer>
-            <name>Historisk</name>
+            <name>offentlig_administrasjon</name>
             <queryable>false</queryable>
-            <title>Historisk</title>
+            <title>Administrative område</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Historisk</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
+      <name>Administrative område</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
       <groupid>3</groupid>
       <params>
-         <layers>Historisk</layers>
+         <layers>offentlig_administrasjon</layers>
          <format>image/png</format>
       </params>
-      <guid>3.Historisk</guid>
+      <guid>3.offentlig_administrasjon</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -337,20 +521,20 @@
    <wms type="overlay">
       <Layers>
          <Layer>
-            <name>Uvurdert</name>
+            <name>bebyggelse</name>
             <queryable>false</queryable>
-            <title>Uvurdert</title>
+            <title>Busetnad/ eigedom</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Uvurdert</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
+      <name>Busetnad/ eigedom</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
       <groupid>3</groupid>
       <params>
-         <layers>Uvurdert</layers>
+         <layers>bebyggelse</layers>
          <format>image/png</format>
       </params>
-      <guid>3.Uvurdert</guid>
+      <guid>3.bebyggelse</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -360,20 +544,20 @@
    <wms type="overlay">
       <Layers>
          <Layer>
-            <name>Foreslaatt</name>
+            <name>infrastruktur</name>
             <queryable>false</queryable>
-            <title>Føreslege</title>
+            <title>Samferdsle</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Føreslege</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
+      <name>Samferdsle</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
       <groupid>3</groupid>
       <params>
-         <layers>Foreslaatt</layers>
+         <layers>infrastruktur</layers>
          <format>image/png</format>
       </params>
-      <guid>3.Foreslaatt</guid>
+      <guid>3.infrastruktur</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -383,20 +567,112 @@
    <wms type="overlay">
       <Layers>
          <Layer>
-            <name>Avslaatt</name>
+            <name>sjo</name>
             <queryable>false</queryable>
-            <title>Avslege</title>
+            <title>Sjø</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Avslege</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
+      <name>Sjø</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
       <groupid>3</groupid>
       <params>
-         <layers>Avslaatt</layers>
+         <layers>sjo</layers>
          <format>image/png</format>
       </params>
-      <guid>3.Avslaatt</guid>
+      <guid>3.sjo</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>kultur</name>
+            <queryable>false</queryable>
+            <title>Kultur</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Kultur</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>3</groupid>
+      <params>
+         <layers>kultur</layers>
+         <format>image/png</format>
+      </params>
+      <guid>3.kultur</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>terreng</name>
+            <queryable>false</queryable>
+            <title>Terrengformer</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Terrengformer</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>3</groupid>
+      <params>
+         <layers>terreng</layers>
+         <format>image/png</format>
+      </params>
+      <guid>3.terreng</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>markslag</name>
+            <queryable>false</queryable>
+            <title>Markslag</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Markslag</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>3</groupid>
+      <params>
+         <layers>markslag</layers>
+         <format>image/png</format>
+      </params>
+      <guid>3.markslag</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>ferskvann</name>
+            <queryable>false</queryable>
+            <title>Ferskvann</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Ferskvann</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>3</groupid>
+      <params>
+         <layers>ferskvann</layers>
+         <format>image/png</format>
+      </params>
+      <guid>3.ferskvann</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -405,26 +681,26 @@
    </wms>
    <maplayer>
       <index>4</index>
-      <name>Navnetype</name>
+      <name>skrivemaatestatus</name>
       <groupid>4</groupid>
    </maplayer>
    <wms type="overlay">
       <Layers>
          <Layer>
-            <name>Bygninger_eiendom</name>
+            <name>privat</name>
             <queryable>false</queryable>
-            <title>Busetnad/ eigedom</title>
+            <title>Privat</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Busetnad/ eigedom</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
+      <name>Privat</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
       <groupid>4</groupid>
       <params>
-         <layers>Bygninger_eiendom</layers>
+         <layers>privat</layers>
          <format>image/png</format>
       </params>
-      <guid>4.Bygninger_eiendom</guid>
+      <guid>4.privat</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -434,20 +710,20 @@
    <wms type="overlay">
       <Layers>
          <Layer>
-            <name>Samferdsel</name>
+            <name>internasjonalt</name>
             <queryable>false</queryable>
-            <title>Samferdsle</title>
+            <title>Internasjonalt</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Samferdsle</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
+      <name>Internasjonalt</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
       <groupid>4</groupid>
       <params>
-         <layers>Samferdsel</layers>
+         <layers>internasjonalt</layers>
          <format>image/png</format>
       </params>
-      <guid>4.Samferdsel</guid>
+      <guid>4.internasjonalt</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -457,20 +733,20 @@
    <wms type="overlay">
       <Layers>
          <Layer>
-            <name>Terrengformer</name>
+            <name>avslatt</name>
             <queryable>false</queryable>
-            <title>Terrengformer</title>
+            <title>Avslått</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Terrengformer</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
+      <name>Avslått</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
       <groupid>4</groupid>
       <params>
-         <layers>Terrengformer</layers>
+         <layers>avslatt</layers>
          <format>image/png</format>
       </params>
-      <guid>4.Terrengformer</guid>
+      <guid>4.avslatt</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -480,20 +756,20 @@
    <wms type="overlay">
       <Layers>
          <Layer>
-            <name>Vannkontur</name>
+            <name>vedtatt_navneledd</name>
             <queryable>false</queryable>
-            <title>Vasskontur</title>
+            <title>Vedteke namneledd</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Vasskontur</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
+      <name>Vedteke namneledd</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
       <groupid>4</groupid>
       <params>
-         <layers>Vannkontur</layers>
+         <layers>vedtatt_navneledd</layers>
          <format>image/png</format>
       </params>
-      <guid>4.Vannkontur</guid>
+      <guid>4.vedtatt_navneledd</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -503,20 +779,20 @@
    <wms type="overlay">
       <Layers>
          <Layer>
-            <name>Administrative_omraader</name>
+            <name>historisk</name>
             <queryable>false</queryable>
-            <title>Administrative område</title>
+            <title>Historisk</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Administrative område</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
+      <name>Historisk</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
       <groupid>4</groupid>
       <params>
-         <layers>Administrative_omraader</layers>
+         <layers>historisk</layers>
          <format>image/png</format>
       </params>
-      <guid>4.Administrative_omraader</guid>
+      <guid>4.historisk</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -526,20 +802,20 @@
    <wms type="overlay">
       <Layers>
          <Layer>
-            <name>Andre_navnetyper</name>
+            <name>godkjent</name>
             <queryable>false</queryable>
-            <title>Andre namnetypar</title>
+            <title>Godkjent</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Andre namnetypar</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
+      <name>Godkjent</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
       <groupid>4</groupid>
       <params>
-         <layers>Andre_navnetyper</layers>
+         <layers>godkjent</layers>
          <format>image/png</format>
       </params>
-      <guid>4.Andre_navnetyper</guid>
+      <guid>4.godkjent</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -549,20 +825,20 @@
    <wms type="overlay">
       <Layers>
          <Layer>
-            <name>Kystdata</name>
+            <name>foreslatt</name>
             <queryable>false</queryable>
-            <title>Kystdata</title>
+            <title>Føreslege</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Kystdata</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
+      <name>Føreslege</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
       <groupid>4</groupid>
       <params>
-         <layers>Kystdata</layers>
+         <layers>foreslatt</layers>
          <format>image/png</format>
       </params>
-      <guid>4.Kystdata</guid>
+      <guid>4.foreslatt</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -572,48 +848,20 @@
    <wms type="overlay">
       <Layers>
          <Layer>
-            <name>Markslag</name>
+            <name>avslatt_navneledd</name>
             <queryable>false</queryable>
-            <title>Markslag</title>
+            <title>Avslege namneledd</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Markslag</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
+      <name>Avslege namneledd</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
       <groupid>4</groupid>
       <params>
-         <layers>Markslag</layers>
+         <layers>avslatt_navneledd</layers>
          <format>image/png</format>
       </params>
-      <guid>4.Markslag</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <maplayer>
-      <index>5</index>
-      <name>historik</name>
-      <groupid>5</groupid>
-   </maplayer>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>n5raster_foerstegang_metadata,n5raster_foerstegang</name>
-            <queryable>false</queryable>
-            <title>Øk–1⋅utgåve</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Øk–1⋅utgåve</name>
-      <url>http://wms.geonorge.no/skwms1/wms.n5raster2</url>
-      <groupid>5</groupid>
-      <params>
-         <layers>n5raster_foerstegang_metadata,n5raster_foerstegang</layers>
-         <format>image/png</format>
-      </params>
-      <guid>5.n5raster_foerstegang_metadata,n5raster_foerstegang</guid>
+      <guid>4.avslatt_navneledd</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -623,20 +871,43 @@
    <wms type="overlay">
       <Layers>
          <Layer>
-            <name>amt1</name>
+            <name>ubehandlet</name>
             <queryable>false</queryable>
-            <title>Amts­kart</title>
+            <title>Ubehandlet</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Amts­kart</name>
-      <url>http://wms.geonorge.no/skwms1/wms.historiskekart</url>
-      <groupid>5</groupid>
+      <name>Ubehandlet</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>4</groupid>
       <params>
-         <layers>amt1</layers>
+         <layers>ubehandlet</layers>
          <format>image/png</format>
       </params>
-      <guid>5.amt1</guid>
+      <guid>4.ubehandlet</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>vedtatt</name>
+            <queryable>false</queryable>
+            <title>Vedteke</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Vedteke</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>4</groupid>
+      <params>
+         <layers>vedtatt</layers>
+         <format>image/png</format>
+      </params>
+      <guid>4.vedtatt</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -658,7 +929,7 @@
          <layers>Basisdata_NP_Basiskart_JanMayen_WMTS_25833</layers>
          <format>image/png</format>
       </params>
-      <guid>6.Basisdata_NP_Basiskart_JanMayen_WMTS_25833</guid>
+      <guid>5.Basisdata_NP_Basiskart_JanMayen_WMTS_25833</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -680,7 +951,7 @@
          <layers>Basisdata_NP_Basiskart_Svalbard_WMTS_25833</layers>
          <format>image/png</format>
       </params>
-      <guid>6.Basisdata_NP_Basiskart_Svalbard_WMTS_25833</guid>
+      <guid>5.Basisdata_NP_Basiskart_Svalbard_WMTS_25833</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -688,27 +959,27 @@
       </options>
    </wms>
    <maplayer>
-      <index>7</index>
+      <index>6</index>
       <name>alle</name>
-      <groupid>7</groupid>
+      <groupid>6</groupid>
    </maplayer>
    <wms type="overlay">
       <Layers>
          <Layer>
-            <name>Vedtatt_og_godkjent_skrivemaate</name>
+            <name>skrivemaatestatus</name>
             <queryable>false</queryable>
-            <title>Skrivemåte–statusar</title>
+            <title>Skrivemåtestatus</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Skrivemåte–statusar</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>7</groupid>
+      <name>Skrivemåtestatus</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>6</groupid>
       <params>
-         <layers>Vedtatt_og_godkjent_skrivemaate</layers>
+         <layers>skrivemaatestatus</layers>
          <format>image/png</format>
       </params>
-      <guid>7.Vedtatt_og_godkjent_skrivemaate</guid>
+      <guid>6.skrivemaatestatus</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -718,20 +989,43 @@
    <wms type="overlay">
       <Layers>
          <Layer>
-            <name>Navnetype</name>
+            <name>navntype</name>
             <queryable>false</queryable>
             <title>Namnetypar</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
       <name>Namnetypar</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>7</groupid>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>6</groupid>
       <params>
-         <layers>Navnetype</layers>
+         <layers>navntype</layers>
          <format>image/png</format>
       </params>
-      <guid>7.Navnetype</guid>
+      <guid>6.navntype</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>vedtak</name>
+            <queryable>false</queryable>
+            <title>Vedtak</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Vedtak</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>6</groupid>
+      <params>
+         <layers>vedtak</layers>
+         <format>image/png</format>
+      </params>
+      <guid>6.vedtak</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -748,13 +1042,13 @@
       </Layers>
       <gatekeeper>true</gatekeeper>
       <name>Språk</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>7</groupid>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>6</groupid>
       <params>
          <layers>Spraak</layers>
          <format>image/png</format>
       </params>
-      <guid>7.Spraak</guid>
+      <guid>6.Spraak</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -776,7 +1070,7 @@
          <layers>sjokartraster</layers>
          <format>image/png</format>
       </params>
-      <guid>8.sjokartraster</guid>
+      <guid>7.sjokartraster</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
@@ -798,7 +1092,7 @@
          <layers>cells</layers>
          <format>image/png</format>
       </params>
-      <guid>8.cells</guid>
+      <guid>7.cells</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>true</singletile>
@@ -806,27 +1100,27 @@
       </options>
    </wms>
    <maplayer>
-      <index>9</index>
-      <name>autoriserte_skrivemaate</name>
-      <groupid>9</groupid>
+      <index>8</index>
+      <name>Spraak</name>
+      <groupid>8</groupid>
    </maplayer>
    <wms type="overlay">
       <Layers>
          <Layer>
-            <name>Samlevedtak</name>
+            <name>sorsamisk</name>
             <queryable>false</queryable>
-            <title>Samlevedtak</title>
+            <title>Sørsamisk</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Samlevedtak</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>9</groupid>
+      <name>Sørsamisk</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>8</groupid>
       <params>
-         <layers>Samlevedtak</layers>
+         <layers>sorsamisk</layers>
          <format>image/png</format>
       </params>
-      <guid>9.Samlevedtak</guid>
+      <guid>8.sorsamisk</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -836,20 +1130,20 @@
    <wms type="overlay">
       <Layers>
          <Layer>
-            <name>Godkjent</name>
+            <name>kvensk</name>
             <queryable>false</queryable>
-            <title>Godkjent</title>
+            <title>Kvensk</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Godkjent</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>9</groupid>
+      <name>Kvensk</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>8</groupid>
       <params>
-         <layers>Godkjent</layers>
+         <layers>kvensk</layers>
          <format>image/png</format>
       </params>
-      <guid>9.Godkjent</guid>
+      <guid>8.kvensk</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -859,20 +1153,20 @@
    <wms type="overlay">
       <Layers>
          <Layer>
-            <name>Vedtatt</name>
+            <name>andre</name>
             <queryable>false</queryable>
-            <title>Vedteke</title>
+            <title>Andre</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Vedteke</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>9</groupid>
+      <name>Andre</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>8</groupid>
       <params>
-         <layers>Vedtatt</layers>
+         <layers>andre</layers>
          <format>image/png</format>
       </params>
-      <guid>9.Vedtatt</guid>
+      <guid>8.andre</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -882,20 +1176,20 @@
    <wms type="overlay">
       <Layers>
          <Layer>
-            <name>Internasjonalt</name>
+            <name>nordsamisk</name>
             <queryable>false</queryable>
-            <title>Internasjonalt</title>
+            <title>Nordsamisk</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Internasjonalt</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>9</groupid>
+      <name>Nordsamisk</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>8</groupid>
       <params>
-         <layers>Internasjonalt</layers>
+         <layers>nordsamisk</layers>
          <format>image/png</format>
       </params>
-      <guid>9.Internasjonalt</guid>
+      <guid>8.nordsamisk</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -905,20 +1199,20 @@
    <wms type="overlay">
       <Layers>
          <Layer>
-            <name>Vedtak_paaklaget</name>
+            <name>lulesamisk</name>
             <queryable>false</queryable>
-            <title>Vedtak påklaga</title>
+            <title>Lulesamisk</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Vedtak påklaga</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>9</groupid>
+      <name>Lulesamisk</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>8</groupid>
       <params>
-         <layers>Vedtak_paaklaget</layers>
+         <layers>lulesamisk</layers>
          <format>image/png</format>
       </params>
-      <guid>9.Vedtak_paaklaget</guid>
+      <guid>8.lulesamisk</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -928,20 +1222,64 @@
    <wms type="overlay">
       <Layers>
          <Layer>
-            <name>Privat</name>
+            <name>norsk</name>
             <queryable>false</queryable>
-            <title>Privat</title>
+            <title>Norsk</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Privat</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
-      <groupid>9</groupid>
+      <name>Norsk</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>8</groupid>
       <params>
-         <layers>Privat</layers>
+         <layers>norsk</layers>
          <format>image/png</format>
       </params>
-      <guid>9.Privat</guid>
+      <guid>8.norsk</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>n5raster_foerstegang_metadata,n5raster_foerstegang</name>
+            <queryable>false</queryable>
+            <title>Øk–1⋅utgåve</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Øk–1⋅utgåve</name>
+      <url>http://wms.geonorge.no/skwms1/wms.n5raster2</url>
+      <params>
+         <layers>n5raster_foerstegang_metadata,n5raster_foerstegang</layers>
+         <format>image/png</format>
+      </params>
+      <guid>9.n5raster_foerstegang_metadata,n5raster_foerstegang</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>amt1</name>
+            <queryable>false</queryable>
+            <title>Amts­kart</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Amts­kart</name>
+      <url>http://wms.geonorge.no/skwms1/wms.historiskekart</url>
+      <params>
+         <layers>amt1</layers>
+         <format>image/png</format>
+      </params>
+      <guid>9.amt1</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -950,26 +1288,26 @@
    </wms>
    <maplayer>
       <index>10</index>
-      <name>Spraak</name>
+      <name>vedtak</name>
       <groupid>10</groupid>
    </maplayer>
    <wms type="overlay">
       <Layers>
          <Layer>
-            <name>Lulesamisk</name>
+            <name>vedtak_6</name>
             <queryable>false</queryable>
-            <title>Lulesamisk</title>
+            <title>Vedteke siste 6md</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Lulesamisk</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
+      <name>Vedteke siste 6md</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
       <groupid>10</groupid>
       <params>
-         <layers>Lulesamisk</layers>
+         <layers>vedtak_6</layers>
          <format>image/png</format>
       </params>
-      <guid>10.Lulesamisk</guid>
+      <guid>10.vedtak_6</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -979,20 +1317,20 @@
    <wms type="overlay">
       <Layers>
          <Layer>
-            <name>Nordsamisk</name>
+            <name>vedtak_12</name>
             <queryable>false</queryable>
-            <title>Nordsamisk</title>
+            <title>Vedteke siste 12md</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Nordsamisk</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
+      <name>Vedteke siste 12md</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
       <groupid>10</groupid>
       <params>
-         <layers>Nordsamisk</layers>
+         <layers>vedtak_12</layers>
          <format>image/png</format>
       </params>
-      <guid>10.Nordsamisk</guid>
+      <guid>10.vedtak_12</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -1002,20 +1340,20 @@
    <wms type="overlay">
       <Layers>
          <Layer>
-            <name>Sorsamisk</name>
+            <name>vedtak_24</name>
             <queryable>false</queryable>
-            <title>Sørsamisk</title>
+            <title>Vedteke siste 24md</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Sørsamisk</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
+      <name>Vedteke siste 24md</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
       <groupid>10</groupid>
       <params>
-         <layers>Sorsamisk</layers>
+         <layers>vedtak_24</layers>
          <format>image/png</format>
       </params>
-      <guid>10.Sorsamisk</guid>
+      <guid>10.vedtak_24</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -1025,20 +1363,20 @@
    <wms type="overlay">
       <Layers>
          <Layer>
-            <name>Kvensk</name>
+            <name>vedtak_3</name>
             <queryable>false</queryable>
-            <title>Kvensk</title>
+            <title>Vedteke siste 3md</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Kvensk</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
+      <name>Vedteke siste 3md</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
       <groupid>10</groupid>
       <params>
-         <layers>Kvensk</layers>
+         <layers>vedtak_3</layers>
          <format>image/png</format>
       </params>
-      <guid>10.Kvensk</guid>
+      <guid>10.vedtak_3</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
@@ -1048,20 +1386,135 @@
    <wms type="overlay">
       <Layers>
          <Layer>
-            <name>Norsk</name>
+            <name>vedtak_1</name>
             <queryable>false</queryable>
-            <title>Norsk</title>
+            <title>Vedteke siste md</title>
          </Layer>
       </Layers>
       <gatekeeper>true</gatekeeper>
-      <name>Norsk</name>
-      <url>http://openwms.statkart.no/skwms1/wms.stedsnavn_fag?</url>
+      <name>Vedteke siste md</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
       <groupid>10</groupid>
       <params>
-         <layers>Norsk</layers>
+         <layers>vedtak_1</layers>
          <format>image/png</format>
       </params>
-      <guid>10.Norsk</guid>
+      <guid>10.vedtak_1</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>samlevedtak24</name>
+            <queryable>false</queryable>
+            <title>Samlevedtak siste 24md</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Samlevedtak siste 24md</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>10</groupid>
+      <params>
+         <layers>samlevedtak24</layers>
+         <format>image/png</format>
+      </params>
+      <guid>10.samlevedtak24</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>samlevedtak12</name>
+            <queryable>false</queryable>
+            <title>Samlevedtak siste 12md</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Samlevedtak siste 12md</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>10</groupid>
+      <params>
+         <layers>samlevedtak12</layers>
+         <format>image/png</format>
+      </params>
+      <guid>10.samlevedtak12</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>samlevedtak6</name>
+            <queryable>false</queryable>
+            <title>Samlevedtak siste 6md</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Samlevedtak siste 6md</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>10</groupid>
+      <params>
+         <layers>samlevedtak6</layers>
+         <format>image/png</format>
+      </params>
+      <guid>10.samlevedtak6</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>samlevedtak3</name>
+            <queryable>false</queryable>
+            <title>Samlevedtak siste 3md</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Samlevedtak siste 3md</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>10</groupid>
+      <params>
+         <layers>samlevedtak3</layers>
+         <format>image/png</format>
+      </params>
+      <guid>10.samlevedtak3</guid>
+      <options>
+         <isbaselayer>false</isbaselayer>
+         <singletile>true</singletile>
+         <visibility>false</visibility>
+      </options>
+   </wms>
+   <wms type="overlay">
+      <Layers>
+         <Layer>
+            <name>samlevedtak1</name>
+            <queryable>false</queryable>
+            <title>Samlevedtak siste md</title>
+         </Layer>
+      </Layers>
+      <gatekeeper>true</gatekeeper>
+      <name>Samlevedtak siste md</name>
+      <url>http://wms.geonorge.no/skwms1/wms.ssr2?</url>
+      <groupid>10</groupid>
+      <params>
+         <layers>samlevedtak1</layers>
+         <format>image/png</format>
+      </params>
+      <guid>10.samlevedtak1</guid>
       <options>
          <isbaselayer>false</isbaselayer>
          <singletile>true</singletile>
