@@ -11,11 +11,11 @@
       <name>Land</name>
       <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
       <params>
-         <layers>topo2_dybde</layers>
+         <layers>matrikkel_bakgrunn</layers>
          <format>image/png</format>
       </params>
       <matrixPrefix>true</matrixPrefix>
-      <guid>0.topo2_dybde</guid>
+      <guid>0.matrikkel_bakgrunn</guid>
       <options>
          <isbaselayer>true</isbaselayer>
          <singletile>false</singletile>
