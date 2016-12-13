@@ -21,6 +21,7 @@
          <singletile>false</singletile>
          <visibility>true</visibility>
       </options>
+      <thumbnail>land</thumbnail>
    </wmts>
    <wmts type="map">
       <gatekeeper>true</gatekeeper>
@@ -37,6 +38,7 @@
          <singletile>false</singletile>
          <visibility>false</visibility>
       </options>
+      <thumbnail>raster</thumbnail>
    </wmts>
    <wmts type="map">
       <gatekeeper>true</gatekeeper>
@@ -53,6 +55,7 @@
          <singletile>false</singletile>
          <visibility>false</visibility>
       </options>
+      <thumbnail>aerial</thumbnail>
    </wmts>
    <wmts type="map">
       <gatekeeper>true</gatekeeper>
@@ -92,7 +95,7 @@
       <groupid>1</groupid>
    </maplayer>
    <vector type="overlay">
-      <name>Hoved kart sjø</name>
+      <name>Hovedkart sjø</name>
       <url>http://www.norgeskart.no/json/dekning/sjo/hovedserie_ny.json</url>
       <epsg>EPSG:4326</epsg>
       <groupid>1</groupid>
