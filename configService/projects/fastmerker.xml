@@ -1,453 +1,561 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <config>
-   <project lat="7226208" lon="378604" mapepsg="EPSG:32633" zoom="5">
-      <mapbackgroundcolor>#FFFFFF</mapbackgroundcolor>
-      <displaycenterepsgcode>EPSG:32633</displaycenterepsgcode>
-      <displayCenter>378604,7226208</displayCenter>
-      <displayprojectionepsgcode>EPSG:32633</displayprojectionepsgcode>
-   </project>
-   <wms type="map">
-      <Layers>
-         <Layer>
-            <name>toporaster3</name>
-            <queryable>false</queryable>
-            <title>Rasterkart</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Rasterkart</name>
-      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3</url>
-      <params>
-         <layers>toporaster3</layers>
-         <format>image/png</format>
-      </params>
-      <guid>0.toporaster3</guid>
-      <options>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="map">
-      <Layers>
-         <Layer>
-            <name>topo2_dybde</name>
-            <queryable>false</queryable>
-            <title>Land</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Land</name>
-      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde</url>
-      <params>
-         <layers>topo2_dybde</layers>
-         <format>image/png</format>
-      </params>
-      <guid>0.topo2_dybde</guid>
-      <options>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>NiB</name>
-            <queryable>false</queryable>
-            <title>Fly­bilder</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Fly­bilder</name>
-      <url>http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nibcache</url>
-      <params>
-         <layers>NiB</layers>
-         <format>image/png</format>
-      </params>
-      <guid>0.NiB</guid>
-      <options>
-         <isbaselayer>true</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="map">
-      <Layers>
-         <Layer>
-            <name>norges_grunnkart</name>
-            <queryable>false</queryable>
-            <title>Enkel</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Enkel</name>
-      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart</url>
-      <params>
-         <layers>norges_grunnkart</layers>
-         <format>image/png</format>
-      </params>
-      <guid>0.norges_grunnkart</guid>
-      <options>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="map">
-      <Layers>
-         <Layer>
-            <name>terreng_norgeskart</name>
-            <queryable>false</queryable>
-            <title>Terreng</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Terreng</name>
-      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart</url>
-      <params>
-         <layers>terreng_norgeskart</layers>
-         <format>image/png</format>
-      </params>
-      <guid>0.terreng_norgeskart</guid>
-      <options>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <maplayer>
-      <index>1</index>
-      <name>dekning</name>
-      <groupid>1</groupid>
-   </maplayer>
-   <vector type="overlay">
-      <name>Norge 1:50000</name>
-      <url>http://www.norgeskart.no/json/dekning/land/n50/plast.json</url>
-      <epsg>EPSG:4326</epsg>
-      <groupid>1</groupid>
-      <params>
-         <format>application/json</format>
-      </params>
-      <guid>1.Norge 1:50000</guid>
-      <options>
-         <visibility>false</visibility>
-      </options>
-   </vector>
-   <vector type="overlay">
-      <name>Hoved­kart sjø</name>
-      <url>http://www.norgeskart.no/json/dekning/sjo/hovedserie_ny.json</url>
-      <epsg>EPSG:4326</epsg>
-      <groupid>1</groupid>
-      <params>
-         <format>application/json</format>
-      </params>
-      <guid>1.Hoved­kart sjø</guid>
-      <options>
-         <visibility>false</visibility>
-      </options>
-   </vector>
-   <vector type="overlay">
-      <name>Kyst­kart</name>
-      <url>http://www.norgeskart.no/json/dekning/sjo/kystkart_ny.json</url>
-      <epsg>EPSG:4326</epsg>
-      <groupid>1</groupid>
-      <params>
-         <format>application/json</format>
-      </params>
-      <guid>1.Kyst­kart</guid>
-      <options>
-         <visibility>false</visibility>
-      </options>
-   </vector>
-   <vector type="overlay">
-      <name>Havne­kart</name>
-      <url>http://www.norgeskart.no/json/dekning/sjo/havnekart_ny.json</url>
-      <epsg>EPSG:4326</epsg>
-      <groupid>1</groupid>
-      <params>
-         <format>application/json</format>
-      </params>
-      <guid>1.Havne­kart</guid>
-      <options>
-         <visibility>false</visibility>
-      </options>
-   </vector>
-   <vector type="overlay">
-      <name>Overseilingskart</name>
-      <url>http://www.norgeskart.no/json/dekning/sjo/overseilingskart_ny.json</url>
-      <epsg>EPSG:4326</epsg>
-      <groupid>1</groupid>
-      <params>
-         <format>application/json</format>
-      </params>
-      <guid>1.Overseilingskart</guid>
-      <options>
-         <visibility>false</visibility>
-      </options>
-   </vector>
-   <maplayer>
-      <index>2</index>
-      <name>Fastmerker</name>
-      <groupid>2</groupid>
-   </maplayer>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>Trekantpunkt</name>
-            <queryable>false</queryable>
-            <title>Trekantpunkter</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Trekantpunkter</name>
-      <url>http://wms.geonorge.no/skwms1/wms.fastmerker2</url>
-      <groupid>2</groupid>
-      <params>
-         <layers>Trekantpunkt</layers>
-         <format>image/png</format>
-      </params>
-      <guid>2.Trekantpunkt</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>Niv_fastmerker</name>
-            <queryable>false</queryable>
-            <title>Niv. fastmerker</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Niv. fastmerker</name>
-      <url>http://wms.geonorge.no/skwms1/wms.fastmerker2</url>
-      <groupid>2</groupid>
-      <params>
-         <layers>Niv_fastmerker</layers>
-         <format>image/png</format>
-      </params>
-      <guid>2.Niv_fastmerker</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>Stamnettpunkt</name>
-            <queryable>false</queryable>
-            <title>Stamnettpunkter</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Stamnettpunkter</name>
-      <url>http://wms.geonorge.no/skwms1/wms.fastmerker2</url>
-      <groupid>2</groupid>
-      <params>
-         <layers>Stamnettpunkt</layers>
-         <format>image/png</format>
-      </params>
-      <guid>2.Stamnettpunkt</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>Landsnettpunkt</name>
-            <queryable>false</queryable>
-            <title>Landsnettpunkter</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Landsnettpunkter</name>
-      <url>http://wms.geonorge.no/skwms1/wms.fastmerker2</url>
-      <groupid>2</groupid>
-      <params>
-         <layers>Landsnettpunkt</layers>
-         <format>image/png</format>
-      </params>
-      <guid>2.Landsnettpunkt</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="map">
-      <Layers>
-         <Layer>
-            <name>Basisdata_NP_Basiskart_JanMayen_WMTS_25833</name>
-            <queryable>false</queryable>
-            <title>Jan Mayen</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Jan Mayen</name>
-      <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_JanMayen_WMTS_25833/MapServer/WMTS?LAYERS=Basisdata_NP_Basiskart_JanMayen_WMTS_25833</url>
-      <params>
-         <layers>Basisdata_NP_Basiskart_JanMayen_WMTS_25833</layers>
-         <format>image/png</format>
-      </params>
-      <guid>3.Basisdata_NP_Basiskart_JanMayen_WMTS_25833</guid>
-      <options>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="map">
-      <Layers>
-         <Layer>
-            <name>Basisdata_NP_Basiskart_Svalbard_WMTS_25833</name>
-            <queryable>false</queryable>
-            <title>Svalbard</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Svalbard</name>
-      <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_Svalbard_WMTS_25833/MapServer/WMTS?LAYERS=Basisdata_NP_Basiskart_Svalbard_WMTS_25833</url>
-      <params>
-         <layers>Basisdata_NP_Basiskart_Svalbard_WMTS_25833</layers>
-         <format>image/png</format>
-      </params>
-      <guid>3.Basisdata_NP_Basiskart_Svalbard_WMTS_25833</guid>
-      <options>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="map">
-      <Layers>
-         <Layer>
-            <name>sjokartraster</name>
-            <queryable>false</queryable>
-            <title>Hovedkart</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Hovedkart</name>
-      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster</url>
-      <params>
-         <layers>sjokartraster</layers>
-         <format>image/png</format>
-      </params>
-      <guid>4.sjokartraster</guid>
-      <options>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>cells</name>
-            <queryable>false</queryable>
-            <title>Elektron. Sjøkart</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Elektron. Sjøkart</name>
-      <url>http://wms.geonorge.no/skwms1/wms.ecc_enc</url>
-      <params>
-         <layers>cells</layers>
-         <format>image/png</format>
-      </params>
-      <guid>4.cells</guid>
-      <options>
-         <isbaselayer>true</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <maplayer>
-      <index>5</index>
-      <name>UTM-rutenett</name>
-      <groupid>5</groupid>
-   </maplayer>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>UTMrutenett</name>
-            <queryable>false</queryable>
-            <title>UTM-rutenett</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>UTM-rutenett</name>
-      <url>http://openwms.statkart.no/skwms1/wms.rutenett?</url>
-      <groupid>5</groupid>
-      <params>
-         <layers>UTMrutenett</layers>
-         <format>image/png</format>
-      </params>
-      <guid>5.UTMrutenett</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <maplayer>
-      <index>6</index>
-      <name>stasjoner</name>
-      <groupid>6</groupid>
-   </maplayer>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>Stasjoner</name>
-            <queryable>false</queryable>
-            <title>Norske stasjoner</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Norske stasjoner</name>
-      <url>http://wms.geonorge.no/skwms1/wms.fastmerker2</url>
-      <groupid>6</groupid>
-      <params>
-         <layers>Stasjoner</layers>
-         <format>image/png</format>
-      </params>
-      <guid>6.Stasjoner</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>Svenske_finske_stasjoner</name>
-            <queryable>false</queryable>
-            <title>Svenske og finske stasjoner</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Svenske og finske stasjoner</name>
-      <url>http://wms.geonorge.no/skwms1/wms.fastmerker2</url>
-      <groupid>6</groupid>
-      <params>
-         <layers>Svenske_finske_stasjoner</layers>
-         <format>image/png</format>
-      </params>
-      <guid>6.Svenske_finske_stasjoner</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
+    <project lat="7226208" lon="378604" mapepsg="EPSG:32633" zoom="5">
+        <mapbackgroundcolor>#FFFFFF</mapbackgroundcolor>
+        <displaycenterepsgcode>EPSG:32633</displaycenterepsgcode>
+        <displayCenter>378604,7226208</displayCenter>
+        <displayprojectionepsgcode>EPSG:32633</displayprojectionepsgcode>
+        <name>fastmerker</name>
+    </project>
+    <wmts type="map">
+        <gatekeeper>true</gatekeeper>
+        <name>Land</name>
+        <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
+        <params>
+            <layers>topo2_dybde</layers>
+            <format>image/png</format>
+        </params>
+        <matrixPrefix>true</matrixPrefix>
+        <guid>0.topo2_dybde</guid>
+        <options>
+            <isbaselayer>true</isbaselayer>
+            <singletile>false</singletile>
+            <visibility>false</visibility>
+        </options>
+    </wmts>
+    <wmts type="map">
+        <gatekeeper>true</gatekeeper>
+        <name>Rasterkart</name>
+        <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
+        <params>
+            <layers>toporaster3</layers>
+            <format>image/png</format>
+        </params>
+        <matrixPrefix>true</matrixPrefix>
+        <guid>0.toporaster3</guid>
+        <options>
+            <isbaselayer>true</isbaselayer>
+            <singletile>false</singletile>
+            <visibility>false</visibility>
+        </options>
+    </wmts>
+    <wmts type="map">
+        <gatekeeper>true</gatekeeper>
+        <name>Flybilder</name>
+        <url>http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nib_utm33_wmts_v2?|http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nib_utm33_wmts_v2?</url>
+        <params>
+            <layers>Nibcache_UTM33_EUREF89</layers>
+            <format>image/png</format>
+        </params>
+        <matrixSet>default028mm</matrixSet>
+        <guid>0.ortofoto</guid>
+        <options>
+            <isbaselayer>true</isbaselayer>
+            <singletile>false</singletile>
+            <visibility>false</visibility>
+        </options>
+    </wmts>
+    <wmts type="map">
+        <gatekeeper>true</gatekeeper>
+        <name>Enkel</name>
+        <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
+        <params>
+            <layers>norges_grunnkart</layers>
+            <format>image/png</format>
+        </params>
+        <matrixPrefix>true</matrixPrefix>
+        <guid>0.norges_grunnkart</guid>
+        <options>
+            <isbaselayer>true</isbaselayer>
+            <singletile>false</singletile>
+            <visibility>true</visibility>
+        </options>
+    </wmts>
+    <wmts type="map">
+        <gatekeeper>true</gatekeeper>
+        <name>Terreng</name>
+        <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
+        <params>
+            <layers>terreng_norgeskart</layers>
+            <format>image/png</format>
+        </params>
+        <matrixPrefix>true</matrixPrefix>
+        <guid>0.terreng_norgeskart</guid>
+        <options>
+            <isbaselayer>true</isbaselayer>
+            <singletile>false</singletile>
+            <visibility>false</visibility>
+        </options>
+    </wmts>
+    <wmts type="map">
+        <gatekeeper>true</gatekeeper>
+        <name>Sjøkart</name>
+        <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
+        <params>
+            <layers>sjokartraster</layers>
+            <format>image/png</format>
+        </params>
+        <matrixPrefix>true</matrixPrefix>
+        <guid>0.sjokartraster</guid>
+        <options>
+            <isbaselayer>true</isbaselayer>
+            <singletile>false</singletile>
+            <visibility>false</visibility>
+        </options>
+    </wmts>
+    <wms type="overlay">
+        <Layers>
+            <Layer>
+                <name>cells</name>
+                <queryable>false</queryable>
+                <title>Elektron. Sjøkart</title>
+            </Layer>
+        </Layers>
+        <gatekeeper>true</gatekeeper>
+        <name>Elektron. Sjøkart</name>
+        <url>http://wms.geonorge.no/skwms1/wms.ecc_enc</url>
+        <params>
+            <layers>cells</layers>
+            <format>image/png</format>
+        </params>
+        <guid>0.cells</guid>
+        <options>
+            <isbaselayer>true</isbaselayer>
+            <singletile>true</singletile>
+            <visibility>false</visibility>
+        </options>
+    </wms>
+    <maplayer>
+        <index>1</index>
+        <name>dekning</name>
+        <groupid>1</groupid>
+    </maplayer>
+    <vector type="overlay">
+        <name>Hoved kart sjø</name>
+        <url>http://www.norgeskart.no/json/dekning/sjo/hovedserie_ny.json</url>
+        <epsg>EPSG:4326</epsg>
+        <groupid>1</groupid>
+        <params>
+            <format>application/json</format>
+        </params>
+        <guid>1.Hovedkart sjø</guid>
+        <options>
+            <visibility>false</visibility>
+        </options>
+        <style>
+            <fill>
+                <color>rgba(128, 128, 128, 0.1)</color>
+            </fill>
+            <stroke>
+                <color>rgb(64, 128, 64)</color>
+                <width>1</width>
+            </stroke>
+            <!--
+        <text><font>20px sans-serif, helvetica</font><text>{_id}</text><stroke><color>#ffffff</color><width>4</width></stroke></text>
+-->
+        </style>
+        <includedFields>
+            <field name="d" alias="Datum"/>
+            <field name="n" alias="Navn"/>
+            <field name="p" alias="Projeksjon"/>
+            <field name="s" alias="Målestokk"/>
+            <field name="u" alias="Ny utgave"/>
+        </includedFields>
+    </vector>
+    <vector type="overlay">
+        <name>Norge 1:50000</name>
+        <url>http://www.norgeskart.no/json/dekning/land/n50/pod-inndeling2015-flaterl.json</url>
+        <epsg>EPSG:32633</epsg>
+        <groupid>1</groupid>
+        <params>
+            <format>application/json</format>
+        </params>
+        <guid>1.Norge 1:50000</guid>
+        <options>
+            <visibility>false</visibility>
+        </options>
+        <style>
+            <fill>
+                <color>rgba(128, 128, 128, 0.1)</color>
+            </fill>
+            <stroke>
+                <color>rgb(64, 128, 64)</color>
+                <width>1</width>
+            </stroke>
+            <!--
+        <text><font>15px sans-serif, helvetica</font><text>{POD_KARTNR}</text><stroke><color>#ffffff</color><width>4</width></stroke></text>
+-->
+        </style>
+    </vector>
+    <vector type="overlay">
+        <name>Overseilingskart</name>
+        <url>http://www.norgeskart.no/json/dekning/sjo/overseilingskart_ny.json</url>
+        <epsg>EPSG:4326</epsg>
+        <groupid>1</groupid>
+        <params>
+            <format>application/json</format>
+        </params>
+        <guid>1.Overseilingskart</guid>
+        <options>
+            <visibility>false</visibility>
+        </options>
+        <style>
+            <fill>
+                <color>rgba(128, 128, 128, 0.1)</color>
+            </fill>
+            <stroke>
+                <color>rgb(64, 64, 128)</color>
+                <width>1</width>
+            </stroke>
+            <!--
+        <text><font>20px sans-serif, helvetica</font><text>{_id}</text><stroke><color>#ffffff</color><width>4</width></stroke></text>
+-->
+        </style>
+    </vector>
+    <vector type="overlay">
+        <name>Kystkart</name>
+        <url>http://www.norgeskart.no/json/dekning/sjo/kystkart_ny.json</url>
+        <epsg>EPSG:4326</epsg>
+        <groupid>1</groupid>
+        <params>
+            <format>application/json</format>
+        </params>
+        <guid>1.Kystkart</guid>
+        <options>
+            <visibility>false</visibility>
+        </options>
+        <style>
+            <fill>
+                <color>rgba(128, 128, 128, 0.1)</color>
+            </fill>
+            <stroke>
+                <color>rgb(128, 64, 64)</color>
+                <width>1</width>
+            </stroke>
+            <!--
+        <text><font>20px sans-serif, helvetica</font><text>{_id}</text><stroke><color>#ffffff</color><width>4</width></stroke></text>
+-->
+        </style>
+    </vector>
+    <vector type="overlay">
+        <name>Havnekart</name>
+        <url>http://www.norgeskart.no/json/dekning/sjo/havnekart_ny.json</url>
+        <epsg>EPSG:4326</epsg>
+        <groupid>1</groupid>
+        <params>
+            <format>application/json</format>
+        </params>
+        <guid>1.Havnekart</guid>
+        <options>
+            <visibility>false</visibility>
+        </options>
+        <style>
+            <fill>
+                <color>rgba(128, 128, 128, 0.1)</color>
+            </fill>
+            <stroke>
+                <color>rgb(128, 64, 64)</color>
+                <width>1</width>
+            </stroke>
+            <!--
+        <text><font>20px sans-serif, helvetica</font><text>{_id}</text><stroke><color>#ffffff</color><width>4</width></stroke></text>
+-->
+        </style>
+    </vector>
+    <wmts type="map">
+        <name>Jan Mayen</name>
+        <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_JanMayen_WMTS_25833/MapServer/WMTS?</url>
+        <params>
+            <layers>Basisdata_NP_Basiskart_JanMayen_WMTS_25833</layers>
+            <format>image/png</format>
+        </params>
+        <matrixSet>default028mm</matrixSet>
+        <wmtsExtent>-393783.2540000008,7978220.98008712,-276963.7430000013,8084965.524000007</wmtsExtent>
+        <getCapabilities>true</getCapabilities>
+        <guid>2.Basisdata_NP_Basiskart_JanMayen_WMTS_25833</guid>
+        <options>
+            <isbaselayer>true</isbaselayer>
+            <singletile>false</singletile>
+            <visibility>false</visibility>
+        </options>
+    </wmts>
+    <wmts type="map">
+        <name>Svalbard</name>
+        <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_Svalbard_WMTS_25833/MapServer/WMTS?</url>
+        <params>
+            <layers>Basisdata_NP_Basiskart_Svalbard_WMTS_25833</layers>
+            <format>image/png</format>
+        </params>
+        <matrixSet>default028mm</matrixSet>
+        <wmtsExtent>369976.3899489096,8221306.539890718,878234.7199568129,9010718.76990194</wmtsExtent>
+        <getCapabilities>true</getCapabilities>
+        <guid>2.Basisdata_NP_Basiskart_Svalbard_WMTS_25833</guid>
+        <options>
+            <isbaselayer>true</isbaselayer>
+            <singletile>false</singletile>
+            <visibility>false</visibility>
+        </options>
+    </wmts>
+    <maplayer>
+        <index>2</index>
+        <name>Fastmerker</name>
+        <groupid>2</groupid>
+    </maplayer>
+    <wms type="overlay">
+        <Layers>
+            <Layer>
+                <name>Trekantpunkt</name>
+                <queryable>false</queryable>
+                <title>Trekantpunkter</title>
+            </Layer>
+        </Layers>
+        <gatekeeper>true</gatekeeper>
+        <name>Trekantpunkter</name>
+        <url>http://wms.geonorge.no/skwms1/wms.fastmerker2</url>
+        <groupid>2</groupid>
+        <params>
+            <layers>Trekantpunkt</layers>
+            <format>image/png</format>
+        </params>
+        <guid>2.Trekantpunkt</guid>
+        <options>
+            <isbaselayer>false</isbaselayer>
+            <singletile>true</singletile>
+            <visibility>false</visibility>
+        </options>
+        <includedFields>
+            <field alias="Punktnummer" name="punktnummer"/>
+            <field alias="Punktnavn" name="punktnavn"/>
+            <field alias="Nord" name="nord"/>
+            <field alias="Øst" name="ost"/>
+            <field alias="Sone" name="sone"/>
+            <field alias="Høyde_nn2000" name="hoyde_nn2000" unit=" m"/>
+            <field alias="Høyde_nn1954" name="hoyde_nn1954" unit=" m"/>
+            <field alias="Ellipsoidisk_høyde" name="ellipsoidisk_hoyde"/>
+            <field alias="Punkttype" name="punkttype"/>
+            <field alias="Underlag" name="underlag"/>
+            <field alias="Kvalitet_nn1954" name="kvalitet_nn1954" unit=" mm"/>
+            <field alias="Kvalitet_grunnriss" name="kvalitet_grunnriss" unit=" mm"/>
+            <field alias="Status" name="status"/>
+            <field alias="Status_år" name="status_ar"/>
+            <field alias="Beskrivelse" name="beskrivelse"/>
+        </includedFields>
+    </wms>
+    <wms type="overlay">
+        <Layers>
+            <Layer>
+                <name>Niv_fastmerker</name>
+                <queryable>false</queryable>
+                <title>Niv. fastmerker</title>
+            </Layer>
+        </Layers>
+        <gatekeeper>true</gatekeeper>
+        <name>Niv. fastmerker</name>
+        <url>http://wms.geonorge.no/skwms1/wms.fastmerker2</url>
+        <groupid>2</groupid>
+        <params>
+            <layers>Niv_fastmerker</layers>
+            <format>image/png</format>
+        </params>
+        <guid>2.Niv_fastmerker</guid>
+        <options>
+            <isbaselayer>false</isbaselayer>
+            <singletile>true</singletile>
+            <visibility>false</visibility>
+        </options>
+        <includedFields>
+            <field alias="Punktnummer" name="punktnummer"/>
+            <field alias="Punktnavn" name="punktnavn"/>
+            <field alias="Nord" name="nord"/>
+            <field alias="Øst" name="ost"/>
+            <field alias="Sone" name="sone"/>
+            <field alias="Høyde_nn2000" name="hoyde_nn2000" unit=" m"/>
+            <field alias="Høyde_nn1954" name="hoyde_nn1954" unit=" m"/>
+            <field alias="Ellipsoidisk_høyde" name="ellipsoidisk_hoyde"/>
+            <field alias="Punkttype" name="punkttype"/>
+            <field alias="Underlag" name="underlag"/>
+            <field alias="Kvalitet_nn1954" name="kvalitet_nn1954" unit=" mm"/>
+            <field alias="Kvalitet_grunnriss" name="kvalitet_grunnriss" unit=" mm"/>
+            <field alias="Status" name="status"/>
+            <field alias="Status_år" name="status_ar"/>
+            <field alias="Beskrivelse" name="beskrivelse"/>
+        </includedFields>
+    </wms>
+    <wms type="overlay">
+        <Layers>
+            <Layer>
+                <name>Stamnettpunkt</name>
+                <queryable>false</queryable>
+                <title>Stamnettpunkter</title>
+            </Layer>
+        </Layers>
+        <gatekeeper>true</gatekeeper>
+        <name>Stamnettpunkter</name>
+        <url>http://wms.geonorge.no/skwms1/wms.fastmerker2</url>
+        <groupid>2</groupid>
+        <params>
+            <layers>Stamnettpunkt</layers>
+            <format>image/png</format>
+        </params>
+        <guid>2.Stamnettpunkt</guid>
+        <options>
+            <isbaselayer>false</isbaselayer>
+            <singletile>true</singletile>
+            <visibility>false</visibility>
+        </options>
+        <includedFields>
+            <field alias="Punktnummer" name="punktnummer"/>
+            <field alias="Punktnavn" name="punktnavn"/>
+            <field alias="Nord" name="nord"/>
+            <field alias="Øst" name="ost"/>
+            <field alias="Sone" name="sone"/>
+            <field alias="Høyde_nn2000" name="hoyde_nn2000" unit=" m"/>
+            <field alias="Høyde_nn1954" name="hoyde_nn1954" unit=" m"/>
+            <field alias="Ellipsoidisk_høyde" name="ellipsoidisk_hoyde"/>
+            <field alias="Punkttype" name="punkttype"/>
+            <field alias="Underlag" name="underlag"/>
+            <field alias="Kvalitet_nn1954" name="kvalitet_nn1954" unit=" mm"/>
+            <field alias="Kvalitet_grunnriss" name="kvalitet_grunnriss" unit=" mm"/>
+            <field alias="Status" name="status"/>
+            <field alias="Status_år" name="status_ar"/>
+            <field alias="Beskrivelse" name="beskrivelse"/>
+        </includedFields>
+    </wms>
+    <wms type="overlay">
+        <Layers>
+            <Layer>
+                <name>Landsnettpunkt</name>
+                <queryable>false</queryable>
+                <title>Landsnettpunkter</title>
+            </Layer>
+        </Layers>
+        <gatekeeper>true</gatekeeper>
+        <name>Landsnettpunkter</name>
+        <url>http://wms.geonorge.no/skwms1/wms.fastmerker2</url>
+        <groupid>2</groupid>
+        <params>
+            <layers>Landsnettpunkt</layers>
+            <format>image/png</format>
+        </params>
+        <guid>2.Landsnettpunkt</guid>
+        <options>
+            <isbaselayer>false</isbaselayer>
+            <singletile>true</singletile>
+            <visibility>false</visibility>
+        </options>
+        <includedFields>
+            <field alias="Punktnummer" name="punktnummer"/>
+            <field alias="Punktnavn" name="punktnavn"/>
+            <field alias="Nord" name="nord"/>
+            <field alias="Øst" name="ost"/>
+            <field alias="Sone" name="sone"/>
+            <field alias="Høyde_nn2000" name="hoyde_nn2000" unit=" m"/>
+            <field alias="Høyde_nn1954" name="hoyde_nn1954" unit=" m"/>
+            <field alias="Ellipsoidisk_høyde" name="ellipsoidisk_hoyde"/>
+            <field alias="Punkttype" name="punkttype"/>
+            <field alias="Underlag" name="underlag"/>
+            <field alias="Kvalitet_nn1954" name="kvalitet_nn1954" unit=" mm"/>
+            <field alias="Kvalitet_grunnriss" name="kvalitet_grunnriss" unit=" mm"/>
+            <field alias="Status" name="status"/>
+            <field alias="Status_år" name="status_ar"/>
+            <field alias="Beskrivelse" name="beskrivelse"/>
+        </includedFields>
+    </wms>
+    <maplayer>
+        <index>5</index>
+        <name>UTM-rutenett</name>
+        <groupid>5</groupid>
+    </maplayer>
+    <wms type="overlay">
+        <Layers>
+            <Layer>
+                <name>UTMrutenett</name>
+                <queryable>false</queryable>
+                <title>UTM-rutenett</title>
+            </Layer>
+        </Layers>
+        <gatekeeper>true</gatekeeper>
+        <name>UTM-rutenett</name>
+        <url>http://openwms.statkart.no/skwms1/wms.rutenett?</url>
+        <groupid>5</groupid>
+        <params>
+            <layers>UTMrutenett</layers>
+            <format>image/png</format>
+        </params>
+        <guid>5.UTMrutenett</guid>
+        <options>
+            <isbaselayer>false</isbaselayer>
+            <singletile>true</singletile>
+            <visibility>false</visibility>
+        </options>
+    </wms>
+    <maplayer>
+        <index>6</index>
+        <name>stasjoner</name>
+        <groupid>6</groupid>
+    </maplayer>
+    <wms type="overlay">
+        <Layers>
+            <Layer>
+                <name>Stasjoner</name>
+                <queryable>false</queryable>
+                <title>Norske stasjoner</title>
+            </Layer>
+        </Layers>
+        <gatekeeper>true</gatekeeper>
+        <name>Norske stasjoner</name>
+        <url>http://wms.geonorge.no/skwms1/wms.fastmerker2</url>
+        <groupid>6</groupid>
+        <params>
+            <layers>Stasjoner</layers>
+            <format>image/png</format>
+        </params>
+        <guid>6.Stasjoner</guid>
+        <options>
+            <isbaselayer>false</isbaselayer>
+            <singletile>true</singletile>
+            <visibility>false</visibility>
+        </options>
+        <includedFields>
+            <field alias="Stasjonsnavn" name="sitename"/>
+            <field alias="StasjonsId" name="fourcharid"/>
+            <field alias="Status" name="siteconfigstattypename"/>
+            <field alias="X-koordinater" name="x"/>
+            <field alias="Y-koordinater" name="y"/>
+            <field alias="Z-koordinater" name="z"/>
+            <field alias="Koordinatsystem" name="coordsysname"/>
+        </includedFields>
+    </wms>
+    <wms type="overlay">
+        <Layers>
+            <Layer>
+                <name>Svenske_finske_stasjoner</name>
+                <queryable>false</queryable>
+                <title>Svenske og finske stasjoner</title>
+            </Layer>
+        </Layers>
+        <gatekeeper>true</gatekeeper>
+        <name>Svenske og finske stasjoner</name>
+        <url>http://wms.geonorge.no/skwms1/wms.fastmerker2</url>
+        <groupid>6</groupid>
+        <params>
+            <layers>Svenske_finske_stasjoner</layers>
+            <format>image/png</format>
+        </params>
+        <guid>6.Svenske_finske_stasjoner</guid>
+        <options>
+            <isbaselayer>false</isbaselayer>
+            <singletile>true</singletile>
+            <visibility>false</visibility>
+        </options>
+        <includedFields>
+            <field alias="Stasjonsnavn" name="sitename"/>
+            <field alias="StasjonsId" name="fourcharid"/>
+            <field alias="Status" name="siteconfigstattypename"/>
+            <field alias="X-koordinater" name="x"/>
+            <field alias="Y-koordinater" name="y"/>
+            <field alias="Z-koordinater" name="z"/>
+            <field alias="Koordinatsystem" name="coordsysname"/>
+        </includedFields>
+    </wms>
 </config>
