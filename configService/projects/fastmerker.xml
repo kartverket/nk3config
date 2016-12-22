@@ -22,22 +22,7 @@
             <singletile>false</singletile>
             <visibility>false</visibility>
         </options>
-    </wmts>
-    <wmts type="map">
-        <gatekeeper>true</gatekeeper>
-        <name>Rasterkart</name>
-        <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
-        <params>
-            <layers>toporaster3</layers>
-            <format>image/png</format>
-        </params>
-        <matrixPrefix>true</matrixPrefix>
-        <guid>0.toporaster3</guid>
-        <options>
-            <isbaselayer>true</isbaselayer>
-            <singletile>false</singletile>
-            <visibility>false</visibility>
-        </options>
+        <thumbnail>land</thumbnail>
     </wmts>
     <wmts type="map">
         <gatekeeper>true</gatekeeper>
@@ -54,6 +39,24 @@
             <singletile>false</singletile>
             <visibility>false</visibility>
         </options>
+        <thumbnail>aerial</thumbnail>
+    </wmts>
+    <wmts type="map">
+        <gatekeeper>true</gatekeeper>
+        <name>Rasterkart</name>
+        <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
+        <params>
+            <layers>toporaster3</layers>
+            <format>image/png</format>
+        </params>
+        <matrixPrefix>true</matrixPrefix>
+        <guid>0.toporaster3</guid>
+        <options>
+            <isbaselayer>true</isbaselayer>
+            <singletile>false</singletile>
+            <visibility>false</visibility>
+        </options>
+        <thumbnail>raster</thumbnail>
     </wmts>
     <wmts type="map">
         <gatekeeper>true</gatekeeper>

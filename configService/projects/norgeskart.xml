@@ -21,7 +21,7 @@
       <singletile>false</singletile>
       <visibility>true</visibility>
     </options>
-      <thumbnail>land</thumbnail>
+    <thumbnail>land</thumbnail>
   </wmts>
   <wmts type="map">
     <gatekeeper>true</gatekeeper>
@@ -38,7 +38,7 @@
       <singletile>false</singletile>
       <visibility>false</visibility>
     </options>
-      <thumbnail>aerial</thumbnail>
+    <thumbnail>aerial</thumbnail>
   </wmts>
   <wmts type="map">
     <gatekeeper>true</gatekeeper>
@@ -55,7 +55,7 @@
       <singletile>false</singletile>
       <visibility>false</visibility>
     </options>
-      <thumbnail>raster</thumbnail>
+    <thumbnail>raster</thumbnail>
   </wmts>
   <wmts type="map">
     <gatekeeper>true</gatekeeper>
