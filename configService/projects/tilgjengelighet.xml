@@ -1,1526 +1,2098 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <config>
-   <project lat="7226208" lon="378604" mapepsg="EPSG:32633" zoom="5">
-      <mapbackgroundcolor>#FFFFFF</mapbackgroundcolor>
-      <displaycenterepsgcode>EPSG:32633</displaycenterepsgcode>
-      <displayCenter>378604,7226208</displayCenter>
-      <displayprojectionepsgcode>EPSG:32633</displayprojectionepsgcode>
-   </project>
-   <wms type="map">
-      <Layers>
-         <Layer>
-            <name>toporaster3</name>
-            <queryable>false</queryable>
-            <title>Rasterkart</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Rasterkart</name>
-      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=toporaster3</url>
-      <params>
-         <layers>toporaster3</layers>
-         <format>image/png</format>
-      </params>
-      <guid>0.toporaster3</guid>
-      <options>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="map">
-      <Layers>
-         <Layer>
-            <name>topo2_dybde</name>
-            <queryable>false</queryable>
-            <title>Land</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Land</name>
-      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=topo2_dybde</url>
-      <params>
-         <layers>topo2_dybde</layers>
-         <format>image/png</format>
-      </params>
-      <guid>0.topo2_dybde</guid>
-      <options>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>ortofoto</name>
-            <queryable>false</queryable>
-            <title>Fly­bilder</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Fly­bilder</name>
-      <url>//wms.geonorge.no/skwms1/wms.nib</url>
-      <params>
-         <layers>ortofoto</layers>
-         <format>image/png</format>
-      </params>
-      <guid>0.ortofoto</guid>
-      <options>
-         <isbaselayer>true</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="map">
-      <Layers>
-         <Layer>
-            <name>norges_grunnkart</name>
-            <queryable>false</queryable>
-            <title>Enkel</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Enkel</name>
-      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=norges_grunnkart</url>
-      <params>
-         <layers>norges_grunnkart</layers>
-         <format>image/png</format>
-      </params>
-      <guid>0.norges_grunnkart</guid>
-      <options>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="map">
-      <Layers>
-         <Layer>
-            <name>terreng_norgeskart</name>
-            <queryable>false</queryable>
-            <title>Terreng</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Terreng</name>
-      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=terreng_norgeskart</url>
-      <params>
-         <layers>terreng_norgeskart</layers>
-         <format>image/png</format>
-      </params>
-      <guid>0.terreng_norgeskart</guid>
-      <options>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <maplayer>
-      <index>1</index>
-      <name>dekning</name>
-      <groupid>1</groupid>
-   </maplayer>
-   <vector type="overlay">
-      <name>Hoved­kart sjø</name>
-      <url>http://www.norgeskart.no/json/dekning/sjo/hovedserie_ny.json</url>
-      <epsg>EPSG:4326</epsg>
-      <groupid>1</groupid>
-      <params>
-         <format>application/json</format>
-      </params>
-      <guid>1.Hoved­kart sjø</guid>
-      <options>
-         <visibility>false</visibility>
-      </options>
-   </vector>
-   <vector type="overlay">
-      <name>Norge 1:50000</name>
-      <url>http://www.norgeskart.no/json/dekning/land/n50/plast.json</url>
-      <epsg>EPSG:4326</epsg>
-      <groupid>1</groupid>
-      <params>
-         <format>application/json</format>
-      </params>
-      <guid>1.Norge 1:50000</guid>
-      <options>
-         <visibility>false</visibility>
-      </options>
-   </vector>
-   <vector type="overlay">
-      <name>Overseilingskart</name>
-      <url>http://www.norgeskart.no/json/dekning/sjo/overseilingskart_ny.json</url>
-      <epsg>EPSG:4326</epsg>
-      <groupid>1</groupid>
-      <params>
-         <format>application/json</format>
-      </params>
-      <guid>1.Overseilingskart</guid>
-      <options>
-         <visibility>false</visibility>
-      </options>
-   </vector>
-   <vector type="overlay">
-      <name>Kyst­kart</name>
-      <url>http://www.norgeskart.no/json/dekning/sjo/kystkart_ny.json</url>
-      <epsg>EPSG:4326</epsg>
-      <groupid>1</groupid>
-      <params>
-         <format>application/json</format>
-      </params>
-      <guid>1.Kyst­kart</guid>
-      <options>
-         <visibility>false</visibility>
-      </options>
-   </vector>
-   <vector type="overlay">
-      <name>Havne­kart</name>
-      <url>http://www.norgeskart.no/json/dekning/sjo/havnekart_ny.json</url>
-      <epsg>EPSG:4326</epsg>
-      <groupid>1</groupid>
-      <params>
-         <format>application/json</format>
-      </params>
-      <guid>1.Havne­kart</guid>
-      <options>
-         <visibility>false</visibility>
-      </options>
-   </vector>
-   <wms type="map">
-      <Layers>
-         <Layer>
-            <name>Basisdata_NP_Basiskart_JanMayen_WMTS_25833</name>
-            <queryable>false</queryable>
-            <title>Jan Mayen</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Jan Mayen</name>
-      <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_JanMayen_WMTS_25833/MapServer/WMTS?LAYERS=Basisdata_NP_Basiskart_JanMayen_WMTS_25833</url>
-      <params>
-         <layers>Basisdata_NP_Basiskart_JanMayen_WMTS_25833</layers>
-         <format>image/png</format>
-      </params>
-      <guid>2.Basisdata_NP_Basiskart_JanMayen_WMTS_25833</guid>
-      <options>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="map">
-      <Layers>
-         <Layer>
-            <name>Basisdata_NP_Basiskart_Svalbard_WMTS_25833</name>
-            <queryable>false</queryable>
-            <title>Svalbard</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Svalbard</name>
-      <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_Svalbard_WMTS_25833/MapServer/WMTS?LAYERS=Basisdata_NP_Basiskart_Svalbard_WMTS_25833</url>
-      <params>
-         <layers>Basisdata_NP_Basiskart_Svalbard_WMTS_25833</layers>
-         <format>image/png</format>
-      </params>
-      <guid>2.Basisdata_NP_Basiskart_Svalbard_WMTS_25833</guid>
-      <options>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <maplayer>
-      <index>3</index>
-      <name>friluftsyn</name>
-      <groupid>3</groupid>
-   </maplayer>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>friluftsomrade_03</name>
-            <queryable>True</queryable>
-            <title>Friluftsområde</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Friluftsområde</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>3</groupid>
-      <params>
-         <layers>friluftsomrade_03</layers>
-         <format>image/png</format>
-      </params>
-      <guid>3.friluftsomrade_03</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>hc_parkering_friluft_03</name>
-            <queryable>True</queryable>
-            <title>HC-parkering</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>HC-parkering</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>3</groupid>
-      <params>
-         <layers>hc_parkering_friluft_03</layers>
-         <format>image/png</format>
-      </params>
-      <guid>3.hc_parkering_friluft_03</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>baderampe_03</name>
-            <queryable>True</queryable>
-            <title>Baderampe</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Baderampe</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>3</groupid>
-      <params>
-         <layers>baderampe_03</layers>
-         <format>image/png</format>
-      </params>
-      <guid>3.baderampe_03</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>parkeringsomrader_friluft_03</name>
-            <queryable>True</queryable>
-            <title>Parkeringsområder</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Parkeringsområder</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>3</groupid>
-      <params>
-         <layers>parkeringsomrader_friluft_03</layers>
-         <format>image/png</format>
-      </params>
-      <guid>3.parkeringsomrader_friluft_03</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>statlig_sikra_polygon_03</name>
-            <queryable>True</queryable>
-            <title>Statlig sikra</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Statlig sikra</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>3</groupid>
-      <params>
-         <layers>statlig_sikra_polygon_03</layers>
-         <format>image/png</format>
-      </params>
-      <guid>3.statlig_sikra_polygon_03</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>grillbalplass_03</name>
-            <queryable>True</queryable>
-            <title>Grillbalplass</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Grillbalplass</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>3</groupid>
-      <params>
-         <layers>grillbalplass_03</layers>
-         <format>image/png</format>
-      </params>
-      <guid>3.grillbalplass_03</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>gapahukhytte_03</name>
-            <queryable>True</queryable>
-            <title>Gapahukhytte</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Gapahukhytte</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>3</groupid>
-      <params>
-         <layers>gapahukhytte_03</layers>
-         <format>image/png</format>
-      </params>
-      <guid>3.gapahukhytte_03</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>fiskeplass_03</name>
-            <queryable>True</queryable>
-            <title>Fiskeplass</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Fiskeplass</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>3</groupid>
-      <params>
-         <layers>fiskeplass_03</layers>
-         <format>image/png</format>
-      </params>
-      <guid>3.fiskeplass_03</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>toalett_03</name>
-            <queryable>True</queryable>
-            <title>Toalett</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Toalett</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>3</groupid>
-      <params>
-         <layers>toalett_03</layers>
-         <format>image/png</format>
-      </params>
-      <guid>3.toalett_03</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>turishytte_03</name>
-            <queryable>True</queryable>
-            <title>Turishytte</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Turishytte</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>3</groupid>
-      <params>
-         <layers>turishytte_03</layers>
-         <format>image/png</format>
-      </params>
-      <guid>3.turishytte_03</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>turvei_03</name>
-            <queryable>True</queryable>
-            <title>Turvei</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Turvei</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>3</groupid>
-      <params>
-         <layers>turvei_03</layers>
-         <format>image/png</format>
-      </params>
-      <guid>3.turvei_03</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>sittegruppe_03</name>
-            <queryable>True</queryable>
-            <title>Sittegruppe</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Sittegruppe</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>3</groupid>
-      <params>
-         <layers>sittegruppe_03</layers>
-         <format>image/png</format>
-      </params>
-      <guid>3.sittegruppe_03</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>f_syn</name>
-            <queryable>True</queryable>
-            <title>Alle</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Alle</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>3</groupid>
-      <params>
-         <layers>f_syn</layers>
-         <format>image/png</format>
-      </params>
-      <guid>3.f_syn</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="map">
-      <Layers>
-         <Layer>
-            <name>sjokartraster</name>
-            <queryable>false</queryable>
-            <title>Hovedkart</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Hovedkart</name>
-      <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache?LAYERS=sjokartraster</url>
-      <params>
-         <layers>sjokartraster</layers>
-         <format>image/png</format>
-      </params>
-      <guid>4.sjokartraster</guid>
-      <options>
-         <isbaselayer>true</isbaselayer>
-         <singletile>false</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>cells</name>
-            <queryable>false</queryable>
-            <title>Elektron. Sjøkart</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Elektron. Sjøkart</name>
-      <url>http://wms.geonorge.no/skwms1/wms.ecc_enc</url>
-      <params>
-         <layers>cells</layers>
-         <format>image/png</format>
-      </params>
-      <guid>4.cells</guid>
-      <options>
-         <isbaselayer>true</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <maplayer>
-      <index>5</index>
-      <name>friluft_rullestol</name>
-      <groupid>5</groupid>
-   </maplayer>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>toalett_01</name>
-            <queryable>True</queryable>
-            <title>Toalett</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Toalett</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>5</groupid>
-      <params>
-         <layers>toalett_01</layers>
-         <format>image/png</format>
-      </params>
-      <guid>5.toalett_01</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>parkeringsomrader_friluft_01</name>
-            <queryable>True</queryable>
-            <title>Parkeringsområder</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Parkeringsområder</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>5</groupid>
-      <params>
-         <layers>parkeringsomrader_friluft_01</layers>
-         <format>image/png</format>
-      </params>
-      <guid>5.parkeringsomrader_friluft_01</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>hc_parkering_friluft_01</name>
-            <queryable>True</queryable>
-            <title>HC-parkering</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>HC-parkering</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>5</groupid>
-      <params>
-         <layers>hc_parkering_friluft_01</layers>
-         <format>image/png</format>
-      </params>
-      <guid>5.hc_parkering_friluft_01</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>baderampe_01</name>
-            <queryable>True</queryable>
-            <title>Baderampe</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Baderampe</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>5</groupid>
-      <params>
-         <layers>baderampe_01</layers>
-         <format>image/png</format>
-      </params>
-      <guid>5.baderampe_01</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>friluftsomrade_01</name>
-            <queryable>True</queryable>
-            <title>Friluftsområde</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Friluftsområde</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>5</groupid>
-      <params>
-         <layers>friluftsomrade_01</layers>
-         <format>image/png</format>
-      </params>
-      <guid>5.friluftsomrade_01</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>grillbalplass_01</name>
-            <queryable>True</queryable>
-            <title>Grillbalplass</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Grillbalplass</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>5</groupid>
-      <params>
-         <layers>grillbalplass_01</layers>
-         <format>image/png</format>
-      </params>
-      <guid>5.grillbalplass_01</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>gapahukhytte_01</name>
-            <queryable>True</queryable>
-            <title>Gapahukhytte</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Gapahukhytte</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>5</groupid>
-      <params>
-         <layers>gapahukhytte_01</layers>
-         <format>image/png</format>
-      </params>
-      <guid>5.gapahukhytte_01</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>fiskeplass_01</name>
-            <queryable>True</queryable>
-            <title>Fiskeplass</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Fiskeplass</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>5</groupid>
-      <params>
-         <layers>fiskeplass_01</layers>
-         <format>image/png</format>
-      </params>
-      <guid>5.fiskeplass_01</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>turishytte_01</name>
-            <queryable>True</queryable>
-            <title>Turishytte</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Turishytte</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>5</groupid>
-      <params>
-         <layers>turishytte_01</layers>
-         <format>image/png</format>
-      </params>
-      <guid>5.turishytte_01</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>statlig_sikra_polygon_01</name>
-            <queryable>True</queryable>
-            <title>Statlig sikra</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Statlig sikra</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>5</groupid>
-      <params>
-         <layers>statlig_sikra_polygon_01</layers>
-         <format>image/png</format>
-      </params>
-      <guid>5.statlig_sikra_polygon_01</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>turvei_01</name>
-            <queryable>True</queryable>
-            <title>Turvei</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Turvei</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>5</groupid>
-      <params>
-         <layers>turvei_01</layers>
-         <format>image/png</format>
-      </params>
-      <guid>5.turvei_01</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>sittegruppe_01</name>
-            <queryable>True</queryable>
-            <title>Sittegruppe</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Sittegruppe</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>5</groupid>
-      <params>
-         <layers>sittegruppe_01</layers>
-         <format>image/png</format>
-      </params>
-      <guid>5.sittegruppe_01</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>f_rullestol</name>
-            <queryable>True</queryable>
-            <title>Alle</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Alle</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>5</groupid>
-      <params>
-         <layers>f_rullestol</layers>
-         <format>image/png</format>
-      </params>
-      <guid>5.f_rullestol</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <maplayer>
-      <index>6</index>
-      <name>Tettsted_Rullestol</name>
-      <groupid>6</groupid>
-   </maplayer>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>t_vei_r</name>
-            <queryable>True</queryable>
-            <title>Vei</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Vei</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>6</groupid>
-      <params>
-         <layers>t_vei_r</layers>
-         <format>image/png</format>
-      </params>
-      <guid>6.t_vei_r</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>t_HC_parkering_r</name>
-            <queryable>True</queryable>
-            <title>HC-parkering</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>HC-parkering</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>6</groupid>
-      <params>
-         <layers>t_HC_parkering_r</layers>
-         <format>image/png</format>
-      </params>
-      <guid>6.t_HC_parkering_r</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>t_inngangbygg_r_01</name>
-            <queryable>True</queryable>
-            <title>Inngang bygg</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Inngang bygg</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>6</groupid>
-      <params>
-         <layers>t_inngangbygg_r_01</layers>
-         <format>image/png</format>
-      </params>
-      <guid>6.t_inngangbygg_r_01</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>t_parkeringsomrade_r</name>
-            <queryable>True</queryable>
-            <title>Parkerings område</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Parkerings område</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>6</groupid>
-      <params>
-         <layers>t_parkeringsomrade_r</layers>
-         <format>image/png</format>
-      </params>
-      <guid>6.t_parkeringsomrade_r</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>t_rullestol</name>
-            <queryable>True</queryable>
-            <title>Alle</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Alle</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>6</groupid>
-      <params>
-         <layers>t_rullestol</layers>
-         <format>image/png</format>
-      </params>
-      <guid>6.t_rullestol</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <maplayer>
-      <index>7</index>
-      <name>friluft_elektrisk_rullestol</name>
-      <groupid>7</groupid>
-   </maplayer>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>friluftsomrade_02</name>
-            <queryable>True</queryable>
-            <title>Friluftsområde</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Friluftsområde</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>7</groupid>
-      <params>
-         <layers>friluftsomrade_02</layers>
-         <format>image/png</format>
-      </params>
-      <guid>7.friluftsomrade_02</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>toalett_02</name>
-            <queryable>True</queryable>
-            <title>Toalett</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Toalett</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>7</groupid>
-      <params>
-         <layers>toalett_02</layers>
-         <format>image/png</format>
-      </params>
-      <guid>7.toalett_02</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>hc_parkering_friluft_02</name>
-            <queryable>True</queryable>
-            <title>HC-parkering</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>HC-parkering</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>7</groupid>
-      <params>
-         <layers>hc_parkering_friluft_02</layers>
-         <format>image/png</format>
-      </params>
-      <guid>7.hc_parkering_friluft_02</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>grillbalplass_02</name>
-            <queryable>True</queryable>
-            <title>Grillbalplass</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Grillbalplass</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>7</groupid>
-      <params>
-         <layers>grillbalplass_02</layers>
-         <format>image/png</format>
-      </params>
-      <guid>7.grillbalplass_02</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>statlig_sikra_polygon_02</name>
-            <queryable>True</queryable>
-            <title>Statlig sikra</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Statlig sikra</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>7</groupid>
-      <params>
-         <layers>statlig_sikra_polygon_02</layers>
-         <format>image/png</format>
-      </params>
-      <guid>7.statlig_sikra_polygon_02</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>parkeringsomrader_friluft_02</name>
-            <queryable>True</queryable>
-            <title>Parkeringsområder</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Parkeringsområder</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>7</groupid>
-      <params>
-         <layers>parkeringsomrader_friluft_02</layers>
-         <format>image/png</format>
-      </params>
-      <guid>7.parkeringsomrader_friluft_02</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>fiskeplass_02</name>
-            <queryable>True</queryable>
-            <title>Fiskeplass</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Fiskeplass</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>7</groupid>
-      <params>
-         <layers>fiskeplass_02</layers>
-         <format>image/png</format>
-      </params>
-      <guid>7.fiskeplass_02</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>gapahukhytte_02</name>
-            <queryable>True</queryable>
-            <title>Gapahukhytte</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Gapahukhytte</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>7</groupid>
-      <params>
-         <layers>gapahukhytte_02</layers>
-         <format>image/png</format>
-      </params>
-      <guid>7.gapahukhytte_02</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>turishytte_02</name>
-            <queryable>True</queryable>
-            <title>Turishytte</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Turishytte</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>7</groupid>
-      <params>
-         <layers>turishytte_02</layers>
-         <format>image/png</format>
-      </params>
-      <guid>7.turishytte_02</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>turvei_02</name>
-            <queryable>True</queryable>
-            <title>Turvei</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Turvei</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>7</groupid>
-      <params>
-         <layers>turvei_02</layers>
-         <format>image/png</format>
-      </params>
-      <guid>7.turvei_02</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>f_el_rullestol</name>
-            <queryable>True</queryable>
-            <title>Alle</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Alle</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>7</groupid>
-      <params>
-         <layers>f_el_rullestol</layers>
-         <format>image/png</format>
-      </params>
-      <guid>7.f_el_rullestol</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>sittegruppe_02</name>
-            <queryable>True</queryable>
-            <title>Sittegruppe</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Sittegruppe</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>7</groupid>
-      <params>
-         <layers>sittegruppe_02</layers>
-         <format>image/png</format>
-      </params>
-      <guid>7.sittegruppe_02</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <maplayer>
-      <index>8</index>
-      <name>Tettsted_Syn</name>
-      <groupid>8</groupid>
-   </maplayer>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>t_inngangbygg</name>
-            <queryable>True</queryable>
-            <title>Inngang bygg</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Inngang bygg</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>8</groupid>
-      <params>
-         <layers>t_inngangbygg</layers>
-         <format>image/png</format>
-      </params>
-      <guid>8.t_inngangbygg</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>t_HC_parkering</name>
-            <queryable>True</queryable>
-            <title>HC-parkering</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>HC-parkering</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>8</groupid>
-      <params>
-         <layers>t_HC_parkering</layers>
-         <format>image/png</format>
-      </params>
-      <guid>8.t_HC_parkering</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>t_parkeringsomrade</name>
-            <queryable>True</queryable>
-            <title>Parkerings område</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Parkerings område</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>8</groupid>
-      <params>
-         <layers>t_parkeringsomrade</layers>
-         <format>image/png</format>
-      </params>
-      <guid>8.t_parkeringsomrade</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>t_vei</name>
-            <queryable>True</queryable>
-            <title>Vei</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Vei</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>8</groupid>
-      <params>
-         <layers>t_vei</layers>
-         <format>image/png</format>
-      </params>
-      <guid>8.t_vei</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>t_syn</name>
-            <queryable>True</queryable>
-            <title>Alle</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Alle</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>8</groupid>
-      <params>
-         <layers>t_syn</layers>
-         <format>image/png</format>
-      </params>
-      <guid>8.t_syn</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <maplayer>
-      <index>9</index>
-      <name>Tettsted_Elektrisk_rullestol</name>
-      <groupid>9</groupid>
-   </maplayer>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>t_HC_parkering_el</name>
-            <queryable>True</queryable>
-            <title>HC-parkering</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>HC-parkering</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>9</groupid>
-      <params>
-         <layers>t_HC_parkering_el</layers>
-         <format>image/png</format>
-      </params>
-      <guid>9.t_HC_parkering_el</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>t_vei_el</name>
-            <queryable>True</queryable>
-            <title>Vei</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Vei</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>9</groupid>
-      <params>
-         <layers>t_vei_el</layers>
-         <format>image/png</format>
-      </params>
-      <guid>9.t_vei_el</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>t_el_rullestol</name>
-            <queryable>True</queryable>
-            <title>Alle</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Alle</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>9</groupid>
-      <params>
-         <layers>t_el_rullestol</layers>
-         <format>image/png</format>
-      </params>
-      <guid>9.t_el_rullestol</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>t_inngangbygg_r_02</name>
-            <queryable>True</queryable>
-            <title>Inngang bygg</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Inngang bygg</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>9</groupid>
-      <params>
-         <layers>t_inngangbygg_r_02</layers>
-         <format>image/png</format>
-      </params>
-      <guid>9.t_inngangbygg_r_02</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
-   <wms type="overlay">
-      <Layers>
-         <Layer>
-            <name>t_parkeringsomrade_el</name>
-            <queryable>True</queryable>
-            <title>Parkerings område</title>
-         </Layer>
-      </Layers>
-      <gatekeeper>true</gatekeeper>
-      <name>Parkerings område</name>
-      <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
-      <groupid>9</groupid>
-      <params>
-         <layers>t_parkeringsomrade_el</layers>
-         <format>image/png</format>
-      </params>
-      <guid>9.t_parkeringsomrade_el</guid>
-      <options>
-         <isbaselayer>false</isbaselayer>
-         <singletile>true</singletile>
-         <visibility>false</visibility>
-      </options>
-   </wms>
+  <project lat="7226208" lon="378604" mapepsg="EPSG:32633" zoom="5">
+    <mapbackgroundcolor>#FFFFFF</mapbackgroundcolor>
+    <displaycenterepsgcode>EPSG:32633</displaycenterepsgcode>
+    <displayCenter>378604,7226208</displayCenter>
+    <displayprojectionepsgcode>EPSG:32633</displayprojectionepsgcode>
+  </project>
+  <wmts type="map">
+    <gatekeeper>true</gatekeeper>
+    <name>Landkart</name>
+    <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
+    <params>
+      <layers>matrikkel_bakgrunn</layers>
+      <format>image/png</format>
+    </params>
+    <matrixPrefix>true</matrixPrefix>
+    <guid>0.matrikkel_bakgrunn</guid>
+    <options>
+      <isbaselayer>true</isbaselayer>
+      <singletile>false</singletile>
+      <visibility>false</visibility>
+    </options>
+  </wmts>
+  <wmts type="map">
+    <gatekeeper>true</gatekeeper>
+    <name>Flybilder</name>
+    <url>http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nib_utm33_wmts_v2?|http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nib_utm33_wmts_v2?</url>
+    <params>
+      <layers>Nibcache_UTM33_EUREF89</layers>
+      <format>image/png</format>
+    </params>
+    <matrixSet>default028mm</matrixSet>
+    <guid>0.ortofoto</guid>
+    <options>
+      <isbaselayer>true</isbaselayer>
+      <singletile>false</singletile>
+      <visibility>false</visibility>
+    </options>
+  </wmts>
+  <wmts type="map">
+    <gatekeeper>true</gatekeeper>
+    <name>Rasterkart</name>
+    <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
+    <params>
+      <layers>toporaster3</layers>
+      <format>image/png</format>
+    </params>
+    <matrixPrefix>true</matrixPrefix>
+    <guid>0.toporaster3</guid>
+    <options>
+      <isbaselayer>true</isbaselayer>
+      <singletile>false</singletile>
+      <visibility>false</visibility>
+    </options>
+  </wmts>
+  <wmts type="map">
+    <gatekeeper>true</gatekeeper>
+    <name>Enkel</name>
+    <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
+    <params>
+      <layers>norges_grunnkart</layers>
+      <format>image/png</format>
+    </params>
+    <matrixPrefix>true</matrixPrefix>
+    <guid>0.norges_grunnkart</guid>
+    <options>
+      <isbaselayer>true</isbaselayer>
+      <singletile>false</singletile>
+      <visibility>true</visibility>
+    </options>
+  </wmts>
+  <wmts type="map">
+    <gatekeeper>true</gatekeeper>
+    <name>Terreng</name>
+    <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
+    <params>
+      <layers>terreng_norgeskart</layers>
+      <format>image/png</format>
+    </params>
+    <matrixPrefix>true</matrixPrefix>
+    <guid>0.terreng_norgeskart</guid>
+    <options>
+      <isbaselayer>true</isbaselayer>
+      <singletile>false</singletile>
+      <visibility>false</visibility>
+    </options>
+  </wmts>
+  <wmts type="map">
+    <gatekeeper>true</gatekeeper>
+    <name>Sjøkart</name>
+    <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
+    <params>
+      <layers>sjokartraster</layers>
+      <format>image/png</format>
+    </params>
+    <matrixPrefix>true</matrixPrefix>
+    <guid>0.sjokartraster</guid>
+    <options>
+      <isbaselayer>true</isbaselayer>
+      <singletile>false</singletile>
+      <visibility>false</visibility>
+    </options>
+  </wmts>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>cells</name>
+        <queryable>false</queryable>
+        <title>Elektron. Sjøkart</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Elektron. Sjøkart</name>
+    <url>http://wms.geonorge.no/skwms1/wms.ecc_enc</url>
+    <params>
+      <layers>cells</layers>
+      <format>image/png</format>
+    </params>
+    <guid>0.cells</guid>
+    <options>
+      <isbaselayer>true</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+  </wms>
+  <maplayer>
+    <index>1</index>
+    <name>dekning</name>
+    <groupid>1</groupid>
+  </maplayer>
+  <vector type="overlay">
+    <name>Hoved kart sjø</name>
+    <url>http://www.norgeskart.no/json/dekning/sjo/hovedserie_ny.json</url>
+    <epsg>EPSG:4326</epsg>
+    <groupid>1</groupid>
+    <params>
+      <format>application/json</format>
+    </params>
+    <guid>1.Hovedkart sjø</guid>
+    <options>
+      <visibility>false</visibility>
+    </options>
+    <style>
+      <fill>
+        <color>rgba(128, 128, 128, 0.1)</color>
+      </fill>
+      <stroke>
+        <color>rgb(64, 128, 64)</color>
+        <width>1</width>
+      </stroke>
+      <!--
+        <text><font>20px sans-serif, helvetica</font><text>{_id}</text><stroke><color>#ffffff</color><width>4</width></stroke></text>
+-->
+    </style>
+    <includedFields>
+      <field name="d" alias="Datum"/>
+      <field name="n" alias="Navn"/>
+      <field name="p" alias="Projeksjon"/>
+      <field name="s" alias="Målestokk"/>
+      <field name="u" alias="Ny utgave"/>
+    </includedFields>
+  </vector>
+  <vector type="overlay">
+    <name>Norge 1:50000</name>
+    <url>http://www.norgeskart.no/json/dekning/land/n50/pod-inndeling2015-flaterl.json</url>
+    <epsg>EPSG:32633</epsg>
+    <groupid>1</groupid>
+    <params>
+      <format>application/json</format>
+    </params>
+    <guid>1.Norge 1:50000</guid>
+    <options>
+      <visibility>false</visibility>
+    </options>
+    <style>
+      <fill>
+        <color>rgba(128, 128, 128, 0.1)</color>
+      </fill>
+      <stroke>
+        <color>rgb(64, 128, 64)</color>
+        <width>1</width>
+      </stroke>
+      <!--
+        <text><font>15px sans-serif, helvetica</font><text>{POD_KARTNR}</text><stroke><color>#ffffff</color><width>4</width></stroke></text>
+-->
+    </style>
+  </vector>
+  <vector type="overlay">
+    <name>Overseilingskart</name>
+    <url>http://www.norgeskart.no/json/dekning/sjo/overseilingskart_ny.json</url>
+    <epsg>EPSG:4326</epsg>
+    <groupid>1</groupid>
+    <params>
+      <format>application/json</format>
+    </params>
+    <guid>1.Overseilingskart</guid>
+    <options>
+      <visibility>false</visibility>
+    </options>
+    <style>
+      <fill>
+        <color>rgba(128, 128, 128, 0.1)</color>
+      </fill>
+      <stroke>
+        <color>rgb(64, 64, 128)</color>
+        <width>1</width>
+      </stroke>
+      <!--
+        <text><font>20px sans-serif, helvetica</font><text>{_id}</text><stroke><color>#ffffff</color><width>4</width></stroke></text>
+-->
+    </style>
+  </vector>
+  <vector type="overlay">
+    <name>Kystkart</name>
+    <url>http://www.norgeskart.no/json/dekning/sjo/kystkart_ny.json</url>
+    <epsg>EPSG:4326</epsg>
+    <groupid>1</groupid>
+    <params>
+      <format>application/json</format>
+    </params>
+    <guid>1.Kystkart</guid>
+    <options>
+      <visibility>false</visibility>
+    </options>
+    <style>
+      <fill>
+        <color>rgba(128, 128, 128, 0.1)</color>
+      </fill>
+      <stroke>
+        <color>rgb(128, 64, 64)</color>
+        <width>1</width>
+      </stroke>
+      <!--
+        <text><font>20px sans-serif, helvetica</font><text>{_id}</text><stroke><color>#ffffff</color><width>4</width></stroke></text>
+-->
+    </style>
+  </vector>
+  <vector type="overlay">
+    <name>Havnekart</name>
+    <url>http://www.norgeskart.no/json/dekning/sjo/havnekart_ny.json</url>
+    <epsg>EPSG:4326</epsg>
+    <groupid>1</groupid>
+    <params>
+      <format>application/json</format>
+    </params>
+    <guid>1.Havnekart</guid>
+    <options>
+      <visibility>false</visibility>
+    </options>
+    <style>
+      <fill>
+        <color>rgba(128, 128, 128, 0.1)</color>
+      </fill>
+      <stroke>
+        <color>rgb(128, 64, 64)</color>
+        <width>1</width>
+      </stroke>
+      <!--
+        <text><font>20px sans-serif, helvetica</font><text>{_id}</text><stroke><color>#ffffff</color><width>4</width></stroke></text>
+-->
+    </style>
+  </vector>
+  <wmts type="map">
+    <name>Jan Mayen</name>
+    <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_JanMayen_WMTS_25833/MapServer/WMTS?</url>
+    <params>
+      <layers>Basisdata_NP_Basiskart_JanMayen_WMTS_25833</layers>
+      <format>image/png</format>
+    </params>
+    <matrixSet>default028mm</matrixSet>
+    <wmtsExtent>-393783.2540000008,7978220.98008712,-276963.7430000013,8084965.524000007</wmtsExtent>
+    <getCapabilities>true</getCapabilities>
+    <guid>2.Basisdata_NP_Basiskart_JanMayen_WMTS_25833</guid>
+    <options>
+      <isbaselayer>true</isbaselayer>
+      <singletile>false</singletile>
+      <visibility>false</visibility>
+    </options>
+  </wmts>
+  <wmts type="map">
+    <name>Svalbard</name>
+    <url>http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_Svalbard_WMTS_25833/MapServer/WMTS?</url>
+    <params>
+      <layers>Basisdata_NP_Basiskart_Svalbard_WMTS_25833</layers>
+      <format>image/png</format>
+    </params>
+    <matrixSet>default028mm</matrixSet>
+    <wmtsExtent>369976.3899489096,8221306.539890718,878234.7199568129,9010718.76990194</wmtsExtent>
+    <getCapabilities>true</getCapabilities>
+    <guid>2.Basisdata_NP_Basiskart_Svalbard_WMTS_25833</guid>
+    <options>
+      <isbaselayer>true</isbaselayer>
+      <singletile>false</singletile>
+      <visibility>false</visibility>
+    </options>
+  </wmts>
+  <maplayer>
+    <index>3</index>
+    <name>friluftsyn</name>
+    <groupid>3</groupid>
+  </maplayer>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>friluftsomrade_03</name>
+        <queryable>True</queryable>
+        <title>Friluftsområde</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Friluftsområde</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>3</groupid>
+    <params>
+      <layers>friluftsomrade_03</layers>
+      <format>image/png</format>
+    </params>
+    <guid>3.friluftsomrade_03</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field name="registrert" alias="Registrert"/>
+      <field name="oppdat_app" alias="Oppdatert"/>
+      <field name="navn" alias="Navn"/>
+      <field alias="Naturbasenummer" name="naturbase_nr"/>
+      <field alias="HC-parkering" name="hc_parkeringsplass"/>
+      <field alias="Toalett" name="toalett"/>
+      <field alias="Turvei" name="turvei"/>
+      <field alias="Baderampe" name="baderampe"/>
+      <field alias="Fiskeplass" name="fiskeplasser"/>
+      <field alias="Grillbålplass" name="grill_balplass"/>
+      <field alias="Sittegruppe" name="sittegruppe"/>
+      <field alias="Gapahuk" name="gapahuk"/>
+      <field alias="Informasjon" name="informasjon"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>hc_parkering_friluft_03</name>
+        <queryable>True</queryable>
+        <title>HC-parkering</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>HC-parkering</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>3</groupid>
+    <params>
+      <layers>hc_parkering_friluft_03</layers>
+      <format>image/png</format>
+    </params>
+    <guid>3.hc_parkering_friluft_03</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Kapasitet personbiler" name="kap_personbiler"/>
+      <field alias="Kapasitet HC" name="kap_uu"/>
+      <field alias="Dekke" name="dekke"/>
+      <field alias="Dekke tilstand" name="dekke_tilstand"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>baderampe_03</name>
+        <queryable>True</queryable>
+        <title>Baderampe</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Baderampe</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>3</groupid>
+    <params>
+      <layers>baderampe_03</layers>
+      <format>image/png</format>
+    </params>
+    <guid>3.baderampe_03</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Rampe tilgjengelig" name="rampe_tilgj"/>
+      <field alias="Håndlist" name="handlist"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+      <field alias="Rampe bredde" name="rampe_bredde" unit="cm"/>
+      <field alias="Rampe stigning" name="rampe_stig" unit="°"/>
+      <field alias="Rampe terskel" name="rampe_terskel" unit="cm"/>
+      <field alias="Håndlist høyde 1" name="hand_hoy_1" unit="cm"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>parkeringsomrader_friluft_03</name>
+        <queryable>True</queryable>
+        <title>Parkeringsområder</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Parkeringsområder</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>3</groupid>
+    <params>
+      <layers>parkeringsomrader_friluft_03</layers>
+      <format>image/png</format>
+    </params>
+    <guid>3.parkeringsomrader_friluft_03</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Kapasitet personbiler" name="kap_personbiler"/>
+      <field alias="Kapasitet HC" name="kap_uu"/>
+      <field alias="Dekke" name="dekke"/>
+      <field alias="Dekke tilstand" name="dekke_tilstand"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>statlig_sikra_polygon_03</name>
+        <queryable>True</queryable>
+        <title>Statlig sikra</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Statlig sikra</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>3</groupid>
+    <params>
+      <layers>statlig_sikra_polygon_03</layers>
+      <format>image/png</format>
+    </params>
+    <guid>3.statlig_sikra_polygon_03</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Navn" name="navn"/>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Turområde" name="turomraade_tilrettelagt_for"/>
+      <field alias="Fiskeplass" name="fiskeplass_tilrettelagt_for"/>
+      <field alias="Badeplass" name="badeplass_tilrettelagt_for"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+      <field alias="Link til informasjonsark" name="link_skjema"/>
+      <field alias="Link til bildeark" name="link_bilde"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>grillbalplass_03</name>
+        <queryable>True</queryable>
+        <title>Grillbalplass</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Grillbalplass</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>3</groupid>
+    <params>
+      <layers>grillbalplass_03</layers>
+      <format>image/png</format>
+    </params>
+    <guid>3.grillbalplass_03</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Type" name="type"/>
+      <field alias="Dekke" name="dekke"/>
+      <field alias="Dekke tilstand" name="dekke_tilstand"/>
+      <field alias="Helning" name="helning" unit="°"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>gapahukhytte_03</name>
+        <queryable>True</queryable>
+        <title>Gapahukhytte</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Gapahukhytte</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>3</groupid>
+    <params>
+      <layers>gapahukhytte_03</layers>
+      <format>image/png</format>
+    </params>
+    <guid>3.gapahukhytte_03</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Rampe bredde" name="rampe_bredde" unit="cm"/>
+      <field alias="Rampe stigning" name="rampe_stigning" unit="°"/>
+      <field alias="Rampe terskel" name="rampe_terskel" unit="cm"/>
+      <field alias="Rampe tilgjengelig" name="rampe_tilgj"/>
+      <field alias="Håndlist" name="handlist"/>
+      <field alias="Håndlist høyde 1" name="hand_hoy_1" unit="cm"/>
+      <field alias="Diameter" name="diameter" unit="cm"/>
+      <field alias="Inngang bredde" name="bredde_inngang" unit="cm"/>
+      <field alias="Inngang høyde" name="hoyde_inngang" unit="cm"/>
+      <field alias="Terskel høyde" name="terskelhoyde" unit="cm"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>fiskeplass_03</name>
+        <queryable>True</queryable>
+        <title>Fiskeplass</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Fiskeplass</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>3</groupid>
+    <params>
+      <layers>fiskeplass_03</layers>
+      <format>image/png</format>
+    </params>
+    <guid>3.fiskeplass_03</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Flytebrygge" name="flytebrygge"/>
+      <field alias="Rampe bredde" name="rampe_bredde" unit="cm"/>
+      <field alias="Rampe stigning" name="rampe_stigning" unit="°"/>
+      <field alias="Rampe terskel" name="rampe_terskel" unit="cm"/>
+      <field alias="Rampe tilgjengelig" name="rampe_tilgj"/>
+      <field alias="Håndlist" name="handlist"/>
+      <field alias="Håndlist høyde 1" name="hand_hoy_1" unit="cm"/>
+      <field alias="Dekke" name="dekke"/>
+      <field alias="Planke avstand" name="plankeavstand" unit="cm"/>
+      <field alias="Diameter" name="diameter" unit="cm"/>
+      <field alias="Rekkverk" name="rekkverk"/>
+      <field alias="Stoppkant" name="stoppkant"/>
+      <field alias="Stoppkant høyde" name="stoppka_hoyde" unit="cm"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid" />
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>toalett_03</name>
+        <queryable>True</queryable>
+        <title>Toalett</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Toalett</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>3</groupid>
+    <params>
+      <layers>toalett_03</layers>
+      <format>image/png</format>
+    </params>
+    <guid>3.toalett_03</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Rampe bredde" name="rampe_bredde" unit="cm"/>
+      <field alias="Rampe stigning" name="rampe_stigning" unit="°"/>
+      <field alias="Rampe terskel" name="rampe_terskel" unit="cm"/>
+      <field alias="Rampe tilgjengelig" name="rampe_tilgj"/>
+      <field alias="Håndlist" name="handlist"/>
+      <field alias="Håndlist høyde 1" name="hand_hoy_1" unit="cm"/>
+      <field alias="Dørtype" name="inngang_type"/>
+      <field alias="Døråpner" name="dorapner"/>
+      <field alias="Inngang bredde" name="inngang_bredde" unit="cm"/>
+      <field alias="Inngang kontrast" name="kontrast_inngang"/>
+      <field alias="Terskel høyde" name="terskel_hoyde" unit="cm"/>
+      <field alias="Diameter" name="diameter" unit="cm"/>
+      <field alias="Belysning" name="belysning"/>
+      <field alias="Omkledning" name="omkledning_tilgj"/>
+      <field alias="Servant" name="servant_tilgj"/>
+      <field alias="WC" name="wc_tilgj"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>turishytte_03</name>
+        <queryable>True</queryable>
+        <title>Turishytte</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Turishytte</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>3</groupid>
+    <params>
+      <layers>turishytte_03</layers>
+      <format>image/png</format>
+    </params>
+    <guid>3.turishytte_03</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Navn" name="navn"/>
+      <field alias="Eier" name="eier_tekst"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>turvei_03</name>
+        <queryable>True</queryable>
+        <title>Turvei</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Turvei</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>3</groupid>
+    <params>
+      <layers>turvei_03</layers>
+      <format>image/png</format>
+    </params>
+    <guid>3.turvei_03</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Veitype" name="veitype"/>
+      <field alias="Spesial fottyperute" name="spesialfottyperute"/>
+      <field alias="Dekke" name="dekke"/>
+      <field alias="Dekke tilstand" name="dekke_tilstand"/>
+      <field alias="Bredde" name="bredde" unit="cm"/>
+      <field alias="Stigning" name="stigning" unit="°"/>
+      <field alias="Tverrfall" name="tverrfall" unit="°"/>
+      <field alias="Belysning" name="belysning"/>
+      <field alias="Fri høyde" name="frihoyde"/>
+      <field alias="Ledelinje " name="ledelinje"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>sittegruppe_03</name>
+        <queryable>True</queryable>
+        <title>Sittegruppe</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Sittegruppe</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>3</groupid>
+    <params>
+      <layers>sittegruppe_03</layers>
+      <format>image/png</format>
+    </params>
+    <guid>3.sittegruppe_03</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Dekke" name="dekke"/>
+      <field alias="Dekke tilstand" name="dekke_tilstand"/>
+      <field alias="Helning" name="helning" unit="°"/>
+      <field alias="Bord høyde" name="bord_hoyde" unit="cm"/>
+      <field alias="Bord utstikk" name="bord_utstikk" unit="cm"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde" />
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <maplayer>
+    <index>5</index>
+    <name>friluft_rullestol</name>
+    <groupid>5</groupid>
+  </maplayer>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>toalett_01</name>
+        <queryable>True</queryable>
+        <title>Toalett</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Toalett</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>5</groupid>
+    <params>
+      <layers>toalett_01</layers>
+      <format>image/png</format>
+    </params>
+    <guid>5.toalett_01</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Rampe bredde" name="rampe_bredde" unit="cm"/>
+      <field alias="Rampe stigning" name="rampe_stigning" unit="°"/>
+      <field alias="Rampe terskel" name="rampe_terskel" unit="cm"/>
+      <field alias="Rampe tilgjengelig" name="rampe_tilgj"/>
+      <field alias="Håndlist" name="handlist"/>
+      <field alias="Håndlist høyde 1" name="hand_hoy_1" unit="cm"/>
+      <field alias="Dørtype" name="inngang_type"/>
+      <field alias="Døråpner" name="dorapner"/>
+      <field alias="Inngang bredde" name="inngang_bredde" unit="cm"/>
+      <field alias="Inngang kontrast" name="kontrast_inngang"/>
+      <field alias="Terskel høyde" name="terskel_hoyde" unit="cm"/>
+      <field alias="Diameter" name="diameter" unit="cm"/>
+      <field alias="Belysning" name="belysning"/>
+      <field alias="Omkledning" name="omkledning_tilgj"/>
+      <field alias="Servant" name="servant_tilgj"/>
+      <field alias="WC" name="wc_tilgj"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>parkeringsomrader_friluft_01</name>
+        <queryable>True</queryable>
+        <title>Parkeringsområder</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Parkeringsområder</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>5</groupid>
+    <params>
+      <layers>parkeringsomrader_friluft_01</layers>
+      <format>image/png</format>
+    </params>
+    <guid>5.parkeringsomrader_friluft_01</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Kapasitet personbiler" name="kap_personbiler"/>
+      <field alias="Kapasitet HC" name="kap_uu"/>
+      <field alias="Dekke" name="dekke"/>
+      <field alias="Dekke tilstand" name="dekke_tilstand"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>hc_parkering_friluft_01</name>
+        <queryable>True</queryable>
+        <title>HC-parkering</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>HC-parkering</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>5</groupid>
+    <params>
+      <layers>hc_parkering_friluft_01</layers>
+      <format>image/png</format>
+    </params>
+    <guid>5.hc_parkering_friluft_01</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Kapasitet personbiler" name="kap_personbiler"/>
+      <field alias="Kapasitet HC" name="kap_uu"/>
+      <field alias="Dekke" name="dekke"/>
+      <field alias="Dekke tilstand" name="dekke_tilstand"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>baderampe_01</name>
+        <queryable>True</queryable>
+        <title>Baderampe</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Baderampe</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>5</groupid>
+    <params>
+      <layers>baderampe_01</layers>
+      <format>image/png</format>
+    </params>
+    <guid>5.baderampe_01</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Rampe tilgjengelig" name="rampe_tilgj"/>
+      <field alias="Håndlist" name="handlist"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+      <field alias="Rampe bredde" name="rampe_bredde" unit="cm"/>
+      <field alias="Rampe stigning" name="rampe_stig" unit="°"/>
+      <field alias="Rampe terskel" name="rampe_terskel" unit="cm"/>
+      <field alias="Håndlist høyde 1" name="hand_hoy_1" unit="cm"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>friluftsomrade_01</name>
+        <queryable>True</queryable>
+        <title>Friluftsområde</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Friluftsområde</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>5</groupid>
+    <params>
+      <layers>friluftsomrade_01</layers>
+      <format>image/png</format>
+    </params>
+    <guid>5.friluftsomrade_01</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field name="registrert" alias="Registrert"/>
+      <field name="oppdat_app" alias="Oppdatert"/>
+      <field name="navn" alias="Navn"/>
+      <field alias="Naturbasenummer" name="naturbase_nr"/>
+      <field alias="HC-parkering" name="hc_parkeringsplass"/>
+      <field alias="Toalett" name="toalett"/>
+      <field alias="Turvei" name="turvei"/>
+      <field alias="Baderampe" name="baderampe"/>
+      <field alias="Fiskeplass" name="fiskeplasser"/>
+      <field alias="Grillbålplass" name="grill_balplass"/>
+      <field alias="Sittegruppe" name="sittegruppe"/>
+      <field alias="Gapahuk" name="gapahuk"/>
+      <field alias="Informasjon" name="informasjon"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>grillbalplass_01</name>
+        <queryable>True</queryable>
+        <title>Grillbalplass</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Grillbalplass</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>5</groupid>
+    <params>
+      <layers>grillbalplass_01</layers>
+      <format>image/png</format>
+    </params>
+    <guid>5.grillbalplass_01</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Type" name="type"/>
+      <field alias="Dekke" name="dekke"/>
+      <field alias="Dekke tilstand" name="dekke_tilstand"/>
+      <field alias="Helning" name="helning" unit="°"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>gapahukhytte_01</name>
+        <queryable>True</queryable>
+        <title>Gapahukhytte</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Gapahukhytte</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>5</groupid>
+    <params>
+      <layers>gapahukhytte_01</layers>
+      <format>image/png</format>
+    </params>
+    <guid>5.gapahukhytte_01</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Rampe bredde" name="rampe_bredde" unit="cm"/>
+      <field alias="Rampe stigning" name="rampe_stigning" unit="°"/>
+      <field alias="Rampe terskel" name="rampe_terskel" unit="cm"/>
+      <field alias="Rampe tilgjengelig" name="rampe_tilgj"/>
+      <field alias="Håndlist" name="handlist"/>
+      <field alias="Håndlist høyde 1" name="hand_hoy_1" unit="cm"/>
+      <field alias="Diameter" name="diameter" unit="cm"/>
+      <field alias="Inngang bredde" name="bredde_inngang" unit="cm"/>
+      <field alias="Inngang høyde" name="hoyde_inngang" unit="cm"/>
+      <field alias="Terskel høyde" name="terskelhoyde" unit="cm"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>fiskeplass_01</name>
+        <queryable>True</queryable>
+        <title>Fiskeplass</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Fiskeplass</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>5</groupid>
+    <params>
+      <layers>fiskeplass_01</layers>
+      <format>image/png</format>
+    </params>
+    <guid>5.fiskeplass_01</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Flytebrygge" name="flytebrygge"/>
+      <field alias="Rampe bredde" name="rampe_bredde" unit="cm"/>
+      <field alias="Rampe stigning" name="rampe_stigning" unit="°"/>
+      <field alias="Rampe terskel" name="rampe_terskel" unit="cm"/>
+      <field alias="Rampe tilgjengelig" name="rampe_tilgj"/>
+      <field alias="Håndlist" name="handlist"/>
+      <field alias="Håndlist høyde 1" name="hand_hoy_1" unit="cm"/>
+      <field alias="Dekke" name="dekke"/>
+      <field alias="Planke avstand" name="plankeavstand" unit="cm"/>
+      <field alias="Diameter" name="diameter" unit="cm"/>
+      <field alias="Rekkverk" name="rekkverk"/>
+      <field alias="Stoppkant" name="stoppkant"/>
+      <field alias="Stoppkant høyde" name="stoppka_hoyde" unit="cm"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid" />
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>turishytte_01</name>
+        <queryable>True</queryable>
+        <title>Turishytte</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Turishytte</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>5</groupid>
+    <params>
+      <layers>turishytte_01</layers>
+      <format>image/png</format>
+    </params>
+    <guid>5.turishytte_01</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Navn" name="navn"/>
+      <field alias="Eier" name="eier_tekst"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>statlig_sikra_polygon_01</name>
+        <queryable>True</queryable>
+        <title>Statlig sikra</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Statlig sikra</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>5</groupid>
+    <params>
+      <layers>statlig_sikra_polygon_01</layers>
+      <format>image/png</format>
+    </params>
+    <guid>5.statlig_sikra_polygon_01</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Navn" name="navn"/>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Turområde" name="turomraade_tilrettelagt_for"/>
+      <field alias="Fiskeplass" name="fiskeplass_tilrettelagt_for"/>
+      <field alias="Badeplass" name="badeplass_tilrettelagt_for"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+      <field alias="Link til informasjonsark" name="link_skjema"/>
+      <field alias="Link til bildeark" name="link_bilde"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>turvei_01</name>
+        <queryable>True</queryable>
+        <title>Turvei</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Turvei</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>5</groupid>
+    <params>
+      <layers>turvei_01</layers>
+      <format>image/png</format>
+    </params>
+    <guid>5.turvei_01</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Veitype" name="veitype"/>
+      <field alias="Spesial fottyperute" name="spesialfottyperute"/>
+      <field alias="Dekke" name="dekke"/>
+      <field alias="Dekke tilstand" name="dekke_tilstand"/>
+      <field alias="Bredde" name="bredde" unit="cm"/>
+      <field alias="Stigning" name="stigning" unit="°"/>
+      <field alias="Tverrfall" name="tverrfall" unit="°"/>
+      <field alias="Belysning" name="belysning"/>
+      <field alias="Fri høyde" name="frihoyde"/>
+      <field alias="Ledelinje " name="ledelinje"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>sittegruppe_01</name>
+        <queryable>True</queryable>
+        <title>Sittegruppe</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Sittegruppe</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>5</groupid>
+    <params>
+      <layers>sittegruppe_01</layers>
+      <format>image/png</format>
+    </params>
+    <guid>5.sittegruppe_01</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Dekke" name="dekke"/>
+      <field alias="Dekke tilstand" name="dekke_tilstand"/>
+      <field alias="Helning" name="helning" unit="°"/>
+      <field alias="Bord høyde" name="bord_hoyde" unit="cm"/>
+      <field alias="Bord utstikk" name="bord_utstikk" unit="cm"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <maplayer>
+    <index>6</index>
+    <name>Tettsted_Rullestol</name>
+    <groupid>6</groupid>
+  </maplayer>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>t_vei_r</name>
+        <queryable>True</queryable>
+        <title>Vei</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Vei</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>6</groupid>
+    <params>
+      <layers>t_vei_r</layers>
+      <format>image/png</format>
+    </params>
+    <guid>6.t_vei_r</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Gatetype" name="gate_type"/>
+      <field alias="Dekke" name="dekke"/>
+      <field alias="Dekke tilstand" name="dekke_tilstand"/>
+      <field alias="Bredde" name="bredde" unit="cm"/>
+      <field alias="Nedsenk 1" name="nedsenk_1" unit="cm"/>
+      <field alias="Nedsenk 2" name="nedsenk_2" unit="cm"/>
+      <field alias="Stigning" name="stig_grad" unit="°"/>
+      <field alias="Tverrfall" name="tverrfall_grad" unit="°"/>
+      <field alias="Ledelinje" name="ledelinje"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>t_HC_parkering_r</name>
+        <queryable>True</queryable>
+        <title>HC-parkering</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>HC-parkering</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>6</groupid>
+    <params>
+      <layers>t_HC_parkering_r</layers>
+      <format>image/png</format>
+    </params>
+    <guid>6.t_HC_parkering_r</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Skiltet" name="skiltet"/>
+      <field alias="Merket" name="merket"/>
+      <field alias="Avstand servicebygg" name="avstand_servicebyg" unit="m"/>
+      <field alias="Bredde" name="bredd" unit="cm"/>
+      <field alias="Lengde" name="lengd" unit="cm"/>
+      <field alias="Avgift" name="avgift"/>
+      <field alias="Automat høyde" name="aut_hoyd" unit="cm"/>
+      <field alias="Automat tilgjengelig" name="tilgj_automat"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid" />
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>t_inngangbygg_r_01</name>
+        <queryable>True</queryable>
+        <title>Inngang bygg</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Inngang bygg</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>6</groupid>
+    <params>
+      <layers>t_inngangbygg_r_01</layers>
+      <format>image/png</format>
+    </params>
+    <guid>6.t_inngangbygg_r_01</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Bygg funksjon" name="bygg_funksjon"/>
+      <field alias="Avstand til HC-parkering" name="avstand_hc_park" unit="m"/>
+      <field alias="Stigning ankomstvei" name="adko_stig_grad" unit="°"/>
+      <field alias="Rampe bredde" name="rampe_bredde" unit="cm"/>
+      <field alias="Rampe stigning" name="rampe_stigning" unit="°"/>
+      <field alias="Rampe terskel" name="rampe_terskel" unit="cm"/>
+      <field alias="Håndlist" name="handlist"/>
+      <field alias="Håndlist høyde 1" name="hand_hoy_1" unit="cm"/>
+      <field alias="Rampe tilgjengelig" name="rampe_tilgjengelig"/>
+      <field alias="Dørtype" name="dortype"/>
+      <field alias="Døråpner" name="dorapner"/>
+      <field alias="Manøverknapp høyde" name="man_knap_hoyde" unit="cm"/>
+      <field alias="Inngang bredde" name="inngang_bredde" unit="cm"/>
+      <field alias="Terskel høyde" name="terskel_hoyde"/>
+      <field alias="Inngang kontrast" name="kontrast"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>t_parkeringsomrade_r</name>
+        <queryable>True</queryable>
+        <title>Parkerings område</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Parkerings område</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>6</groupid>
+    <params>
+      <layers>t_parkeringsomrade_r</layers>
+      <format>image/png</format>
+    </params>
+    <guid>6.t_parkeringsomrade_r</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Kapasitet personbiler" name="kap_personbiler"/>
+      <field alias="Dekke" name="dekke"/>
+      <field alias="Dekke tilstand" name="dekke_tilstand"/>
+      <field alias="Kapasitet HC" name="kap_uu"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <maplayer>
+    <index>7</index>
+    <name>friluft_elektrisk_rullestol</name>
+    <groupid>7</groupid>
+  </maplayer>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>friluftsomrade_02</name>
+        <queryable>True</queryable>
+        <title>Friluftsområde</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Friluftsområde</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>7</groupid>
+    <params>
+      <layers>friluftsomrade_02</layers>
+      <format>image/png</format>
+    </params>
+    <guid>7.friluftsomrade_02</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field name="registrert" alias="Registrert"/>
+      <field name="oppdat_app" alias="Oppdatert"/>
+      <field name="navn" alias="Navn"/>
+      <field alias="Naturbasenummer" name="naturbase_nr"/>
+      <field alias="HC-parkering" name="hc_parkeringsplass"/>
+      <field alias="Toalett" name="toalett"/>
+      <field alias="Turvei" name="turvei"/>
+      <field alias="Baderampe" name="baderampe"/>
+      <field alias="Fiskeplass" name="fiskeplasser"/>
+      <field alias="Grillbålplass" name="grill_balplass"/>
+      <field alias="Sittegruppe" name="sittegruppe"/>
+      <field alias="Gapahuk" name="gapahuk"/>
+      <field alias="Informasjon" name="informasjon"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>toalett_02</name>
+        <queryable>True</queryable>
+        <title>Toalett</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Toalett</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>7</groupid>
+    <params>
+      <layers>toalett_02</layers>
+      <format>image/png</format>
+    </params>
+    <guid>7.toalett_02</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Rampe bredde" name="rampe_bredde" unit="cm"/>
+      <field alias="Rampe stigning" name="rampe_stigning" unit="°"/>
+      <field alias="Rampe terskel" name="rampe_terskel" unit="cm"/>
+      <field alias="Rampe tilgjengelig" name="rampe_tilgj"/>
+      <field alias="Håndlist" name="handlist"/>
+      <field alias="Håndlist høyde 1" name="hand_hoy_1" unit="cm"/>
+      <field alias="Dørtype" name="inngang_type"/>
+      <field alias="Døråpner" name="dorapner"/>
+      <field alias="Inngang bredde" name="inngang_bredde" unit="cm"/>
+      <field alias="Inngang kontrast" name="kontrast_inngang"/>
+      <field alias="Terskel høyde" name="terskel_hoyde" unit="cm"/>
+      <field alias="Diameter" name="diameter" unit="cm"/>
+      <field alias="Belysning" name="belysning"/>
+      <field alias="Omkledning" name="omkledning_tilgj"/>
+      <field alias="Servant" name="servant_tilgj"/>
+      <field alias="WC" name="wc_tilgj"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>hc_parkering_friluft_02</name>
+        <queryable>True</queryable>
+        <title>HC-parkering</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>HC-parkering</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>7</groupid>
+    <params>
+      <layers>hc_parkering_friluft_02</layers>
+      <format>image/png</format>
+    </params>
+    <guid>7.hc_parkering_friluft_02</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Kapasitet personbiler" name="kap_personbiler"/>
+      <field alias="Kapasitet HC" name="kap_uu"/>
+      <field alias="Dekke" name="dekke"/>
+      <field alias="Dekke tilstand" name="dekke_tilstand"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>grillbalplass_02</name>
+        <queryable>True</queryable>
+        <title>Grillbalplass</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Grillbalplass</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>7</groupid>
+    <params>
+      <layers>grillbalplass_02</layers>
+      <format>image/png</format>
+    </params>
+    <guid>7.grillbalplass_02</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Type" name="type"/>
+      <field alias="Dekke" name="dekke"/>
+      <field alias="Dekke tilstand" name="dekke_tilstand"/>
+      <field alias="Helning" name="helning" unit="°"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>statlig_sikra_polygon_02</name>
+        <queryable>True</queryable>
+        <title>Statlig sikra</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Statlig sikra</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>7</groupid>
+    <params>
+      <layers>statlig_sikra_polygon_02</layers>
+      <format>image/png</format>
+    </params>
+    <guid>7.statlig_sikra_polygon_02</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Navn" name="navn"/>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Turområde" name="turomraade_tilrettelagt_for"/>
+      <field alias="Fiskeplass" name="fiskeplass_tilrettelagt_for"/>
+      <field alias="Badeplass" name="badeplass_tilrettelagt_for"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+      <field alias="Link til informasjonsark" name="link_skjema"/>
+      <field alias="Link til bildeark" name="link_bilde"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>parkeringsomrader_friluft_02</name>
+        <queryable>True</queryable>
+        <title>Parkeringsområder</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Parkeringsområder</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>7</groupid>
+    <params>
+      <layers>parkeringsomrader_friluft_02</layers>
+      <format>image/png</format>
+    </params>
+    <guid>7.parkeringsomrader_friluft_02</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Kapasitet personbiler" name="kap_personbiler"/>
+      <field alias="Kapasitet HC" name="kap_uu"/>
+      <field alias="Dekke" name="dekke"/>
+      <field alias="Dekke tilstand" name="dekke_tilstand"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>fiskeplass_02</name>
+        <queryable>True</queryable>
+        <title>Fiskeplass</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Fiskeplass</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>7</groupid>
+    <params>
+      <layers>fiskeplass_02</layers>
+      <format>image/png</format>
+    </params>
+    <guid>7.fiskeplass_02</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Flytebrygge" name="flytebrygge"/>
+      <field alias="Rampe bredde" name="rampe_bredde" unit="cm"/>
+      <field alias="Rampe stigning" name="rampe_stigning" unit="°"/>
+      <field alias="Rampe terskel" name="rampe_terskel" unit="cm"/>
+      <field alias="Rampe tilgjengelig" name="rampe_tilgj"/>
+      <field alias="Håndlist" name="handlist"/>
+      <field alias="Håndlist høyde 1" name="hand_hoy_1" unit="cm"/>
+      <field alias="Dekke" name="dekke"/>
+      <field alias="Planke avstand" name="plankeavstand" unit="cm"/>
+      <field alias="Diameter" name="diameter" unit="cm"/>
+      <field alias="Rekkverk" name="rekkverk"/>
+      <field alias="Stoppkant" name="stoppkant"/>
+      <field alias="Stoppkant høyde" name="stoppka_hoyde" unit="cm"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid" />
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>gapahukhytte_02</name>
+        <queryable>True</queryable>
+        <title>Gapahukhytte</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Gapahukhytte</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>7</groupid>
+    <params>
+      <layers>gapahukhytte_02</layers>
+      <format>image/png</format>
+    </params>
+    <guid>7.gapahukhytte_02</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Rampe bredde" name="rampe_bredde" unit="cm"/>
+      <field alias="Rampe stigning" name="rampe_stigning" unit="°"/>
+      <field alias="Rampe terskel" name="rampe_terskel" unit="cm"/>
+      <field alias="Rampe tilgjengelig" name="rampe_tilgj"/>
+      <field alias="Håndlist" name="handlist"/>
+      <field alias="Håndlist høyde 1" name="hand_hoy_1" unit="cm"/>
+      <field alias="Diameter" name="diameter" unit="cm"/>
+      <field alias="Inngang bredde" name="bredde_inngang" unit="cm"/>
+      <field alias="Inngang høyde" name="hoyde_inngang" unit="cm"/>
+      <field alias="Terskel høyde" name="terskelhoyde" unit="cm"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>turishytte_02</name>
+        <queryable>True</queryable>
+        <title>Turishytte</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Turishytte</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>7</groupid>
+    <params>
+      <layers>turishytte_02</layers>
+      <format>image/png</format>
+    </params>
+    <guid>7.turishytte_02</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Navn" name="navn"/>
+      <field alias="Eier" name="eier_tekst"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>turvei_02</name>
+        <queryable>True</queryable>
+        <title>Turvei</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Turvei</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>7</groupid>
+    <params>
+      <layers>turvei_02</layers>
+      <format>image/png</format>
+    </params>
+    <guid>7.turvei_02</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Veitype" name="veitype"/>
+      <field alias="Spesial fottyperute" name="spesialfottyperute"/>
+      <field alias="Dekke" name="dekke"/>
+      <field alias="Dekke tilstand" name="dekke_tilstand"/>
+      <field alias="Bredde" name="bredde" unit="cm"/>
+      <field alias="Stigning" name="stigning" unit="°"/>
+      <field alias="Tverrfall" name="tverrfall" unit="°"/>
+      <field alias="Belysning" name="belysning"/>
+      <field alias="Fri høyde" name="frihoyde"/>
+      <field alias="Ledelinje " name="ledelinje"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>sittegruppe_02</name>
+        <queryable>True</queryable>
+        <title>Sittegruppe</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Sittegruppe</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>7</groupid>
+    <params>
+      <layers>sittegruppe_02</layers>
+      <format>image/png</format>
+    </params>
+    <guid>7.sittegruppe_02</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Dekke" name="dekke"/>
+      <field alias="Dekke tilstand" name="dekke_tilstand"/>
+      <field alias="Helning" name="helning" unit="°"/>
+      <field alias="Bord høyde" name="bord_hoyde" unit="cm"/>
+      <field alias="Bord utstikk" name="bord_utstikk" unit="cm"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <maplayer>
+    <index>8</index>
+    <name>Tettsted_Syn</name>
+    <groupid>8</groupid>
+  </maplayer>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>t_inngangbygg</name>
+        <queryable>True</queryable>
+        <title>Inngang bygg</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Inngang bygg</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>8</groupid>
+    <params>
+      <layers>t_inngangbygg</layers>
+      <format>image/png</format>
+    </params>
+    <guid>8.t_inngangbygg</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Bygg funksjon" name="bygg_funksjon"/>
+      <field alias="Avstand til HC-parkering" name="avstand_hc_park" unit="m"/>
+      <field alias="Stigning ankomstvei" name="adko_stig_grad" unit="°"/>
+      <field alias="Rampe bredde" name="rampe_bredde" unit="cm"/>
+      <field alias="Rampe stigning" name="rampe_stigning" unit="°"/>
+      <field alias="Rampe terskel" name="rampe_terskel" unit="cm"/>
+      <field alias="Håndlist" name="handlist"/>
+      <field alias="Håndlist høyde 1" name="hand_hoy_1" unit="cm"/>
+      <field alias="Rampe tilgjengelig" name="rampe_tilgjengelig"/>
+      <field alias="Dørtype" name="dortype"/>
+      <field alias="Døråpner" name="dorapner"/>
+      <field alias="Manøverknapp høyde" name="man_knap_hoyde" unit="cm"/>
+      <field alias="Inngang bredde" name="inngang_bredde" unit="cm"/>
+      <field alias="Terskel høyde" name="terskel_hoyde"/>
+      <field alias="Inngang kontrast" name="kontrast"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>t_HC_parkering</name>
+        <queryable>True</queryable>
+        <title>HC-parkering</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>HC-parkering</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>8</groupid>
+    <params>
+      <layers>t_HC_parkering</layers>
+      <format>image/png</format>
+    </params>
+    <guid>8.t_HC_parkering</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Skiltet" name="skiltet"/>
+      <field alias="Merket" name="merket"/>
+      <field alias="Avstand servicebygg" name="avstand_servicebyg" unit="m"/>
+      <field alias="Bredde" name="bredd" unit="cm"/>
+      <field alias="Lengde" name="lengd" unit="cm"/>
+      <field alias="Avgift" name="avgift"/>
+      <field alias="Automat høyde" name="aut_hoyd" unit="cm"/>
+      <field alias="Automat tilgjengelig" name="tilgj_automat"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid" />
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>t_parkeringsomrade</name>
+        <queryable>True</queryable>
+        <title>Parkerings område</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Parkerings område</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>8</groupid>
+    <params>
+      <layers>t_parkeringsomrade</layers>
+      <format>image/png</format>
+    </params>
+    <guid>8.t_parkeringsomrade</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Kapasitet personbiler" name="kap_personbiler"/>
+      <field alias="Dekke" name="dekke"/>
+      <field alias="Dekke tilstand" name="dekke_tilstand"/>
+      <field alias="Kapasitet HC" name="kap_uu"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>t_vei</name>
+        <queryable>True</queryable>
+        <title>Vei</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Vei</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>8</groupid>
+    <params>
+      <layers>t_vei</layers>
+      <format>image/png</format>
+    </params>
+    <guid>8.t_vei</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Gatetype" name="gate_type"/>
+      <field alias="Dekke" name="dekke"/>
+      <field alias="Dekke tilstand" name="dekke_tilstand"/>
+      <field alias="Bredde" name="bredde" unit="cm"/>
+      <field alias="Nedsenk 1" name="nedsenk_1" unit="cm"/>
+      <field alias="Nedsenk 2" name="nedsenk_2" unit="cm"/>
+      <field alias="Stigning" name="stig_grad" unit="°"/>
+      <field alias="Tverrfall" name="tverrfall_grad" unit="°"/>
+      <field alias="Ledelinje" name="ledelinje"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Objekt ID" name="ogc_fid" />
+    </includedFields>
+  </wms>
+  <maplayer>
+    <index>9</index>
+    <name>Tettsted_Elektrisk_rullestol</name>
+    <groupid>9</groupid>
+  </maplayer>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>t_HC_parkering_el</name>
+        <queryable>True</queryable>
+        <title>HC-parkering</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>HC-parkering</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>9</groupid>
+    <params>
+      <layers>t_HC_parkering_el</layers>
+      <format>image/png</format>
+    </params>
+    <guid>9.t_HC_parkering_el</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Skiltet" name="skiltet"/>
+      <field alias="Merket" name="merket"/>
+      <field alias="Avstand servicebygg" name="avstand_servicebyg" unit="m"/>
+      <field alias="Bredde" name="bredd" unit="cm"/>
+      <field alias="Lengde" name="lengd" unit="cm"/>
+      <field alias="Avgift" name="avgift"/>
+      <field alias="Automat høyde" name="aut_hoyd" unit="cm"/>
+      <field alias="Automat tilgjengelig" name="tilgj_automat"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid" />
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>t_vei_el</name>
+        <queryable>True</queryable>
+        <title>Vei</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Vei</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>9</groupid>
+    <params>
+      <layers>t_vei_el</layers>
+      <format>image/png</format>
+    </params>
+    <guid>9.t_vei_el</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Gatetype" name="gate_type"/>
+      <field alias="Dekke" name="dekke"/>
+      <field alias="Dekke tilstand" name="dekke_tilstand"/>
+      <field alias="Bredde" name="bredde" unit="cm"/>
+      <field alias="Nedsenk 1" name="nedsenk_1" unit="cm"/>
+      <field alias="Nedsenk 2" name="nedsenk_2" unit="cm"/>
+      <field alias="Stigning" name="stig_grad" unit="°"/>
+      <field alias="Tverrfall" name="tverrfall_grad" unit="°"/>
+      <field alias="Ledelinje" name="ledelinje"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>t_inngangbygg_r_02</name>
+        <queryable>True</queryable>
+        <title>Inngang bygg</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Inngang bygg</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>9</groupid>
+    <params>
+      <layers>t_inngangbygg_r_02</layers>
+      <format>image/png</format>
+    </params>
+    <guid>9.t_inngangbygg_r_02</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Bygg funksjon" name="bygg_funksjon"/>
+      <field alias="Avstand til HC-parkering" name="avstand_hc_park" unit="m"/>
+      <field alias="Stigning ankomstvei" name="adko_stig_grad" unit="°"/>
+      <field alias="Rampe bredde" name="rampe_bredde" unit="cm"/>
+      <field alias="Rampe stigning" name="rampe_stigning" unit="°"/>
+      <field alias="Rampe terskel" name="rampe_terskel" unit="cm"/>
+      <field alias="Håndlist" name="handlist"/>
+      <field alias="Håndlist høyde 1" name="hand_hoy_1" unit="cm"/>
+      <field alias="Rampe tilgjengelig" name="rampe_tilgjengelig"/>
+      <field alias="Dørtype" name="dortype"/>
+      <field alias="Døråpner" name="dorapner"/>
+      <field alias="Manøverknapp høyde" name="man_knap_hoyde" unit="cm"/>
+      <field alias="Inngang bredde" name="inngang_bredde" unit="cm"/>
+      <field alias="Terskel høyde" name="terskel_hoyde"/>
+      <field alias="Inngang kontrast" name="kontrast"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
+  <wms type="overlay">
+    <Layers>
+      <Layer>
+        <name>t_parkeringsomrade_el</name>
+        <queryable>True</queryable>
+        <title>Parkerings område</title>
+      </Layer>
+    </Layers>
+    <gatekeeper>true</gatekeeper>
+    <name>Parkerings område</name>
+    <url>http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?</url>
+    <groupid>9</groupid>
+    <params>
+      <layers>t_parkeringsomrade_el</layers>
+      <format>image/png</format>
+    </params>
+    <guid>9.t_parkeringsomrade_el</guid>
+    <options>
+      <isbaselayer>false</isbaselayer>
+      <singletile>true</singletile>
+      <visibility>false</visibility>
+    </options>
+    <includedFields>
+      <field alias="Registrert" name="registrert"/>
+      <field alias="Oppdatert" name="oppdat_app"/>
+      <field alias="Kapasitet personbiler" name="kap_personbiler"/>
+      <field alias="Dekke" name="dekke"/>
+      <field alias="Dekke tilstand" name="dekke_tilstand"/>
+      <field alias="Kapasitet HC" name="kap_uu"/>
+      <field alias="Kommentar" name="kommentar"/>
+      <field alias="Bildefil" name="bilde"/>
+      <field alias="Objekt ID" name="ogc_fid"/>
+    </includedFields>
+  </wms>
 </config>
