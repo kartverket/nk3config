@@ -5,7 +5,6 @@
         <displaycenterepsgcode>EPSG:32633</displaycenterepsgcode>
         <displayCenter>378604,7226208</displayCenter>
         <displayprojectionepsgcode>EPSG:32633</displayprojectionepsgcode>
-        <name>fastmerker</name>
     </project>
     <wmts type="map">
         <gatekeeper>true</gatekeeper>
@@ -26,14 +25,14 @@
     </wmts>
     <wmts type="map">
         <gatekeeper>true</gatekeeper>
-        <name>Flybilder</name>
-        <url>http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nib_utm33_wmts_v2?|http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nib_utm33_wmts_v2?</url>
+        <name>Rasterkart</name>
+        <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
         <params>
-            <layers>Nibcache_UTM33_EUREF89</layers>
+            <layers>toporaster3</layers>
             <format>image/png</format>
         </params>
-        <matrixSet>default028mm</matrixSet>
-        <guid>0.ortofoto</guid>
+        <matrixPrefix>true</matrixPrefix>
+        <guid>0.toporaster3</guid>
         <options>
             <isbaselayer>true</isbaselayer>
             <singletile>false</singletile>
@@ -43,14 +42,14 @@
     </wmts>
     <wmts type="map">
         <gatekeeper>true</gatekeeper>
-        <name>Rasterkart</name>
-        <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
+        <name>Flybilder</name>
+        <url>http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nib_utm33_wmts_v2?|http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nib_utm33_wmts_v2?</url>
         <params>
-            <layers>toporaster3</layers>
+            <layers>Nibcache_UTM33_EUREF89</layers>
             <format>image/png</format>
         </params>
-        <matrixPrefix>true</matrixPrefix>
-        <guid>0.toporaster3</guid>
+        <matrixSet>default028mm</matrixSet>
+        <guid>0.ortofoto</guid>
         <options>
             <isbaselayer>true</isbaselayer>
             <singletile>false</singletile>
@@ -307,20 +306,20 @@
     <wms type="overlay">
         <Layers>
             <Layer>
-                <name>Trekantpunkt</name>
+                <name>Niv_fastmerker</name>
                 <queryable>false</queryable>
-                <title>Trekantpunkter</title>
+                <title>Niv. fastmerker</title>
             </Layer>
         </Layers>
         <gatekeeper>true</gatekeeper>
-        <name>Trekantpunkter</name>
+        <name>Niv. fastmerker</name>
         <url>http://wms.geonorge.no/skwms1/wms.fastmerker2</url>
         <groupid>2</groupid>
         <params>
-            <layers>Trekantpunkt</layers>
+            <layers>Niv_fastmerker</layers>
             <format>image/png</format>
         </params>
-        <guid>2.Trekantpunkt</guid>
+        <guid>2.Niv_fastmerker</guid>
         <options>
             <isbaselayer>false</isbaselayer>
             <singletile>true</singletile>
@@ -347,20 +346,20 @@
     <wms type="overlay">
         <Layers>
             <Layer>
-                <name>Niv_fastmerker</name>
+                <name>Landsnettpunkt</name>
                 <queryable>false</queryable>
-                <title>Niv. fastmerker</title>
+                <title>Landsnettpunkter</title>
             </Layer>
         </Layers>
         <gatekeeper>true</gatekeeper>
-        <name>Niv. fastmerker</name>
+        <name>Landsnettpunkter</name>
         <url>http://wms.geonorge.no/skwms1/wms.fastmerker2</url>
         <groupid>2</groupid>
         <params>
-            <layers>Niv_fastmerker</layers>
+            <layers>Landsnettpunkt</layers>
             <format>image/png</format>
         </params>
-        <guid>2.Niv_fastmerker</guid>
+        <guid>2.Landsnettpunkt</guid>
         <options>
             <isbaselayer>false</isbaselayer>
             <singletile>true</singletile>
@@ -427,20 +426,20 @@
     <wms type="overlay">
         <Layers>
             <Layer>
-                <name>Landsnettpunkt</name>
+                <name>Trekantpunkt</name>
                 <queryable>false</queryable>
-                <title>Landsnettpunkter</title>
+                <title>Trekantpunkter</title>
             </Layer>
         </Layers>
         <gatekeeper>true</gatekeeper>
-        <name>Landsnettpunkter</name>
+        <name>Trekantpunkter</name>
         <url>http://wms.geonorge.no/skwms1/wms.fastmerker2</url>
         <groupid>2</groupid>
         <params>
-            <layers>Landsnettpunkt</layers>
+            <layers>Trekantpunkt</layers>
             <format>image/png</format>
         </params>
-        <guid>2.Landsnettpunkt</guid>
+        <guid>2.Trekantpunkt</guid>
         <options>
             <isbaselayer>false</isbaselayer>
             <singletile>true</singletile>
@@ -463,34 +462,6 @@
             <field alias="Status_år" name="status_ar"/>
             <field alias="Beskrivelse" name="beskrivelse"/>
         </includedFields>
-    </wms>
-    <maplayer>
-        <index>5</index>
-        <name>UTM-rutenett</name>
-        <groupid>5</groupid>
-    </maplayer>
-    <wms type="overlay">
-        <Layers>
-            <Layer>
-                <name>UTMrutenett</name>
-                <queryable>false</queryable>
-                <title>UTM-rutenett</title>
-            </Layer>
-        </Layers>
-        <gatekeeper>true</gatekeeper>
-        <name>UTM-rutenett</name>
-        <url>http://openwms.statkart.no/skwms1/wms.rutenett?</url>
-        <groupid>5</groupid>
-        <params>
-            <layers>UTMrutenett</layers>
-            <format>image/png</format>
-        </params>
-        <guid>5.UTMrutenett</guid>
-        <options>
-            <isbaselayer>false</isbaselayer>
-            <singletile>true</singletile>
-            <visibility>false</visibility>
-        </options>
     </wms>
     <maplayer>
         <index>6</index>
@@ -560,5 +531,33 @@
             <field alias="Z-koordinater" name="z"/>
             <field alias="Koordinatsystem" name="coordsysname"/>
         </includedFields>
+    </wms>
+    <maplayer>
+        <index>5</index>
+        <name>UTM-rutenett</name>
+        <groupid>5</groupid>
+    </maplayer>
+    <wms type="overlay">
+        <Layers>
+            <Layer>
+                <name>UTMrutenett</name>
+                <queryable>false</queryable>
+                <title>UTM-rutenett</title>
+            </Layer>
+        </Layers>
+        <gatekeeper>true</gatekeeper>
+        <name>UTM-rutenett</name>
+        <url>http://openwms.statkart.no/skwms1/wms.rutenett?</url>
+        <groupid>5</groupid>
+        <params>
+            <layers>UTMrutenett</layers>
+            <format>image/png</format>
+        </params>
+        <guid>5.UTMrutenett</guid>
+        <options>
+            <isbaselayer>false</isbaselayer>
+            <singletile>true</singletile>
+            <visibility>false</visibility>
+        </options>
     </wms>
 </config>
