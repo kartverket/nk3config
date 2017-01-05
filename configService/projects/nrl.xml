@@ -299,10 +299,496 @@
             </options>
       </wmts>
       <maplayer>
+            <index>4</index>
+            <name>alle hindre</name>
+            <groupid>4</groupid>
+      </maplayer>
+      <wms type="overlay">
+            <Layers>
+                  <Layer>
+                        <name>alle_linjehindre</name>
+                        <queryable>false</queryable>
+                        <title>Alle linjehindre</title>
+                  </Layer>
+            </Layers>
+            <gatekeeper>true</gatekeeper>
+            <name>Alle linjehindre</name>
+            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
+            <groupid>4</groupid>
+            <params>
+                  <layers>alle_linjehindre</layers>
+                  <format>image/png</format>
+            </params>
+            <guid>4.alle_linjehindre</guid>
+            <options>
+                  <isbaselayer>false</isbaselayer>
+                  <singletile>true</singletile>
+                  <visibility>false</visibility>
+            </options>
+            <includedFields>
+                  <field alias="NRL-ID" name="nrl-id"/>
+                  <field alias="Navn" name="navn"/>
+                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
+                  <field alias="Lyssetting" name="lyssetting"/>
+                  <field alias="Status" name="status"/>
+                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
+                  <field alias="Hindertype" name="hindertype"/>
+                  <field alias="Datafangstdato" name="datafangstdato"/>
+                  <field alias="Merking" name="merking"/>
+            </includedFields>
+      </wms>
+      <wms type="overlay">
+            <Layers>
+                  <Layer>
+                        <name>alle_linjepunkt</name>
+                        <queryable>false</queryable>
+                        <title>Alle linjepunkthindre</title>
+                  </Layer>
+            </Layers>
+            <gatekeeper>true</gatekeeper>
+            <name>Alle linjepunkthindre</name>
+            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
+            <groupid>4</groupid>
+            <params>
+                  <layers>alle_linjepunkt</layers>
+                  <format>image/png</format>
+            </params>
+            <guid>4.alle_linjepunkt</guid>
+            <options>
+                  <isbaselayer>false</isbaselayer>
+                  <singletile>true</singletile>
+                  <visibility>false</visibility>
+            </options>
+            <includedFields>
+                  <field alias="NRL-ID" name="nrl-id"/>
+                  <field alias="Navn" name="navn"/>
+                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
+                  <field alias="Lyssetting" name="lyssetting"/>
+                  <field alias="Status" name="status"/>
+                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
+                  <field alias="Hindertype" name="hindertype"/>
+                  <field alias="Datafangstdato" name="datafangstdato"/>
+                  <field alias="Merking" name="merking"/>
+            </includedFields>
+      </wms>
+      <wms type="overlay">
+            <Layers>
+                  <Layer>
+                        <name>alle_punkthindre</name>
+                        <queryable>false</queryable>
+                        <title>Alle punkthindre</title>
+                  </Layer>
+            </Layers>
+            <gatekeeper>true</gatekeeper>
+            <name>Alle punkthindre</name>
+            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
+            <groupid>4</groupid>
+            <params>
+                  <layers>alle_punkthindre</layers>
+                  <format>image/png</format>
+            </params>
+            <guid>4.alle_punkthindre</guid>
+            <options>
+                  <isbaselayer>false</isbaselayer>
+                  <singletile>true</singletile>
+                  <visibility>false</visibility>
+            </options>
+            <includedFields>
+                  <field alias="NRL-ID" name="nrl-id"/>
+                  <field alias="Navn" name="navn"/>
+                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
+                  <field alias="Lyssetting" name="lyssetting"/>
+                  <field alias="Status" name="status"/>
+                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
+                  <field alias="Hindertype" name="hindertype"/>
+                  <field alias="Datafangstdato" name="datafangstdato"/>
+                  <field alias="Merking" name="merking"/>
+            </includedFields>
+      </wms>
+      <maplayer>
+            <index>5</index>
+            <name>andre linjethindre</name>
+            <groupid>5</groupid>
+      </maplayer>
+      <wms type="overlay">
+            <Layers>
+                  <Layer>
+                        <name>andre_linjer_60m_og_over</name>
+                        <queryable>false</queryable>
+                        <title>Andre linjer 60m og over</title>
+                  </Layer>
+            </Layers>
+            <gatekeeper>true</gatekeeper>
+            <name>Andre linjer 60m og over</name>
+            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
+            <groupid>5</groupid>
+            <params>
+                  <layers>andre_linjer_60m_og_over</layers>
+                  <format>image/png</format>
+            </params>
+            <guid>5.andre_linjer_60m_og_over</guid>
+            <options>
+                  <isbaselayer>false</isbaselayer>
+                  <singletile>true</singletile>
+                  <visibility>false</visibility>
+            </options>
+            <includedFields>
+                  <field alias="NRL-ID" name="nrl-id"/>
+                  <field alias="Navn" name="navn"/>
+                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
+                  <field alias="Lyssetting" name="lyssetting"/>
+                  <field alias="Status" name="status"/>
+                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
+                  <field alias="Hindertype" name="hindertype"/>
+                  <field alias="Datafangstdato" name="datafangstdato"/>
+                  <field alias="Merking" name="merking"/>
+            </includedFields>
+      </wms>
+      <wms type="overlay">
+            <Layers>
+                  <Layer>
+                        <name>andre_linjer_mellom_40m_60m</name>
+                        <queryable>false</queryable>
+                        <title>Andre linjer 40m-60m</title>
+                  </Layer>
+            </Layers>
+            <gatekeeper>true</gatekeeper>
+            <name>Andre linjer 40m-60m</name>
+            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
+            <groupid>5</groupid>
+            <params>
+                  <layers>andre_linjer_mellom_40m_60m</layers>
+                  <format>image/png</format>
+            </params>
+            <guid>5.andre_linjer_mellom_40m_60m</guid>
+            <options>
+                  <isbaselayer>false</isbaselayer>
+                  <singletile>true</singletile>
+                  <visibility>false</visibility>
+            </options>
+            <includedFields>
+                  <field alias="NRL-ID" name="nrl-id"/>
+                  <field alias="Navn" name="navn"/>
+                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
+                  <field alias="Lyssetting" name="lyssetting"/>
+                  <field alias="Status" name="status"/>
+                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
+                  <field alias="Hindertype" name="hindertype"/>
+                  <field alias="Datafangstdato" name="datafangstdato"/>
+                  <field alias="Merking" name="merking"/>
+            </includedFields>
+      </wms>
+      <wms type="overlay">
+            <Layers>
+                  <Layer>
+                        <name>andre_linjer_under_40m</name>
+                        <queryable>false</queryable>
+                        <title>Andre linjer under 40 m</title>
+                  </Layer>
+            </Layers>
+            <gatekeeper>true</gatekeeper>
+            <name>Andre linjer under 40 m</name>
+            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
+            <groupid>5</groupid>
+            <params>
+                  <layers>andre_linjer_under_40m</layers>
+                  <format>image/png</format>
+            </params>
+            <guid>5.andre_linjer_under_40m</guid>
+            <options>
+                  <isbaselayer>false</isbaselayer>
+                  <singletile>true</singletile>
+                  <visibility>false</visibility>
+            </options>
+            <includedFields>
+                  <field alias="NRL-ID" name="nrl-id"/>
+                  <field alias="Navn" name="navn"/>
+                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
+                  <field alias="Lyssetting" name="lyssetting"/>
+                  <field alias="Status" name="status"/>
+                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
+                  <field alias="Hindertype" name="hindertype"/>
+                  <field alias="Datafangstdato" name="datafangstdato"/>
+                  <field alias="Merking" name="merking"/>
+            </includedFields>
+      </wms>
+      <wms type="overlay">
+            <Layers>
+                  <Layer>
+                        <name>andre_linjer_uten_hoyde</name>
+                        <queryable>false</queryable>
+                        <title>Andre linjer uten hoyde</title>
+                  </Layer>
+            </Layers>
+            <gatekeeper>true</gatekeeper>
+            <name>Andre linjer uten hoyde</name>
+            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
+            <groupid>5</groupid>
+            <params>
+                  <layers>andre_linjer_uten_hoyde</layers>
+                  <format>image/png</format>
+            </params>
+            <guid>5.andre_linjer_uten_hoyde</guid>
+            <options>
+                  <isbaselayer>false</isbaselayer>
+                  <singletile>true</singletile>
+                  <visibility>false</visibility>
+            </options>
+            <includedFields>
+                  <field alias="NRL-ID" name="nrl-id"/>
+                  <field alias="Navn" name="navn"/>
+                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
+                  <field alias="Lyssetting" name="lyssetting"/>
+                  <field alias="Status" name="status"/>
+                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
+                  <field alias="Hindertype" name="hindertype"/>
+                  <field alias="Datafangstdato" name="datafangstdato"/>
+                  <field alias="Merking" name="merking"/>
+            </includedFields>
+      </wms>
+      <wms type="overlay">
+            <Layers>
+                  <Layer>
+                        <name>linjepunkt_60m_og_over</name>
+                        <queryable>false</queryable>
+                        <title>Linjepunkt 60m og over</title>
+                  </Layer>
+            </Layers>
+            <gatekeeper>true</gatekeeper>
+            <name>Linjepunkt 60m og over</name>
+            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
+            <groupid>5</groupid>
+            <params>
+                  <layers>linjepunkt_60m_og_over</layers>
+                  <format>image/png</format>
+            </params>
+            <guid>5.linjepunkt_60m_og_over</guid>
+            <options>
+                  <isbaselayer>false</isbaselayer>
+                  <singletile>true</singletile>
+                  <visibility>false</visibility>
+            </options>
+            <includedFields>
+                  <field alias="NRL-ID" name="nrl-id"/>
+                  <field alias="Navn" name="navn"/>
+                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
+                  <field alias="Lyssetting" name="lyssetting"/>
+                  <field alias="Status" name="status"/>
+                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
+                  <field alias="Hindertype" name="hindertype"/>
+                  <field alias="Datafangstdato" name="datafangstdato"/>
+                  <field alias="Merking" name="merking"/>
+            </includedFields>
+      </wms>
+      <wms type="overlay">
+            <Layers>
+                  <Layer>
+                        <name>linjepunkt_mellom_40m_60m</name>
+                        <queryable>false</queryable>
+                        <title>Linjepunkt 40m-60m</title>
+                  </Layer>
+            </Layers>
+            <gatekeeper>true</gatekeeper>
+            <name>Linjepunkt 40m-60m</name>
+            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
+            <groupid>5</groupid>
+            <params>
+                  <layers>linjepunkt_mellom_40m_60m</layers>
+                  <format>image/png</format>
+            </params>
+            <guid>5.linjepunkt_mellom_40m_60m</guid>
+            <options>
+                  <isbaselayer>false</isbaselayer>
+                  <singletile>true</singletile>
+                  <visibility>false</visibility>
+            </options>
+            <includedFields>
+                  <field alias="NRL-ID" name="nrl-id"/>
+                  <field alias="Navn" name="navn"/>
+                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
+                  <field alias="Lyssetting" name="lyssetting"/>
+                  <field alias="Status" name="status"/>
+                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
+                  <field alias="Hindertype" name="hindertype"/>
+                  <field alias="Datafangstdato" name="datafangstdato"/>
+                  <field alias="Merking" name="merking"/>
+            </includedFields>
+      </wms>
+      <wms type="overlay">
+            <Layers>
+                  <Layer>
+                        <name>linjepunkt_under_40m</name>
+                        <queryable>false</queryable>
+                        <title>Linjepunkt under 40 m</title>
+                  </Layer>
+            </Layers>
+            <gatekeeper>true</gatekeeper>
+            <name>Linjepunkt under 40 m</name>
+            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
+            <groupid>5</groupid>
+            <params>
+                  <layers>linjepunkt_under_40m</layers>
+                  <format>image/png</format>
+            </params>
+            <guid>5.linjepunkt_under_40m</guid>
+            <options>
+                  <isbaselayer>false</isbaselayer>
+                  <singletile>true</singletile>
+                  <visibility>false</visibility>
+            </options>
+            <includedFields>
+                  <field alias="NRL-ID" name="nrl-id"/>
+                  <field alias="Navn" name="navn"/>
+                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
+                  <field alias="Lyssetting" name="lyssetting"/>
+                  <field alias="Status" name="status"/>
+                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
+                  <field alias="Hindertype" name="hindertype"/>
+                  <field alias="Datafangstdato" name="datafangstdato"/>
+                  <field alias="Merking" name="merking"/>
+            </includedFields>
+      </wms>
+      <wms type="overlay">
+            <Layers>
+                  <Layer>
+                        <name>linjepunkt_uten_hoyde</name>
+                        <queryable>false</queryable>
+                        <title>Linjepunkt uten hoyde</title>
+                  </Layer>
+            </Layers>
+            <gatekeeper>true</gatekeeper>
+            <name>Linjepunkt uten hoyde</name>
+            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
+            <groupid>5</groupid>
+            <params>
+                  <layers>linjepunkt_uten_hoyde</layers>
+                  <format>image/png</format>
+            </params>
+            <guid>5.linjepunkt_uten_hoyde</guid>
+            <options>
+                  <isbaselayer>false</isbaselayer>
+                  <singletile>true</singletile>
+                  <visibility>false</visibility>
+            </options>
+            <includedFields>
+                  <field alias="NRL-ID" name="nrl-id"/>
+                  <field alias="Navn" name="navn"/>
+                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
+                  <field alias="Lyssetting" name="lyssetting"/>
+                  <field alias="Status" name="status"/>
+                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
+                  <field alias="Hindertype" name="hindertype"/>
+                  <field alias="Datafangstdato" name="datafangstdato"/>
+                  <field alias="Merking" name="merking"/>
+            </includedFields>
+      </wms>
+      <maplayer>
             <index>3</index>
             <name>kraftledninger</name>
             <groupid>3</groupid>
       </maplayer>
+      <wms type="overlay">
+            <Layers>
+                  <Layer>
+                        <name>kraftledning_60m_og_over</name>
+                        <queryable>false</queryable>
+                        <title>Kraftledning 60m og over</title>
+                  </Layer>
+            </Layers>
+            <gatekeeper>true</gatekeeper>
+            <name>Kraftledning 60m og over</name>
+            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
+            <groupid>3</groupid>
+            <params>
+                  <layers>kraftledning_60m_og_over</layers>
+                  <format>image/png</format>
+            </params>
+            <guid>3.kraftledning_60m_og_over</guid>
+            <options>
+                  <isbaselayer>false</isbaselayer>
+                  <singletile>true</singletile>
+                  <visibility>false</visibility>
+            </options>
+            <includedFields>
+                  <field alias="NRL-ID" name="nrl-id"/>
+                  <field alias="Navn" name="navn"/>
+                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
+                  <field alias="Lyssetting" name="lyssetting"/>
+                  <field alias="Status" name="status"/>
+                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
+                  <field alias="Hindertype" name="hindertype"/>
+                  <field alias="Datafangstdato" name="datafangstdato"/>
+                  <field alias="Merking" name="merking"/>
+            </includedFields>
+      </wms>
+      <wms type="overlay">
+            <Layers>
+                  <Layer>
+                        <name>kraftledning_mellom_40m_60m</name>
+                        <queryable>false</queryable>
+                        <title>Kraftledning 40m-60m</title>
+                  </Layer>
+            </Layers>
+            <gatekeeper>true</gatekeeper>
+            <name>Kraftledning 40m-60m</name>
+            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
+            <groupid>3</groupid>
+            <params>
+                  <layers>kraftledning_mellom_40m_60m</layers>
+                  <format>image/png</format>
+            </params>
+            <guid>3.kraftledning_mellom_40m_60m</guid>
+            <options>
+                  <isbaselayer>false</isbaselayer>
+                  <singletile>true</singletile>
+                  <visibility>false</visibility>
+            </options>
+            <includedFields>
+                  <field alias="NRL-ID" name="nrl-id"/>
+                  <field alias="Navn" name="navn"/>
+                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
+                  <field alias="Lyssetting" name="lyssetting"/>
+                  <field alias="Status" name="status"/>
+                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
+                  <field alias="Hindertype" name="hindertype"/>
+                  <field alias="Datafangstdato" name="datafangstdato"/>
+                  <field alias="Merking" name="merking"/>
+            </includedFields>
+      </wms>
+      <wms type="overlay">
+            <Layers>
+                  <Layer>
+                        <name>kraftledning_under_40m</name>
+                        <queryable>false</queryable>
+                        <title>Kraftledning under 40 m</title>
+                  </Layer>
+            </Layers>
+            <gatekeeper>true</gatekeeper>
+            <name>Kraftledning under 40 m</name>
+            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
+            <groupid>3</groupid>
+            <params>
+                  <layers>kraftledning_under_40m</layers>
+                  <format>image/png</format>
+            </params>
+            <guid>3.kraftledning_under_40m</guid>
+            <options>
+                  <isbaselayer>false</isbaselayer>
+                  <singletile>true</singletile>
+                  <visibility>false</visibility>
+            </options>
+            <includedFields>
+                  <field alias="NRL-ID" name="nrl-id"/>
+                  <field alias="Navn" name="navn"/>
+                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
+                  <field alias="Lyssetting" name="lyssetting"/>
+                  <field alias="Status" name="status"/>
+                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
+                  <field alias="Hindertype" name="hindertype"/>
+                  <field alias="Datafangstdato" name="datafangstdato"/>
+                  <field alias="Merking" name="merking"/>
+            </includedFields>
+      </wms>
       <wms type="overlay">
             <Layers>
                   <Layer>
@@ -442,108 +928,6 @@
       <wms type="overlay">
             <Layers>
                   <Layer>
-                        <name>kraftledning_60m_og_over</name>
-                        <queryable>false</queryable>
-                        <title>Kraftledning 60m og over</title>
-                  </Layer>
-            </Layers>
-            <gatekeeper>true</gatekeeper>
-            <name>Kraftledning 60m og over</name>
-            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
-            <groupid>3</groupid>
-            <params>
-                  <layers>kraftledning_60m_og_over</layers>
-                  <format>image/png</format>
-            </params>
-            <guid>3.kraftledning_60m_og_over</guid>
-            <options>
-                  <isbaselayer>false</isbaselayer>
-                  <singletile>true</singletile>
-                  <visibility>false</visibility>
-            </options>
-            <includedFields>
-                  <field alias="NRL-ID" name="nrl-id"/>
-                  <field alias="Navn" name="navn"/>
-                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
-                  <field alias="Lyssetting" name="lyssetting"/>
-                  <field alias="Status" name="status"/>
-                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
-                  <field alias="Hindertype" name="hindertype"/>
-                  <field alias="Datafangstdato" name="datafangstdato"/>
-                  <field alias="Merking" name="merking"/>
-            </includedFields>
-      </wms>
-      <wms type="overlay">
-            <Layers>
-                  <Layer>
-                        <name>kraftledning_mellom_40m_60m</name>
-                        <queryable>false</queryable>
-                        <title>Kraftledning 40m-60m</title>
-                  </Layer>
-            </Layers>
-            <gatekeeper>true</gatekeeper>
-            <name>Kraftledning 40m-60m</name>
-            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
-            <groupid>3</groupid>
-            <params>
-                  <layers>kraftledning_mellom_40m_60m</layers>
-                  <format>image/png</format>
-            </params>
-            <guid>3.kraftledning_mellom_40m_60m</guid>
-            <options>
-                  <isbaselayer>false</isbaselayer>
-                  <singletile>true</singletile>
-                  <visibility>false</visibility>
-            </options>
-            <includedFields>
-                  <field alias="NRL-ID" name="nrl-id"/>
-                  <field alias="Navn" name="navn"/>
-                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
-                  <field alias="Lyssetting" name="lyssetting"/>
-                  <field alias="Status" name="status"/>
-                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
-                  <field alias="Hindertype" name="hindertype"/>
-                  <field alias="Datafangstdato" name="datafangstdato"/>
-                  <field alias="Merking" name="merking"/>
-            </includedFields>
-      </wms>
-      <wms type="overlay">
-            <Layers>
-                  <Layer>
-                        <name>kraftledning_under_40m</name>
-                        <queryable>false</queryable>
-                        <title>Kraftledning under 40 m</title>
-                  </Layer>
-            </Layers>
-            <gatekeeper>true</gatekeeper>
-            <name>Kraftledning under 40 m</name>
-            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
-            <groupid>3</groupid>
-            <params>
-                  <layers>kraftledning_under_40m</layers>
-                  <format>image/png</format>
-            </params>
-            <guid>3.kraftledning_under_40m</guid>
-            <options>
-                  <isbaselayer>false</isbaselayer>
-                  <singletile>true</singletile>
-                  <visibility>false</visibility>
-            </options>
-            <includedFields>
-                  <field alias="NRL-ID" name="nrl-id"/>
-                  <field alias="Navn" name="navn"/>
-                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
-                  <field alias="Lyssetting" name="lyssetting"/>
-                  <field alias="Status" name="status"/>
-                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
-                  <field alias="Hindertype" name="hindertype"/>
-                  <field alias="Datafangstdato" name="datafangstdato"/>
-                  <field alias="Merking" name="merking"/>
-            </includedFields>
-      </wms>
-      <wms type="overlay">
-            <Layers>
-                  <Layer>
                         <name>kraftstolpe_uten_hoyde</name>
                         <queryable>false</queryable>
                         <title>Kraftstolpe uten hoyde</title>
@@ -558,390 +942,6 @@
                   <format>image/png</format>
             </params>
             <guid>3.kraftstolpe_uten_hoyde</guid>
-            <options>
-                  <isbaselayer>false</isbaselayer>
-                  <singletile>true</singletile>
-                  <visibility>false</visibility>
-            </options>
-            <includedFields>
-                  <field alias="NRL-ID" name="nrl-id"/>
-                  <field alias="Navn" name="navn"/>
-                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
-                  <field alias="Lyssetting" name="lyssetting"/>
-                  <field alias="Status" name="status"/>
-                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
-                  <field alias="Hindertype" name="hindertype"/>
-                  <field alias="Datafangstdato" name="datafangstdato"/>
-                  <field alias="Merking" name="merking"/>
-            </includedFields>
-      </wms>
-      <maplayer>
-            <index>4</index>
-            <name>alle_hindre</name>
-            <groupid>4</groupid>
-      </maplayer>
-      <wms type="overlay">
-            <Layers>
-                  <Layer>
-                        <name>alle_linjepunkt</name>
-                        <queryable>false</queryable>
-                        <title>Alle linjepunkthindre</title>
-                  </Layer>
-            </Layers>
-            <gatekeeper>true</gatekeeper>
-            <name>Alle linjepunkthindre</name>
-            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
-            <groupid>4</groupid>
-            <params>
-                  <layers>alle_linjepunkt</layers>
-                  <format>image/png</format>
-            </params>
-            <guid>4.alle_linjepunkt</guid>
-            <options>
-                  <isbaselayer>false</isbaselayer>
-                  <singletile>true</singletile>
-                  <visibility>false</visibility>
-            </options>
-            <includedFields>
-                  <field alias="NRL-ID" name="nrl-id"/>
-                  <field alias="Navn" name="navn"/>
-                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
-                  <field alias="Lyssetting" name="lyssetting"/>
-                  <field alias="Status" name="status"/>
-                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
-                  <field alias="Hindertype" name="hindertype"/>
-                  <field alias="Datafangstdato" name="datafangstdato"/>
-                  <field alias="Merking" name="merking"/>
-            </includedFields>
-      </wms>
-      <wms type="overlay">
-            <Layers>
-                  <Layer>
-                        <name>alle_linjehindre</name>
-                        <queryable>false</queryable>
-                        <title>Alle linjehindre</title>
-                  </Layer>
-            </Layers>
-            <gatekeeper>true</gatekeeper>
-            <name>Alle linjehindre</name>
-            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
-            <groupid>4</groupid>
-            <params>
-                  <layers>alle_linjehindre</layers>
-                  <format>image/png</format>
-            </params>
-            <guid>4.alle_linjehindre</guid>
-            <options>
-                  <isbaselayer>false</isbaselayer>
-                  <singletile>true</singletile>
-                  <visibility>false</visibility>
-            </options>
-            <includedFields>
-                  <field alias="NRL-ID" name="nrl-id"/>
-                  <field alias="Navn" name="navn"/>
-                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
-                  <field alias="Lyssetting" name="lyssetting"/>
-                  <field alias="Status" name="status"/>
-                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
-                  <field alias="Hindertype" name="hindertype"/>
-                  <field alias="Datafangstdato" name="datafangstdato"/>
-                  <field alias="Merking" name="merking"/>
-            </includedFields>
-      </wms>
-      <wms type="overlay">
-            <Layers>
-                  <Layer>
-                        <name>alle_punkthindre</name>
-                        <queryable>false</queryable>
-                        <title>Alle punkthindre</title>
-                  </Layer>
-            </Layers>
-            <gatekeeper>true</gatekeeper>
-            <name>Alle punkthindre</name>
-            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
-            <groupid>4</groupid>
-            <params>
-                  <layers>alle_punkthindre</layers>
-                  <format>image/png</format>
-            </params>
-            <guid>4.alle_punkthindre</guid>
-            <options>
-                  <isbaselayer>false</isbaselayer>
-                  <singletile>true</singletile>
-                  <visibility>false</visibility>
-            </options>
-            <includedFields>
-                  <field alias="NRL-ID" name="nrl-id"/>
-                  <field alias="Navn" name="navn"/>
-                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
-                  <field alias="Lyssetting" name="lyssetting"/>
-                  <field alias="Status" name="status"/>
-                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
-                  <field alias="Hindertype" name="hindertype"/>
-                  <field alias="Datafangstdato" name="datafangstdato"/>
-                  <field alias="Merking" name="merking"/>
-            </includedFields>
-      </wms>
-      <maplayer>
-            <index>5</index>
-            <name>andre_linjethindre</name>
-            <groupid>5</groupid>
-      </maplayer>
-      <wms type="overlay">
-            <Layers>
-                  <Layer>
-                        <name>andre_linjer_uten_hoyde</name>
-                        <queryable>false</queryable>
-                        <title>Andre linjer uten hoyde</title>
-                  </Layer>
-            </Layers>
-            <gatekeeper>true</gatekeeper>
-            <name>Andre linjer uten hoyde</name>
-            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
-            <groupid>5</groupid>
-            <params>
-                  <layers>andre_linjer_uten_hoyde</layers>
-                  <format>image/png</format>
-            </params>
-            <guid>5.andre_linjer_uten_hoyde</guid>
-            <options>
-                  <isbaselayer>false</isbaselayer>
-                  <singletile>true</singletile>
-                  <visibility>false</visibility>
-            </options>
-            <includedFields>
-                  <field alias="NRL-ID" name="nrl-id"/>
-                  <field alias="Navn" name="navn"/>
-                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
-                  <field alias="Lyssetting" name="lyssetting"/>
-                  <field alias="Status" name="status"/>
-                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
-                  <field alias="Hindertype" name="hindertype"/>
-                  <field alias="Datafangstdato" name="datafangstdato"/>
-                  <field alias="Merking" name="merking"/>
-            </includedFields>
-      </wms>
-      <wms type="overlay">
-            <Layers>
-                  <Layer>
-                        <name>andre_linjer_60m_og_over</name>
-                        <queryable>false</queryable>
-                        <title>Andre linjer 60m og over</title>
-                  </Layer>
-            </Layers>
-            <gatekeeper>true</gatekeeper>
-            <name>Andre linjer 60m og over</name>
-            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
-            <groupid>5</groupid>
-            <params>
-                  <layers>andre_linjer_60m_og_over</layers>
-                  <format>image/png</format>
-            </params>
-            <guid>5.andre_linjer_60m_og_over</guid>
-            <options>
-                  <isbaselayer>false</isbaselayer>
-                  <singletile>true</singletile>
-                  <visibility>false</visibility>
-            </options>
-            <includedFields>
-                  <field alias="NRL-ID" name="nrl-id"/>
-                  <field alias="Navn" name="navn"/>
-                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
-                  <field alias="Lyssetting" name="lyssetting"/>
-                  <field alias="Status" name="status"/>
-                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
-                  <field alias="Hindertype" name="hindertype"/>
-                  <field alias="Datafangstdato" name="datafangstdato"/>
-                  <field alias="Merking" name="merking"/>
-            </includedFields>
-      </wms>
-      <wms type="overlay">
-            <Layers>
-                  <Layer>
-                        <name>andre_linjer_under_40m</name>
-                        <queryable>false</queryable>
-                        <title>Andre linjer under 40 m</title>
-                  </Layer>
-            </Layers>
-            <gatekeeper>true</gatekeeper>
-            <name>Andre linjer under 40 m</name>
-            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
-            <groupid>5</groupid>
-            <params>
-                  <layers>andre_linjer_under_40m</layers>
-                  <format>image/png</format>
-            </params>
-            <guid>5.andre_linjer_under_40m</guid>
-            <options>
-                  <isbaselayer>false</isbaselayer>
-                  <singletile>true</singletile>
-                  <visibility>false</visibility>
-            </options>
-            <includedFields>
-                  <field alias="NRL-ID" name="nrl-id"/>
-                  <field alias="Navn" name="navn"/>
-                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
-                  <field alias="Lyssetting" name="lyssetting"/>
-                  <field alias="Status" name="status"/>
-                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
-                  <field alias="Hindertype" name="hindertype"/>
-                  <field alias="Datafangstdato" name="datafangstdato"/>
-                  <field alias="Merking" name="merking"/>
-            </includedFields>
-      </wms>
-      <wms type="overlay">
-            <Layers>
-                  <Layer>
-                        <name>linjepunkt_uten_hoyde</name>
-                        <queryable>false</queryable>
-                        <title>Linjepunkt uten hoyde</title>
-                  </Layer>
-            </Layers>
-            <gatekeeper>true</gatekeeper>
-            <name>Linjepunkt uten hoyde</name>
-            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
-            <groupid>5</groupid>
-            <params>
-                  <layers>linjepunkt_uten_hoyde</layers>
-                  <format>image/png</format>
-            </params>
-            <guid>5.linjepunkt_uten_hoyde</guid>
-            <options>
-                  <isbaselayer>false</isbaselayer>
-                  <singletile>true</singletile>
-                  <visibility>false</visibility>
-            </options>
-            <includedFields>
-                  <field alias="NRL-ID" name="nrl-id"/>
-                  <field alias="Navn" name="navn"/>
-                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
-                  <field alias="Lyssetting" name="lyssetting"/>
-                  <field alias="Status" name="status"/>
-                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
-                  <field alias="Hindertype" name="hindertype"/>
-                  <field alias="Datafangstdato" name="datafangstdato"/>
-                  <field alias="Merking" name="merking"/>
-            </includedFields>
-      </wms>
-      <wms type="overlay">
-            <Layers>
-                  <Layer>
-                        <name>linjepunkt_under_40m</name>
-                        <queryable>false</queryable>
-                        <title>Linjepunkt under 40 m</title>
-                  </Layer>
-            </Layers>
-            <gatekeeper>true</gatekeeper>
-            <name>Linjepunkt under 40 m</name>
-            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
-            <groupid>5</groupid>
-            <params>
-                  <layers>linjepunkt_under_40m</layers>
-                  <format>image/png</format>
-            </params>
-            <guid>5.linjepunkt_under_40m</guid>
-            <options>
-                  <isbaselayer>false</isbaselayer>
-                  <singletile>true</singletile>
-                  <visibility>false</visibility>
-            </options>
-            <includedFields>
-                  <field alias="NRL-ID" name="nrl-id"/>
-                  <field alias="Navn" name="navn"/>
-                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
-                  <field alias="Lyssetting" name="lyssetting"/>
-                  <field alias="Status" name="status"/>
-                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
-                  <field alias="Hindertype" name="hindertype"/>
-                  <field alias="Datafangstdato" name="datafangstdato"/>
-                  <field alias="Merking" name="merking"/>
-            </includedFields>
-      </wms>
-      <wms type="overlay">
-            <Layers>
-                  <Layer>
-                        <name>linjepunkt_mellom_40m_60m</name>
-                        <queryable>false</queryable>
-                        <title>Linjepunkt 40m-60m</title>
-                  </Layer>
-            </Layers>
-            <gatekeeper>true</gatekeeper>
-            <name>Linjepunkt 40m-60m</name>
-            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
-            <groupid>5</groupid>
-            <params>
-                  <layers>linjepunkt_mellom_40m_60m</layers>
-                  <format>image/png</format>
-            </params>
-            <guid>5.linjepunkt_mellom_40m_60m</guid>
-            <options>
-                  <isbaselayer>false</isbaselayer>
-                  <singletile>true</singletile>
-                  <visibility>false</visibility>
-            </options>
-            <includedFields>
-                  <field alias="NRL-ID" name="nrl-id"/>
-                  <field alias="Navn" name="navn"/>
-                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
-                  <field alias="Lyssetting" name="lyssetting"/>
-                  <field alias="Status" name="status"/>
-                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
-                  <field alias="Hindertype" name="hindertype"/>
-                  <field alias="Datafangstdato" name="datafangstdato"/>
-                  <field alias="Merking" name="merking"/>
-            </includedFields>
-      </wms>
-      <wms type="overlay">
-            <Layers>
-                  <Layer>
-                        <name>linjepunkt_60m_og_over</name>
-                        <queryable>false</queryable>
-                        <title>Linjepunkt 60m og over</title>
-                  </Layer>
-            </Layers>
-            <gatekeeper>true</gatekeeper>
-            <name>Linjepunkt 60m og over</name>
-            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
-            <groupid>5</groupid>
-            <params>
-                  <layers>linjepunkt_60m_og_over</layers>
-                  <format>image/png</format>
-            </params>
-            <guid>5.linjepunkt_60m_og_over</guid>
-            <options>
-                  <isbaselayer>false</isbaselayer>
-                  <singletile>true</singletile>
-                  <visibility>false</visibility>
-            </options>
-            <includedFields>
-                  <field alias="NRL-ID" name="nrl-id"/>
-                  <field alias="Navn" name="navn"/>
-                  <field alias="Vertikalutstrekning" name="vertikalustrekning" unit=" m"/>
-                  <field alias="Lyssetting" name="lyssetting"/>
-                  <field alias="Status" name="status"/>
-                  <field alias="Verifiseringsdato" name="verifiseringsdato"/>
-                  <field alias="Hindertype" name="hindertype"/>
-                  <field alias="Datafangstdato" name="datafangstdato"/>
-                  <field alias="Merking" name="merking"/>
-            </includedFields>
-      </wms>
-      <wms type="overlay">
-            <Layers>
-                  <Layer>
-                        <name>andre_linjer_mellom_40m_60m</name>
-                        <queryable>false</queryable>
-                        <title>Andre linjer 40m-60m</title>
-                  </Layer>
-            </Layers>
-            <gatekeeper>true</gatekeeper>
-            <name>Andre linjer 40m-60m</name>
-            <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
-            <groupid>5</groupid>
-            <params>
-                  <layers>andre_linjer_mellom_40m_60m</layers>
-                  <format>image/png</format>
-            </params>
-            <guid>5.andre_linjer_mellom_40m_60m</guid>
             <options>
                   <isbaselayer>false</isbaselayer>
                   <singletile>true</singletile>
@@ -1001,20 +1001,20 @@
       <wms type="overlay">
             <Layers>
                   <Layer>
-                        <name>punkthindre_uten_hoyde</name>
+                        <name>punkthindre_mellom_40m_60m</name>
                         <queryable>false</queryable>
-                        <title>Punkthindre uten hoyde</title>
+                        <title>Punkthindre 40m-60m</title>
                   </Layer>
             </Layers>
             <gatekeeper>true</gatekeeper>
-            <name>Punkthindre uten hoyde</name>
+            <name>Punkthindre 40m-60m</name>
             <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
             <groupid>7</groupid>
             <params>
-                  <layers>punkthindre_uten_hoyde</layers>
+                  <layers>punkthindre_mellom_40m_60m</layers>
                   <format>image/png</format>
             </params>
-            <guid>7.punkthindre_uten_hoyde</guid>
+            <guid>7.punkthindre_mellom_40m_60m</guid>
             <options>
                   <isbaselayer>false</isbaselayer>
                   <singletile>true</singletile>
@@ -1069,20 +1069,20 @@
       <wms type="overlay">
             <Layers>
                   <Layer>
-                        <name>punkthindre_mellom_40m_60m</name>
+                        <name>punkthindre_uten_hoyde</name>
                         <queryable>false</queryable>
-                        <title>Punkthindre 40m-60m</title>
+                        <title>Punkthindre uten hoyde</title>
                   </Layer>
             </Layers>
             <gatekeeper>true</gatekeeper>
-            <name>Punkthindre 40m-60m</name>
+            <name>Punkthindre uten hoyde</name>
             <url>http://wms.geonorge.no/skwms1/wms.nrl?</url>
             <groupid>7</groupid>
             <params>
-                  <layers>punkthindre_mellom_40m_60m</layers>
+                  <layers>punkthindre_uten_hoyde</layers>
                   <format>image/png</format>
             </params>
-            <guid>7.punkthindre_mellom_40m_60m</guid>
+            <guid>7.punkthindre_uten_hoyde</guid>
             <options>
                   <isbaselayer>false</isbaselayer>
                   <singletile>true</singletile>
