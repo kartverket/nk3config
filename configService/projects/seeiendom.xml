@@ -59,6 +59,22 @@
     </wmts>
     <wmts type="map">
         <gatekeeper>true</gatekeeper>
+        <name>Gråtone</name>
+        <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
+        <params>
+            <layers>norges_grunnkart_graatone</layers>
+            <format>image/png</format>
+        </params>
+        <matrixPrefix>true</matrixPrefix>
+        <guid>0.norges_grunnkart_graatone</guid>
+        <options>
+            <isbaselayer>true</isbaselayer>
+            <singletile>false</singletile>
+            <visibility>false</visibility>
+        </options>
+    </wmts>
+    <wmts type="map">
+        <gatekeeper>true</gatekeeper>
         <name>Enkel</name>
         <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
         <params>
