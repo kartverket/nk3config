@@ -44,4 +44,4 @@ print "Access-Control-Allow-Origin: *"
 print "Status: 200 OK"
 print
 
-print ET.tostring(root, encoding='utf-8', method='xml')
+print ET.tostring(root, encoding='utf-8')
