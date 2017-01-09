@@ -387,7 +387,7 @@
       <field alias="Dekke tilstand" name="dekke_tilstand"/>
       <field alias="Kapasitet HC" name="kap_uu"/>
       <field alias="Kommentar" name="kommentar"/>
-      <field alias="Bildefil" name="bilde" type="picture" baseurl="http://data.kartverket.no/tilgjengelighet/friluft/"/>
+      <field alias="Bildefil" name="bilde" type="picture" baseurl="http://data.kartverket.no/tilgjengelighet/tettsted/"/>
       <field alias="Objekt ID" name="ogc_fid"/>
     </includedFields>
   </wms>
@@ -425,7 +425,7 @@
       <field alias="Automat høyde" name="aut_hoyd" unit="cm"/>
       <field alias="Automat tilgjengelig" name="tilgj_automat"/>
       <field alias="Kommentar" name="kommentar"/>
-      <field alias="Bildefil" name="bilde" type="picture" baseurl="http://data.kartverket.no/tilgjengelighet/friluft/"/>
+      <field alias="Bildefil" name="bilde" type="picture" baseurl="http://data.kartverket.no/tilgjengelighet/tettsted/"/>
       <field alias="Objekt ID" name="ogc_fid" />
     </includedFields>
   </wms>
@@ -470,7 +470,7 @@
       <field alias="Terskel høyde" name="terskel_hoyde"/>
       <field alias="Inngang kontrast" name="kontrast"/>
       <field alias="Kommentar" name="kommentar"/>
-      <field alias="Bildefil" name="bilde" type="picture" baseurl="http://data.kartverket.no/tilgjengelighet/friluft/"/>
+      <field alias="Bildefil" name="bilde" type="picture" baseurl="http://data.kartverket.no/tilgjengelighet/tettsted/"/>
       <field alias="Objekt ID" name="ogc_fid"/>
     </includedFields>
   </wms>
@@ -547,7 +547,7 @@
       <field alias="Dekke tilstand" name="dekke_tilstand"/>
       <field alias="Kapasitet HC" name="kap_uu"/>
       <field alias="Kommentar" name="kommentar"/>
-      <field alias="Bildefil" name="bilde" type="picture" baseurl="http://data.kartverket.no/tilgjengelighet/friluft/"/>
+      <field alias="Bildefil" name="bilde" type="picture" baseurl="http://data.kartverket.no/tilgjengelighet/tettsted/"/>
       <field alias="Objekt ID" name="ogc_fid"/>
     </includedFields>
   </wms>
@@ -585,7 +585,7 @@
       <field alias="Automat høyde" name="aut_hoyd" unit="cm"/>
       <field alias="Automat tilgjengelig" name="tilgj_automat"/>
       <field alias="Kommentar" name="kommentar"/>
-      <field alias="Bildefil" name="bilde" type="picture" baseurl="http://data.kartverket.no/tilgjengelighet/friluft/"/>
+      <field alias="Bildefil" name="bilde" type="picture" baseurl="http://data.kartverket.no/tilgjengelighet/tettsted/"/>
       <field alias="Objekt ID" name="ogc_fid" />
     </includedFields>
   </wms>
@@ -630,7 +630,7 @@
       <field alias="Terskel høyde" name="terskel_hoyde"/>
       <field alias="Inngang kontrast" name="kontrast"/>
       <field alias="Kommentar" name="kommentar"/>
-      <field alias="Bildefil" name="bilde" type="picture" baseurl="http://data.kartverket.no/tilgjengelighet/friluft/"/>
+      <field alias="Bildefil" name="bilde" type="picture" baseurl="http://data.kartverket.no/tilgjengelighet/tettsted/"/>
       <field alias="Objekt ID" name="ogc_fid"/>
     </includedFields>
   </wms>
@@ -707,7 +707,7 @@
       <field alias="Dekke tilstand" name="dekke_tilstand"/>
       <field alias="Kapasitet HC" name="kap_uu"/>
       <field alias="Kommentar" name="kommentar"/>
-      <field alias="Bildefil" name="bilde" type="picture" baseurl="http://data.kartverket.no/tilgjengelighet/friluft/"/>
+      <field alias="Bildefil" name="bilde" type="picture" baseurl="http://data.kartverket.no/tilgjengelighet/tettsted/"/>
       <field alias="Objekt ID" name="ogc_fid"/>
     </includedFields>
   </wms>
@@ -745,7 +745,7 @@
       <field alias="Automat høyde" name="aut_hoyd" unit="cm"/>
       <field alias="Automat tilgjengelig" name="tilgj_automat"/>
       <field alias="Kommentar" name="kommentar"/>
-      <field alias="Bildefil" name="bilde" type="picture" baseurl="http://data.kartverket.no/tilgjengelighet/friluft/"/>
+      <field alias="Bildefil" name="bilde" type="picture" baseurl="http://data.kartverket.no/tilgjengelighet/tettsted/"/>
       <field alias="Objekt ID" name="ogc_fid" />
     </includedFields>
   </wms>
@@ -790,7 +790,7 @@
       <field alias="Terskel høyde" name="terskel_hoyde"/>
       <field alias="Inngang kontrast" name="kontrast"/>
       <field alias="Kommentar" name="kommentar"/>
-      <field alias="Bildefil" name="bilde" type="picture" baseurl="http://data.kartverket.no/tilgjengelighet/friluft/"/>
+      <field alias="Bildefil" name="bilde" type="picture" baseurl="http://data.kartverket.no/tilgjengelighet/tettsted/"/>
       <field alias="Objekt ID" name="ogc_fid"/>
     </includedFields>
   </wms>
