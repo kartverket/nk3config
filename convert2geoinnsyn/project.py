@@ -4,7 +4,7 @@ class Project():
   def __init__(self):
     self.params={}
     self.params["displayCenter"]="378604,7226208"
-    self.params["displaycenterepsgcode"]="EPSG:32633"
+    self.params["displaycenterepsgcode"]="EPSG:25833"
     self.params["displayprojectionepsgcode"]=self.params["displaycenterepsgcode"]
     self.params["mapbackgroundcolor"]="#FFFFFF"
 

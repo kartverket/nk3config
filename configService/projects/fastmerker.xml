@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <config>
-    <project lat="7226208" lon="378604" mapepsg="EPSG:32633" zoom="5">
+    <project lat="7226208" lon="378604" mapepsg="EPSG:25833" zoom="5">
         <mapbackgroundcolor>#FFFFFF</mapbackgroundcolor>
-        <displaycenterepsgcode>EPSG:32633</displaycenterepsgcode>
+        <displaycenterepsgcode>EPSG:25833</displaycenterepsgcode>
         <displayCenter>378604,7226208</displayCenter>
-        <displayprojectionepsgcode>EPSG:32633</displayprojectionepsgcode>
+        <displayprojectionepsgcode>EPSG:25833</displayprojectionepsgcode>
     </project>
     <wmts type="map">
         <gatekeeper>true</gatekeeper>
@@ -183,7 +183,7 @@
     <vector type="overlay">
         <name>Norge 1:50000</name>
         <url>http://www.norgeskart.no/json/dekning/land/n50/pod-inndeling2015-flaterl.json</url>
-        <epsg>EPSG:32633</epsg>
+        <epsg>EPSG:25833</epsg>
         <groupid>1</groupid>
         <params>
             <format>application/json</format>
