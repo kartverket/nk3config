@@ -2,9 +2,9 @@
 <config>
     <project lat="7226208" lon="378604" mapepsg="EPSG:25833" zoom="5">
         <mapbackgroundcolor>#FFFFFF</mapbackgroundcolor>
-        <displaycenterepsgcode>EPSG:25833</displaycenterepsgcode>
+        <displaycenterepsgcode>EPSG:32633</displaycenterepsgcode>
         <displayCenter>378604,7226208</displayCenter>
-        <displayprojectionepsgcode>EPSG:25833</displayprojectionepsgcode>
+        <displayprojectionepsgcode>EPSG:32633</displayprojectionepsgcode>
     </project>
     <wmts type="map">
         <gatekeeper>true</gatekeeper>
