@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <config>
-    <project lat="7226208" lon="378604" mapepsg="EPSG:25833" zoom="5">
+    <project lat="7226208" lon="378604" mapepsg="EPSG:32633" zoom="5">
         <mapbackgroundcolor>#FFFFFF</mapbackgroundcolor>
         <displaycenterepsgcode>EPSG:32633</displaycenterepsgcode>
         <displayCenter>378604,7226208</displayCenter>
