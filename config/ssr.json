@@ -1,0 +1,1666 @@
+{
+    "config": {
+        "project": {
+            "lat": 7226208,
+            "lon": 378604,
+            "mapepsg": "EPSG:25833",
+            "zoom": 5,
+            "mapbackgroundcolor": "#FFFFFF",
+            "displaycenterepsgcode": "EPSG:25833",
+            "displayCenter": "378604,7226208",
+            "displayprojectionepsgcode": "EPSG:25833",
+            "isygatekeeper": "https://www.norgeskart.no/ws/gkt.py",
+            "name": "ssr"
+        },
+        "wmts": [{
+            "type": "map",
+            "gatekeeper": "true",
+            "name": "Landkart",
+            "url": "https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?",
+            "params": {
+                "layers": "matrikkel_bakgrunn",
+                "format": "image/png"
+            },
+            "matrixprefix": "true",
+            "guid": "0.matrikkel_bakgrunn",
+            "options": {
+                "isbaselayer": "true",
+                "singletile": "false",
+                "visibility": "false"
+            },
+            "thumbnail": "land"
+        }, {
+            "type": "map",
+            "gatekeeper": "true",
+            "name": "Flybilder",
+            "url": "http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nib_utm33_wmts_v2?|http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nib_utm33_wmts_v2?",
+            "params": {
+                "layers": "Nibcache_UTM33_EUREF89",
+                "format": "image/png"
+            },
+            "matrixset": "default028mm",
+            "guid": "0.ortofoto",
+            "options": {
+                "isbaselayer": "true",
+                "singletile": "false",
+                "visibility": "false"
+            },
+            "thumbnail": "aerial"
+        }, {
+            "type": "map",
+            "gatekeeper": "true",
+            "name": "Rasterkart",
+            "url": "https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?",
+            "params": {
+                "layers": "toporaster3",
+                "format": "image/png"
+            },
+            "matrixprefix": "true",
+            "guid": "0.toporaster3",
+            "options": {
+                "isbaselayer": "true",
+                "singletile": "false",
+                "visibility": "false"
+            },
+            "thumbnail": "raster"
+        }, {
+            "type": "map",
+            "gatekeeper": "true",
+            "name": "Gråtone",
+            "url": "https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?",
+            "params": {
+                "layers": "norges_grunnkart_graatone",
+                "format": "image/png"
+            },
+            "matrixprefix": "true",
+            "guid": "0.norges_grunnkart_graatone",
+            "options": {
+                "isbaselayer": "true",
+                "singletile": "false",
+                "visibility": "true"
+            }
+        }, {
+            "type": "map",
+            "gatekeeper": "true",
+            "name": "Enkel",
+            "url": "https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?",
+            "params": {
+                "layers": "norges_grunnkart",
+                "format": "image/png"
+            },
+            "matrixprefix": "true",
+            "guid": "0.norges_grunnkart",
+            "options": {
+                "isbaselayer": "true",
+                "singletile": "false",
+                "visibility": "false"
+            }
+        }, {
+            "type": "map",
+            "gatekeeper": "true",
+            "name": "Terreng",
+            "url": "https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?",
+            "params": {
+                "layers": "terreng_norgeskart",
+                "format": "image/png"
+            },
+            "matrixprefix": "true",
+            "guid": "0.terreng_norgeskart",
+            "options": {
+                "isbaselayer": "true",
+                "singletile": "false",
+                "visibility": "false"
+            }
+        }, {
+            "type": "map",
+            "gatekeeper": "true",
+            "name": "Hovudkart sjø",
+            "url": "https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?",
+            "params": {
+                "layers": "sjokartraster",
+                "format": "image/png"
+            },
+            "matrixprefix": "true",
+            "guid": "0.sjokartraster",
+            "options": {
+                "isbaselayer": "true",
+                "singletile": "false",
+                "visibility": "false"
+            }
+        }, {
+            "type": "map",
+            "name": "Jan Mayen",
+            "url": "http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_JanMayen_WMTS_25833/MapServer/WMTS?",
+            "params": {
+                "layers": "Basisdata_NP_Basiskart_JanMayen_WMTS_25833",
+                "format": "image/png"
+            },
+            "matrixset": "default028mm",
+            "wmtsextent": "-393783.2540000008,7978220.98008712,-276963.7430000013,8084965.524000007",
+            "getcapabilities": "true",
+            "guid": "2.Basisdata_NP_Basiskart_JanMayen_WMTS_25833",
+            "options": {
+                "isbaselayer": "true",
+                "singletile": "false",
+                "visibility": "false"
+            }
+        }, {
+            "type": "map",
+            "name": "Svalbard",
+            "url": "http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_Svalbard_WMTS_25833/MapServer/WMTS?",
+            "params": {
+                "layers": "Basisdata_NP_Basiskart_Svalbard_WMTS_25833",
+                "format": "image/png"
+            },
+            "matrixset": "default028mm",
+            "wmtsextent": "369976.3899489096,8221306.539890718,878234.7199568129,9010718.76990194",
+            "getcapabilities": "true",
+            "guid": "2.Basisdata_NP_Basiskart_Svalbard_WMTS_25833",
+            "options": {
+                "isbaselayer": "true",
+                "singletile": "false",
+                "visibility": "false"
+            }
+        }],
+        "wms": [{
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "cells",
+                    "queryable": "false",
+                    "title": "Elektron. Sjøkart"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Elektron. Sjøkart",
+            "url": "http://wms.geonorge.no/skwms1/wms.ecc_enc",
+            "params": {
+                "layers": "cells",
+                "format": "image/png"
+            },
+            "guid": "0.cells",
+            "options": {
+                "isbaselayer": "true",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "n5raster_foerstegang_metadata,n5raster_foerstegang",
+                    "queryable": "false",
+                    "title": "Øk–1⋅utgåve"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Øk–1⋅utgåve",
+            "url": "http://wms.geonorge.no/skwms1/wms.n5raster2",
+            "groupid": 9,
+            "params": {
+                "layers": "n5raster_foerstegang_metadata,n5raster_foerstegang",
+                "format": "image/png"
+            },
+            "guid": "9.n5raster_foerstegang_metadata,n5raster_foerstegang",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "amt1",
+                    "queryable": "false",
+                    "title": "Amts­kart"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Amts­kart",
+            "url": "http://wms.geonorge.no/skwms1/wms.historiskekart",
+            "groupid": 9,
+            "params": {
+                "layers": "amt1",
+                "format": "image/png"
+            },
+            "guid": "9.amt1",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "norsk",
+                    "queryable": "false",
+                    "title": "Norsk"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Norsk",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 8,
+            "params": {
+                "layers": "norsk",
+                "format": "image/png"
+            },
+            "guid": "8.norsk",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "lulesamisk",
+                    "queryable": "false",
+                    "title": "Lulesamisk"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Lulesamisk",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+                        "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 8,
+            "params": {
+                "layers": "lulesamisk",
+                "format": "image/png"
+            },
+            "guid": "8.lulesamisk",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "nordsamisk",
+                    "queryable": "false",
+                    "title": "Nordsamisk"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Nordsamisk",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 8,
+            "params": {
+                "layers": "nordsamisk",
+                "format": "image/png"
+            },
+            "guid": "8.nordsamisk",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "sorsamisk",
+                    "queryable": "false",
+                    "title": "Sørsamisk"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Sørsamisk",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 8,
+            "params": {
+                "layers": "sorsamisk",
+                "format": "image/png"
+            },
+            "guid": "8.sorsamisk",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "kvensk",
+                    "queryable": "false",
+                    "title": "Kvensk"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Kvensk",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 8,
+            "params": {
+                "layers": "kvensk",
+                "format": "image/png"
+            },
+            "guid": "8.kvensk",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "andre",
+                    "queryable": "false",
+                    "title": "Andre"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Andre",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 8,
+            "params": {
+                "layers": "andre",
+                "format": "image/png"
+            },
+            "guid": "8.andre",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "offentlig_administrasjon",
+                    "queryable": "false",
+                    "title": "Administrative område"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Administrative område",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 3,
+            "params": {
+                "layers": "offentlig_administrasjon",
+                "format": "image/png"
+            },
+            "guid": "3.offentlig_administrasjon",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "bebyggelse",
+                    "queryable": "false",
+                    "title": "Busetnad/ eigedom"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Busetnad/ eigedom",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 3,
+            "params": {
+                "layers": "bebyggelse",
+                "format": "image/png"
+            },
+            "guid": "3.bebyggelse",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "infrastruktur",
+                    "queryable": "false",
+                    "title": "Samferdsle"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Samferdsle",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 3,
+            "params": {
+                "layers": "infrastruktur",
+                "format": "image/png"
+            },
+            "guid": "3.infrastruktur",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "sjo",
+                    "queryable": "false",
+                    "title": "Sjø"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Sjø",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 3,
+            "params": {
+                "layers": "sjo",
+                "format": "image/png"
+            },
+            "guid": "3.sjo",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "markslag",
+                    "queryable": "false",
+                    "title": "Markslag"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Markslag",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 3,
+            "params": {
+                "layers": "markslag",
+                "format": "image/png"
+            },
+            "guid": "3.markslag",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "ferskvann",
+                    "queryable": "false",
+                    "title": "Ferskvann"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Ferskvann",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 3,
+            "params": {
+                "layers": "ferskvann",
+                "format": "image/png"
+            },
+            "guid": "3.ferskvann",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "terreng",
+                    "queryable": "false",
+                    "title": "Terrengformer"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Terrengformer",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 3,
+            "params": {
+                "layers": "terreng",
+                "format": "image/png"
+            },
+            "guid": "3.terreng",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "kultur",
+                    "queryable": "false",
+                    "title": "Kultur"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Kultur",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 3,
+            "params": {
+                "layers": "kultur",
+                "format": "image/png"
+            },
+            "guid": "3.kultur",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "vedtak_24",
+                    "queryable": "false",
+                    "title": "Vedteke siste 24md"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Vedteke siste 24md",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": "10",
+            "params": {
+                "layers": "vedtak_24",
+                "format": "image/png"
+            },
+            "guid": "10.vedtak_24",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "vedtak_12",
+                    "queryable": "false",
+                    "title": "Vedteke siste 12md"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Vedteke siste 12md",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": "10",
+            "params": {
+                "layers": "vedtak_12",
+                "format": "image/png"
+            },
+            "guid": "10.vedtak_12",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "vedtak_6",
+                    "queryable": "false",
+                    "title": "Vedteke siste 6md"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Vedteke siste 6md",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": "10",
+            "params": {
+                "layers": "vedtak_6",
+                "format": "image/png"
+            },
+            "guid": "10.vedtak_6",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "vedtak_3",
+                    "queryable": "false",
+                    "title": "Vedteke siste 3md"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Vedteke siste 3md",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": "10",
+            "params": {
+                "layers": "vedtak_3",
+                "format": "image/png"
+            },
+            "guid": "10.vedtak_3",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "vedtak_1",
+                    "queryable": "false",
+                    "title": "Vedteke siste md"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Vedteke siste md",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": "10",
+            "params": {
+                "layers": "vedtak_1",
+                "format": "image/png"
+            },
+            "guid": "10.vedtak_1",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "samlevedtak24",
+                    "queryable": "false",
+                    "title": "Samlevedtak siste 24md"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Samlevedtak siste 24md",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": "10",
+            "params": {
+                "layers": "samlevedtak24",
+                "format": "image/png"
+            },
+            "guid": "10.samlevedtak24",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "samlevedtak12",
+                    "queryable": "false",
+                    "title": "Samlevedtak siste 12md"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Samlevedtak siste 12md",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": "10",
+            "params": {
+                "layers": "samlevedtak12",
+                "format": "image/png"
+            },
+            "guid": "10.samlevedtak12",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "samlevedtak6",
+                    "queryable": "false",
+                    "title": "Samlevedtak siste 6md"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Samlevedtak siste 6md",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": "10",
+            "params": {
+                "layers": "samlevedtak6",
+                "format": "image/png"
+            },
+            "guid": "10.samlevedtak6",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "samlevedtak3",
+                    "queryable": "false",
+                    "title": "Samlevedtak siste 3md"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Samlevedtak siste 3md",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": "10",
+            "params": {
+                "layers": "samlevedtak3",
+                "format": "image/png"
+            },
+            "guid": "10.samlevedtak3",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "samlevedtak1",
+                    "queryable": "false",
+                    "title": "Samlevedtak siste md"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Samlevedtak siste md",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": "10",
+            "params": {
+                "layers": "samlevedtak1",
+                "format": "image/png"
+            },
+            "guid": "10.samlevedtak1",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "avslatt",
+                    "queryable": "false",
+                    "title": "Avslått"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Avslått",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 4,
+            "params": {
+                "layers": "avslatt",
+                "format": "image/png"
+            },
+            "guid": "4.avslatt",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "avslatt_navneledd",
+                    "queryable": "false",
+                    "title": "Avslege namneledd"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Avslege namneledd",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 4,
+            "params": {
+                "layers": "avslatt_navneledd",
+                "format": "image/png"
+            },
+            "guid": "4.avslatt_navneledd",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "foreslatt",
+                    "queryable": "false",
+                    "title": "Føreslege"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Føreslege",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 4,
+            "params": {
+                "layers": "foreslatt",
+                "format": "image/png"
+            },
+            "guid": "4.foreslatt",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "godkjent",
+                    "queryable": "false",
+                    "title": "Godkjent"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Godkjent",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 4,
+            "params": {
+                "layers": "godkjent",
+                "format": "image/png"
+            },
+            "guid": "4.godkjent",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "historisk",
+                    "queryable": "false",
+                    "title": "Historisk"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Historisk",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 4,
+            "params": {
+                "layers": "historisk",
+                "format": "image/png"
+            },
+            "guid": "4.historisk",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "internasjonalt",
+                    "queryable": "false",
+                    "title": "Internasjonalt"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Internasjonalt",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 4,
+            "params": {
+                "layers": "internasjonalt",
+                "format": "image/png"
+            },
+            "guid": "4.internasjonalt",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "privat",
+                    "queryable": "false",
+                    "title": "Privat"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Privat",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 4,
+            "params": {
+                "layers": "privat",
+                "format": "image/png"
+            },
+            "guid": "4.privat",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "ubehandlet",
+                    "queryable": "false",
+                    "title": "Ubehandlet"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Ubehandlet",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 4,
+            "params": {
+                "layers": "ubehandlet",
+                "format": "image/png"
+            },
+            "guid": "4.ubehandlet",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "vedtatt",
+                    "queryable": "false",
+                    "title": "Vedteke"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Vedteke",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 4,
+            "params": {
+                "layers": "vedtatt",
+                "format": "image/png"
+            },
+            "guid": "4.vedtatt",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "vedtatt_navneledd",
+                    "queryable": "false",
+                    "title": "Vedteke namneledd"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Vedteke namneledd",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 4,
+            "params": {
+                "layers": "vedtatt_navneledd",
+                "format": "image/png"
+            },
+            "guid": "4.vedtatt_navneledd",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "navnesakstatus",
+                    "queryable": "false",
+                    "title": "Namnesakstatus"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Namnesakstatus",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 2,
+            "params": {
+                "layers": "navnesakstatus",
+                "format": "image/png"
+            },
+            "guid": "2.navnesakstatus",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "navnesakstatus_ubehandlet",
+                    "queryable": "false",
+                    "title": "Namnesaksstatus uhandsama"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Namnesaksstatus uhandsama",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 2,
+            "params": {
+                "layers": "navnesakstatus_ubehandlet",
+                "format": "image/png"
+            },
+            "guid": "2.navnesakstatus_ubehandlet",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "skalikkebehandles",
+                    "queryable": "false",
+                    "title": "Skal ikkje handsamast etter lova"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Skal ikkje handsamast etter lova",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 2,
+            "params": {
+                "layers": "skalikkebehandles",
+                "format": "image/png"
+            },
+            "guid": "2.skalikkebehandles",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "navnemyndighet",
+                    "queryable": "false",
+                    "title": "Namneval vedteke/gjort av namnemyndet"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Namneval vedteke/gjort av namnemyndet",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 2,
+            "params": {
+                "layers": "navnemyndighet",
+                "format": "image/png"
+            },
+            "guid": "2.navnemyndighet",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "samlevedtak",
+                    "queryable": "false",
+                    "title": "Samlevedtak"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Samlevedtak",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 2,
+            "params": {
+                "layers": "samlevedtak",
+                "format": "image/png"
+            },
+            "guid": "2.samlevedtak",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "samlevedtak_tilbake",
+                    "queryable": "false",
+                    "title": "Samlevedtak trekt tilbake"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Samlevedtak trekt tilbake",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 2,
+            "params": {
+                "layers": "samlevedtak_tilbake",
+                "format": "image/png"
+            },
+            "guid": "2.samlevedtak_tilbake",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "reist",
+                    "queryable": "false",
+                    "title": "Namnesak reist"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Namnesak reist",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 2,
+            "params": {
+                "layers": "reist",
+                "format": "image/png"
+            },
+            "guid": "2.reist",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "navnesak_vedtak",
+                    "queryable": "false",
+                    "title": "Namnesak vedteke"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Namnesak vedteke",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 2,
+            "params": {
+                "layers": "navnesak_vedtak",
+                "format": "image/png"
+            },
+            "guid": "2.navnesak_vedtak",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "vedtakutsatt",
+                    "queryable": "false",
+                    "title": "Vedtak utsett"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Vedtak utsett",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 2,
+            "params": {
+                "layers": "vedtakutsatt",
+                "format": "image/png"
+            },
+            "guid": "2.vedtakutsatt",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "klage_ikke_trukket",
+                    "queryable": "false",
+                    "title": "Klage, vedtak ikkje trekt tilbake"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Klage, vedtak ikkje trekt tilbake",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 2,
+            "params": {
+                "layers": "klage_ikke_trukket",
+                "format": "image/png"
+            },
+            "guid": "2.klage_ikke_trukket",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "klage_trukket",
+                    "queryable": "false",
+                    "title": "Klage, vedtak trekt tilbake"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Klage, vedtak trekt tilbake",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 2,
+            "params": {
+                "layers": "klage_trukket",
+                "format": "image/png"
+            },
+            "guid": "2.klage_trukket",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "klagevedtakutsatt",
+                    "queryable": "false",
+                    "title": "Klage, vedtak utsett"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Klage, vedtak utsett",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 2,
+            "params": {
+                "layers": "klagevedtakutsatt",
+                "format": "image/png"
+            },
+            "guid": "2.klagevedtakutsatt",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "forenkletvedtak",
+                    "queryable": "false",
+                    "title": "Forenkla vedtak"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Forenkla vedtak",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 2,
+            "params": {
+                "layers": "forenkletvedtak",
+                "format": "image/png"
+            },
+            "guid": "2.forenkletvedtak",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "Spraak",
+                    "queryable": "false",
+                    "title": "Språk"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Språk",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 6,
+            "params": {
+                "layers": "Spraak",
+                "format": "image/png"
+            },
+            "guid": "6.Spraak",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "navntype",
+                    "queryable": "false",
+                    "title": "Namnetypar"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Namnetypar",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 6,
+            "params": {
+                "layers": "navntype",
+                "format": "image/png"
+            },
+            "guid": "6.navntype",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "skrivemaatestatus",
+                    "queryable": "false",
+                    "title": "Skrivemåtestatus"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Skrivemåtestatus",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 6,
+            "params": {
+                "layers": "skrivemaatestatus",
+                "format": "image/png"
+            },
+            "guid": "6.skrivemaatestatus",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "Layers": {
+                "Layer": {
+                    "name": "vedtak",
+                    "queryable": "false",
+                    "title": "Vedtak"
+                }
+            },
+            "gatekeeper": "true",
+            "name": "Vedtak",
+            "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
+            "groupid": 6,
+            "params": {
+                "layers": "vedtak",
+                "format": "image/png"
+            },
+            "guid": "6.vedtak",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            }
+        }],
+        "maplayer": [{
+            "index": 1,
+            "name": "dekning",
+            "groupid": 1
+        }, {
+            "index": 9,
+            "name": "Historikk",
+            "groupid": 9
+        }, {
+            "index": 8,
+            "name": "Spraak",
+            "groupid": 8
+        }, {
+            "index": 3,
+            "name": "Navnetype",
+            "groupid": 3
+        }, {
+            "index": "10",
+            "name": "vedtak",
+            "groupid": "10"
+        }, {
+            "index": 4,
+            "name": "skrivemaatestatus",
+            "groupid": 4
+        }, {
+            "index": 2,
+            "name": "navnesakstatus",
+            "groupid": 2
+        }, {
+            "index": 6,
+            "name": "alle",
+            "groupid": 6
+        }],
+        "vector": [{
+            "type": "overlay",
+            "name": "Hovud­kart sjø",
+            "url": "http://www.norgeskart.no/json/dekning/sjo/hovedserie_ny.json",
+            "epsg": "EPSG:4326",
+            "groupid": 1,
+            "params": {
+                "format": "application/json"
+            },
+            "guid": "1.Hovud­kart sjø",
+            "options": {
+                "visibility": "false"
+            },
+            "style": {
+                "fill": {
+                    "color": "rgba(128, 128, 128, 0.1)"
+                },
+                "stroke": {
+                    "color": "rgb(64, 128, 64)",
+                    "width": 1
+                }
+            },
+            "includedfields": {
+                "field": [{
+                    "name": "d",
+                    "alias": "Datum"
+                }, {
+                    "name": "n",
+                    "alias": "Navn"
+                }, {
+                    "name": "p",
+                    "alias": "Projeksjon"
+                }, {
+                    "name": "s",
+                    "alias": "Målestokk"
+                }, {
+                    "name": "u",
+                    "alias": "Ny utgave"
+                }]
+            }
+        }, {
+            "type": "overlay",
+            "name": "Hamne­kart",
+            "url": "http://www.norgeskart.no/json/dekning/sjo/havnekart_ny.json",
+            "epsg": "EPSG:4326",
+            "groupid": 1,
+            "params": {
+                "format": "application/json"
+            },
+            "guid": "1.Hamne­kart",
+            "options": {
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "name": "Norge 1:50000",
+            "url": "http://www.norgeskart.no/json/dekning/land/n50/pod-inndeling2015-flaterl.json",
+            "epsg": "EPSG:25833",
+            "groupid": 1,
+            "params": {
+                "format": "application/json"
+            },
+            "guid": "1.Norge 1:50000",
+            "options": {
+                "visibility": "false"
+            },
+            "style": {
+                "fill": {
+                    "color": "rgba(128, 128, 128, 0.1)"
+                },
+                "stroke": {
+                    "color": "rgb(64, 128, 64)",
+                    "width": 1
+                }
+            }
+        }, {
+            "type": "overlay",
+            "name": "Oversiglingskart",
+            "url": "http://www.norgeskart.no/json/dekning/sjo/overseilingskart_ny.json",
+            "epsg": "EPSG:4326",
+            "groupid": 1,
+            "params": {
+                "format": "application/json"
+            },
+            "guid": "1.Oversiglingskart",
+            "options": {
+                "visibility": "false"
+            }
+        }, {
+            "type": "overlay",
+            "name": "Kyst­kart",
+            "url": "http://www.norgeskart.no/json/dekning/sjo/kystkart_ny.json",
+            "epsg": "EPSG:4326",
+            "groupid": 1,
+            "params": {
+                "format": "application/json"
+            },
+            "guid": "1.Kyst­kart",
+            "options": {
+                "visibility": "false"
+            }
+        }],
+        "mapbounds": {
+            "mapbound": [{
+                "epsg": "EPSG:23031",
+                "extent": "-1500000.0, 3500000.0, 4045984.0, 9045984.0"
+            }, {
+                "epsg": "EPSG:23032",
+                "extent": "-2000000.0, 3500000.0, 3545984.0, 9045984.0"
+            }, {
+                "epsg": "EPSG:23033",
+                "extent": "-2500000.0, 3500000.0, 3045984.0, 9045984.0"
+            }, {
+                "epsg": "EPSG:23034",
+                "extent": "-3000000.0, 3500000.0, 2545984.0, 9045984.0"
+            }, {
+                "epsg": "EPSG:23035",
+                "extent": "-3500000.0, 3500000.0, 2045984.0, 9045984.0"
+            }, {
+                "epsg": "EPSG:23036",
+                "extent": "-4000000.0, 3500000.0, 1545984.0, 9045984.0"
+            }, {
+                "epsg": "EPSG:25831",
+                "extent": "-1500000.0, 3500000.0, 4045984.0, 9045984.0"
+            }, {
+                "epsg": "EPSG:25832",
+                "extent": "-2000000.0, 3500000.0, 3545984.0, 9045984.0"
+            }, {
+                "epsg": "EPSG:25833",
+                "extent": "-2500000.0, 3500000.0, 3045984.0, 9045984.0"
+            }, {
+                "epsg": "EPSG:25834",
+                "extent": "-3000000.0, 3500000.0, 2545984.0, 9045984.0"
+            }, {
+                "epsg": "EPSG:25835",
+                "extent": "-3500000.0, 3500000.0, 2045984.0, 9045984.0"
+            }, {
+                "epsg": "EPSG:25836",
+                "extent": "-4000000.0, 3500000.0, 1545984.0, 9045984.0"
+            }, {
+                "epsg": "EPSG:32631",
+                "extent": "-1500000.0, 3500000.0, 4045984.0, 9045984.0"
+            }, {
+                "epsg": "EPSG:32632",
+                "extent": "-2000000.0, 3500000.0, 3545984.0, 9045984.0"
+            }, {
+                "epsg": "EPSG:25833",
+                "extent": "-2500000.0, 3500000.0, 3045984.0, 9045984.0"
+            }, {
+                "epsg": "EPSG:32634",
+                "extent": "-3000000.0, 3500000.0, 2545984.0, 9045984.0"
+            }, {
+                "epsg": "EPSG:32635",
+                "extent": "-3500000.0, 3500000.0, 2045984.0, 9045984.0"
+            }, {
+                "epsg": "EPSG:32636",
+                "extent": "-4000000.0, 3500000.0, 1545984.0, 9045984.0"
+            }, {
+                "epsg": "EPSG:4326",
+                "extent": "-180, -90, 180, 90"
+            }, {
+                "epsg": "EPSG:3857",
+                "extent": "-20037508.34, -20037508.34, 20037508.34, 20037508.34"
+            }, {
+                "epsg": "EPSG:900913",
+                "extent": "-20037508.34, -20037508.34, 20037508.34, 20037508.34"
+            }, {
+                "epsg": "EPSG:54009",
+                "extent": "-18000000.0, -9000000.0, 18000000.0, 9000000.0"
+            }, {
+                "epsg": "EPSG:3006",
+                "extent": "-1200000.0, 4700000.0, 2600000.0, 8500000.0"
+            }]
+        }
+    }
+}
