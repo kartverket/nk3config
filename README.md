@@ -1,5 +1,8 @@
 # nk3config
 
+### config
+Config files as json
+
 ### Scripts
 * parseAnsikter.py
 Script that fetches yaml-files from https://github.com/kartverket/anathem and parses them to a json file (out.json).
