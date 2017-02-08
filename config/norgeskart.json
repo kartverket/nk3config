@@ -215,8 +215,11 @@
                     "name": "merking_d",
                     "alias": "Merking"
                 }, {
-                    "name": "Spesialrutetype_d",
+                    "name": "spesialrutetype_d",
                     "alias":"Spesialrutetype"
+                }, {
+                    "name":"gradering_d",
+                    "alias":"Vanskelig"
                 }]
             }
         }, {
@@ -239,23 +242,22 @@
             "includedfields": {
                 "capitalize": "true",
                 "field": [{
-                    "name": "kommunenummer"
+                    "name": "belysning"
                 }, {
-                    "name": "navn"
-                }, {
-                    "name": "oppdateringsdato",
-                    "alias": "Oppdatering"
-                }, {
-                    "name": "opphav"
-                }, {
-                    "name": "rutefølger"
-                }, {
-                    "name": "rutemerking"
+                    "name": "rutenavn"
                 }, {
                     "name": "rutenummer"
                 }, {
-                    "name": "vedlikeholdsansvarlig",
-                    "alias": "Ansvarlig"
+                    "name": "vedlikeholdsansvarlig"
+                }, {
+                    "name": "merking_d",
+                    "alias": "Merking"
+                }, {
+                    "name": "spesialrutetype_d",
+                    "alias":"Spesialrutetype"
+                }, {
+                    "name":"gradering_d",
+                    "alias":"Vanskelig"
                 }]
             }
         }, {
@@ -288,6 +290,12 @@
                 }, {
                     "name": "merking_d",
                     "alias": "Merking"
+                }, {
+                    "name": "spesialrutetype_d",
+                    "alias":"Spesialrutetype"
+                }, {
+                    "name":"gradering_d",
+                    "alias":"Vanskelig"
                 }]
             }
         }, {
@@ -320,6 +328,12 @@
                 }, {
                     "name": "merking_d",
                     "alias": "Merking"
+                }, {
+                    "name": "spesialrutetype_d",
+                    "alias":"Spesialrutetype"
+                }, {
+                    "name":"gradering_d",
+                    "alias":"Vanskelig"
                 }]
             }
         }],
