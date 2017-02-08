@@ -200,6 +200,9 @@
                 "isbaselayer": "false",
                 "singletile": "true",
                 "visibility": "false"
+            },
+            "includedfields": {
+                "capitalize": "true"
             }
         }, {
             "type": "overlay",
@@ -288,6 +291,9 @@
                 "isbaselayer": "false",
                 "singletile": "true",
                 "visibility": "false"
+            },
+            "includedfields": {
+                "capitalize": "true"
             }
         }],
         "maplayer": [{
