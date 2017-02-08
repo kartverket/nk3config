@@ -258,7 +258,19 @@
                 "visibility": "false"
             },
             "includedfields": {
-                "capitalize": "true"
+                "capitalize": "true",
+                "field": [{
+                    "name": "belysning"
+                }, {
+                    "name": "rutenavn"
+                }, {
+                    "name": "rutenummer"
+                }, {
+                    "name": "vedlikeholdsansvarlig"
+                }, {
+                    "name": "merking_d",
+                    "alias": "Merking"
+                }]
             }
         }, {
             "type": "overlay",
