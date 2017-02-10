@@ -4,7 +4,7 @@
             "lat": 7226208,
             "lon": 378604,
             "mapepsg": "EPSG:25833",
-            "zoom": 5,
+            "zoom": 4,
             "mapbackgroundcolor": "#FFFFFF",
             "displaycenterepsgcode": "EPSG:25833",
             "displayCenter": "378604,7226208",
