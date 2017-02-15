@@ -192,6 +192,44 @@
 			"legendurl": "http://nnrite008/cgi-bin/friluftsruter",
             "groupid": 5,
             "params": {
+                "layers": "Ruteinfopunkt",
+                "format": "image/png"
+            },
+            "guid": "5.Ruteinfopunkt",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            },
+            "includedfields": {
+                "capitalize": "true",
+                "field": [{
+                    "name": "belysning"
+                }, {
+                    "name": "rutenavn"
+                }, {
+                    "name": "rutenummer"
+                }, {
+                    "name": "vedlikeholdsansvarlig"
+                }, {
+                    "name": "merking_d",
+                    "alias": "Merking"
+                }, {
+                    "name": "spesialrutetype_d",
+                    "alias":"Spesialrutetype"
+                }, {
+                    "name":"gradering_d",
+                    "alias":"Vanskelig"
+                }]
+            }
+        },{
+            "type": "overlay",
+            "gatekeeper": "true",
+            "name": "Annen",
+			"url": "http://nnrite008/cgi-bin/friluftsruter",
+			"legendurl": "http://nnrite008/cgi-bin/friluftsruter",
+            "groupid": 5,
+            "params": {
                 "layers": "AnnenRute",
                 "format": "image/png"
             },
