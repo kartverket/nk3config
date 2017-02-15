@@ -15,37 +15,20 @@
     "wmts": [{
       "type": "map",
       "gatekeeper": "true",
-      "name": "Land",
+      "name": "Landkart",
       "url": "https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?",
       "params": {
-        "layers": "topo2_dybde",
+        "layers": "matrikkel_bakgrunn",
         "format": "image/png"
       },
       "matrixprefix": "true",
-      "guid": "0.topo2_dybde",
+      "guid": "0.matrikkel_bakgrunn",
       "options": {
         "isbaselayer": "true",
         "singletile": "false",
         "visibility": "false"
       },
       "thumbnail": "land"
-    }, {
-      "type": "map",
-      "gatekeeper": "true",
-      "name": "Rasterkart",
-      "url": "https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?",
-      "params": {
-        "layers": "toporaster3",
-        "format": "image/png"
-      },
-      "matrixprefix": "true",
-      "guid": "0.toporaster3",
-      "options": {
-        "isbaselayer": "true",
-        "singletile": "false",
-        "visibility": "false"
-      },
-      "thumbnail": "aerial"
     }, {
       "type": "map",
       "gatekeeper": "true",
@@ -57,6 +40,23 @@
       },
       "matrixset": "default028mm",
       "guid": "0.ortofoto",
+      "options": {
+        "isbaselayer": "true",
+        "singletile": "false",
+        "visibility": "false"
+      },
+      "thumbnail": "aerial"
+    }, {
+      "type": "map",
+      "gatekeeper": "true",
+      "name": "Rasterkart",
+      "url": "https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?",
+      "params": {
+        "layers": "toporaster3",
+        "format": "image/png"
+      },
+      "matrixprefix": "true",
+      "guid": "0.toporaster3",
       "options": {
         "isbaselayer": "true",
         "singletile": "false",
