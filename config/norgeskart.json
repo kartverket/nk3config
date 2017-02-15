@@ -184,7 +184,7 @@
                 "singletile": "true",
                 "visibility": "false"
             }
-        }, {
+        },/** {
             "type": "overlay",
             "gatekeeper": "true",
             "name": "Ruteinfopunkt",
@@ -222,7 +222,7 @@
                     "alias":"Vanskelig"
                 }]
             }
-        },{
+        }, */ {
             "type": "overlay",
             "gatekeeper": "true",
             "name": "Annen",
