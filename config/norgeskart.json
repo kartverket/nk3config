@@ -187,7 +187,7 @@
         }, {
             "type": "overlay",
             "gatekeeper": "true",
-            "name": "Annen",
+            "name": "Ruteinfopunkt",
 			"url": "http://nnrite008/cgi-bin/friluftsruter",
 			"legendurl": "http://nnrite008/cgi-bin/friluftsruter",
             "groupid": 5,
