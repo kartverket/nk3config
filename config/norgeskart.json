@@ -184,82 +184,6 @@
                 "singletile": "true",
                 "visibility": "false"
             }
-        },/** {
-            "type": "overlay",
-            "gatekeeper": "true",
-            "name": "Ruteinfopunkt",
-			"url": "http://nnrite008/cgi-bin/friluftsruter",
-			"legendurl": "http://nnrite008/cgi-bin/friluftsruter",
-            "groupid": 5,
-            "params": {
-                "layers": "Ruteinfopunkt",
-                "format": "image/png"
-            },
-            "guid": "5.Ruteinfopunkt",
-            "options": {
-                "isbaselayer": "false",
-                "singletile": "true",
-                "visibility": "false"
-            },
-            "includedfields": {
-                "capitalize": "true",
-                "field": [{
-                    "name": "belysning"
-                }, {
-                    "name": "rutenavn"
-                }, {
-                    "name": "rutenummer"
-                }, {
-                    "name": "vedlikeholdsansvarlig"
-                }, {
-                    "name": "merking_d",
-                    "alias": "Merking"
-                }, {
-                    "name": "spesialrutetype_d",
-                    "alias":"Spesialrutetype"
-                }, {
-                    "name":"gradering_d",
-                    "alias":"Vanskelig"
-                }]
-            }
-        }, */ {
-            "type": "overlay",
-            "gatekeeper": "true",
-            "name": "Annen",
-			"url": "http://nnrite008/cgi-bin/friluftsruter",
-			"legendurl": "http://nnrite008/cgi-bin/friluftsruter",
-            "groupid": 5,
-            "params": {
-                "layers": "AnnenRute",
-                "format": "image/png"
-            },
-            "guid": "5.AnnenRute",
-            "options": {
-                "isbaselayer": "false",
-                "singletile": "true",
-                "visibility": "false"
-            },
-            "includedfields": {
-                "capitalize": "true",
-                "field": [{
-                    "name": "belysning"
-                }, {
-                    "name": "rutenavn"
-                }, {
-                    "name": "rutenummer"
-                }, {
-                    "name": "vedlikeholdsansvarlig"
-                }, {
-                    "name": "merking_d",
-                    "alias": "Merking"
-                }, {
-                    "name": "spesialrutetype_d",
-                    "alias":"Spesialrutetype"
-                }, {
-                    "name":"gradering_d",
-                    "alias":"Vanskelig"
-                }]
-            }
         }, {
             "type": "overlay",
             "gatekeeper": "true",
@@ -374,7 +298,83 @@
                     "alias":"Vanskelig"
                 }]
             }
-        }],
+        }, {
+            "type": "overlay",
+            "gatekeeper": "true",
+            "name": "Annen",
+			"url": "http://nnrite008/cgi-bin/friluftsruter",
+			"legendurl": "http://nnrite008/cgi-bin/friluftsruter",
+            "groupid": 5,
+            "params": {
+                "layers": "AnnenRute",
+                "format": "image/png"
+            },
+            "guid": "5.AnnenRute",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            },
+            "includedfields": {
+                "capitalize": "true",
+                "field": [{
+                    "name": "belysning"
+                }, {
+                    "name": "rutenavn"
+                }, {
+                    "name": "rutenummer"
+                }, {
+                    "name": "vedlikeholdsansvarlig"
+                }, {
+                    "name": "merking_d",
+                    "alias": "Merking"
+                }, {
+                    "name": "spesialrutetype_d",
+                    "alias":"Spesialrutetype"
+                }, {
+                    "name":"gradering_d",
+                    "alias":"Vanskelig"
+                }]
+            }
+        }/** {
+            "type": "overlay",
+            "gatekeeper": "true",
+            "name": "Ruteinfopunkt",
+			"url": "http://nnrite008/cgi-bin/friluftsruter",
+			"legendurl": "http://nnrite008/cgi-bin/friluftsruter",
+            "groupid": 5,
+            "params": {
+                "layers": "Ruteinfopunkt",
+                "format": "image/png"
+            },
+            "guid": "5.Ruteinfopunkt",
+            "options": {
+                "isbaselayer": "false",
+                "singletile": "true",
+                "visibility": "false"
+            },
+            "includedfields": {
+                "capitalize": "true",
+                "field": [{
+                    "name": "belysning"
+                }, {
+                    "name": "rutenavn"
+                }, {
+                    "name": "rutenummer"
+                }, {
+                    "name": "vedlikeholdsansvarlig"
+                }, {
+                    "name": "merking_d",
+                    "alias": "Merking"
+                }, {
+                    "name": "spesialrutetype_d",
+                    "alias":"Spesialrutetype"
+                }, {
+                    "name":"gradering_d",
+                    "alias":"Vanskelig"
+                }]
+            }
+        } */],
         "maplayer": [{
             "index": 1,
             "name": "Dekning",
@@ -385,7 +385,7 @@
             "groupid": 3
         }, {
             "index": 5,
-            "name": "friluft",
+            "name": "tur- og friluftsruter",
             "groupid": 5
         }],
         "vector": [{
