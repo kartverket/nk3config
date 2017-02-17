@@ -1,13 +1,13 @@
 {
   "config": {
     "project": {
-      "lat": 7226208,
-      "lon": 378604,
+      "lat": 7197864,
+      "lon": 396722,
       "mapepsg": "EPSG:25833",
       "zoom": 4,
       "mapbackgroundcolor": "#FFFFFF",
       "displaycenterepsgcode": "EPSG:25833",
-      "displayCenter": "378604,7226208",
+      "displayCenter": "396722,7197864",
       "displayprojectionepsgcode": "EPSG:25833",
       "isygatekeeper": "https://www.norgeskart.no/ws/gkt.py",
       "name": "nrl"
