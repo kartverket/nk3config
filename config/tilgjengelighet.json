@@ -1797,6 +1797,12 @@
       },
       "includedfields": {
         "field": [{
+          "alias": "Registrert",
+          "name": "registrert"
+        }, {
+          "alias": "Oppdatert",
+          "name": "oppdat_app"
+        }, {
           "alias": "Navn",
           "name": "navn"
         }, {
@@ -1806,11 +1812,8 @@
           "alias": "Kommentar",
           "name": "kommentar"
         }, {
-          "alias": "Registrert",
-          "name": "registrert"
-        }, {
-          "alias": "Oppdatert",
-          "name": "oppdat_app"
+          "alias": "Objekt ID",
+          "name": "ogc_fid"
         }]
       }
     }, {
@@ -2549,6 +2552,12 @@
       },
       "includedfields": {
         "field": [{
+          "alias": "Registrert",
+          "name": "registrert"
+        }, {
+          "alias": "Oppdatert",
+          "name": "oppdat_app"
+        }, {
           "alias": "Navn",
           "name": "navn"
         }, {
@@ -2558,11 +2567,8 @@
           "alias": "Kommentar",
           "name": "kommentar"
         }, {
-          "alias": "Registrert",
-          "name": "registrert"
-        }, {
-          "alias": "Oppdatert",
-          "name": "oppdat_app"
+          "alias": "Objekt ID",
+          "name": "ogc_fid"
         }]
       }
     }, {
@@ -3301,6 +3307,12 @@
       },
       "includedfields": {
         "field": [{
+          "alias": "Registrert",
+          "name": "registrert"
+        }, {
+          "alias": "Oppdatert",
+          "name": "oppdat_app"
+        }, {
           "alias": "Navn",
           "name": "navn"
         }, {
@@ -3310,11 +3322,8 @@
           "alias": "Kommentar",
           "name": "kommentar"
         }, {
-          "alias": "Registrert",
-          "name": "registrert"
-        }, {
-          "alias": "Oppdatert",
-          "name": "oppdat_app"
+          "alias": "Objekt ID",
+          "name": "ogc_fid"
         }]
       }
     }, {
