@@ -432,28 +432,28 @@
         "stroke": {
           "color": "rgb(64, 64, 128)",
           "width": 1
-        },
-        "includedfields": {
-          "field": [{
-            "name": "d",
-            "alias": "Datum"
-          }, {
-            "name": "n",
-            "alias": "Navn"
-          }, {
-            "name": "p",
-            "alias": "Projeksjon"
-          }, {
-            "name": "s",
-            "alias": "Målestokk"
-          }, {
-            "name": "t",
-            "alias": "Type"
-          }, {
-            "name": "u",
-            "alias": "Ny utgave"
-          }]
         }
+      },
+      "includedfields": {
+        "field": [{
+          "name": "d",
+          "alias": "Datum"
+        }, {
+          "name": "n",
+          "alias": "Navn"
+        }, {
+          "name": "p",
+          "alias": "Projeksjon"
+        }, {
+          "name": "s",
+          "alias": "Målestokk"
+        }, {
+          "name": "t",
+          "alias": "Type"
+        }, {
+          "name": "u",
+          "alias": "Ny utgave"
+        }]
       }
     }, {
       "type": "overlay",
@@ -490,9 +490,6 @@
         }, {
           "name": "s",
           "alias": "Målestokk"
-        }, {
-          "name": "t",
-          "alias": "Type"
         }, {
           "name": "u",
           "alias": "Ny utgave"
