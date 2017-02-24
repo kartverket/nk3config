@@ -1372,9 +1372,9 @@
       "name": "Navnetype",
       "groupid": 3
     }, {
-      "index": "10",
+      "index": 10,
       "name": "vedtak",
-      "groupid": "10"
+      "groupid": 10
     }, {
       "index": 4,
       "name": "skrivemaatestatus",
