@@ -1358,102 +1358,6 @@
         "singletile": "true",
         "visibility": "false"
       }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "Spraak",
-          "queryable": "false",
-          "title": "Språk"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "Språk",
-      "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
-      "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
-      "groupid": 6,
-      "params": {
-        "layers": "Spraak",
-        "format": "image/png"
-      },
-      "guid": "6.Spraak",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "navntype",
-          "queryable": "false",
-          "title": "Namnetypar"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "Namnetypar",
-      "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
-      "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
-      "groupid": 6,
-      "params": {
-        "layers": "navntype",
-        "format": "image/png"
-      },
-      "guid": "6.navntype",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "skrivemaatestatus",
-          "queryable": "false",
-          "title": "Skrivemåtestatus"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "Skrivemåtestatus",
-      "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
-      "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
-      "groupid": 6,
-      "params": {
-        "layers": "skrivemaatestatus",
-        "format": "image/png"
-      },
-      "guid": "6.skrivemaatestatus",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "vedtak",
-          "queryable": "false",
-          "title": "Vedtak"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "Vedtak",
-      "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
-      "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
-      "groupid": 6,
-      "params": {
-        "layers": "vedtak",
-        "format": "image/png"
-      },
-      "guid": "6.vedtak",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      }
     }],
     "maplayer": [{
       "index": 9,
@@ -1479,10 +1383,6 @@
       "index": 2,
       "name": "navnesakstatus",
       "groupid": 2
-    }, {
-      "index": 6,
-      "name": "alle",
-      "groupid": 6
     }],
     "mapbounds": {
       "mapbound": [{
