@@ -18,11 +18,11 @@
       "name": "Landkart",
       "url": "https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?",
       "params": {
-        "layers": "matrikkel_bakgrunn",
+        "layers": "norgeskart_bakgrunn",
         "format": "image/png"
       },
       "matrixprefix": "true",
-      "guid": "0.matrikkel_bakgrunn",
+      "guid": "0.norgeskart_bakgrunn",
       "options": {
         "isbaselayer": "true",
         "singletile": "false",

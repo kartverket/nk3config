@@ -11,11 +11,11 @@
         <name>Landkart</name>
         <url>https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?</url>
         <params>
-            <layers>matrikkel_bakgrunn</layers>
+            <layers>norgeskart_bakgrunn</layers>
             <format>image/png</format>
         </params>
         <matrixPrefix>true</matrixPrefix>
-        <guid>0.matrikkel_bakgrunn</guid>
+        <guid>0.norgeskart_bakgrunn</guid>
         <options>
             <isbaselayer>true</isbaselayer>
             <singletile>false</singletile>
