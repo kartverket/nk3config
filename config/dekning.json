@@ -10,7 +10,7 @@
       "displayCenter": "396722,7197864",
       "displayprojectionepsgcode": "EPSG:25833",
       "isygatekeeper": "https://www.norgeskart.no/ws/gkt.py",
-      "name": "fastmerker"
+      "name": "norgeskart"
     },
     "wmts": [{
       "type": "map",
@@ -184,363 +184,201 @@
         "singletile": "true",
         "visibility": "false"
       }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "Niv_fastmerker",
-          "queryable": "false",
-          "title": "Niv. fastmerker"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "Niv. fastmerker",
-      "info": "Koordinatbestemte fastmerker er markert i terrenget med metallbolter som vanligvis er satt ned i fast fjell. Fastmerkene er inndelt i Stamnett, landsnett, trekantpunkter og høydefastmerker.",
-      "url": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
-      "legendurl": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
-      "groupid": 2,
-      "params": {
-        "layers": "Niv_fastmerker",
-        "format": "image/png"
-      },
-      "guid": "2.Niv_fastmerker",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "alias": "Punktnummer",
-          "name": "punktnummer"
-        }, {
-          "alias": "Punktnavn",
-          "name": "punktnavn"
-        }, {
-          "alias": "Nord",
-          "name": "nord"
-        }, {
-          "alias": "Øst",
-          "name": "ost"
-        }, {
-          "alias": "Sone",
-          "name": "sone"
-        }, {
-          "alias": "Høyde_nn2000",
-          "name": "hoyde_nn2000",
-          "unit": " m"
-        }, {
-          "alias": "Høyde_nn1954",
-          "name": "hoyde_nn1954",
-          "unit": " m"
-        }, {
-          "alias": "Ellipsoidisk_høyde",
-          "name": "ellipsoidisk_hoyde"
-        }, {
-          "alias": "Punkttype",
-          "name": "punkttype"
-        }, {
-          "alias": "Underlag",
-          "name": "underlag"
-        }, {
-          "alias": "Kvalitet_nn1954",
-          "name": "kvalitet_nn1954",
-          "unit": " mm"
-        }, {
-          "alias": "Kvalitet_grunnriss",
-          "name": "kvalitet_grunnriss",
-          "unit": " mm"
-        }, {
-          "alias": "Status",
-          "name": "status"
-        }, {
-          "alias": "Status_år",
-          "name": "status_ar"
-        }, {
-          "alias": "Beskrivelse",
-          "name": "beskrivelse"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "Landsnettpunkt",
-          "queryable": "false",
-          "title": "Landsnettpunkter"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "Landsnettpunkter",
-      "info": "Koordinatbestemte fastmerker er markert i terrenget med metallbolter som vanligvis er satt ned i fast fjell. Fastmerkene er inndelt i Stamnett, landsnett, trekantpunkter og høydefastmerker.",
-      "url": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
-      "legendurl": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
-      "groupid": 2,
-      "params": {
-        "layers": "Landsnettpunkt",
-        "format": "image/png"
-      },
-      "guid": "2.Landsnettpunkt",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "alias": "Punktnummer",
-          "name": "punktnummer"
-        }, {
-          "alias": "Punktnavn",
-          "name": "punktnavn"
-        }, {
-          "alias": "Nord",
-          "name": "nord"
-        }, {
-          "alias": "Øst",
-          "name": "ost"
-        }, {
-          "alias": "Sone",
-          "name": "sone"
-        }, {
-          "alias": "Høyde_nn2000",
-          "name": "hoyde_nn2000",
-          "unit": " m"
-        }, {
-          "alias": "Høyde_nn1954",
-          "name": "hoyde_nn1954",
-          "unit": " m"
-        }, {
-          "alias": "Ellipsoidisk_høyde",
-          "name": "ellipsoidisk_hoyde"
-        }, {
-          "alias": "Punkttype",
-          "name": "punkttype"
-        }, {
-          "alias": "Underlag",
-          "name": "underlag"
-        }, {
-          "alias": "Kvalitet_nn1954",
-          "name": "kvalitet_nn1954",
-          "unit": " mm"
-        }, {
-          "alias": "Kvalitet_grunnriss",
-          "name": "kvalitet_grunnriss",
-          "unit": " mm"
-        }, {
-          "alias": "Status",
-          "name": "status"
-        }, {
-          "alias": "Status_år",
-          "name": "status_ar"
-        }, {
-          "alias": "Beskrivelse",
-          "name": "beskrivelse"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "Stamnettpunkt",
-          "queryable": "false",
-          "title": "Stamnettpunkter"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "Stamnettpunkter",
-      "info": "Koordinatbestemte fastmerker er markert i terrenget med metallbolter som vanligvis er satt ned i fast fjell. Fastmerkene er inndelt i Stamnett, landsnett, trekantpunkter og høydefastmerker.",
-      "url": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
-      "legendurl": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
-      "groupid": 2,
-      "params": {
-        "layers": "Stamnettpunkt",
-        "format": "image/png"
-      },
-      "guid": "2.Stamnettpunkt",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "alias": "Punktnummer",
-          "name": "punktnummer"
-        }, {
-          "alias": "Punktnavn",
-          "name": "punktnavn"
-        }, {
-          "alias": "Nord",
-          "name": "nord"
-        }, {
-          "alias": "Øst",
-          "name": "ost"
-        }, {
-          "alias": "Sone",
-          "name": "sone"
-        }, {
-          "alias": "Høyde_nn2000",
-          "name": "hoyde_nn2000",
-          "unit": " m"
-        }, {
-          "alias": "Høyde_nn1954",
-          "name": "hoyde_nn1954",
-          "unit": " m"
-        }, {
-          "alias": "Ellipsoidisk_høyde",
-          "name": "ellipsoidisk_hoyde"
-        }, {
-          "alias": "Punkttype",
-          "name": "punkttype"
-        }, {
-          "alias": "Underlag",
-          "name": "underlag"
-        }, {
-          "alias": "Kvalitet_nn1954",
-          "name": "kvalitet_nn1954",
-          "unit": " mm"
-        }, {
-          "alias": "Kvalitet_grunnriss",
-          "name": "kvalitet_grunnriss",
-          "unit": " mm"
-        }, {
-          "alias": "Status",
-          "name": "status"
-        }, {
-          "alias": "Status_år",
-          "name": "status_ar"
-        }, {
-          "alias": "Beskrivelse",
-          "name": "beskrivelse"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "Trekantpunkt",
-          "queryable": "false",
-          "title": "Trekantpunkter"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "Trekantpunkter",
-      "info": "Koordinatbestemte fastmerker er markert i terrenget med metallbolter som vanligvis er satt ned i fast fjell. Fastmerkene er inndelt i Stamnett, landsnett, trekantpunkter og høydefastmerker.",
-      "url": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
-      "legendurl": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
-      "groupid": 2,
-      "params": {
-        "layers": "Trekantpunkt",
-        "format": "image/png"
-      },
-      "guid": "2.Trekantpunkt",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "alias": "Punktnummer",
-          "name": "punktnummer"
-        }, {
-          "alias": "Punktnavn",
-          "name": "punktnavn"
-        }, {
-          "alias": "Nord",
-          "name": "nord"
-        }, {
-          "alias": "Øst",
-          "name": "ost"
-        }, {
-          "alias": "Sone",
-          "name": "sone"
-        }, {
-          "alias": "Høyde_nn2000",
-          "name": "hoyde_nn2000",
-          "unit": " m"
-        }, {
-          "alias": "Høyde_nn1954",
-          "name": "hoyde_nn1954",
-          "unit": " m"
-        }, {
-          "alias": "Ellipsoidisk_høyde",
-          "name": "ellipsoidisk_hoyde"
-        }, {
-          "alias": "Punkttype",
-          "name": "punkttype"
-        }, {
-          "alias": "Underlag",
-          "name": "underlag"
-        }, {
-          "alias": "Kvalitet_nn1954",
-          "name": "kvalitet_nn1954",
-          "unit": " mm"
-        }, {
-          "alias": "Kvalitet_grunnriss",
-          "name": "kvalitet_grunnriss",
-          "unit": " mm"
-        }, {
-          "alias": "Status",
-          "name": "status"
-        }, {
-          "alias": "Status_år",
-          "name": "status_ar"
-        }, {
-          "alias": "Beskrivelse",
-          "name": "beskrivelse"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "UTMrutenett",
-          "queryable": "false",
-          "title": "UTM-rutenett"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "UTM-rutenett",
-      "url": "http://openwms.statkart.no/skwms1/wms.rutenett?",
-      "legendurl": "http://wms.geonorge.no/skwms1/wms.rutenett?",
-      "groupid": 5,
-      "params": {
-        "layers": "UTMrutenett",
-        "format": "image/png"
-      },
-      "guid": "5.UTMrutenett",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      }
     }],
     "maplayer": [{
-      "index": 2,
-      "name": "Fastmerker",
-      "groupid": 2
-    }, {
-      "index": 5,
-      "name": "UTM-rutenett",
-      "groupid": 5
+      "index": 1,
+      "name": "Dekning",
+      "groupid": 1
     }],
-    "statusDict": {
-      "stauts": [{
-        "name": "T",
-        "alias": "Trekantpunkt"
-      }, {
-        "name": "L",
-        "alias": "Landsnett"
-      }, {
-        "name": "S",
-        "alias": "Stamnett"
-      }, {
-        "name": "N",
-        "alias": "Høydefastmerke"
-      }]
-    },
+    "vector": [{
+      "type": "overlay",
+      "name": "Hoved kart sjø",
+      "url": "http://www.norgeskart.no/json/dekning/sjo/hovedserie_ny.json",
+      "epsg": "EPSG:4326",
+      "groupid": 1,
+      "params": {
+        "format": "application/json"
+      },
+      "guid": "1.Hovedkart sjø",
+      "options": {
+        "visibility": "false"
+      },
+      "style": {
+        "fill": {
+          "color": "rgba(128, 128, 128, 0.1)"
+        },
+        "stroke": {
+          "color": "rgb(64, 128, 64)",
+          "width": 1
+        }
+      },
+      "includedfields": {
+        "field": [{
+          "name": "d",
+          "alias": "Datum"
+        }, {
+          "name": "n",
+          "alias": "Navn"
+        }, {
+          "name": "p",
+          "alias": "Projeksjon"
+        }, {
+          "name": "s",
+          "alias": "Målestokk"
+        }, {
+          "name": "u",
+          "alias": "Ny utgave"
+        }]
+      }
+    }, {
+      "type": "overlay",
+      "name": "Norge 1:50000",
+      "url": "http://www.norgeskart.no/json/dekning/land/n50/pod-inndeling2015-flaterl.json",
+      "epsg": "EPSG:25833",
+      "groupid": 1,
+      "params": {
+        "format": "application/json"
+      },
+      "guid": "1.Norge 1:50000",
+      "options": {
+        "visibility": "false"
+      },
+      "style": {
+        "fill": {
+          "color": "rgba(128, 128, 128, 0.1)"
+        },
+        "stroke": {
+          "color": "rgb(64, 128, 64)",
+          "width": 1
+        }
+      }
+    }, {
+      "type": "overlay",
+      "name": "Overseilingskart",
+      "url": "http://www.norgeskart.no/json/dekning/sjo/overseilingskart_ny.json",
+      "epsg": "EPSG:4326",
+      "groupid": 1,
+      "params": {
+        "format": "application/json"
+      },
+      "guid": "1.Overseilingskart",
+      "options": {
+        "visibility": "false"
+      },
+      "style": {
+        "fill": {
+          "color": "rgba(128, 128, 128, 0.1)"
+        },
+        "stroke": {
+          "color": "rgb(64, 64, 128)",
+          "width": 1
+        }
+      },
+      "includedfields": {
+        "field": [{
+          "name": "d",
+          "alias": "Datum"
+        }, {
+          "name": "n",
+          "alias": "Navn"
+        }, {
+          "name": "p",
+          "alias": "Projeksjon"
+        }, {
+          "name": "s",
+          "alias": "Målestokk"
+        }, {
+          "name": "t",
+          "alias": "Type"
+        }, {
+          "name": "u",
+          "alias": "Ny utgave"
+        }]
+      }
+    }, {
+      "type": "overlay",
+      "name": "Kystkart",
+      "url": "http://www.norgeskart.no/json/dekning/sjo/kystkart_ny.json",
+      "epsg": "EPSG:4326",
+      "groupid": 1,
+      "params": {
+        "format": "application/json"
+      },
+      "guid": "1.Kystkart",
+      "options": {
+        "visibility": "false"
+      },
+      "style": {
+        "fill": {
+          "color": "rgba(128, 128, 128, 0.1)"
+        },
+        "stroke": {
+          "color": "rgb(128, 64, 64)",
+          "width": 1
+        }
+      },
+      "includedfields": {
+        "field": [{
+          "name": "d",
+          "alias": "Datum"
+        }, {
+          "name": "n",
+          "alias": "Navn"
+        }, {
+          "name": "p",
+          "alias": "Projeksjon"
+        }, {
+          "name": "s",
+          "alias": "Målestokk"
+        }, {
+          "name": "u",
+          "alias": "Ny utgave"
+        }]
+      }
+    }, {
+      "type": "overlay",
+      "name": "Havnekart",
+      "url": "http://www.norgeskart.no/json/dekning/sjo/havnekart_ny.json",
+      "epsg": "EPSG:4326",
+      "groupid": 1,
+      "params": {
+        "format": "application/json"
+      },
+      "guid": "1.Havnekart",
+      "options": {
+        "visibility": "false"
+      },
+      "style": {
+        "fill": {
+          "color": "rgba(128, 128, 128, 0.1)"
+        },
+        "stroke": {
+          "color": "rgb(128, 64, 64)",
+          "width": 1
+        }
+      },
+      "includedfields": {
+        "field": [{
+          "name": "d",
+          "alias": "Datum"
+        }, {
+          "name": "n",
+          "alias": "Navn"
+        }, {
+          "name": "p",
+          "alias": "Projeksjon"
+        }, {
+          "name": "s",
+          "alias": "Målestokk"
+        }, {
+          "name": "t",
+          "alias": "Type"
+        }, {
+          "name": "u",
+          "alias": "Ny utgave"
+        }]
+      }
+    }],
     "mapbounds": {
       "mapbound": [{
         "epsg": "EPSG:23031",
