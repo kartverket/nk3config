@@ -253,6 +253,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -277,6 +288,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -301,6 +323,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -325,6 +358,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -349,6 +393,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -373,6 +428,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -397,6 +463,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -421,6 +498,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -445,6 +533,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -469,6 +568,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -493,6 +603,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -517,6 +638,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -541,6 +673,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -565,6 +708,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -589,6 +743,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -613,6 +778,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -637,6 +813,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -661,6 +848,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -685,6 +883,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -709,6 +918,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -733,6 +953,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -757,6 +988,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -781,6 +1023,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -805,6 +1058,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -829,6 +1093,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -853,6 +1128,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -877,6 +1163,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -901,6 +1198,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -925,6 +1233,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -949,6 +1268,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -973,6 +1303,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -997,6 +1338,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -1021,6 +1373,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -1045,6 +1408,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -1069,6 +1443,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -1093,6 +1478,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -1117,6 +1513,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -1141,6 +1548,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -1165,6 +1583,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -1189,6 +1618,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -1213,6 +1653,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -1237,6 +1688,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -1261,6 +1723,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -1285,6 +1758,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -1309,6 +1793,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -1333,6 +1828,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }, {
       "type": "overlay",
@@ -1357,6 +1863,17 @@
         "isbaselayer": "false",
         "singletile": "true",
         "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
       }
     }],
     "maplayer": [{
