@@ -1667,13 +1667,13 @@
         }, {
           "alias": "Link til informasjonsark",
           "name": "link_skjema",
-          "type":"link",
-          "baseurl":"http://data.kartverket.no/tilgjengelighet/friluft-skjema-FRL-2012/"
+          "type": "link",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft-skjema-FRL-2012/"
         }, {
           "alias": "Link til bildeark",
           "name": "link_bilde",
-          "type":"link",
-          "baseurl":"http://data.kartverket.no/tilgjengelighet/friluft-skjema-FRL-2012/"
+          "type": "link",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft-skjema-FRL-2012/"
         }]
       }
     }, {
@@ -1818,6 +1818,11 @@
         }, {
           "alias": "Objekt ID",
           "name": "ogc_fid"
+        }, {
+          "alias": "Lenke",
+          "name": "lenke",
+          "type": "link",
+          "baseurl": ""
         }]
       }
     }, {
@@ -2426,13 +2431,13 @@
         }, {
           "alias": "Link til informasjonsark",
           "name": "link_skjema",
-          "type":"link",
-          "baseurl":"http://data.kartverket.no/tilgjengelighet/friluft-skjema-FRL-2012/"
+          "type": "link",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft-skjema-FRL-2012/"
         }, {
           "alias": "Link til bildeark",
           "name": "link_bilde",
-          "type":"link",
-          "baseurl":"http://data.kartverket.no/tilgjengelighet/friluft-skjema-FRL-2012/"
+          "type": "link",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft-skjema-FRL-2012/"
         }]
       }
     }, {
@@ -2577,6 +2582,11 @@
         }, {
           "alias": "Objekt ID",
           "name": "ogc_fid"
+        }, {
+          "alias": "Lenke",
+          "name": "lenke",
+          "type": "link",
+          "baseurl": ""
         }]
       }
     }, {
@@ -3185,13 +3195,13 @@
         }, {
           "alias": "Link til informasjonsark",
           "name": "link_skjema",
-          "type":"link",
-          "baseurl":"http://data.kartverket.no/tilgjengelighet/friluft-skjema-FRL-2012/"
+          "type": "link",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft-skjema-FRL-2012/"
         }, {
           "alias": "Link til bildeark",
           "name": "link_bilde",
-          "type":"link",
-          "baseurl":"http://data.kartverket.no/tilgjengelighet/friluft-skjema-FRL-2012/"
+          "type": "link",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft-skjema-FRL-2012/"
         }]
       }
     }, {
@@ -3336,6 +3346,11 @@
         }, {
           "alias": "Objekt ID",
           "name": "ogc_fid"
+        }, {
+          "alias": "Lenke",
+          "name": "lenke",
+          "type": "link",
+          "baseurl": ""
         }]
       }
     }, {
