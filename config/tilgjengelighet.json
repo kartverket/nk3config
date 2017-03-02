@@ -2670,6 +2670,72 @@
       "type": "overlay",
       "Layers": {
         "Layer": {
+          "name": "baderampe_02",
+          "queryable": "True",
+          "title": "Baderampe"
+        }
+      },
+      "gatekeeper": "true",
+      "name": "Baderampe",
+      "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "groupid": 3,
+      "params": {
+        "layers": "baderampe_02",
+        "format": "image/png"
+      },
+      "guid": "3.baderampe_02",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Registrert",
+          "name": "registrert"
+        }, {
+          "alias": "Oppdatert",
+          "name": "oppdat_app"
+        }, {
+          "alias": "Rampe tilgjengelig",
+          "name": "rampe_tilgj"
+        }, {
+          "alias": "Håndlist",
+          "name": "handlist"
+        }, {
+          "alias": "Kommentar",
+          "name": "kommentar"
+        }, {
+          "alias": "Bildefil",
+          "name": "bilde",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Objekt ID",
+          "name": "ogc_fid"
+        }, {
+          "alias": "Rampe bredde",
+          "name": "rampe_bredde",
+          "unit": "cm"
+        }, {
+          "alias": "Rampe stigning",
+          "name": "rampe_stig",
+          "unit": "°"
+        }, {
+          "alias": "Rampe terskel",
+          "name": "rampe_terskel",
+          "unit": "cm"
+        }, {
+          "alias": "Håndlist høyde 1",
+          "name": "hand_hoy_1",
+          "unit": "cm"
+        }]
+      }
+    }, {
+      "type": "overlay",
+      "Layers": {
+        "Layer": {
           "name": "fiskeplass_03",
           "queryable": "True",
           "title": "Fiskeplass"
