@@ -1476,17 +1476,33 @@
           "alias": "Oppdatert",
           "name": "oppdat_app"
         }, {
-          "alias": "Kapasitet personbiler",
-          "name": "kap_personbiler"
+          "alias": "Skiltet",
+          "name": "skiltet"
         }, {
-          "alias": "Kapasitet HC",
-          "name": "kap_uu"
+          "alias": "Merket",
+          "name": "merket"
         }, {
-          "alias": "Dekke",
-          "name": "dekke"
+          "alias": "Bredde",
+          "name": "bredd",
+          "unit": "cm"
         }, {
-          "alias": "Dekke tilstand",
-          "name": "dekke_tilstand"
+          "alias": "Lengde",
+          "name": "lengd",
+          "unit": "cm"
+        }, {
+          "alias": "Avstand fasilitet",
+          "name": "avstand_serv_bygg",
+          "unit": "m"
+        }, {
+          "alias": "Avgift",
+          "name": "avgift"
+        }, {
+          "alias": "Automat høyde",
+          "name": "aut_hoyd",
+          "unit": "cm"
+        }, {
+          "alias": "Automat tilgjengelig",
+          "name": "tilgj_aut"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
@@ -2240,17 +2256,33 @@
           "alias": "Oppdatert",
           "name": "oppdat_app"
         }, {
-          "alias": "Kapasitet personbiler",
-          "name": "kap_personbiler"
+          "alias": "Skiltet",
+          "name": "skiltet"
         }, {
-          "alias": "Kapasitet HC",
-          "name": "kap_uu"
+          "alias": "Merket",
+          "name": "merket"
         }, {
-          "alias": "Dekke",
-          "name": "dekke"
+          "alias": "Bredde",
+          "name": "bredd",
+          "unit": "cm"
         }, {
-          "alias": "Dekke tilstand",
-          "name": "dekke_tilstand"
+          "alias": "Lengde",
+          "name": "lengd",
+          "unit": "cm"
+        }, {
+          "alias": "Avstand fasilitet",
+          "name": "avstand_serv_bygg",
+          "unit": "m"
+        }, {
+          "alias": "Avgift",
+          "name": "avgift"
+        }, {
+          "alias": "Automat høyde",
+          "name": "aut_hoyd",
+          "unit": "cm"
+        }, {
+          "alias": "Automat tilgjengelig",
+          "name": "tilgj_aut"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
@@ -3070,17 +3102,33 @@
           "alias": "Oppdatert",
           "name": "oppdat_app"
         }, {
-          "alias": "Kapasitet personbiler",
-          "name": "kap_personbiler"
+          "alias": "Skiltet",
+          "name": "skiltet"
         }, {
-          "alias": "Kapasitet HC",
-          "name": "kap_uu"
+          "alias": "Merket",
+          "name": "merket"
         }, {
-          "alias": "Dekke",
-          "name": "dekke"
+          "alias": "Bredde",
+          "name": "bredd",
+          "unit": "cm"
         }, {
-          "alias": "Dekke tilstand",
-          "name": "dekke_tilstand"
+          "alias": "Lengde",
+          "name": "lengd",
+          "unit": "cm"
+        }, {
+          "alias": "Avstand fasilitet",
+          "name": "avstand_serv_bygg",
+          "unit": "m"
+        }, {
+          "alias": "Avgift",
+          "name": "avgift"
+        }, {
+          "alias": "Automat høyde",
+          "name": "aut_hoyd",
+          "unit": "cm"
+        }, {
+          "alias": "Automat tilgjengelig",
+          "name": "tilgj_aut"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
