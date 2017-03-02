@@ -1104,23 +1104,6 @@
           "alias": "Oppdatert",
           "name": "oppdat_app"
         }, {
-          "alias": "Rampe tilgjengelig",
-          "name": "rampe_tilgj"
-        }, {
-          "alias": "Håndlist",
-          "name": "handlist"
-        }, {
-          "alias": "Kommentar",
-          "name": "kommentar"
-        }, {
-          "alias": "Bildefil",
-          "name": "bilde",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Objekt ID",
-          "name": "ogc_fid"
-        }, {
           "alias": "Rampe bredde",
           "name": "rampe_bredde",
           "unit": "cm"
@@ -1133,9 +1116,26 @@
           "name": "rampe_terskel",
           "unit": "cm"
         }, {
+          "alias": "Rampe tilgjengelig",
+          "name": "rampe_tilgj"
+        }, {
+          "alias": "Håndlist",
+          "name": "handlist"
+        }, {
           "alias": "Håndlist høyde 1",
           "name": "hand_hoy_1",
           "unit": "cm"
+        }, {
+          "alias": "Kommentar",
+          "name": "kommentar"
+        }, {
+          "alias": "Bildefil",
+          "name": "bilde",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Objekt ID",
+          "name": "ogc_fid"
         }]
       }
     }, {
@@ -2730,23 +2730,6 @@
           "alias": "Oppdatert",
           "name": "oppdat_app"
         }, {
-          "alias": "Rampe tilgjengelig",
-          "name": "rampe_tilgj"
-        }, {
-          "alias": "Håndlist",
-          "name": "handlist"
-        }, {
-          "alias": "Kommentar",
-          "name": "kommentar"
-        }, {
-          "alias": "Bildefil",
-          "name": "bilde",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Objekt ID",
-          "name": "ogc_fid"
-        }, {
           "alias": "Rampe bredde",
           "name": "rampe_bredde",
           "unit": "cm"
@@ -2759,9 +2742,26 @@
           "name": "rampe_terskel",
           "unit": "cm"
         }, {
+          "alias": "Rampe tilgjengelig",
+          "name": "rampe_tilgj"
+        }, {
+          "alias": "Håndlist",
+          "name": "handlist"
+        }, {
           "alias": "Håndlist høyde 1",
           "name": "hand_hoy_1",
           "unit": "cm"
+        }, {
+          "alias": "Kommentar",
+          "name": "kommentar"
+        }, {
+          "alias": "Bildefil",
+          "name": "bilde",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Objekt ID",
+          "name": "ogc_fid"
         }]
       }
     }, {
