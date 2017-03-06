@@ -188,8 +188,8 @@
       "type": "overlay",
       "gatekeeper": "true",
       "name": "Fotruter",
-      "url": "http://nnrite008/cgi-bin/friluftsruter",
-      "legendurl": "http://nnrite008/cgi-bin/friluftsruter",
+      "url": "http://wms.geonorge.no/skwms1/wms.friluftsruter",
+      "legendurl": "http://wms.geonorge.no/skwms1/wms.friluftsruter",
       "groupid": 5,
       "params": {
         "layers": "Fotrute",
@@ -226,8 +226,8 @@
       "type": "overlay",
       "gatekeeper": "true",
       "name": "Skiløyper",
-      "url": "http://nnrite008/cgi-bin/friluftsruter",
-      "legendurl": "http://nnrite008/cgi-bin/friluftsruter",
+      "url": "http://wms.geonorge.no/skwms1/wms.friluftsruter",
+      "legendurl": "http://wms.geonorge.no/skwms1/wms.friluftsruter",
       "groupid": 5,
       "params": {
         "layers": "Skiloype",
@@ -264,8 +264,8 @@
       "type": "overlay",
       "gatekeeper": "true",
       "name": "Sykkelruter",
-      "url": "http://nnrite008/cgi-bin/friluftsruter",
-      "legendurl": "http://nnrite008/cgi-bin/friluftsruter",
+      "url": "http://wms.geonorge.no/skwms1/wms.friluftsruter",
+      "legendurl": "http://wms.geonorge.no/skwms1/wms.friluftsruter",
       "groupid": 5,
       "params": {
         "layers": "Sykkelrute",
@@ -302,8 +302,8 @@
       "type": "overlay",
       "gatekeeper": "true",
       "name": "Annen",
-      "url": "http://nnrite008/cgi-bin/friluftsruter",
-      "legendurl": "http://nnrite008/cgi-bin/friluftsruter",
+      "url": "http://wms.geonorge.no/skwms1/wms.friluftsruter",
+      "legendurl": "http://wms.geonorge.no/skwms1/wms.friluftsruter",
       "groupid": 5,
       "params": {
         "layers": "AnnenRute",
