@@ -187,7 +187,7 @@
     }, {
       "type": "overlay",
       "gatekeeper": "true",
-      "name": "ADRESSER",
+      "name": "adresser",
       "url": "//wms.geonorge.no/skwms1/wms.matrikkel.seeiendom2",
       "groupid": 1,
       "maxResolution": 2,
@@ -204,7 +204,7 @@
     }, {
       "type": "overlay",
       "gatekeeper": "true",
-      "name": "BYGNINGER",
+      "name": "bygninger",
       "url": "//wms.geonorge.no/skwms1/wms.matrikkel.seeiendom2",
       "groupid": 1,
       "maxResolution": 2,
@@ -221,7 +221,7 @@
     }, {
       "type": "overlay",
       "gatekeeper": "true",
-      "name": "TEIGER OG GRENSER",
+      "name": "teiger_og_grenser",
       "url": "//wms.geonorge.no/skwms1/wms.matrikkel.seeiendom2",
       "groupid": 1,
       "maxResolution": 2,
@@ -239,7 +239,7 @@
     }],
     "maplayer": {
       "index": 1,
-      "name": "Matrikkel-data",
+      "name": "matrikkel_data",
       "groupid": 1
     },
     "mapbounds": {
