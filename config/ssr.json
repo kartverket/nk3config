@@ -194,7 +194,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Øk–1⋅utgåve",
+      "name": "ok_1_utgave",
       "url": "http://wms.geonorge.no/skwms1/wms.n5raster2",
       "groupid": 9,
       "params": {
@@ -217,7 +217,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Amts­kart",
+      "name": "amts­kart",
       "url": "http://wms.geonorge.no/skwms1/wms.historiskekart",
       "groupid": 9,
       "params": {
@@ -240,7 +240,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Norsk",
+      "name": "norsk",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 8,
@@ -275,7 +275,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Lulesamisk",
+      "name": "lulesamisk",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 8,
@@ -310,7 +310,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Nordsamisk",
+      "name": "nordsamisk",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 8,
@@ -345,7 +345,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Sørsamisk",
+      "name": "sorsamisk",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 8,
@@ -380,7 +380,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Kvensk",
+      "name": "kvensk",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 8,
@@ -415,7 +415,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Andre",
+      "name": "andre",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 8,
@@ -450,7 +450,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Administrative område",
+      "name": "administrative_omrader",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 3,
@@ -485,7 +485,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Busetnad/ eigedom",
+      "name": "bosetning_eiendom",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 3,
@@ -520,7 +520,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Samferdsle",
+      "name": "samferdsel",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 3,
@@ -555,7 +555,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Sjø",
+      "name": "sjo",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 3,
@@ -590,7 +590,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Markslag",
+      "name": "markslag",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 3,
@@ -625,7 +625,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Ferskvann",
+      "name": "ferskvann",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 3,
@@ -660,7 +660,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Terrengformer",
+      "name": "terrengformer",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 3,
@@ -695,7 +695,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Kultur",
+      "name": "kultur",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 3,
@@ -730,7 +730,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Vedteke siste 24md",
+      "name": "vedtak_siste_24_mnd",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": "10",
@@ -765,7 +765,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Vedteke siste 12md",
+      "name": "vedtak_siste_12_mnd",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": "10",
@@ -800,7 +800,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Vedteke siste 6md",
+      "name": "vedtak_siste_6_mnd",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": "10",
@@ -835,7 +835,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Vedteke siste 3md",
+      "name": "vedtak_siste_3_mnd",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": "10",
@@ -870,7 +870,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Vedteke siste md",
+      "name": "vedtak_siste_mnd",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": "10",
@@ -905,7 +905,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Samlevedtak siste 24md",
+      "name": "samlevedtak_siste_24_mnd",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": "10",
@@ -940,7 +940,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Samlevedtak siste 12md",
+      "name": "samlevedtak_siste_12_mnd",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": "10",
@@ -975,7 +975,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Samlevedtak siste 6md",
+      "name": "samlevedtak_siste_6_mnd",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": "10",
@@ -1010,7 +1010,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Samlevedtak siste 3md",
+      "name": "samlevedtak_siste_3_mnd",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": "10",
@@ -1045,7 +1045,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Samlevedtak siste md",
+      "name": "samlevedtak_siste_mnd",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": "10",
@@ -1080,7 +1080,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Avslått",
+      "name": "avslatt",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 4,
@@ -1150,7 +1150,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Føreslege",
+      "name": "foreslatt",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 4,
@@ -1185,7 +1185,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Godkjent",
+      "name": "godkjent",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 4,
@@ -1220,7 +1220,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Historisk",
+      "name": "historisk",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 4,
@@ -1255,7 +1255,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Internasjonalt",
+      "name": "internasjonalt",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 4,
@@ -1290,7 +1290,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Privat",
+      "name": "privat",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 4,
@@ -1325,7 +1325,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Ubehandlet",
+      "name": "ubehandlet",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 4,
@@ -1360,7 +1360,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Vedteke",
+      "name": "vedtatt",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 4,
@@ -1395,7 +1395,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Vedteke namneledd",
+      "name": "vedtatt_navneledd",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 4,
@@ -1430,7 +1430,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Namnesakstatus",
+      "name": "navnesakstatus",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 2,
@@ -1465,7 +1465,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Namnesaksstatus uhandsama",
+      "name": "navnesakstatus_ubehandlet",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 2,
@@ -1500,7 +1500,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Skal ikkje handsamast etter lova",
+      "name": "skal_ikke_behandles_etter_loven",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 2,
@@ -1535,7 +1535,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Namneval vedteke/gjort av namnemyndet",
+      "name": "vedtatt_av_navnemyndighet",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 2,
@@ -1570,7 +1570,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Samlevedtak",
+      "name": "samlevedtak",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 2,
@@ -1605,7 +1605,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Samlevedtak trekt tilbake",
+      "name": "samlevedtak_trukket_tilbake",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 2,
@@ -1640,7 +1640,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Namnesak reist",
+      "name": "navnesak_reist",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 2,
@@ -1675,7 +1675,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Namnesak vedteke",
+      "name": "navnesak_vedtak",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 2,
@@ -1710,7 +1710,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Vedtak utsett",
+      "name": "vedtak_utsatt",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 2,
@@ -1745,7 +1745,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Klage, vedtak ikkje trekt tilbake",
+      "name": "klage_vedtak_ikke_trukket_tilbake",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 2,
@@ -1780,7 +1780,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Klage, vedtak trekt tilbake",
+      "name": "klage_vedtak_trukket_tilbake",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 2,
@@ -1815,7 +1815,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Klage, vedtak utsett",
+      "name": "klage_vedtak_utsatt",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 2,
@@ -1850,7 +1850,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Forenkla vedtak",
+      "name": "forenklet_vedtak",
       "url": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 2,
@@ -1878,15 +1878,15 @@
     }],
     "maplayer": [{
       "index": 9,
-      "name": "Historikk",
+      "name": "historikk",
       "groupid": 9
     }, {
       "index": 8,
-      "name": "Spraak",
+      "name": "sprak",
       "groupid": 8
     }, {
       "index": 3,
-      "name": "Navnetype",
+      "name": "navnetype",
       "groupid": 3
     }, {
       "index": 10,
@@ -1894,7 +1894,7 @@
       "groupid": 10
     }, {
       "index": 4,
-      "name": "skrivemaatestatus",
+      "name": "skrivematestatus",
       "groupid": 4
     }, {
       "index": 2,

@@ -194,7 +194,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Andre linjer 60m og over",
+      "name": "andre_linjer_60m_og_over",
       "info": "Linjehinder som ikke er kraftledning, med største høyde over underliggende overflate 60 meter eller mer.",
       "url": "http://wms.geonorge.no/skwms1/wms.nrl?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.nrl?",
@@ -250,7 +250,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Andre linjer 40m-60m",
+      "name": "andre_linjer_40m_60m",
       "info": "Linjehinder som ikke er kraftledning, med største høyde over underliggende overflate mellom 40 og 60 meter.",
       "url": "http://wms.geonorge.no/skwms1/wms.nrl?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.nrl?",
@@ -306,7 +306,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Andre linjer under 40 m",
+      "name": "andre_linjer_under_40m",
       "info": "Linjehinder som ikke er kraftledning, med største høyde over underliggende overflate under 40 meter.",
       "url": "http://wms.geonorge.no/skwms1/wms.nrl?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.nrl?",
@@ -362,7 +362,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Andre linjer uten hoyde",
+      "name": "andre_linjer_uten_hoyde",
       "info": "Linjehinder som ikke er kraftledning, der største høyde over underliggende overflate er ukjent.",
       "url": "http://wms.geonorge.no/skwms1/wms.nrl?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.nrl?",
@@ -418,7 +418,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Linjepunkt 60m og over",
+      "name": "linjepunkt_60m_og_over",
       "info": "Endepunkt, knekkpunkt eller mast/stolpe tilknyttet et linjehinder som ikke er en kraftledning, med vertikalutstrekning 60 meter eller mer.",
       "url": "http://wms.geonorge.no/skwms1/wms.nrl?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.nrl?",
@@ -474,7 +474,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Linjepunkt 40m-60m",
+      "name": "linjepunkt_40m_60m",
       "info": "Endepunkt, knekkpunkt eller mast/stolpe tilknyttet et linjehinder som ikke er en kraftledning, med vertikalutstrekning mellom 40 og 60 meter.",
       "url": "http://wms.geonorge.no/skwms1/wms.nrl?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.nrl?",
@@ -530,7 +530,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Linjepunkt under 40 m",
+      "name": "linjepunkt_under_40m",
       "info": "Endepunkt, knekkpunkt eller mast/stolpe tilknyttet et linjehinder som ikke er en kraftledning, med vertikalutstrekning lavere enn 40 meter.",
       "url": "http://wms.geonorge.no/skwms1/wms.nrl?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.nrl?",
@@ -586,7 +586,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Linjepunkt uten hoyde",
+      "name": "linjepunkt_uten_hoyde",
       "info": "Endepunkt, knekkpunkt eller mast/stolpe tilknyttet et linjehinder som ikke er en kraftledning, med ukjent vertikalutstrekning.",
       "url": "http://wms.geonorge.no/skwms1/wms.nrl?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.nrl?",
@@ -642,7 +642,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Kraftledning 60m og over",
+      "name": "kraftledning_60m_og_over",
       "info": "Kraftledning med største høyde over underliggende overflate 60 meter eller mer.",
       "url": "http://wms.geonorge.no/skwms1/wms.nrl?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.nrl?",
@@ -698,7 +698,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Kraftledning 40m-60m",
+      "name": "kraftledning_40m_60m",
       "info": "Kraftledning med største høyde over underliggende overflate mellom 40 og 60 meter.",
       "url": "http://wms.geonorge.no/skwms1/wms.nrl?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.nrl?",
@@ -754,7 +754,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Kraftledning under 40 m",
+      "name": "kraftledning_under_40m",
       "info": "Kraftledning med største høyde over underliggende overflate lavere enn 40 meter.",
       "url": "http://wms.geonorge.no/skwms1/wms.nrl?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.nrl?",
@@ -810,7 +810,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Kraftledning uten hoyde",
+      "name": "kraftledning_uten_hoyde",
       "info": "Kraftledning der største høyde over underliggende overflate er ukjent.",
       "url": "http://wms.geonorge.no/skwms1/wms.nrl?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.nrl?",
@@ -866,7 +866,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Kraftstolpe 60m og over",
+      "name": "kraftstolpe_60m_og_over",
       "info": "Kraftstolpe med vertikalutstrekning 60 meter eller mer.",
       "url": "http://wms.geonorge.no/skwms1/wms.nrl?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.nrl?",
@@ -922,7 +922,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Kraftstolpe 40m-60m",
+      "name": "kraftstolpe_40m_60m",
       "info": "Kraftstolpe med vertikalutstrekning mellom 40 og 60 meter.",
       "url": "http://wms.geonorge.no/skwms1/wms.nrl?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.nrl?",
@@ -978,7 +978,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Kraftstolpe under 40 m",
+      "name": "kraftstolpe_under_40m",
       "info": "Kraftstolpe med vertikalutstrekning lavere enn 40 meter.",
       "url": "http://wms.geonorge.no/skwms1/wms.nrl?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.nrl?",
@@ -1034,7 +1034,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Kraftstolpe uten hoyde",
+      "name": "kraftstolpe_uten_hoyde",
       "info": "Kraftstolpe der vertikalutstrekning er ukjent.",
       "url": "http://wms.geonorge.no/skwms1/wms.nrl?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.nrl?",
@@ -1090,7 +1090,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Punkthindre 60m og over",
+      "name": "punkthindre_60m_og_over",
       "info": "Punkthinder med vertikalutstrekning 60 meter eller mer.",
       "url": "http://wms.geonorge.no/skwms1/wms.nrl?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.nrl?",
@@ -1146,7 +1146,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Punkthindre 40m-60m",
+      "name": "punkthindre_40m_60m",
       "info": "Punkthinder med vertikalutstrekning mellom 40 og 60 meter.",
       "url": "http://wms.geonorge.no/skwms1/wms.nrl?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.nrl?",
@@ -1202,7 +1202,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Punkthindre under 40",
+      "name": "punkthindre_under_40m",
       "info": "Punkthinder med vertikalutstrekning lavere enn 40 meter.",
       "url": "http://wms.geonorge.no/skwms1/wms.nrl?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.nrl?",
@@ -1258,7 +1258,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Punkthindre uten hoyde",
+      "name": "punkthindre_uten_hoyde",
       "info": "Punkthinder der vertikalutstrekning er ukjent.",
       "url": "http://wms.geonorge.no/skwms1/wms.nrl?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.nrl?",
@@ -1307,7 +1307,7 @@
     }],
     "maplayer": [{
       "index": 5,
-      "name": "andre linjethindre",
+      "name": "andre_linjehindre",
       "groupid": 5
     }, {
       "index": 3,

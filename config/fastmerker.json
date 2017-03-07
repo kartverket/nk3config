@@ -194,7 +194,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Niv. fastmerker",
+      "name": "niv_fastmerker",
       "info": "Koordinatbestemte fastmerker er markert i terrenget med metallbolter som vanligvis er satt ned i fast fjell. Fastmerkene er inndelt i Stamnett, landsnett, trekantpunkter og høydefastmerker.",
       "url": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
@@ -271,7 +271,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Landsnettpunkter",
+      "name": "landsnettpunkter",
       "info": "Koordinatbestemte fastmerker er markert i terrenget med metallbolter som vanligvis er satt ned i fast fjell. Fastmerkene er inndelt i Stamnett, landsnett, trekantpunkter og høydefastmerker.",
       "url": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
@@ -348,7 +348,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Stamnettpunkter",
+      "name": "stamnettpunkter",
       "info": "Koordinatbestemte fastmerker er markert i terrenget med metallbolter som vanligvis er satt ned i fast fjell. Fastmerkene er inndelt i Stamnett, landsnett, trekantpunkter og høydefastmerker.",
       "url": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
@@ -425,7 +425,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Trekantpunkter",
+      "name": "trekantpunkter",
       "info": "Koordinatbestemte fastmerker er markert i terrenget med metallbolter som vanligvis er satt ned i fast fjell. Fastmerkene er inndelt i Stamnett, landsnett, trekantpunkter og høydefastmerker.",
       "url": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
@@ -502,7 +502,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "UTM-rutenett",
+      "name": "utm_rutenett",
       "url": "http://openwms.statkart.no/skwms1/wms.rutenett?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.rutenett?",
       "groupid": 5,
@@ -519,11 +519,11 @@
     }],
     "maplayer": [{
       "index": 2,
-      "name": "Fastmerker",
+      "name": "fastmerker",
       "groupid": 2
     }, {
       "index": 5,
-      "name": "UTM-rutenett",
+      "name": "utm_rutenett",
       "groupid": 5
     }],
     "statusDict": {

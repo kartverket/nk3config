@@ -187,12 +187,12 @@
     }],
     "maplayer": [{
       "index": 1,
-      "name": "Dekning",
+      "name": "dekning",
       "groupid": 1
     }],
     "vector": [{
       "type": "overlay",
-      "name": "Hoved kart sjø",
+      "name": "hovedkart_sjo",
       "url": "http://www.norgeskart.no/json/dekning/sjo/hovedserie_ny.json",
       "epsg": "EPSG:4326",
       "groupid": 1,
@@ -232,7 +232,7 @@
       }
     }, {
       "type": "overlay",
-      "name": "Norge 1:50000",
+      "name": "norge_1_50000",
       "url": "http://www.norgeskart.no/json/dekning/land/n50/pod-inndeling2015-flaterf.json",
       "epsg": "EPSG:25833",
       "groupid": 1,
@@ -254,7 +254,7 @@
       }
     }, {
       "type": "overlay",
-      "name": "Overseilingskart",
+      "name": "overseilingskart",
       "url": "http://www.norgeskart.no/json/dekning/sjo/overseilingskart_ny.json",
       "epsg": "EPSG:4326",
       "groupid": 1,
@@ -297,7 +297,7 @@
       }
     }, {
       "type": "overlay",
-      "name": "Kystkart",
+      "name": "kystkart",
       "url": "http://www.norgeskart.no/json/dekning/sjo/kystkart_ny.json",
       "epsg": "EPSG:4326",
       "groupid": 1,
@@ -337,7 +337,7 @@
       }
     }, {
       "type": "overlay",
-      "name": "Havnekart",
+      "name": "havnekart",
       "url": "http://www.norgeskart.no/json/dekning/sjo/havnekart_ny.json",
       "epsg": "EPSG:4326",
       "groupid": 1,

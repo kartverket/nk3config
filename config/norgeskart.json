@@ -187,7 +187,7 @@
     }, {
       "type": "overlay",
       "gatekeeper": "true",
-      "name": "Fotruter",
+      "name": "fotruter",
       "url": "http://wms.geonorge.no/skwms1/wms.friluftsruter",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.friluftsruter",
       "groupid": 5,
@@ -225,7 +225,7 @@
     }, {
       "type": "overlay",
       "gatekeeper": "true",
-      "name": "Skiløyper",
+      "name": "skiloyper",
       "url": "http://wms.geonorge.no/skwms1/wms.friluftsruter",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.friluftsruter",
       "groupid": 5,
@@ -263,7 +263,7 @@
     }, {
       "type": "overlay",
       "gatekeeper": "true",
-      "name": "Sykkelruter",
+      "name": "sykkelruter",
       "url": "http://wms.geonorge.no/skwms1/wms.friluftsruter",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.friluftsruter",
       "groupid": 5,
@@ -301,7 +301,7 @@
     }, {
       "type": "overlay",
       "gatekeeper": "true",
-      "name": "Annen",
+      "name": "annen",
       "url": "http://wms.geonorge.no/skwms1/wms.friluftsruter",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.friluftsruter",
       "groupid": 5,
@@ -343,12 +343,12 @@
       "groupid": 3
     }, {
       "index": 5,
-      "name": "tur- og friluftsruter",
+      "name": "tur_og_friluftsruter",
       "groupid": 5
     }],
     "vector": [ {
       "type": "overlay",
-      "name": "Kommunenes fjelltopper",
+      "name": "kommunenes_fjelltopper",
       "url": "http://www.norgeskart.no/json/tema/kommunefjell/Kommunefjell.geojson",
       "epsg": "EPSG:25833",
       "groupid": 3,

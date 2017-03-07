@@ -194,7 +194,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Vei",
+      "name": "vei",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 6,
@@ -265,7 +265,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Parkerings område",
+      "name": "parkerings_omrade",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 6,
@@ -321,7 +321,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "HC-parkering",
+      "name": "hc_parkering",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 6,
@@ -393,7 +393,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Inngang bygg",
+      "name": "inngang_bygg",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 6,
@@ -490,7 +490,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Vei",
+      "name": "vei",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 9,
@@ -561,7 +561,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Parkerings område",
+      "name": "parkerings_omrade",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 9,
@@ -617,7 +617,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "HC-parkering",
+      "name": "hc_parkering",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 9,
@@ -689,7 +689,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Inngang bygg",
+      "name": "inngang_bygg",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 9,
@@ -786,7 +786,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Vei",
+      "name": "vei",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 8,
@@ -857,7 +857,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Parkerings område",
+      "name": "parkerings_omrade",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 8,
@@ -913,7 +913,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "HC-parkering",
+      "name": "hc_parkering",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 8,
@@ -985,7 +985,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Inngang bygg",
+      "name": "inngang_bygg",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 8,
@@ -1082,7 +1082,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Baderampe",
+      "name": "baderampe",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 5,
@@ -1148,7 +1148,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Fiskeplass",
+      "name": "fiskeplass",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 5,
@@ -1238,7 +1238,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Friluftsområde",
+      "name": "friluftsomrade",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 5,
@@ -1315,7 +1315,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Gapahukhytte",
+      "name": "gapahukhytte",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 5,
@@ -1397,7 +1397,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Grillbålplass",
+      "name": "grillbalplass",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 5,
@@ -1454,7 +1454,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "HC-parkering",
+      "name": "hc_parkering",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 5,
@@ -1526,7 +1526,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Parkeringsområder",
+      "name": "parkeringsomrader",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 5,
@@ -1582,7 +1582,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Sittegruppe",
+      "name": "sittegruppe",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 5,
@@ -1644,7 +1644,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Statlig sikra",
+      "name": "statlig_sikret",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 5,
@@ -1702,7 +1702,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Toalett",
+      "name": "toalett",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 5,
@@ -1801,7 +1801,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Turisthytte",
+      "name": "turisthytte",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 5,
@@ -1851,7 +1851,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Turvei",
+      "name": "turvei",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 5,
@@ -1928,7 +1928,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Fiskeplass",
+      "name": "fiskeplass",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 7,
@@ -2018,7 +2018,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Friluftsområde",
+      "name": "friluftsomrade",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 7,
@@ -2095,7 +2095,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Gapahukhytte",
+      "name": "gapahukhytte",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 7,
@@ -2177,7 +2177,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Grillbålplass",
+      "name": "grillbalplass",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 7,
@@ -2234,7 +2234,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "HC-parkering",
+      "name": "hc_parkering",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 7,
@@ -2306,7 +2306,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Parkeringsområder",
+      "name": "parkeringsomrader",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 7,
@@ -2362,7 +2362,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Sittegruppe",
+      "name": "sittegruppe",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 7,
@@ -2424,7 +2424,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Statlig sikra",
+      "name": "statlig_sikret",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 7,
@@ -2482,7 +2482,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Toalett",
+      "name": "toalett",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 7,
@@ -2581,7 +2581,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Turisthytte",
+      "name": "turisthytte",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 7,
@@ -2631,7 +2631,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Turvei",
+      "name": "turvei",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 7,
@@ -2708,7 +2708,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Baderampe",
+      "name": "baderampe",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 3,
@@ -2774,7 +2774,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Fiskeplass",
+      "name": "fiskeplass",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 3,
@@ -2864,7 +2864,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Friluftsområde",
+      "name": "friluftsomrade",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 3,
@@ -2941,7 +2941,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Gapahukhytte",
+      "name": "gapahukhytte",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 3,
@@ -3023,7 +3023,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Grillbålplass",
+      "name": "grillbalplass",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 3,
@@ -3080,7 +3080,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "HC-parkering",
+      "name": "hc_parkering",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 3,
@@ -3152,7 +3152,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Parkeringsområder",
+      "name": "parkeringsomrader",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 3,
@@ -3208,7 +3208,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Sittegruppe",
+      "name": "sittegruppe",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 3,
@@ -3270,7 +3270,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Statlig sikra",
+      "name": "statlig_sikret",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 3,
@@ -3328,7 +3328,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Toalett",
+      "name": "toalett",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 3,
@@ -3427,7 +3427,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Turisthytte",
+      "name": "turisthytte",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 3,
@@ -3477,7 +3477,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Turvei",
+      "name": "turvei",
       "url": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "http://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 3,
@@ -3547,27 +3547,27 @@
     }],
     "maplayer": [{
       "index": 6,
-      "name": "Tettsted Rullestol",
+      "name": "tettsted_rullestol",
       "groupid": 6
     }, {
       "index": 9,
-      "name": "Tettsted Elektrisk rullestol",
+      "name": "tettsted_elektrisk_rullestol",
       "groupid": 9
     }, {
       "index": 8,
-      "name": "Tettsted Syn",
+      "name": "tettsted_syn",
       "groupid": 8
     }, {
       "index": 5,
-      "name": "friluft rullestol",
+      "name": "friluft_rullestol",
       "groupid": 5
     }, {
       "index": 7,
-      "name": "friluft elektrisk rullestol",
+      "name": "friluft_elektrisk_rullestol",
       "groupid": 7
     }, {
       "index": 3,
-      "name": "friluft syn",
+      "name": "friluft_syn",
       "groupid": 3
     }],
     "mapbounds": {
