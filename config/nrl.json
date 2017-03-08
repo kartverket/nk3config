@@ -1306,13 +1306,13 @@
       }
     }],
     "maplayer": [{
-      "index": 5,
-      "name": "andre_linjehindre",
-      "groupid": 5
-    }, {
       "index": 3,
       "name": "kraftledninger",
       "groupid": 3
+    }, {
+      "index": 5,
+      "name": "andre_linjehindre",
+      "groupid": 5
     }, {
       "index": 7,
       "name": "punkthindre",
