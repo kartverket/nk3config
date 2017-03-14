@@ -210,6 +210,24 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "t_el_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
+          "filetype": "png"
+        }, {
+          "name": "t_syn",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -281,6 +299,12 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -337,6 +361,18 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "t_el_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -409,6 +445,24 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "t_el_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
+          "filetype": "png"
+        }, {
+          "name": "t_syn",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -506,6 +560,24 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "t_el_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
+          "filetype": "png"
+        }, {
+          "name": "t_syn",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -577,6 +649,12 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -633,6 +711,18 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "t_el_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -705,6 +795,24 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "t_el_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
+          "filetype": "png"
+        }, {
+          "name": "t_syn",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -802,6 +910,24 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "t_el_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
+          "filetype": "png"
+        }, {
+          "name": "t_syn",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -873,6 +999,12 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -929,6 +1061,18 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "t_el_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -1001,6 +1145,24 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "t_el_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
+          "filetype": "png"
+        }, {
+          "name": "t_syn",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -1098,6 +1260,18 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "t_syn",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -1164,6 +1338,24 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "t_el_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
+          "filetype": "png"
+        }, {
+          "name": "t_syn",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -1331,6 +1523,24 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "t_el_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
+          "filetype": "png"
+        }, {
+          "name": "t_syn",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -1413,6 +1623,12 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -1470,6 +1686,12 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -1542,6 +1764,12 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -1598,6 +1826,12 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -1718,6 +1952,24 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "t_el_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
+          "filetype": "png"
+        }, {
+          "name": "t_syn",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -1867,6 +2119,24 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "t_el_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
+          "filetype": "png"
+        }, {
+          "name": "t_syn",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -1944,6 +2214,24 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "t_el_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
+          "filetype": "png"
+        }, {
+          "name": "t_syn",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -2111,6 +2399,24 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "t_el_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
+          "filetype": "png"
+        }, {
+          "name": "t_syn",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -2193,6 +2499,12 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -2250,6 +2562,12 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -2322,6 +2640,12 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -2378,6 +2702,12 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -2498,6 +2828,24 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "t_el_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
+          "filetype": "png"
+        }, {
+          "name": "t_syn",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -2647,6 +2995,24 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "t_el_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
+          "filetype": "png"
+        }, {
+          "name": "t_syn",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -2724,6 +3090,18 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "t_syn",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -2790,6 +3168,24 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "t_el_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
+          "filetype": "png"
+        }, {
+          "name": "t_syn",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -2957,6 +3353,24 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "t_el_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
+          "filetype": "png"
+        }, {
+          "name": "t_syn",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -3039,6 +3453,12 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -3096,6 +3516,12 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -3168,6 +3594,12 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -3224,6 +3656,12 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -3344,6 +3782,24 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "t_el_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
+          "filetype": "png"
+        }, {
+          "name": "t_syn",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
@@ -3493,6 +3949,24 @@
       },
       "includedfields": {
         "field": [{
+          "name": "t_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "t_el_rulle_auto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
+          "filetype": "png"
+        }, {
+          "name": "t_syn",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
+          "filetype": "png"
+        }, {
           "alias": "Registrert",
           "name": "registrert"
         }, {
