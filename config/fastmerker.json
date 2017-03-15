@@ -173,7 +173,7 @@
       },
       "gatekeeper": "true",
       "name": "Elektron. Sjøkart",
-      "url": "http://wms.geonorge.no/skwms1/wms.ecc_enc",
+      "url": "https://wms.geonorge.no/skwms1/wms.ecc_enc",
       "params": {
         "layers": "cells",
         "format": "image/png"
@@ -196,8 +196,8 @@
       "gatekeeper": "true",
       "name": "niv_fastmerker",
       "info": "Koordinatbestemte fastmerker er markert i terrenget med metallbolter som vanligvis er satt ned i fast fjell. Fastmerkene er inndelt i Stamnett, landsnett, trekantpunkter og høydefastmerker.",
-      "url": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
-      "legendurl": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
+      "url": "https://wms.geonorge.no/skwms1/wms.fastmerker2",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.fastmerker2",
       "groupid": 2,
       "params": {
         "layers": "Niv_fastmerker",
@@ -273,8 +273,8 @@
       "gatekeeper": "true",
       "name": "landsnettpunkter",
       "info": "Koordinatbestemte fastmerker er markert i terrenget med metallbolter som vanligvis er satt ned i fast fjell. Fastmerkene er inndelt i Stamnett, landsnett, trekantpunkter og høydefastmerker.",
-      "url": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
-      "legendurl": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
+      "url": "https://wms.geonorge.no/skwms1/wms.fastmerker2",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.fastmerker2",
       "groupid": 2,
       "params": {
         "layers": "Landsnettpunkt",
@@ -350,8 +350,8 @@
       "gatekeeper": "true",
       "name": "stamnettpunkter",
       "info": "Koordinatbestemte fastmerker er markert i terrenget med metallbolter som vanligvis er satt ned i fast fjell. Fastmerkene er inndelt i Stamnett, landsnett, trekantpunkter og høydefastmerker.",
-      "url": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
-      "legendurl": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
+      "url": "https://wms.geonorge.no/skwms1/wms.fastmerker2",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.fastmerker2",
       "groupid": 2,
       "params": {
         "layers": "Stamnettpunkt",
@@ -427,8 +427,8 @@
       "gatekeeper": "true",
       "name": "trekantpunkter",
       "info": "Koordinatbestemte fastmerker er markert i terrenget med metallbolter som vanligvis er satt ned i fast fjell. Fastmerkene er inndelt i Stamnett, landsnett, trekantpunkter og høydefastmerker.",
-      "url": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
-      "legendurl": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
+      "url": "https://wms.geonorge.no/skwms1/wms.fastmerker2",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.fastmerker2",
       "groupid": 2,
       "params": {
         "layers": "Trekantpunkt",
@@ -504,7 +504,7 @@
       "gatekeeper": "true",
       "name": "utm_rutenett",
       "url": "http://openwms.statkart.no/skwms1/wms.rutenett?",
-      "legendurl": "http://wms.geonorge.no/skwms1/wms.rutenett?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.rutenett?",
       "groupid": 5,
       "params": {
         "layers": "UTMrutenett",

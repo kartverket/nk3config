@@ -173,7 +173,7 @@
       },
       "gatekeeper": "true",
       "name": "Elektron. Sjøkart",
-      "url": "http://wms.geonorge.no/skwms1/wms.ecc_enc",
+      "url": "https://wms.geonorge.no/skwms1/wms.ecc_enc",
       "params": {
         "layers": "cells",
         "format": "image/png"
@@ -188,8 +188,8 @@
       "type": "overlay",
       "gatekeeper": "true",
       "name": "fotruter",
-      "url": "http://wms.geonorge.no/skwms1/wms.friluftsruter",
-      "legendurl": "http://wms.geonorge.no/skwms1/wms.friluftsruter",
+      "url": "https://wms.geonorge.no/skwms1/wms.friluftsruter",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.friluftsruter",
       "groupid": 5,
       "params": {
         "layers": "Fotrute",
@@ -226,8 +226,8 @@
       "type": "overlay",
       "gatekeeper": "true",
       "name": "skiloyper",
-      "url": "http://wms.geonorge.no/skwms1/wms.friluftsruter",
-      "legendurl": "http://wms.geonorge.no/skwms1/wms.friluftsruter",
+      "url": "https://wms.geonorge.no/skwms1/wms.friluftsruter",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.friluftsruter",
       "groupid": 5,
       "params": {
         "layers": "Skiloype",
@@ -264,8 +264,8 @@
       "type": "overlay",
       "gatekeeper": "true",
       "name": "sykkelruter",
-      "url": "http://wms.geonorge.no/skwms1/wms.friluftsruter",
-      "legendurl": "http://wms.geonorge.no/skwms1/wms.friluftsruter",
+      "url": "https://wms.geonorge.no/skwms1/wms.friluftsruter",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.friluftsruter",
       "groupid": 5,
       "params": {
         "layers": "Sykkelrute",
@@ -302,8 +302,8 @@
       "type": "overlay",
       "gatekeeper": "true",
       "name": "annen",
-      "url": "http://wms.geonorge.no/skwms1/wms.friluftsruter",
-      "legendurl": "http://wms.geonorge.no/skwms1/wms.friluftsruter",
+      "url": "https://wms.geonorge.no/skwms1/wms.friluftsruter",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.friluftsruter",
       "groupid": 5,
       "params": {
         "layers": "AnnenRute",

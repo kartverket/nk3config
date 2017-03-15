@@ -173,7 +173,7 @@
       },
       "gatekeeper": "true",
       "name": "Elektron. Sjøkart",
-      "url": "http://wms.geonorge.no/skwms1/wms.ecc_enc",
+      "url": "https://wms.geonorge.no/skwms1/wms.ecc_enc",
       "params": {
         "layers": "cells",
         "format": "image/png"
