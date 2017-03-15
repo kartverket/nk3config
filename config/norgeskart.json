@@ -349,7 +349,7 @@
     "vector": [ {
       "type": "overlay",
       "name": "kommunenes_fjelltopper",
-      "url": "http://www.norgeskart.no/json/tema/kommunefjell/Kommunefjell.geojson",
+      "url": "https://www.norgeskart.no/json/tema/kommunefjell/Kommunefjell.geojson",
       "epsg": "EPSG:25833",
       "groupid": 3,
       "params": {
