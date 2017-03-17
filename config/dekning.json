@@ -15,7 +15,7 @@
     "wmts": [{
       "type": "map",
       "gatekeeper": "true",
-      "name": "Landkart",
+      "name": "landkart",
       "url": "https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?",
       "params": {
         "layers": "norgeskart_bakgrunn",
@@ -32,7 +32,7 @@
     }, {
       "type": "map",
       "gatekeeper": "true",
-      "name": "Flybilder",
+      "name": "flybilder",
       "url": "http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nib_utm33_wmts_v2?|http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nib_utm33_wmts_v2?",
       "params": {
         "layers": "Nibcache_UTM33_EUREF89",
@@ -49,7 +49,7 @@
     }, {
       "type": "map",
       "gatekeeper": "true",
-      "name": "Rasterkart",
+      "name": "rasterkart",
       "url": "https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?",
       "params": {
         "layers": "toporaster3",
@@ -66,7 +66,7 @@
     }, {
       "type": "map",
       "gatekeeper": "true",
-      "name": "Gråtone",
+      "name": "gratone",
       "url": "https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?",
       "params": {
         "layers": "norges_grunnkart_graatone",
@@ -82,7 +82,7 @@
     }, {
       "type": "map",
       "gatekeeper": "true",
-      "name": "Enkel",
+      "name": "enkel",
       "url": "https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?",
       "params": {
         "layers": "norges_grunnkart",
@@ -98,7 +98,7 @@
     }, {
       "type": "map",
       "gatekeeper": "true",
-      "name": "Terreng",
+      "name": "terreng",
       "url": "https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?",
       "params": {
         "layers": "terreng_norgeskart",
@@ -114,7 +114,7 @@
     }, {
       "type": "map",
       "gatekeeper": "true",
-      "name": "Sjøkart",
+      "name": "sjokart",
       "url": "https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?",
       "params": {
         "layers": "sjokartraster",
@@ -129,7 +129,7 @@
       }
     }, {
       "type": "map",
-      "name": "Jan Mayen",
+      "name": "jan_mayen",
       "url": "http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_JanMayen_WMTS_25833/MapServer/WMTS?",
       "params": {
         "layers": "Basisdata_NP_Basiskart_JanMayen_WMTS_25833",
@@ -146,7 +146,7 @@
       }
     }, {
       "type": "map",
-      "name": "Svalbard",
+      "name": "svalbard",
       "url": "http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_Svalbard_WMTS_25833/MapServer/WMTS?",
       "params": {
         "layers": "Basisdata_NP_Basiskart_Svalbard_WMTS_25833",
@@ -172,7 +172,7 @@
         }
       },
       "gatekeeper": "true",
-      "name": "Elektron. Sjøkart",
+      "name": "elektron_sjokart",
       "url": "https://wms.geonorge.no/skwms1/wms.ecc_enc",
       "params": {
         "layers": "cells",
