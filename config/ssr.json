@@ -1319,7 +1319,7 @@
       "type": "overlay",
       "Layers": {
         "Layer": {
-          "name": "ubehandlet",
+          "name": "uvurdert",
           "queryable": "false",
           "title": "Ubehandlet"
         }
@@ -1330,7 +1330,7 @@
       "legendurl": "https://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 4,
       "params": {
-        "layers": "ubehandlet",
+        "layers": "uvurdert",
         "format": "image/png"
       },
       "guid": "4.ubehandlet",
