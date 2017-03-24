@@ -214,20 +214,23 @@
       },
       "includedfields": {
         "field": [{
-          "name": "d",
-          "alias": "Datum"
+          "name": "id",
+          "alias": "ID"
         }, {
           "name": "n",
           "alias": "Navn"
         }, {
-          "name": "p",
-          "alias": "Projeksjon"
+          "name": "u",
+          "alias": "Ny utgave"
         }, {
           "name": "s",
           "alias": "Målestokk"
         }, {
-          "name": "u",
-          "alias": "Ny utgave"
+          "name": "p",
+          "alias": "Projeksjon"
+        }, {
+          "name": "d",
+          "alias": "Datum"
         }]
       }
     }, {
@@ -276,23 +279,23 @@
       },
       "includedfields": {
         "field": [{
-          "name": "d",
-          "alias": "Datum"
+          "name": "id",
+          "alias": "ID"
         }, {
           "name": "n",
           "alias": "Navn"
         }, {
-          "name": "p",
-          "alias": "Projeksjon"
+          "name": "u",
+          "alias": "Ny utgave"
         }, {
           "name": "s",
           "alias": "Målestokk"
         }, {
-          "name": "t",
-          "alias": "Type"
+          "name": "p",
+          "alias": "Projeksjon"
         }, {
-          "name": "u",
-          "alias": "Ny utgave"
+          "name": "d",
+          "alias": "Datum"
         }]
       }
     }, {
@@ -319,20 +322,20 @@
       },
       "includedfields": {
         "field": [{
-          "name": "d",
-          "alias": "Datum"
+          "name": "id",
+          "alias": "ID"
         }, {
           "name": "n",
           "alias": "Navn"
         }, {
-          "name": "p",
-          "alias": "Projeksjon"
-        }, {
           "name": "s",
           "alias": "Målestokk"
         }, {
-          "name": "u",
-          "alias": "Ny utgave"
+          "name": "p",
+          "alias": "Projeksjon"
+        }, {
+          "name": "d",
+          "alias": "Datum"
         }]
       }
     }, {
@@ -359,23 +362,20 @@
       },
       "includedfields": {
         "field": [{
-          "name": "d",
-          "alias": "Datum"
+          "name": "id",
+          "alias": "ID"
         }, {
           "name": "n",
           "alias": "Navn"
         }, {
-          "name": "p",
-          "alias": "Projeksjon"
-        }, {
           "name": "s",
           "alias": "Målestokk"
         }, {
-          "name": "t",
-          "alias": "Type"
+          "name": "p",
+          "alias": "Projeksjon"
         }, {
-          "name": "u",
-          "alias": "Ny utgave"
+          "name": "d",
+          "alias": "Datum"
         }]
       }
     }],
