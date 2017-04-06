@@ -172,8 +172,8 @@
         }
       },
       "gatekeeper": "true",
-      "name": "elektron_sjokart",
-      "url": "https://wms.geonorge.no/skwms1/wms.ecc_enc",
+        "name": "elektron_sjokart",
+        "url": "https://wms.geonorge.no/skwms1/wms.ecc_enc",
       "params": {
         "layers": "cells",
         "format": "image/png"
@@ -188,8 +188,8 @@
       "type": "overlay",
       "gatekeeper": "true",
       "name": "fotruter",
-      "url": "https://wms.geonorge.no/skwms1/wms.friluftsruter",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.friluftsruter",
+      "url": "https://wms.geonorge.no/skwms1/wms.friluftsruter2?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.friluftsruter2?",
       "groupid": 5,
       "params": {
         "layers": "Fotrute",
@@ -226,8 +226,8 @@
       "type": "overlay",
       "gatekeeper": "true",
       "name": "skiloyper",
-      "url": "https://wms.geonorge.no/skwms1/wms.friluftsruter",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.friluftsruter",
+      "url": "https://wms.geonorge.no/skwms1/wms.friluftsruter2?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.friluftsruter2?",
       "groupid": 5,
       "params": {
         "layers": "Skiloype",
@@ -264,8 +264,8 @@
       "type": "overlay",
       "gatekeeper": "true",
       "name": "sykkelruter",
-      "url": "https://wms.geonorge.no/skwms1/wms.friluftsruter",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.friluftsruter",
+      "url": "https://wms.geonorge.no/skwms1/wms.friluftsruter2?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.friluftsruter2?",
       "groupid": 5,
       "params": {
         "layers": "Sykkelrute",
@@ -301,15 +301,205 @@
     }, {
       "type": "overlay",
       "gatekeeper": "true",
-      "name": "annen",
-      "url": "https://wms.geonorge.no/skwms1/wms.friluftsruter",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.friluftsruter",
-      "groupid": 5,
+      "name": "historisk_ferdselsrute",
+      "url": "https://wms.geonorge.no/skwms1/wms.friluftsruter2?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.friluftsruter2?",
+      "groupid": 6,
       "params": {
-        "layers": "AnnenRute",
+        "layers": "Historisk",
         "format": "image/png"
       },
-      "guid": "5.AnnenRute",
+      "guid": "6.Historisk",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "capitalize": "true",
+        "field": [{
+          "name": "belysning"
+        }, {
+          "name": "rutenavn"
+        }, {
+          "name": "rutenummer"
+        }, {
+          "name": "vedlikeholdsansvarlig"
+        }, {
+          "name": "merking_d",
+          "alias": "Merking"
+        }, {
+          "name": "spesialrutetype_d",
+          "alias": "Spesialrutetype"
+        }, {
+          "name": "gradering_d",
+          "alias": "Vanskelig"
+        }]
+      }
+    }, {
+      "type": "overlay",
+      "gatekeeper": "true",
+      "name": "kyststi",
+      "url": "https://wms.geonorge.no/skwms1/wms.friluftsruter2?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.friluftsruter2?",
+      "groupid": 6,
+      "params": {
+        "layers": "Kyststi",
+        "format": "image/png"
+      },
+      "guid": "6.Kyststi",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "capitalize": "true",
+        "field": [{
+          "name": "belysning"
+        }, {
+          "name": "rutenavn"
+        }, {
+          "name": "rutenummer"
+        }, {
+          "name": "vedlikeholdsansvarlig"
+        }, {
+          "name": "merking_d",
+          "alias": "Merking"
+        }, {
+          "name": "spesialrutetype_d",
+          "alias": "Spesialrutetype"
+        }, {
+          "name": "gradering_d",
+          "alias": "Vanskelig"
+        }]
+      }
+    }, {
+      "type": "overlay",
+      "gatekeeper": "true",
+      "name": "kultursti",
+      "url": "https://wms.geonorge.no/skwms1/wms.friluftsruter2?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.friluftsruter2?",
+      "groupid": 6,
+      "params": {
+        "layers": "Kultursti",
+        "format": "image/png"
+      },
+      "guid": "6.Kultursti",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "capitalize": "true",
+        "field": [{
+          "name": "belysning"
+        }, {
+          "name": "rutenavn"
+        }, {
+          "name": "rutenummer"
+        }, {
+          "name": "vedlikeholdsansvarlig"
+        }, {
+          "name": "merking_d",
+          "alias": "Merking"
+        }, {
+          "name": "spesialrutetype_d",
+          "alias": "Spesialrutetype"
+        }, {
+          "name": "gradering_d",
+          "alias": "Vanskelig"
+        }]
+      }
+    }, {
+      "type": "overlay",
+      "gatekeeper": "true",
+      "name": "natursti",
+      "url": "https://wms.geonorge.no/skwms1/wms.friluftsruter2?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.friluftsruter2?",
+      "groupid": 6,
+      "params": {
+        "layers": "Natursti",
+        "format": "image/png"
+      },
+      "guid": "6.Natursti",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "capitalize": "true",
+        "field": [{
+          "name": "belysning"
+        }, {
+          "name": "rutenavn"
+        }, {
+          "name": "rutenummer"
+        }, {
+          "name": "vedlikeholdsansvarlig"
+        }, {
+          "name": "merking_d",
+          "alias": "Merking"
+        }, {
+          "name": "spesialrutetype_d",
+          "alias": "Spesialrutetype"
+        }, {
+          "name": "gradering_d",
+          "alias": "Vanskelig"
+        }]
+      }
+    }, {
+      "type": "overlay",
+      "gatekeeper": "true",
+      "name": "trimloype",
+      "url": "https://wms.geonorge.no/skwms1/wms.friluftsruter2?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.friluftsruter2?",
+      "groupid": 6,
+      "params": {
+        "layers": "Trimloype",
+        "format": "image/png"
+      },
+      "guid": "6.Trimloype",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "capitalize": "true",
+        "field": [{
+          "name": "belysning"
+        }, {
+          "name": "rutenavn"
+        }, {
+          "name": "rutenummer"
+        }, {
+          "name": "vedlikeholdsansvarlig"
+        }, {
+          "name": "merking_d",
+          "alias": "Merking"
+        }, {
+          "name": "spesialrutetype_d",
+          "alias": "Spesialrutetype"
+        }, {
+          "name": "gradering_d",
+          "alias": "Vanskelig"
+        }]
+      }
+    }, {
+      "type": "overlay",
+      "gatekeeper": "true",
+      "name": "fotrute_type_ikke_angitt",
+      "url": "https://wms.geonorge.no/skwms1/wms.friluftsruter2?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.friluftsruter2?",
+      "groupid": 6,
+      "params": {
+        "layers": "Fotrutetypeikkeangitt",
+        "format": "image/png"
+      },
+      "guid": "6.Fotrutetypeikkeangitt",
       "options": {
         "isbaselayer": "false",
         "singletile": "true",
@@ -345,8 +535,12 @@
       "index": 5,
       "name": "tur_og_friluftsruter",
       "groupid": 5
+    }, {
+      "index": 6,
+      "name": "fotrutetype",
+      "groupid": 6
     }],
-    "vector": [ {
+    "vector": [{
       "type": "overlay",
       "name": "kommunenes_fjelltopper",
       "url": "https://www.norgeskart.no/json/tema/kommunefjell/Kommunefjell.geojson",
