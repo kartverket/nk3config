@@ -1318,20 +1318,18 @@
       "name": "punkthindre",
       "groupid": 7
     }],
-    "statusDict": {
-      "stauts": [{
-        "name": "E",
-        "alias": "Eksisterende"
-      }, {
-        "name": "P",
-        "alias": "Planlagt"
-      }, {
-        "name": "O",
-        "alias": "Ombygd"
-      }, {
-        "name": "U",
-        "alias": "Under arbeid"
-      }]
+    "featureDict": {
+      "Status": {
+        "E": "Eksisterende",
+        "P": "Planlagt",
+        "O": "Ombygd",
+        "U": "Under arbeid"
+      },
+      "Lystypekode": {
+        "IL": "Ikke lyssatt",
+        "UKJ": "Ukjent",
+        "FR": "Lyssatt"
+      }
     },
     "mapbounds": {
       "mapbound": [{
