@@ -526,20 +526,13 @@
       "name": "utm_rutenett",
       "groupid": 5
     }],
-    "statusDict": {
-      "stauts": [{
-        "name": "T",
-        "alias": "Trekantpunkt"
-      }, {
-        "name": "L",
-        "alias": "Landsnett"
-      }, {
-        "name": "S",
-        "alias": "Stamnett"
-      }, {
-        "name": "N",
-        "alias": "Høydefastmerke"
-      }]
+    "featureDict": {
+      "Punkttype": {
+        "T": "Trekantpunkt",
+        "L": "Landsnett",
+        "S": "Stamnett",
+        "N": "Høydefastmerke"
+      }
     },
     "mapbounds": {
       "mapbound": [{
