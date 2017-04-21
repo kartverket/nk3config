@@ -10,6 +10,7 @@
       "displayCenter": "396722,7197864",
       "displayprojectionepsgcode": "EPSG:25833",
       "isygatekeeper": "https://www.norgeskart.no/ws/gkt.py",
+      "tickethost": "https://www.norgeskart.no/ws/esk.py?wms.ecc_enc",
       "name": "norgeskart"
     },
     "wmts": [{
@@ -171,7 +172,7 @@
           "title": "Elektron. Sjøkart"
         }
       },
-      "gatekeeper": "true",
+      "ticket": "true",
         "name": "elektron_sjokart",
         "url": "https://wms.geonorge.no/skwms1/wms.ecc_enc",
       "params": {
