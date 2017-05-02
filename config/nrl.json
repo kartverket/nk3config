@@ -1329,7 +1329,18 @@
       "Lyssetting": {
         "IL": "Ikke lyssatt",
         "UKJ": "Ukjent",
-        "FR": "Lyssatt"
+        "HIB": "Lyssatt",
+        "MIB": "Lyssatt",
+        "L": "Lyssatt",
+        "HIA": "Lyssatt",
+        "FH": "Lyssatt",
+        "FR": "Lyssatt",
+        "MIC": "Lyssatt",
+        "BR": "Lyssatt",
+        "LIA": "Lyssatt",
+        "FLO": "Lyssatt",
+        "BH": "Lyssatt",
+        "MIA": "Lyssatt"
       }
     },
     "mapbounds": {
