@@ -97,7 +97,7 @@
     }, {
       "type": "map",
       "name": "jan_mayen",
-      "url": "http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_JanMayen_WMTS_25833/MapServer/WMTS?",
+      "url": "https://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_JanMayen_WMTS_25833/MapServer/WMTS?",
       "params": {
         "layers": "Basisdata_NP_Basiskart_JanMayen_WMTS_25833",
         "format": "image/png"
@@ -114,7 +114,7 @@
     }, {
       "type": "map",
       "name": "svalbard",
-      "url": "http://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_Svalbard_WMTS_25833/MapServer/WMTS?",
+      "url": "https://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_Svalbard_WMTS_25833/MapServer/WMTS?",
       "params": {
         "layers": "Basisdata_NP_Basiskart_Svalbard_WMTS_25833",
         "format": "image/png"
