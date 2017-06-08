@@ -387,22 +387,22 @@
           "name": "merket"
         }, {
           "alias": "Avstand servicebygg",
-          "name": "avstand_servicebyg",
+          "name": "avstand_servicebygg",
           "unit": "m"
         }, {
           "alias": "Bredde",
-          "name": "bredd",
+          "name": "bredde",
           "unit": "cm"
         }, {
           "alias": "Lengde",
-          "name": "lengd",
+          "name": "lengde",
           "unit": "cm"
         }, {
           "alias": "Avgift",
           "name": "avgift"
         }, {
           "alias": "Automat høyde",
-          "name": "aut_hoyd",
+          "name": "aut_hoyde",
           "unit": "cm"
         }, {
           "alias": "Automat tilgjengelig",
@@ -737,22 +737,22 @@
           "name": "merket"
         }, {
           "alias": "Avstand servicebygg",
-          "name": "avstand_servicebyg",
+          "name": "avstand_servicebygg",
           "unit": "m"
         }, {
           "alias": "Bredde",
-          "name": "bredd",
+          "name": "bredde",
           "unit": "cm"
         }, {
           "alias": "Lengde",
-          "name": "lengd",
+          "name": "lengde",
           "unit": "cm"
         }, {
           "alias": "Avgift",
           "name": "avgift"
         }, {
           "alias": "Automat høyde",
-          "name": "aut_hoyd",
+          "name": "aut_hoyde",
           "unit": "cm"
         }, {
           "alias": "Automat tilgjengelig",
@@ -1087,22 +1087,22 @@
           "name": "merket"
         }, {
           "alias": "Avstand servicebygg",
-          "name": "avstand_servicebyg",
+          "name": "avstand_servicebygg",
           "unit": "m"
         }, {
           "alias": "Bredde",
-          "name": "bredd",
+          "name": "bredde",
           "unit": "cm"
         }, {
           "alias": "Lengde",
-          "name": "lengd",
+          "name": "lengde",
           "unit": "cm"
         }, {
           "alias": "Avgift",
           "name": "avgift"
         }, {
           "alias": "Automat høyde",
-          "name": "aut_hoyd",
+          "name": "aut_hoyde",
           "unit": "cm"
         }, {
           "alias": "Automat tilgjengelig",
@@ -1706,11 +1706,11 @@
           "name": "merket"
         }, {
           "alias": "Bredde",
-          "name": "bredd",
+          "name": "bredde",
           "unit": "cm"
         }, {
           "alias": "Lengde",
-          "name": "lengd",
+          "name": "lengde",
           "unit": "cm"
         }, {
           "alias": "Avstand fasilitet",
@@ -1721,11 +1721,11 @@
           "name": "avgift"
         }, {
           "alias": "Automat høyde",
-          "name": "aut_hoyd",
+          "name": "aut_hoyde",
           "unit": "cm"
         }, {
           "alias": "Automat tilgjengelig",
-          "name": "tilgj_aut"
+          "name": "tilgj_automat"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
@@ -2582,11 +2582,11 @@
           "name": "merket"
         }, {
           "alias": "Bredde",
-          "name": "bredd",
+          "name": "bredde",
           "unit": "cm"
         }, {
           "alias": "Lengde",
-          "name": "lengd",
+          "name": "lengde",
           "unit": "cm"
         }, {
           "alias": "Avstand fasilitet",
@@ -2597,11 +2597,11 @@
           "name": "avgift"
         }, {
           "alias": "Automat høyde",
-          "name": "aut_hoyd",
+          "name": "aut_hoyde",
           "unit": "cm"
         }, {
           "alias": "Automat tilgjengelig",
-          "name": "tilgj_aut"
+          "name": "tilgj_automat"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
@@ -3536,11 +3536,11 @@
           "name": "merket"
         }, {
           "alias": "Bredde",
-          "name": "bredd",
+          "name": "bredde",
           "unit": "cm"
         }, {
           "alias": "Lengde",
-          "name": "lengd",
+          "name": "lengde",
           "unit": "cm"
         }, {
           "alias": "Avstand fasilitet",
@@ -3551,11 +3551,11 @@
           "name": "avgift"
         }, {
           "alias": "Automat høyde",
-          "name": "aut_hoyd",
+          "name": "aut_hoyde",
           "unit": "cm"
         }, {
           "alias": "Automat tilgjengelig",
-          "name": "tilgj_aut"
+          "name": "tilgj_automat"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
