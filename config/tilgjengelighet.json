@@ -1249,6 +1249,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 5,
+      "order": 3,
       "params": {
         "layers": "baderampe_01",
         "format": "image/png"
@@ -1327,6 +1328,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 5,
+      "order": 3,
       "params": {
         "layers": "fiskeplass_01",
         "format": "image/png"
@@ -1435,6 +1437,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 5,
+      "order": 1,
       "params": {
         "layers": "friluftsomrade_01",
         "format": "image/png"
@@ -1512,6 +1515,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 5,
+      "order": 3,
       "params": {
         "layers": "gapahukhytte_01",
         "format": "image/png"
@@ -1612,6 +1616,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 5,
+      "order": 3,
       "params": {
         "layers": "grillbalplass_01",
         "format": "image/png"
@@ -1675,6 +1680,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 5,
+      "order": 3,
       "params": {
         "layers": "hc_parkering_friluft_01",
         "format": "image/png"
@@ -1753,6 +1759,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 5,
+      "order": 1,
       "params": {
         "layers": "parkeringsomrader_friluft_01",
         "format": "image/png"
@@ -1815,6 +1822,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 5,
+      "order": 3,
       "params": {
         "layers": "sittegruppe_01",
         "format": "image/png"
@@ -1883,6 +1891,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 5,
+      "order": 1,
       "params": {
         "layers": "statlig_sikra_polygon_01",
         "format": "image/png"
@@ -1941,6 +1950,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 5,
+      "order": 3,
       "params": {
         "layers": "toalett_01",
         "format": "image/png"
@@ -2058,6 +2068,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 5,
+      "order": 3,
       "params": {
         "layers": "turisthytte_01",
         "format": "image/png"
@@ -2108,6 +2119,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 5,
+      "order": 2,
       "params": {
         "layers": "turvei_01",
         "format": "image/png"
@@ -2203,6 +2215,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 7,
+      "order": 3,
       "params": {
         "layers": "fiskeplass_02",
         "format": "image/png"
@@ -2311,6 +2324,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 7,
+      "order": 1,
       "params": {
         "layers": "friluftsomrade_02",
         "format": "image/png"
@@ -2388,6 +2402,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 7,
+      "order": 3,
       "params": {
         "layers": "gapahukhytte_02",
         "format": "image/png"
@@ -2488,6 +2503,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 7,
+      "order": 3,
       "params": {
         "layers": "grillbalplass_02",
         "format": "image/png"
@@ -2551,6 +2567,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 7,
+      "order": 3,
       "params": {
         "layers": "hc_parkering_friluft_02",
         "format": "image/png"
@@ -2629,6 +2646,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 7,
+      "order": 1,
       "params": {
         "layers": "parkeringsomrader_friluft_02",
         "format": "image/png"
@@ -2691,6 +2709,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 7,
+      "order": 3,
       "params": {
         "layers": "sittegruppe_02",
         "format": "image/png"
@@ -2759,6 +2778,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 7,
+      "order": 1,
       "params": {
         "layers": "statlig_sikra_polygon_02",
         "format": "image/png"
@@ -2817,6 +2837,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 7,
+      "order": 3,
       "params": {
         "layers": "toalett_02",
         "format": "image/png"
@@ -2934,6 +2955,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 7,
+      "order": 3,
       "params": {
         "layers": "turisthytte_02",
         "format": "image/png"
@@ -2984,6 +3006,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 7,
+      "order": 2,
       "params": {
         "layers": "turvei_02",
         "format": "image/png"
@@ -3079,6 +3102,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 3,
+      "order": 3,
       "params": {
         "layers": "baderampe_02",
         "format": "image/png"
@@ -3157,6 +3181,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 3,
+      "order": 3,
       "params": {
         "layers": "fiskeplass_03",
         "format": "image/png"
@@ -3265,6 +3290,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 3,
+      "order": 1,
       "params": {
         "layers": "friluftsomrade_03",
         "format": "image/png"
@@ -3342,6 +3368,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 3,
+      "order": 3,
       "params": {
         "layers": "gapahukhytte_03",
         "format": "image/png"
@@ -3442,6 +3469,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 3,
+      "order": 3,
       "params": {
         "layers": "grillbalplass_03",
         "format": "image/png"
@@ -3505,6 +3533,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 3,
+      "order": 3,
       "params": {
         "layers": "hc_parkering_friluft_03",
         "format": "image/png"
@@ -3583,6 +3612,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 3,
+      "order": 1,
       "params": {
         "layers": "parkeringsomrader_friluft_03",
         "format": "image/png"
@@ -3645,6 +3675,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 3,
+      "order": 3,
       "params": {
         "layers": "sittegruppe_03",
         "format": "image/png"
@@ -3713,6 +3744,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 3,
+      "order": 1,
       "params": {
         "layers": "statlig_sikra_polygon_03",
         "format": "image/png"
@@ -3771,6 +3803,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 3,
+      "order": 3,
       "params": {
         "layers": "toalett_03",
         "format": "image/png"
@@ -3888,6 +3921,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 3,
+      "order": 3,
       "params": {
         "layers": "turisthytte_03",
         "format": "image/png"
@@ -3938,6 +3972,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 3,
+      "order": 2,
       "params": {
         "layers": "turvei_03",
         "format": "image/png"
