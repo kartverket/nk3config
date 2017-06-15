@@ -362,7 +362,7 @@
       },
       "includedfields": {
         "field": [{
-          "name": "t_rulle",
+          "name": "t_rulle_auto",
           "type": "symbol",
           "alias": "tilgjengelighet",
           "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
@@ -712,7 +712,7 @@
       },
       "includedfields": {
         "field": [{
-          "name": "t_rulle",
+          "name": "t_rulle_auto",
           "type": "symbol",
           "alias": "tilgjengelighet",
           "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
@@ -3546,7 +3546,7 @@
       },
       "includedfields": {
         "field": [{
-          "name": "t_rulle",
+          "name": "t_rulle_auto",
           "type": "symbol",
           "alias": "tilgjengelighet",
           "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
