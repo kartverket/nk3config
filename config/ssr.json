@@ -362,6 +362,41 @@
       "type": "overlay",
       "Layers": {
         "Layer": {
+          "name": "skoltesamisk",
+          "queryable": "false",
+          "title": "Skoltesamisk"
+        }
+      },
+      "gatekeeper": "true",
+      "name": "skoltesamisk",
+      "url": "https://wms.geonorge.no/skwms1/wms.ssr2?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.ssr2?",
+      "groupid": 8,
+      "params": {
+        "layers": "skoltesamisk",
+        "format": "image/png"
+      },
+      "guid": "8.skoltesamisk",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Stedsnavn",
+          "name": "stedsnavn"
+        }, {
+          "alias": "Stedsnummer",
+          "name": "stedsnummer",
+          "type": "link",
+          "baseurl": "https://stadnamn.kartverket.no/fakta/"
+        }]
+      }
+    }, {
+      "type": "overlay",
+      "Layers": {
+        "Layer": {
           "name": "sorsamisk",
           "queryable": "false",
           "title": "Sørsamisk"
