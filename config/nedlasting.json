@@ -371,7 +371,7 @@
     }, {
       "type": "overlay",
       "name": "Kommuner",
-      "url": "https://www.norgeskart.no/json/norge/kommuner.json",
+      "url": "https://www.norgeskart.no/json/norge/kommuner2018.geojson",
       "epsg": "EPSG:25833",
       "groupid": 1,
       "params": {
@@ -497,7 +497,7 @@
     }, {
       "type": "overlay",
       "name": "Kommuner UTM32",
-      "url": "https://www.norgeskart.no/json/norge/kommuner-utm32.json",
+      "url": "https://www.norgeskart.no/json/norge/kommuner-utm32-2018.geojson",
       "epsg": "EPSG:25833",
       "groupid": 1,
       "params": {
@@ -707,7 +707,7 @@
     }, {
       "type": "overlay",
       "name": "Fylker UTM32",
-      "url": "https://www.norgeskart.no/json/norge/fylker-utm32.json",
+      "url": "https://www.norgeskart.no/json/norge/fylker-utm32.geojson",
       "epsg": "EPSG:25833",
       "groupid": 1,
       "params": {
@@ -833,7 +833,7 @@
     }, {
       "type": "overlay",
       "name": "Fylker",
-      "url": "https://www.norgeskart.no/json/norge/fylker.json",
+      "url": "https://www.norgeskart.no/json/norge/fylker2018.geojson",
       "epsg": "EPSG:25833",
       "groupid": 1,
       "params": {
