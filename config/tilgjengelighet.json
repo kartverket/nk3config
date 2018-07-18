@@ -627,7 +627,7 @@
           "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
           "filetype": "png"
         }, {
-          "name": "tilgjengvurderingelrullestol",
+          "name": "tilgjengvurderingelrull",
           "type": "symbol",
           "alias": "tilgjengelighet",
           "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
@@ -886,7 +886,7 @@
           "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
           "filetype": "png"
         }, {
-          "name": "tilgjengvurderingelrullestol",
+          "name": "tilgjengvurderingelrull",
           "type": "symbol",
           "alias": "tilgjengelighet",
           "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
@@ -1920,7 +1920,8 @@
           "type": "boolean"
         }, {
           "alias": "Merket",
-          "name": "merket"
+          "name": "merket",
+          "type": "boolean"
         }, {
           "alias": "Bredde",
           "name": "bredde",
@@ -2430,8 +2431,7 @@
           "unit": "°"
         }, {
           "alias": "Belysning",
-          "name": "belysninginne",
-          "type": "boolean"
+          "name": "belysning"
         }, {
           "alias": "Fri høyde",
           "name": "frihoyde"
@@ -3428,8 +3428,7 @@
           "unit": "°"
         }, {
           "alias": "Belysning",
-          "name": "belysninginne",
-          "type": "boolean"
+          "name": "belysning"
         }, {
           "alias": "Fri høyde",
           "name": "frihoyde"
