@@ -239,7 +239,7 @@
           "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
           "filetype": "png"
         }, {
-          "name": "tilgjengvurderingelrullestol",
+          "name": "tilgjengvurderingelrull",
           "type": "symbol",
           "alias": "tilgjengelighet",
           "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
@@ -498,7 +498,7 @@
           "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
           "filetype": "png"
         }, {
-          "name": "tilgjengvurderingelrullestol",
+          "name": "tilgjengvurderingelrull",
           "type": "symbol",
           "alias": "tilgjengelighet",
           "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
