@@ -79,7 +79,8 @@
         "isbaselayer": "true",
         "singletile": "false",
         "visibility": "true"
-      }
+      },
+      "thumbnail": "grey"
     }, {
       "type": "map",
       "gatekeeper": "true",
