@@ -186,7 +186,7 @@
         "singletile": "true",
         "visibility": "false"
       }
-    },{
+    }, {
       "type": "overlay",
       "Layers": {
         "Layer": {
@@ -540,11 +540,119 @@
         "singletile": "true",
         "visibility": "false"
       }
+    }, {
+      "type": "overlay",
+      "Layers": {
+        "Layer": {
+          "name": "Stasjoner",
+          "queryable": false,
+          "title": "Norske stasjoner"
+        }
+      },
+      "gatekeeper": true,
+      "name": "Norske stasjoner",
+      "url": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
+      "groupid": 6,
+      "params": {
+        "layers": "Stasjoner",
+        "format": "image/png"
+      },
+      "guid": "6.Stasjoner",
+      "options": {
+        "isbaselayer": false,
+        "singletile": true,
+        "visibility": false
+      },
+      "includedFields": [{
+          "alias": "Stasjonsnavn",
+          "name": "sitename"
+        },
+        {
+          "alias": "StasjonsId",
+          "name": "fourcharid"
+        },
+        {
+          "alias": "Status",
+          "name": "siteconfigstattypename"
+        },
+        {
+          "alias": "X-koordinater",
+          "name": "x"
+        },
+        {
+          "alias": "Y-koordinater",
+          "name": "y"
+        },
+        {
+          "alias": "Z-koordinater",
+          "name": "z"
+        },
+        {
+          "alias": "Koordinatsystem",
+          "name": "coordsysname"
+        }
+      ]
+    }, {
+      "type": "overlay",
+      "Layers": {
+        "Layer": {
+          "name": "Svenske_finske_stasjoner",
+          "queryable": false,
+          "title": "Svenske og finske stasjoner"
+        }
+      },
+      "gatekeeper": true,
+      "name": "Svenske og finske stasjoner",
+      "url": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
+      "groupid": 6,
+      "params": {
+        "layers": "Svenske_finske_stasjoner",
+        "format": "image/png"
+      },
+      "guid": "6.Svenske_finske_stasjoner",
+      "options": {
+        "isbaselayer": false,
+        "singletile": true,
+        "visibility": false
+      },
+      "includedFields": [{
+          "alias": "Stasjonsnavn",
+          "name": "sitename"
+        },
+        {
+          "alias": "StasjonsId",
+          "name": "fourcharid"
+        },
+        {
+          "alias": "Status",
+          "name": "siteconfigstattypename"
+        },
+        {
+          "alias": "X-koordinater",
+          "name": "x"
+        },
+        {
+          "alias": "Y-koordinater",
+          "name": "y"
+        },
+        {
+          "alias": "Z-koordinater",
+          "name": "z"
+        },
+        {
+          "alias": "Koordinatsystem",
+          "name": "coordsysname"
+        }
+      ]
     }],
     "maplayer": [{
       "index": 2,
       "name": "fastmerker",
       "groupid": 2
+    }, {
+      "index": 6,
+      "name": "stasjoner",
+      "groupid": 6
     }, {
       "index": 5,
       "name": "utm_rutenett",
