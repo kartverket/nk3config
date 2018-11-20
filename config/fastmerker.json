@@ -34,7 +34,7 @@
       "type": "map",
       "gatekeeper": "true",
       "name": "flybilder",
-      "url": "http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nib_utm33_wmts_v2?|http://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nib_utm33_wmts_v2?",
+      "url": "https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nib_utm33_wmts_v2?|https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.nib_utm33_wmts_v2?",
       "params": {
         "layers": "Nibcache_UTM33_EUREF89",
         "format": "image/png"
@@ -527,7 +527,7 @@
       },
       "gatekeeper": "true",
       "name": "utm_rutenett",
-      "url": "http://openwms.statkart.no/skwms1/wms.rutenett?",
+      "url": "https://openwms.statkart.no/skwms1/wms.rutenett?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.rutenett?",
       "groupid": 5,
       "params": {
@@ -551,7 +551,7 @@
       },
       "gatekeeper": true,
       "name": "Norske stasjoner",
-      "url": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
+      "url": "https://wms.geonorge.no/skwms1/wms.fastmerker2",
       "groupid": 6,
       "params": {
         "layers": "Stasjoner",
@@ -588,7 +588,7 @@
       },
       "gatekeeper": true,
       "name": "Svenske og finske stasjoner",
-      "url": "http://wms.geonorge.no/skwms1/wms.fastmerker2",
+      "url": "https://wms.geonorge.no/skwms1/wms.fastmerker2",
       "groupid": 6,
       "params": {
         "layers": "Svenske_finske_stasjoner",
@@ -621,7 +621,7 @@
       "groupid": 2
     }, {
       "index": 6,
-      "name": "stasjoner",
+      "name": "Basisstasjoner",
       "groupid": 6
     }, {
       "index": 5,
