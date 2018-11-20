@@ -234,57 +234,57 @@
       },
       "includedfields": {
         "field": [{
-          "name": "t_rulle_auto",
+          "name": "tilgjengvurderingrulleauto",
           "type": "symbol",
           "alias": "tilgjengelighet",
           "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
           "filetype": "png"
         }, {
-          "name": "t_el_rulle_auto",
+          "name": "tilgjengvurderingelrull",
           "type": "symbol",
           "alias": "tilgjengelighet",
           "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
           "filetype": "png"
         }, {
-          "name": "t_syn",
+          "name": "tilgjengvurderingsyn",
           "type": "symbol",
           "alias": "tilgjengelighet",
           "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
           "filetype": "png"
         }, {
           "alias": "Registrert",
-          "name": "registrert"
+          "name": "forstedatafangstdato"
         }, {
           "alias": "Oppdatert",
-          "name": "oppdat_app"
+          "name": "datafangstdato"
         }, {
           "alias": "Gatetype",
-          "name": "gate_type"
+          "name": "gatetype"
         }, {
           "alias": "Dekke",
           "name": "dekke"
         }, {
           "alias": "Dekke tilstand",
-          "name": "dekke_tilstand"
+          "name": "dekketilstand"
         }, {
           "alias": "Bredde",
           "name": "bredde",
           "unit": "cm"
         }, {
           "alias": "Nedsenk 1",
-          "name": "nedsenk_1",
+          "name": "nedsenk1",
           "unit": "cm"
         }, {
           "alias": "Nedsenk 2",
-          "name": "nedsenk_2",
+          "name": "nedsenk2",
           "unit": "cm"
         }, {
           "alias": "Stigning",
-          "name": "stig_grad",
+          "name": "stigning",
           "unit": "°"
         }, {
           "alias": "Tverrfall",
-          "name": "tverrfall_grad",
+          "name": "tverrfall",
           "unit": "°"
         }, {
           "alias": "Ledelinje",
@@ -294,7 +294,7 @@
           "name": "kommentar"
         }, {
           "alias": "Objekt ID",
-          "name": "ogc_fid"
+          "name": "objektnr"
         }]
       }
     }, {
