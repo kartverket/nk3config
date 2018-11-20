@@ -563,7 +563,8 @@
         "singletile": true,
         "visibility": false
       },
-      "includedFields": [{
+      "includedfields": {
+        "field": [{
           "alias": "Stasjonsnavn",
           "name": "sitename"
         },
@@ -574,24 +575,8 @@
         {
           "alias": "Status",
           "name": "siteconfigstattypename"
-        },
-        {
-          "alias": "X-koordinater",
-          "name": "x"
-        },
-        {
-          "alias": "Y-koordinater",
-          "name": "y"
-        },
-        {
-          "alias": "Z-koordinater",
-          "name": "z"
-        },
-        {
-          "alias": "Koordinatsystem",
-          "name": "coordsysname"
         }
-      ]
+      ]}
     }, {
       "type": "overlay",
       "Layers": {
@@ -615,7 +600,8 @@
         "singletile": true,
         "visibility": false
       },
-      "includedFields": [{
+      "includedfields":  {
+        "field": [{
           "alias": "Stasjonsnavn",
           "name": "sitename"
         },
@@ -626,24 +612,8 @@
         {
           "alias": "Status",
           "name": "siteconfigstattypename"
-        },
-        {
-          "alias": "X-koordinater",
-          "name": "x"
-        },
-        {
-          "alias": "Y-koordinater",
-          "name": "y"
-        },
-        {
-          "alias": "Z-koordinater",
-          "name": "z"
-        },
-        {
-          "alias": "Koordinatsystem",
-          "name": "coordsysname"
         }
-      ]
+      ]}
     }],
     "maplayer": [{
       "index": 2,
