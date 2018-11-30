@@ -252,7 +252,7 @@
           "name": "id",
           "alias": "ID"
         }, {
-          "name": "n",
+          "name": "name",
           "alias": "Navn"
         }, {
           "name": "u",
@@ -339,7 +339,7 @@
           "name": "id",
           "alias": "ID"
         }, {
-          "name": "n",
+          "name": "name",
           "alias": "Navn"
         }, {
           "name": "u",
@@ -393,7 +393,7 @@
           "name": "id",
           "alias": "ID"
         }, {
-          "name": "n",
+          "name": "name",
           "alias": "Navn"
         }, {
           "name": "s",
@@ -444,7 +444,7 @@
           "name": "id",
           "alias": "ID"
         }, {
-          "name": "n",
+          "name": "name",
           "alias": "Navn"
         }, {
           "name": "s",
