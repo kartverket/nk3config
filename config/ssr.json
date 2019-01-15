@@ -1143,6 +1143,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 4,
+      "order": 10,
       "params": {
         "layers": "vedtatt",
         "format": "image/png"
@@ -1178,6 +1179,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 4,
+      "order": 9,
       "params": {
         "layers": "vedtatt_navneledd",
         "format": "image/png"
@@ -1213,6 +1215,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 4,
+      "order": 8,
       "params": {
         "layers": "godkjent",
         "format": "image/png"
@@ -1248,6 +1251,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 4,
+      "order": 7,
       "params": {
         "layers": "internasjonalt",
         "format": "image/png"
@@ -1283,6 +1287,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 4,
+      "order": 6,
       "params": {
         "layers": "privat",
         "format": "image/png"
@@ -1318,6 +1323,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 4,
+      "order": 5,
       "params": {
         "layers": "historisk",
         "format": "image/png"
@@ -1353,6 +1359,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 4,
+      "order": 4,
       "params": {
         "layers": "foreslatt",
         "format": "image/png"
@@ -1388,6 +1395,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 4,
+      "order": 3,
       "params": {
         "layers": "uvurdert",
         "format": "image/png"
@@ -1423,6 +1431,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 4,
+      "order": 2,
       "params": {
         "layers": "avslatt_navneledd",
         "format": "image/png"
@@ -1458,6 +1467,7 @@
       "url": "https://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 4,
+      "order": 1,
       "params": {
         "layers": "avslatt",
         "format": "image/png"
