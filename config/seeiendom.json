@@ -223,7 +223,7 @@
       "options": {
         "isbaselayer": "false",
         "singletile": "true",
-        "visibility": "false"
+        "visibility": "true"
       }
     }, {
       "type": "overlay",
@@ -240,7 +240,7 @@
       "options": {
         "isbaselayer": "false",
         "singletile": "true",
-        "visibility": "false"
+        "visibility": "true"
       }
     }, {
       "type": "overlay",
