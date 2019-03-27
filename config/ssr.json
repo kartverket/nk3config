@@ -1387,11 +1387,11 @@
         "Layer": {
           "name": "uvurdert",
           "queryable": "false",
-          "title": "Ubehandlet"
+          "title": "Uvurdert"
         }
       },
       "gatekeeper": "true",
-      "name": "ubehandlet",
+      "name": "uvurdert",
       "url": "https://wms.geonorge.no/skwms1/wms.ssr2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.ssr2?",
       "groupid": 4,
@@ -1400,7 +1400,7 @@
         "layers": "uvurdert",
         "format": "image/png"
       },
-      "guid": "4.ubehandlet",
+      "guid": "4.uvurdert",
       "options": {
         "isbaselayer": "false",
         "singletile": "true",
