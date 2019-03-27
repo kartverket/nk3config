@@ -1493,41 +1493,6 @@
       "type": "overlay",
       "Layers": {
         "Layer": {
-          "name": "navnesakstatus",
-          "queryable": "false",
-          "title": "Namnesakstatus"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "navnesakstatus",
-      "url": "https://wms.geonorge.no/skwms1/wms.ssr2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.ssr2?",
-      "groupid": 2,
-      "params": {
-        "layers": "navnesakstatus",
-        "format": "image/png"
-      },
-      "guid": "2.navnesakstatus",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "alias": "Stedsnavn",
-          "name": "stedsnavn"
-        }, {
-          "alias": "Stedsnummer",
-          "name": "stedsnummer",
-          "type": "link",
-          "baseurl": "https://stadnamn.kartverket.no/fakta/"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
           "name": "navnesakstatus_ubehandlet",
           "queryable": "false",
           "title": "Namnesaksstatus uhandsama"
