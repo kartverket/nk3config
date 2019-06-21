@@ -287,6 +287,15 @@
           "name": "tverrfall",
           "unit": "°"
         }, {
+          "alias": "Trapp",
+          "name": "trapp"
+        }, {
+          "alias": "Rekkverk",
+          "name": "rekkverk"
+        }, {
+          "alias": "Trapp kontrast",
+          "name": "trappkontrast"
+        }, {
           "alias": "Ledelinje",
           "name": "ledelinje"
         }, {
@@ -428,6 +437,10 @@
           "alias": "Oppdatert",
           "name": "datafangstdato"
         }, {
+          "alias": "Avstand servicebygg",
+          "name": "avstandservicebygg",
+          "unit": "m"
+        }, {
           "alias": "Skiltet",
           "name": "skiltet",
           "type": "boolean"
@@ -436,10 +449,6 @@
           "name": "merket",
           "type": "boolean"
         }, {
-          "alias": "Avstand servicebygg",
-          "name": "avstandservicebygg",
-          "unit": "m"
-        }, {
           "alias": "Bredde",
           "name": "bredde",
           "unit": "cm"
@@ -447,6 +456,21 @@
           "alias": "Lengde",
           "name": "lengde",
           "unit": "cm"
+        }, {
+          "alias": "Gatelangs parkering",
+          "name": "gatelangsparkering",
+          "type": "boolean"
+        }, {
+          "alias": "Trygg overgang",
+          "name": "tryggovergang",
+          "type": "boolean"
+        }, {
+          "alias": "Brukbart betjeningsareal",
+          "name": "brukbartbetjeningsareal"
+        }, {
+          "alias": "Stigning",
+          "name": "stigning",
+          "unit": "°"
         }, {
           "alias": "Avgift",
           "name": "avgift",
@@ -569,6 +593,19 @@
           "alias": "Rampe tilgjengelig",
           "name": "rampetilgjengelig"
         }, {
+          "alias": "Trapp",
+          "name": "trapp"
+        }, {
+          "alias": "Rekkverk",
+          "name": "rekkverk"
+        }, {
+          "alias": "Trapp kontrast",
+          "name": "trappkontrast"
+        }, {
+          "alias": "Horisontalt felt",
+          "name": "horisontalfelt",
+          "unit": "cm"
+        }, {
           "alias": "Dørtype",
           "name": "dortype"
         }, {
@@ -689,6 +726,15 @@
           "alias": "Tverrfall",
           "name": "tverrfall",
           "unit": "°"
+        }, {
+          "alias": "Trapp",
+          "name": "trapp"
+        }, {
+          "alias": "Rekkverk",
+          "name": "rekkverk"
+        }, {
+          "alias": "Trapp kontrast",
+          "name": "trappkontrast"
         }, {
           "alias": "Ledelinje",
           "name": "ledelinje"
@@ -831,6 +877,10 @@
           "alias": "Oppdatert",
           "name": "datafangstdato"
         }, {
+          "alias": "Avstand servicebygg",
+          "name": "avstandservicebygg",
+          "unit": "m"
+        }, {
           "alias": "Skiltet",
           "name": "skiltet",
           "type": "boolean"
@@ -839,10 +889,6 @@
           "name": "merket",
           "type": "boolean"
         }, {
-          "alias": "Avstand servicebygg",
-          "name": "avstandservicebygg",
-          "unit": "m"
-        }, {
           "alias": "Bredde",
           "name": "bredde",
           "unit": "cm"
@@ -850,6 +896,21 @@
           "alias": "Lengde",
           "name": "lengde",
           "unit": "cm"
+        }, {
+          "alias": "Gatelangs parkering",
+          "name": "gatelangsparkering",
+          "type": "boolean"
+        }, {
+          "alias": "Trygg overgang",
+          "name": "tryggovergang",
+          "type": "boolean"
+        }, {
+          "alias": "Brukbart betjeningsareal",
+          "name": "brukbartbetjeningsareal"
+        }, {
+          "alias": "Stigning",
+          "name": "stigning",
+          "unit": "°"
         }, {
           "alias": "Avgift",
           "name": "avgift",
@@ -972,6 +1033,19 @@
           "alias": "Rampe tilgjengelig",
           "name": "rampetilgjengelig"
         }, {
+          "alias": "Trapp",
+          "name": "trapp"
+        }, {
+          "alias": "Rekkverk",
+          "name": "rekkverk"
+        }, {
+          "alias": "Trapp kontrast",
+          "name": "trappkontrast"
+        }, {
+          "alias": "Horisontalt felt",
+          "name": "horisontalfelt",
+          "unit": "cm"
+        }, {
           "alias": "Dørtype",
           "name": "dortype"
         }, {
@@ -1092,6 +1166,15 @@
           "alias": "Tverrfall",
           "name": "tverrfall",
           "unit": "°"
+        }, {
+          "alias": "Trapp",
+          "name": "trapp"
+        }, {
+          "alias": "Rekkverk",
+          "name": "rekkverk"
+        }, {
+          "alias": "Trapp kontrast",
+          "name": "trappkontrast"
         }, {
           "alias": "Ledelinje",
           "name": "ledelinje"
@@ -1219,6 +1302,10 @@
           "alias": "Oppdatert",
           "name": "datafangstdato"
         }, {
+          "alias": "Avstand servicebygg",
+          "name": "avstandservicebygg",
+          "unit": "m"
+        }, {
           "alias": "Skiltet",
           "name": "skiltet",
           "type": "boolean"
@@ -1227,10 +1314,6 @@
           "name": "merket",
           "type": "boolean"
         }, {
-          "alias": "Avstand servicebygg",
-          "name": "avstandservicebygg",
-          "unit": "m"
-        }, {
           "alias": "Bredde",
           "name": "bredde",
           "unit": "cm"
@@ -1238,6 +1321,21 @@
           "alias": "Lengde",
           "name": "lengde",
           "unit": "cm"
+        }, {
+          "alias": "Gatelangs parkering",
+          "name": "gatelangsparkering",
+          "type": "boolean"
+        }, {
+          "alias": "Trygg overgang",
+          "name": "tryggovergang",
+          "type": "boolean"
+        }, {
+          "alias": "Brukbart betjeningsareal",
+          "name": "brukbartbetjeningsareal"
+        }, {
+          "alias": "Stigning",
+          "name": "stigning",
+          "unit": "°"
         }, {
           "alias": "Avgift",
           "name": "avgift",
@@ -1360,6 +1458,19 @@
           "alias": "Rampe tilgjengelig",
           "name": "rampetilgjengelig"
         }, {
+          "alias": "Trapp",
+          "name": "trapp"
+        }, {
+          "alias": "Rekkverk",
+          "name": "rekkverk"
+        }, {
+          "alias": "Trapp kontrast",
+          "name": "trappkontrast"
+        }, {
+          "alias": "Horisontalt felt",
+          "name": "horisontalfelt",
+          "unit": "cm"
+        }, {
           "alias": "Dørtype",
           "name": "dortype"
         }, {
@@ -1449,6 +1560,10 @@
         }, {
           "alias": "Rampe bredde",
           "name": "rampebredde",
+          "unit": "cm"
+        }, {
+          "alias": "Rampelengde",
+          "name": "rampelengde",
           "unit": "cm"
         }, {
           "alias": "Rampe stigning",
@@ -1773,6 +1888,10 @@
           "name": "rampebredde",
           "unit": "cm"
         }, {
+          "alias": "Rampelengde",
+          "name": "rampelengde",
+          "unit": "cm"
+        }, {
           "alias": "Rampe stigning",
           "name": "rampestigning",
           "unit": "°"
@@ -1954,6 +2073,10 @@
           "name": "merket",
           "type": "boolean"
         }, {
+          "alias": "Avstand fasilitet",
+          "name": "avstandfasilitet",
+          "unit": "m"
+        }, {
           "alias": "Bredde",
           "name": "bredde",
           "unit": "cm"
@@ -1961,10 +2084,6 @@
           "alias": "Lengde",
           "name": "lengde",
           "unit": "cm"
-        }, {
-          "alias": "Avstand fasilitet",
-          "name": "avstandfasilitet",
-          "unit": "m"
         }, {
           "alias": "Avgift",
           "name": "avgift",
@@ -2122,6 +2241,16 @@
           "name": "helning",
           "unit": "°"
         }, {
+          "alias": "Høyde benk",
+          "name": "hoydebenk",
+          "unit": "cm"
+        }, {
+          "alias": "Armlene",
+          "name": "armlene"
+        }, {
+          "alias": "Ryggstøtte",
+          "name": "ryggstotte"
+        }, {
           "alias": "Bord høyde",
           "name": "hoydebord",
           "unit": "cm"
@@ -2257,6 +2386,10 @@
           "name": "rampebredde",
           "unit": "cm"
         }, {
+          "alias": "Rampe lengde",
+          "name": "rampelengde",
+          "unit": "cm"
+        }, {
           "alias": "Rampe stigning",
           "name": "rampestigning",
           "unit": "°"
@@ -2277,6 +2410,19 @@
         }, {
           "alias": "Håndlist høyde nedre",
           "name": "handlisthoydenedre",
+          "unit": "cm"
+        }, {
+          "alias": "Trapp",
+          "name": "trapp"
+        }, {
+          "alias": "Rekkverk",
+          "name": "rekkverk"
+        }, {
+          "alias": "Trapp kontrast",
+          "name": "trappkontrast"
+        }, {
+          "alias": "Horisontalt felt",
+          "name": "horisontalfelt",
           "unit": "cm"
         }, {
           "alias": "Dørtype",
@@ -2445,6 +2591,10 @@
         }, {
           "alias": "Dekke",
           "name": "dekke"
+        }, {
+          "alias": "Plankeavstand",
+          "name": "plankeavstand",
+          "unit": "cm"
         }, {
           "alias": "Dekke tilstand",
           "name": "dekketilstand"
@@ -2770,6 +2920,10 @@
           "name": "rampebredde",
           "unit": "cm"
         }, {
+          "alias": "Rampelengde",
+          "name": "rampelengde",
+          "unit": "cm"
+        }, {
           "alias": "Rampe stigning",
           "name": "rampestigning",
           "unit": "°"
@@ -2951,6 +3105,10 @@
           "name": "merket",
           "type": "boolean"
         }, {
+          "alias": "Avstand fasilitet",
+          "name": "avstandfasilitet",
+          "unit": "m"
+        }, {
           "alias": "Bredde",
           "name": "bredde",
           "unit": "cm"
@@ -2958,10 +3116,6 @@
           "alias": "Lengde",
           "name": "lengde",
           "unit": "cm"
-        }, {
-          "alias": "Avstand fasilitet",
-          "name": "avstandfasilitet",
-          "unit": "m"
         }, {
           "alias": "Avgift",
           "name": "avgift",
@@ -3119,6 +3273,16 @@
           "name": "helning",
           "unit": "°"
         }, {
+          "alias": "Høyde benk",
+          "name": "hoydebenk",
+          "unit": "cm"
+        }, {
+          "alias": "Armlene",
+          "name": "armlene"
+        }, {
+          "alias": "Ryggstøtte",
+          "name": "ryggstotte"
+        }, {
           "alias": "Bord høyde",
           "name": "hoydebord",
           "unit": "cm"
@@ -3254,6 +3418,10 @@
           "name": "rampebredde",
           "unit": "cm"
         }, {
+          "alias": "Rampe lengde",
+          "name": "rampelengde",
+          "unit": "cm"
+        }, {
           "alias": "Rampe stigning",
           "name": "rampestigning",
           "unit": "°"
@@ -3274,6 +3442,19 @@
         }, {
           "alias": "Håndlist høyde nedre",
           "name": "handlisthoydenedre",
+          "unit": "cm"
+        }, {
+          "alias": "Trapp",
+          "name": "trapp"
+        }, {
+          "alias": "Rekkverk",
+          "name": "rekkverk"
+        }, {
+          "alias": "Trapp kontrast",
+          "name": "trappkontrast"
+        }, {
+          "alias": "Horisontalt felt",
+          "name": "horisontalfelt",
           "unit": "cm"
         }, {
           "alias": "Dørtype",
@@ -3442,6 +3623,10 @@
         }, {
           "alias": "Dekke",
           "name": "dekke"
+        }, {
+          "alias": "Plankeavstand",
+          "name": "plankeavstand",
+          "unit": "cm"
         }, {
           "alias": "Dekke tilstand",
           "name": "dekketilstand"
@@ -3639,6 +3824,10 @@
         }, {
           "alias": "Rampe bredde",
           "name": "rampebredde",
+          "unit": "cm"
+        }, {
+          "alias": "Rampelengde",
+          "name": "rampelengde",
           "unit": "cm"
         }, {
           "alias": "Rampe stigning",
@@ -3860,6 +4049,10 @@
           "name": "rampebredde",
           "unit": "cm"
         }, {
+          "alias": "Rampelengde",
+          "name": "rampelengde",
+          "unit": "cm"
+        }, {
           "alias": "Rampe stigning",
           "name": "rampestigning",
           "unit": "°"
@@ -4041,6 +4234,10 @@
           "name": "merket",
           "type": "boolean"
         }, {
+          "alias": "Avstand fasilitet",
+          "name": "avstandfasilitet",
+          "unit": "m"
+        }, {
           "alias": "Bredde",
           "name": "bredde",
           "unit": "cm"
@@ -4048,10 +4245,6 @@
           "alias": "Lengde",
           "name": "lengde",
           "unit": "cm"
-        }, {
-          "alias": "Avstand fasilitet",
-          "name": "avstandfasilitet",
-          "unit": "m"
         }, {
           "alias": "Avgift",
           "name": "avgift",
@@ -4209,6 +4402,16 @@
           "name": "helning",
           "unit": "°"
         }, {
+          "alias": "Høyde benk",
+          "name": "hoydebenk",
+          "unit": "cm"
+        }, {
+          "alias": "Armlene",
+          "name": "armlene"
+        }, {
+          "alias": "Ryggstøtte",
+          "name": "ryggstotte"
+        }, {
           "alias": "Bord høyde",
           "name": "hoydebord",
           "unit": "cm"
@@ -4344,6 +4547,10 @@
           "name": "rampebredde",
           "unit": "cm"
         }, {
+          "alias": "Rampe lengde",
+          "name": "rampelengde",
+          "unit": "cm"
+        }, {
           "alias": "Rampe stigning",
           "name": "rampestigning",
           "unit": "°"
@@ -4364,6 +4571,19 @@
         }, {
           "alias": "Håndlist høyde nedre",
           "name": "handlisthoydenedre",
+          "unit": "cm"
+        }, {
+          "alias": "Trapp",
+          "name": "trapp"
+        }, {
+          "alias": "Rekkverk",
+          "name": "rekkverk"
+        }, {
+          "alias": "Trapp kontrast",
+          "name": "trappkontrast"
+        }, {
+          "alias": "Horisontalt felt",
+          "name": "horisontalfelt",
           "unit": "cm"
         }, {
           "alias": "Dørtype",
@@ -4532,6 +4752,10 @@
         }, {
           "alias": "Dekke",
           "name": "dekke"
+        }, {
+          "alias": "Plankeavstand",
+          "name": "plankeavstand",
+          "unit": "cm"
         }, {
           "alias": "Dekke tilstand",
           "name": "dekketilstand"
