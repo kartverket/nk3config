@@ -442,12 +442,10 @@
           "unit": "m"
         }, {
           "alias": "Skiltet",
-          "name": "skiltet",
-          "type": "boolean"
+          "name": "skiltet"
         }, {
           "alias": "Merket",
-          "name": "merket",
-          "type": "boolean"
+          "name": "merket"
         }, {
           "alias": "Bredde",
           "name": "bredde",
@@ -458,12 +456,10 @@
           "unit": "cm"
         }, {
           "alias": "Gatelangs parkering",
-          "name": "gatelangsparkering",
-          "type": "boolean"
+          "name": "gatelangsparkering"
         }, {
           "alias": "Trygg overgang",
-          "name": "tryggovergang",
-          "type": "boolean"
+          "name": "tryggovergang"
         }, {
           "alias": "Brukbart betjeningsareal",
           "name": "brukbartbetjeningsareal"
@@ -473,16 +469,14 @@
           "unit": "°"
         }, {
           "alias": "Avgift",
-          "name": "avgift",
-          "type": "boolean"
+          "name": "avgift"
         }, {
           "alias": "Automat høyde",
           "name": "automathoyde",
           "unit": "cm"
         }, {
           "alias": "Automat tilgjengelig",
-          "name": "tilgjengeligautomat",
-          "type": "boolean"
+          "name": "tilgjengeligautomat"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
@@ -882,12 +876,10 @@
           "unit": "m"
         }, {
           "alias": "Skiltet",
-          "name": "skiltet",
-          "type": "boolean"
+          "name": "skiltet"
         }, {
           "alias": "Merket",
-          "name": "merket",
-          "type": "boolean"
+          "name": "merket"
         }, {
           "alias": "Bredde",
           "name": "bredde",
@@ -898,12 +890,10 @@
           "unit": "cm"
         }, {
           "alias": "Gatelangs parkering",
-          "name": "gatelangsparkering",
-          "type": "boolean"
+          "name": "gatelangsparkering"
         }, {
           "alias": "Trygg overgang",
-          "name": "tryggovergang",
-          "type": "boolean"
+          "name": "tryggovergang"
         }, {
           "alias": "Brukbart betjeningsareal",
           "name": "brukbartbetjeningsareal"
@@ -913,16 +903,14 @@
           "unit": "°"
         }, {
           "alias": "Avgift",
-          "name": "avgift",
-          "type": "boolean"
+          "name": "avgift"
         }, {
           "alias": "Automat høyde",
           "name": "automathoyde",
           "unit": "cm"
         }, {
           "alias": "Automat tilgjengelig",
-          "name": "tilgjengeligautomat",
-          "type": "boolean"
+          "name": "tilgjengeligautomat"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
@@ -1307,12 +1295,10 @@
           "unit": "m"
         }, {
           "alias": "Skiltet",
-          "name": "skiltet",
-          "type": "boolean"
+          "name": "skiltet"
         }, {
           "alias": "Merket",
-          "name": "merket",
-          "type": "boolean"
+          "name": "merket"
         }, {
           "alias": "Bredde",
           "name": "bredde",
@@ -1323,12 +1309,10 @@
           "unit": "cm"
         }, {
           "alias": "Gatelangs parkering",
-          "name": "gatelangsparkering",
-          "type": "boolean"
+          "name": "gatelangsparkering"
         }, {
           "alias": "Trygg overgang",
-          "name": "tryggovergang",
-          "type": "boolean"
+          "name": "tryggovergang"
         }, {
           "alias": "Brukbart betjeningsareal",
           "name": "brukbartbetjeningsareal"
@@ -1338,16 +1322,14 @@
           "unit": "°"
         }, {
           "alias": "Avgift",
-          "name": "avgift",
-          "type": "boolean"
+          "name": "avgift"
         }, {
           "alias": "Automat høyde",
           "name": "automathoyde",
           "unit": "cm"
         }, {
           "alias": "Automat tilgjengelig",
-          "name": "tilgjengeligautomat",
-          "type": "boolean"
+          "name": "tilgjengeligautomat"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
@@ -1662,8 +1644,7 @@
           "name": "datafangstdato"
         }, {
           "alias": "Flytebrygge",
-          "name": "flytebrygge",
-          "type": "boolean"
+          "name": "flytebrygge"
         }, {
           "alias": "Rampe bredde",
           "name": "rampebredde",
@@ -1703,12 +1684,10 @@
           "unit": "cm"
         }, {
           "alias": "Rekkverk",
-          "name": "rekkverk",
-          "type": "boolean"
+          "name": "rekkverk"
         }, {
           "alias": "Stoppkant",
-          "name": "stoppkant",
-          "type": "boolean"
+          "name": "stoppkant"
         }, {
           "alias": "Stoppkant høyde",
           "name": "stoppkanthoyde",
@@ -1776,40 +1755,31 @@
           "name": "naturbaseid"
         }, {
           "alias": "HC-parkering",
-          "name": "hcparkeringsplass",
-          "type": "boolean"
+          "name": "hcparkeringsplass"
         }, {
           "alias": "Toalett",
-          "name": "toalett",
-          "type": "boolean"
+          "name": "toalett"
         }, {
           "alias": "Turvei",
-          "name": "turvei",
-          "type": "boolean"
+          "name": "turvei"
         }, {
           "alias": "Baderampe",
-          "name": "baderampe",
-          "type": "boolean"
+          "name": "baderampe"
         }, {
           "alias": "Fiskeplass",
-          "name": "fiskeplass",
-          "type": "boolean"
+          "name": "fiskeplass"
         }, {
           "alias": "Grillbålplass",
-          "name": "grillbalplass",
-          "type": "boolean"
+          "name": "grillbalplass"
         }, {
           "alias": "Sittegruppe",
-          "name": "sittegruppe",
-          "type": "boolean"
+          "name": "sittegruppe"
         }, {
           "alias": "Gapahuk",
-          "name": "gapahuk",
-          "type": "boolean"
+          "name": "gapahuk"
         }, {
           "alias": "Informasjon",
-          "name": "informasjon",
-          "type": "boolean"
+          "name": "informasjon"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
@@ -2066,12 +2036,10 @@
           "name": "datafangstdato"
         }, {
           "alias": "Skiltet",
-          "name": "skiltet",
-          "type": "boolean"
+          "name": "skiltet"
         }, {
           "alias": "Merket",
-          "name": "merket",
-          "type": "boolean"
+          "name": "merket"
         }, {
           "alias": "Avstand fasilitet",
           "name": "avstandfasilitet",
@@ -2086,16 +2054,14 @@
           "unit": "cm"
         }, {
           "alias": "Avgift",
-          "name": "avgift",
-          "type": "boolean"
+          "name": "avgift"
         }, {
           "alias": "Automat høyde",
           "name": "automathoyde",
           "unit": "cm"
         }, {
           "alias": "Automat tilgjengelig",
-          "name": "tilgjengeligautomat",
-          "type": "boolean"
+          "name": "tilgjengeligautomat"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
@@ -2447,8 +2413,7 @@
           "unit": "cm"
         }, {
           "alias": "Belysning",
-          "name": "belysninginne",
-          "type": "boolean"
+          "name": "belysninginne"
         }, {
           "alias": "Omkledning",
           "name": "omkledningtilgjengelig"
@@ -2694,8 +2659,7 @@
           "name": "datafangstdato"
         }, {
           "alias": "Flytebrygge",
-          "name": "flytebrygge",
-          "type": "boolean"
+          "name": "flytebrygge"
         }, {
           "alias": "Rampe bredde",
           "name": "rampebredde",
@@ -2735,12 +2699,10 @@
           "unit": "cm"
         }, {
           "alias": "Rekkverk",
-          "name": "rekkverk",
-          "type": "boolean"
+          "name": "rekkverk"
         }, {
           "alias": "Stoppkant",
-          "name": "stoppkant",
-          "type": "boolean"
+          "name": "stoppkant"
         }, {
           "alias": "Stoppkant høyde",
           "name": "stoppkanthoyde",
@@ -2808,40 +2770,31 @@
           "name": "naturbaseid"
         }, {
           "alias": "HC-parkering",
-          "name": "hcparkeringsplass",
-          "type": "boolean"
+          "name": "hcparkeringsplass"
         }, {
           "alias": "Toalett",
-          "name": "toalett",
-          "type": "boolean"
+          "name": "toalett"
         }, {
           "alias": "Turvei",
-          "name": "turvei",
-          "type": "boolean"
+          "name": "turvei"
         }, {
           "alias": "Baderampe",
-          "name": "baderampe",
-          "type": "boolean"
+          "name": "baderampe"
         }, {
           "alias": "Fiskeplass",
-          "name": "fiskeplass",
-          "type": "boolean"
+          "name": "fiskeplass"
         }, {
           "alias": "Grillbålplass",
-          "name": "grillbalplass",
-          "type": "boolean"
+          "name": "grillbalplass"
         }, {
           "alias": "Sittegruppe",
-          "name": "sittegruppe",
-          "type": "boolean"
+          "name": "sittegruppe"
         }, {
           "alias": "Gapahuk",
-          "name": "gapahuk",
-          "type": "boolean"
+          "name": "gapahuk"
         }, {
           "alias": "Informasjon",
-          "name": "informasjon",
-          "type": "boolean"
+          "name": "informasjon"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
@@ -3098,12 +3051,10 @@
           "name": "datafangstdato"
         }, {
           "alias": "Skiltet",
-          "name": "skiltet",
-          "type": "boolean"
+          "name": "skiltet"
         }, {
           "alias": "Merket",
-          "name": "merket",
-          "type": "boolean"
+          "name": "merket"
         }, {
           "alias": "Avstand fasilitet",
           "name": "avstandfasilitet",
@@ -3118,16 +3069,14 @@
           "unit": "cm"
         }, {
           "alias": "Avgift",
-          "name": "avgift",
-          "type": "boolean"
+          "name": "avgift"
         }, {
           "alias": "Automat høyde",
           "name": "automathoyde",
           "unit": "cm"
         }, {
           "alias": "Automat tilgjengelig",
-          "name": "tilgjengeligautomat",
-          "type": "boolean"
+          "name": "tilgjengeligautomat"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
@@ -3479,8 +3428,7 @@
           "unit": "cm"
         }, {
           "alias": "Belysning",
-          "name": "belysninginne",
-          "type": "boolean"
+          "name": "belysninginne"
         }, {
           "alias": "Omkledning",
           "name": "omkledningtilgjengelig"
@@ -3819,8 +3767,7 @@
           "name": "datafangstdato"
         }, {
           "alias": "Flytebrygge",
-          "name": "flytebrygge",
-          "type": "boolean"
+          "name": "flytebrygge"
         }, {
           "alias": "Rampe bredde",
           "name": "rampebredde",
@@ -3864,12 +3811,10 @@
           "unit": "cm"
         }, {
           "alias": "Rekkverk",
-          "name": "rekkverk",
-          "type": "boolean"
+          "name": "rekkverk"
         }, {
           "alias": "Stoppkant",
-          "name": "stoppkant",
-          "type": "boolean"
+          "name": "stoppkant"
         }, {
           "alias": "Stoppkant høyde",
           "name": "stoppkanthoyde",
@@ -3937,40 +3882,31 @@
           "name": "naturbaseid"
         }, {
           "alias": "HC-parkering",
-          "name": "hcparkeringsplass",
-          "type": "boolean"
+          "name": "hcparkeringsplass"
         }, {
           "alias": "Toalett",
-          "name": "toalett",
-          "type": "boolean"
+          "name": "toalett"
         }, {
           "alias": "Turvei",
-          "name": "turvei",
-          "type": "boolean"
+          "name": "turvei"
         }, {
           "alias": "Baderampe",
-          "name": "baderampe",
-          "type": "boolean"
+          "name": "baderampe"
         }, {
           "alias": "Fiskeplass",
-          "name": "fiskeplass",
-          "type": "boolean"
+          "name": "fiskeplass"
         }, {
           "alias": "Grillbålplass",
-          "name": "grillbalplass",
-          "type": "boolean"
+          "name": "grillbalplass"
         }, {
           "alias": "Sittegruppe",
-          "name": "sittegruppe",
-          "type": "boolean"
+          "name": "sittegruppe"
         }, {
           "alias": "Gapahuk",
-          "name": "gapahuk",
-          "type": "boolean"
+          "name": "gapahuk"
         }, {
           "alias": "Informasjon",
-          "name": "informasjon",
-          "type": "boolean"
+          "name": "informasjon"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
@@ -4227,12 +4163,10 @@
           "name": "datafangstdato"
         }, {
           "alias": "Skiltet",
-          "name": "skiltet",
-          "type": "boolean"
+          "name": "skiltet"
         }, {
           "alias": "Merket",
-          "name": "merket",
-          "type": "boolean"
+          "name": "merket"
         }, {
           "alias": "Avstand fasilitet",
           "name": "avstandfasilitet",
@@ -4247,16 +4181,14 @@
           "unit": "cm"
         }, {
           "alias": "Avgift",
-          "name": "avgift",
-          "type": "boolean"
+          "name": "avgift"
         }, {
           "alias": "Automat høyde",
           "name": "automathoyde",
           "unit": "cm"
         }, {
           "alias": "Automat tilgjengelig",
-          "name": "tilgjengeligautomat",
-          "type": "boolean"
+          "name": "tilgjengeligautomat"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
@@ -4608,8 +4540,7 @@
           "unit": "cm"
         }, {
           "alias": "Belysning",
-          "name": "belysninginne",
-          "type": "boolean"
+          "name": "belysninginne"
         }, {
           "alias": "Omkledning",
           "name": "omkledningtilgjengelig"
