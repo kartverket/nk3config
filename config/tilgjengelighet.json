@@ -212,6 +212,78 @@
       "type": "overlay",
       "Layers": {
         "Layer": {
+          "name": "t_parkeringsomrade_r",
+          "queryable": "True",
+          "title": "Parkerings område"
+        }
+      },
+      "gatekeeper": "true",
+      "name": "parkerings_omrade",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "groupid": 6,
+      "params": {
+        "layers": "t_parkeringsomrade_r",
+        "format": "image/png"
+      },
+      "guid": "6.t_parkeringsomrade_r",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "name": "tilgjengvurderingrulleauto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "alias": "Registrert",
+          "name": "forstedatafangstdato"
+        }, {
+          "alias": "Oppdatert",
+          "name": "datafangstdato"
+        }, {
+          "alias": "Kapasitet personbiler",
+          "name": "kapasitetpersonbiler"
+        }, {
+          "alias": "Dekke",
+          "name": "dekke"
+        }, {
+          "alias": "Dekke tilstand",
+          "name": "dekketilstand"
+        }, {
+          "alias": "Kapasitet HC",
+          "name": "antalluu"
+        }, {
+          "alias": "Kommentar",
+          "name": "kommentar"
+        }, {
+          "alias": "Bildefil 1",
+          "name": "bildefil1",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/tettsted/"
+        }, {
+          "alias": "Bildefil 2",
+          "name": "bildefil2",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/tettsted/"
+        }, {
+          "alias": "Bildefil 3",
+          "name": "bildefil3",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/tettsted/"
+        }, {
+          "alias": "Objekt ID",
+          "name": "objektnr"
+        }]
+      }
+    }, {
+      "type": "overlay",
+      "Layers": {
+        "Layer": {
           "name": "t_vei_r",
           "queryable": "True",
           "title": "Vei"
@@ -298,78 +370,6 @@
         }, {
           "alias": "Ledelinje",
           "name": "ledelinje"
-        }, {
-          "alias": "Kommentar",
-          "name": "kommentar"
-        }, {
-          "alias": "Bildefil 1",
-          "name": "bildefil1",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/tettsted/"
-        }, {
-          "alias": "Bildefil 2",
-          "name": "bildefil2",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/tettsted/"
-        }, {
-          "alias": "Bildefil 3",
-          "name": "bildefil3",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/tettsted/"
-        }, {
-          "alias": "Objekt ID",
-          "name": "objektnr"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "t_parkeringsomrade_r",
-          "queryable": "True",
-          "title": "Parkerings område"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "parkerings_omrade",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "groupid": 6,
-      "params": {
-        "layers": "t_parkeringsomrade_r",
-        "format": "image/png"
-      },
-      "guid": "6.t_parkeringsomrade_r",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "name": "tilgjengvurderingrulleauto",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
-          "filetype": "png"
-        }, {
-          "alias": "Registrert",
-          "name": "forstedatafangstdato"
-        }, {
-          "alias": "Oppdatert",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Kapasitet personbiler",
-          "name": "kapasitetpersonbiler"
-        }, {
-          "alias": "Dekke",
-          "name": "dekke"
-        }, {
-          "alias": "Dekke tilstand",
-          "name": "dekketilstand"
-        }, {
-          "alias": "Kapasitet HC",
-          "name": "antalluu"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
@@ -646,6 +646,78 @@
       "type": "overlay",
       "Layers": {
         "Layer": {
+          "name": "t_parkeringsomrade_el",
+          "queryable": "True",
+          "title": "Parkerings område"
+        }
+      },
+      "gatekeeper": "true",
+      "name": "parkerings_omrade",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "groupid": 9,
+      "params": {
+        "layers": "t_parkeringsomrade_el",
+        "format": "image/png"
+      },
+      "guid": "9.t_parkeringsomrade_el",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "name": "tilgjengvurderingrulleauto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "alias": "Registrert",
+          "name": "forstedatafangstdato"
+        }, {
+          "alias": "Oppdatert",
+          "name": "datafangstdato"
+        }, {
+          "alias": "Kapasitet personbiler",
+          "name": "kapasitetpersonbiler"
+        }, {
+          "alias": "Dekke",
+          "name": "dekke"
+        }, {
+          "alias": "Dekke tilstand",
+          "name": "dekketilstand"
+        }, {
+          "alias": "Kapasitet HC",
+          "name": "antalluu"
+        }, {
+          "alias": "Kommentar",
+          "name": "kommentar"
+        }, {
+          "alias": "Bildefil 1",
+          "name": "bildefil1",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/tettsted/"
+        }, {
+          "alias": "Bildefil 2",
+          "name": "bildefil2",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/tettsted/"
+        }, {
+          "alias": "Bildefil 3",
+          "name": "bildefil3",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/tettsted/"
+        }, {
+          "alias": "Objekt ID",
+          "name": "objektnr"
+        }]
+      }
+    }, {
+      "type": "overlay",
+      "Layers": {
+        "Layer": {
           "name": "t_vei_el",
           "queryable": "True",
           "title": "Vei"
@@ -732,78 +804,6 @@
         }, {
           "alias": "Ledelinje",
           "name": "ledelinje"
-        }, {
-          "alias": "Kommentar",
-          "name": "kommentar"
-        }, {
-          "alias": "Bildefil 1",
-          "name": "bildefil1",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/tettsted/"
-        }, {
-          "alias": "Bildefil 2",
-          "name": "bildefil2",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/tettsted/"
-        }, {
-          "alias": "Bildefil 3",
-          "name": "bildefil3",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/tettsted/"
-        }, {
-          "alias": "Objekt ID",
-          "name": "objektnr"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "t_parkeringsomrade_el",
-          "queryable": "True",
-          "title": "Parkerings område"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "parkerings_omrade",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "groupid": 9,
-      "params": {
-        "layers": "t_parkeringsomrade_el",
-        "format": "image/png"
-      },
-      "guid": "9.t_parkeringsomrade_el",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "name": "tilgjengvurderingrulleauto",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
-          "filetype": "png"
-        }, {
-          "alias": "Registrert",
-          "name": "forstedatafangstdato"
-        }, {
-          "alias": "Oppdatert",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Kapasitet personbiler",
-          "name": "kapasitetpersonbiler"
-        }, {
-          "alias": "Dekke",
-          "name": "dekke"
-        }, {
-          "alias": "Dekke tilstand",
-          "name": "dekketilstand"
-        }, {
-          "alias": "Kapasitet HC",
-          "name": "antalluu"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
@@ -1080,6 +1080,78 @@
       "type": "overlay",
       "Layers": {
         "Layer": {
+          "name": "t_parkeringsomrade",
+          "queryable": "True",
+          "title": "Parkerings område"
+        }
+      },
+      "gatekeeper": "true",
+      "name": "parkerings_omrade",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "groupid": 8,
+      "params": {
+        "layers": "t_parkeringsomrade",
+        "format": "image/png"
+      },
+      "guid": "8.t_parkeringsomrade",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "name": "tilgjengvurderingrulleauto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "alias": "Registrert",
+          "name": "forstedatafangstdato"
+        }, {
+          "alias": "Oppdatert",
+          "name": "datafangstdato"
+        }, {
+          "alias": "Kapasitet personbiler",
+          "name": "kapasitetpersonbiler"
+        }, {
+          "alias": "Dekke",
+          "name": "dekke"
+        }, {
+          "alias": "Dekke tilstand",
+          "name": "dekketilstand"
+        }, {
+          "alias": "Kapasitet HC",
+          "name": "antalluu"
+        }, {
+          "alias": "Kommentar",
+          "name": "kommentar"
+        }, {
+          "alias": "Bildefil 1",
+          "name": "bildefil1",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/tettsted/"
+        }, {
+          "alias": "Bildefil 2",
+          "name": "bildefil2",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/tettsted/"
+        }, {
+          "alias": "Bildefil 3",
+          "name": "bildefil3",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/tettsted/"
+        }, {
+          "alias": "Objekt ID",
+          "name": "objektnr"
+        }]
+      }
+    }, {
+      "type": "overlay",
+      "Layers": {
+        "Layer": {
           "name": "t_vei",
           "queryable": "True",
           "title": "Vei"
@@ -1169,78 +1241,6 @@
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
-        }, {
-          "alias": "Objekt ID",
-          "name": "objektnr"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "t_parkeringsomrade",
-          "queryable": "True",
-          "title": "Parkerings område"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "parkerings_omrade",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "groupid": 8,
-      "params": {
-        "layers": "t_parkeringsomrade",
-        "format": "image/png"
-      },
-      "guid": "8.t_parkeringsomrade",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "name": "tilgjengvurderingrulleauto",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
-          "filetype": "png"
-        }, {
-          "alias": "Registrert",
-          "name": "forstedatafangstdato"
-        }, {
-          "alias": "Oppdatert",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Kapasitet personbiler",
-          "name": "kapasitetpersonbiler"
-        }, {
-          "alias": "Dekke",
-          "name": "dekke"
-        }, {
-          "alias": "Dekke tilstand",
-          "name": "dekketilstand"
-        }, {
-          "alias": "Kapasitet HC",
-          "name": "antalluu"
-        }, {
-          "alias": "Kommentar",
-          "name": "kommentar"
-        }, {
-          "alias": "Bildefil 1",
-          "name": "bildefil1",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/tettsted/"
-        }, {
-          "alias": "Bildefil 2",
-          "name": "bildefil2",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/tettsted/"
-        }, {
-          "alias": "Bildefil 3",
-          "name": "bildefil3",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/tettsted/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -1499,22 +1499,160 @@
       "type": "overlay",
       "Layers": {
         "Layer": {
-          "name": "baderampe_01",
+          "name": "statlig_sikra_polygon_01",
           "queryable": "True",
-          "title": "Baderampe"
+          "title": "Statlig sikra"
         }
       },
       "gatekeeper": "true",
-      "name": "baderampe",
+      "name": "statlig_sikret",
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 5,
-      "order": 3,
+      "order": 1,
       "params": {
-        "layers": "baderampe_01",
+        "layers": "statlig_sikra_polygon_01",
         "format": "image/png"
       },
-      "guid": "5.baderampe_01",
+      "guid": "5.statlig_sikra_polygon_01",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Navn",
+          "name": "navn"
+        }, {
+          "alias": "Registrert",
+          "name": "forstedatafangstdato"
+        }, {
+          "alias": "Oppdatert",
+          "name": "datafangstdato"
+        }, {
+          "alias": "Objekt ID",
+          "name": "objektnr"
+        }, {
+          "alias": "Link til informasjonsark",
+          "name": "linkskjema",
+          "type": "link",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft-skjema-FRL-2012/"
+        }, {
+          "alias": "Link til bildeark",
+          "name": "linkbilde",
+          "type": "link",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft-skjema-FRL-2012/"
+        }]
+      }
+    }, {
+      "type": "overlay",
+      "Layers": {
+        "Layer": {
+          "name": "friluftsomrade_01",
+          "queryable": "True",
+          "title": "Friluftsområde"
+        }
+      },
+      "gatekeeper": "true",
+      "name": "friluftsomrade",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "groupid": 5,
+      "order": 1,
+      "params": {
+        "layers": "friluftsomrade_01",
+        "format": "image/png"
+      },
+      "guid": "5.friluftsomrade_01",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "name": "forstedatafangstdato",
+          "alias": "Registrert"
+        }, {
+          "name": "datafangstdato",
+          "alias": "Oppdatert"
+        }, {
+          "name": "navn",
+          "alias": "Navn"
+        }, {
+          "alias": "Naturbasenummer",
+          "name": "naturbaseid"
+        }, {
+          "alias": "HC-parkering",
+          "name": "hcparkeringsplass"
+        }, {
+          "alias": "Toalett",
+          "name": "toalett"
+        }, {
+          "alias": "Turvei",
+          "name": "turvei"
+        }, {
+          "alias": "Baderampe",
+          "name": "baderampe"
+        }, {
+          "alias": "Fiskeplass",
+          "name": "fiskeplass"
+        }, {
+          "alias": "Grillbålplass",
+          "name": "grillbalplass"
+        }, {
+          "alias": "Sittegruppe",
+          "name": "sittegruppe"
+        }, {
+          "alias": "Gapahuk",
+          "name": "gapahuk"
+        }, {
+          "alias": "Informasjon",
+          "name": "informasjon"
+        }, {
+          "alias": "Kommentar",
+          "name": "kommentar"
+        }, {
+          "alias": "Bildefil 1",
+          "name": "bildefil1",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 2",
+          "name": "bildefil2",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 3",
+          "name": "bildefil3",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Objekt ID",
+          "name": "objektnr"
+        }]
+      }
+    }, {
+      "type": "overlay",
+      "Layers": {
+        "Layer": {
+          "name": "parkeringsomrader_friluft_01",
+          "queryable": "True",
+          "title": "Parkeringsområder"
+        }
+      },
+      "gatekeeper": "true",
+      "name": "parkeringsomrader",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "groupid": 5,
+      "order": 1,
+      "params": {
+        "layers": "parkeringsomrader_friluft_01",
+        "format": "image/png"
+      },
+      "guid": "5.parkeringsomrader_friluft_01",
       "options": {
         "isbaselayer": "false",
         "singletile": "true",
@@ -1526,6 +1664,246 @@
           "type": "symbol",
           "alias": "tilgjengelighet",
           "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "alias": "Registrert",
+          "name": "forstedatafangstdato"
+        }, {
+          "alias": "Oppdatert",
+          "name": "datafangstdato"
+        }, {
+          "alias": "Kapasitet personbiler",
+          "name": "kapasitetpersonbiler"
+        }, {
+          "alias": "Kapasitet HC",
+          "name": "antalluu"
+        }, {
+          "alias": "Dekke",
+          "name": "dekke"
+        }, {
+          "alias": "Dekke tilstand",
+          "name": "dekketilstand"
+        }, {
+          "alias": "Kommentar",
+          "name": "kommentar"
+        }, {
+          "alias": "Bildefil 1",
+          "name": "bildefil1",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 2",
+          "name": "bildefil2",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 3",
+          "name": "bildefil3",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Objekt ID",
+          "name": "objektnr"
+        }]
+      }
+    }, {
+      "type": "overlay",
+      "Layers": {
+        "Layer": {
+          "name": "turvei_01",
+          "queryable": "True",
+          "title": "Turvei"
+        }
+      },
+      "gatekeeper": "true",
+      "name": "turvei",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "groupid": 5,
+      "order": 2,
+      "params": {
+        "layers": "turvei_01",
+        "format": "image/png"
+      },
+      "guid": "5.turvei_01",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "name": "tilgjengvurderingrulleauto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "tilgjengvurderingelrullestol",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
+          "filetype": "png"
+        }, {
+          "name": "tilgjengvurderingsyn",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
+          "filetype": "png"
+        }, {
+          "alias": "Registrert",
+          "name": "forstedatafangstdato"
+        }, {
+          "alias": "Oppdatert",
+          "name": "datafangstdato"
+        }, {
+          "alias": "Veitype",
+          "name": "veitype"
+        }, {
+          "alias": "Spesial fottyperute",
+          "name": "spesialfotrutetype"
+        }, {
+          "alias": "Dekke",
+          "name": "dekke"
+        }, {
+          "alias": "Plankeavstand",
+          "name": "plankeavstand",
+          "unit": "cm"
+        }, {
+          "alias": "Dekke tilstand",
+          "name": "dekketilstand"
+        }, {
+          "alias": "Bredde",
+          "name": "bredde",
+          "unit": "cm"
+        }, {
+          "alias": "Stigning",
+          "name": "stigning",
+          "unit": "°"
+        }, {
+          "alias": "Tverrfall",
+          "name": "tverrfall",
+          "unit": "°"
+        }, {
+          "alias": "Belysning",
+          "name": "belysning"
+        }, {
+          "alias": "Fri høyde",
+          "name": "frihoyde"
+        }, {
+          "alias": "Ledelinje ",
+          "name": "ledelinje"
+        }, {
+          "alias": "Kommentar",
+          "name": "kommentar"
+        }, {
+          "alias": "Bildefil 1",
+          "name": "bildefil1",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 2",
+          "name": "bildefil2",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 3",
+          "name": "bildefil3",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Objekt ID",
+          "name": "objektnr"
+        }]
+      }
+    }, {
+      "type": "overlay",
+      "Layers": {
+        "Layer": {
+          "name": "turisthytte_01",
+          "queryable": "True",
+          "title": "Turisthytte"
+        }
+      },
+      "gatekeeper": "true",
+      "name": "turisthytte",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "groupid": 5,
+      "order": 3,
+      "params": {
+        "layers": "turisthytte_01",
+        "format": "image/png"
+      },
+      "guid": "5.turisthytte_01",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Registrert",
+          "name": "forstedatafangstdato"
+        }, {
+          "alias": "Oppdatert",
+          "name": "datafangstdato"
+        }, {
+          "alias": "Navn",
+          "name": "navn"
+        }, {
+          "alias": "Eier",
+          "name": "eier"
+        }, {
+          "alias": "Kommentar",
+          "name": "kommentar"
+        }, {
+          "alias": "Objekt ID",
+          "name": "objektnr"
+        }, {
+          "alias": "Lenke",
+          "name": "lenke",
+          "type": "link",
+          "baseurl": " "
+        }]
+      }
+    }, {
+      "type": "overlay",
+      "Layers": {
+        "Layer": {
+          "name": "gapahukhytte_01",
+          "queryable": "True",
+          "title": "Gapahukhytte"
+        }
+      },
+      "gatekeeper": "true",
+      "name": "gapahukhytte",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "groupid": 5,
+      "order": 3,
+      "params": {
+        "layers": "gapahukhytte_01",
+        "format": "image/png"
+      },
+      "guid": "5.gapahukhytte_01",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "name": "tilgjengvurderingrulleauto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "tilgjengvurderingelrullestol",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
           "filetype": "png"
         }, {
           "name": "tilgjengvurderingsyn",
@@ -1568,6 +1946,22 @@
         }, {
           "alias": "Håndlist høyde nedre",
           "name": "handlisthoydenedre",
+          "unit": "cm"
+        }, {
+          "alias": "Diameter",
+          "name": "diameter",
+          "unit": "cm"
+        }, {
+          "alias": "Inngang bredde",
+          "name": "breddeinngang",
+          "unit": "cm"
+        }, {
+          "alias": "Inngang høyde",
+          "name": "hoydeinngang",
+          "unit": "cm"
+        }, {
+          "alias": "Terskel høyde",
+          "name": "terskelhoyde",
           "unit": "cm"
         }, {
           "alias": "Kommentar",
@@ -1719,213 +2113,6 @@
       "type": "overlay",
       "Layers": {
         "Layer": {
-          "name": "friluftsomrade_01",
-          "queryable": "True",
-          "title": "Friluftsområde"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "friluftsomrade",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "groupid": 5,
-      "order": 1,
-      "params": {
-        "layers": "friluftsomrade_01",
-        "format": "image/png"
-      },
-      "guid": "5.friluftsomrade_01",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "name": "forstedatafangstdato",
-          "alias": "Registrert"
-        }, {
-          "name": "datafangstdato",
-          "alias": "Oppdatert"
-        }, {
-          "name": "navn",
-          "alias": "Navn"
-        }, {
-          "alias": "Naturbasenummer",
-          "name": "naturbaseid"
-        }, {
-          "alias": "HC-parkering",
-          "name": "hcparkeringsplass"
-        }, {
-          "alias": "Toalett",
-          "name": "toalett"
-        }, {
-          "alias": "Turvei",
-          "name": "turvei"
-        }, {
-          "alias": "Baderampe",
-          "name": "baderampe"
-        }, {
-          "alias": "Fiskeplass",
-          "name": "fiskeplass"
-        }, {
-          "alias": "Grillbålplass",
-          "name": "grillbalplass"
-        }, {
-          "alias": "Sittegruppe",
-          "name": "sittegruppe"
-        }, {
-          "alias": "Gapahuk",
-          "name": "gapahuk"
-        }, {
-          "alias": "Informasjon",
-          "name": "informasjon"
-        }, {
-          "alias": "Kommentar",
-          "name": "kommentar"
-        }, {
-          "alias": "Bildefil 1",
-          "name": "bildefil1",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 2",
-          "name": "bildefil2",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 3",
-          "name": "bildefil3",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Objekt ID",
-          "name": "objektnr"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "gapahukhytte_01",
-          "queryable": "True",
-          "title": "Gapahukhytte"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "gapahukhytte",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "groupid": 5,
-      "order": 3,
-      "params": {
-        "layers": "gapahukhytte_01",
-        "format": "image/png"
-      },
-      "guid": "5.gapahukhytte_01",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "name": "tilgjengvurderingrulleauto",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
-          "filetype": "png"
-        }, {
-          "name": "tilgjengvurderingelrullestol",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
-          "filetype": "png"
-        }, {
-          "name": "tilgjengvurderingsyn",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
-          "filetype": "png"
-        }, {
-          "alias": "Registrert",
-          "name": "forstedatafangstdato"
-        }, {
-          "alias": "Oppdatert",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Rampe bredde",
-          "name": "rampebredde",
-          "unit": "cm"
-        }, {
-          "alias": "Rampelengde",
-          "name": "rampelengde",
-          "unit": "cm"
-        }, {
-          "alias": "Rampe stigning",
-          "name": "rampestigning",
-          "unit": "°"
-        }, {
-          "alias": "Rampe terskel",
-          "name": "rampeterskel",
-          "unit": "cm"
-        }, {
-          "alias": "Rampe tilgjengelig",
-          "name": "rampetilgjengelig"
-        }, {
-          "alias": "Håndlist",
-          "name": "handlist"
-        }, {
-          "alias": "Håndlist høyde øvre",
-          "name": "handlisthoydeovre",
-          "unit": "cm"
-        }, {
-          "alias": "Håndlist høyde nedre",
-          "name": "handlisthoydenedre",
-          "unit": "cm"
-        }, {
-          "alias": "Diameter",
-          "name": "diameter",
-          "unit": "cm"
-        }, {
-          "alias": "Inngang bredde",
-          "name": "breddeinngang",
-          "unit": "cm"
-        }, {
-          "alias": "Inngang høyde",
-          "name": "hoydeinngang",
-          "unit": "cm"
-        }, {
-          "alias": "Terskel høyde",
-          "name": "terskelhoyde",
-          "unit": "cm"
-        }, {
-          "alias": "Kommentar",
-          "name": "kommentar"
-        }, {
-          "alias": "Bildefil 1",
-          "name": "bildefil1",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 2",
-          "name": "bildefil2",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 3",
-          "name": "bildefil3",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Objekt ID",
-          "name": "objektnr"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
           "name": "grillbalplass_01",
           "queryable": "True",
           "title": "Grillbålplass"
@@ -2000,22 +2187,22 @@
       "type": "overlay",
       "Layers": {
         "Layer": {
-          "name": "hc_parkering_friluft_01",
+          "name": "baderampe_01",
           "queryable": "True",
-          "title": "HC-parkering"
+          "title": "Baderampe"
         }
       },
       "gatekeeper": "true",
-      "name": "hc_parkering",
+      "name": "baderampe",
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 5,
       "order": 3,
       "params": {
-        "layers": "hc_parkering_friluft_01",
+        "layers": "baderampe_01",
         "format": "image/png"
       },
-      "guid": "5.hc_parkering_friluft_01",
+      "guid": "5.baderampe_01",
       "options": {
         "isbaselayer": "false",
         "singletile": "true",
@@ -2029,93 +2216,10 @@
           "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
           "filetype": "png"
         }, {
-          "alias": "Registrert",
-          "name": "forstedatafangstdato"
-        }, {
-          "alias": "Oppdatert",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Skiltet",
-          "name": "skiltet"
-        }, {
-          "alias": "Merket",
-          "name": "merket"
-        }, {
-          "alias": "Avstand fasilitet",
-          "name": "avstandfasilitet",
-          "unit": "m"
-        }, {
-          "alias": "Bredde",
-          "name": "bredde",
-          "unit": "cm"
-        }, {
-          "alias": "Lengde",
-          "name": "lengde",
-          "unit": "cm"
-        }, {
-          "alias": "Avgift",
-          "name": "avgift"
-        }, {
-          "alias": "Automat høyde",
-          "name": "automathoyde",
-          "unit": "cm"
-        }, {
-          "alias": "Automat tilgjengelig",
-          "name": "tilgjengeligautomat"
-        }, {
-          "alias": "Kommentar",
-          "name": "kommentar"
-        }, {
-          "alias": "Bildefil 1",
-          "name": "bildefil1",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 2",
-          "name": "bildefil2",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 3",
-          "name": "bildefil3",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Objekt ID",
-          "name": "objektnr"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "parkeringsomrader_friluft_01",
-          "queryable": "True",
-          "title": "Parkeringsområder"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "parkeringsomrader",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "groupid": 5,
-      "order": 1,
-      "params": {
-        "layers": "parkeringsomrader_friluft_01",
-        "format": "image/png"
-      },
-      "guid": "5.parkeringsomrader_friluft_01",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "name": "tilgjengvurderingrulleauto",
+          "name": "tilgjengvurderingsyn",
           "type": "symbol",
           "alias": "tilgjengelighet",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
           "filetype": "png"
         }, {
           "alias": "Registrert",
@@ -2124,17 +2228,35 @@
           "alias": "Oppdatert",
           "name": "datafangstdato"
         }, {
-          "alias": "Kapasitet personbiler",
-          "name": "kapasitetpersonbiler"
+          "alias": "Rampe bredde",
+          "name": "rampebredde",
+          "unit": "cm"
         }, {
-          "alias": "Kapasitet HC",
-          "name": "antalluu"
+          "alias": "Rampelengde",
+          "name": "rampelengde",
+          "unit": "cm"
         }, {
-          "alias": "Dekke",
-          "name": "dekke"
+          "alias": "Rampe stigning",
+          "name": "rampestigning",
+          "unit": "°"
         }, {
-          "alias": "Dekke tilstand",
-          "name": "dekketilstand"
+          "alias": "Rampe terskel",
+          "name": "rampeterskel",
+          "unit": "cm"
+        }, {
+          "alias": "Rampe tilgjengelig",
+          "name": "rampetilgjengelig"
+        }, {
+          "alias": "Håndlist",
+          "name": "handlist"
+        }, {
+          "alias": "Håndlist høyde øvre",
+          "name": "handlisthoydeovre",
+          "unit": "cm"
+        }, {
+          "alias": "Håndlist høyde nedre",
+          "name": "handlisthoydenedre",
+          "unit": "cm"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
@@ -2251,22 +2373,22 @@
       "type": "overlay",
       "Layers": {
         "Layer": {
-          "name": "statlig_sikra_polygon_01",
+          "name": "hc_parkering_friluft_01",
           "queryable": "True",
-          "title": "Statlig sikra"
+          "title": "HC-parkering"
         }
       },
       "gatekeeper": "true",
-      "name": "statlig_sikret",
+      "name": "hc_parkering",
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 5,
-      "order": 1,
+      "order": 3,
       "params": {
-        "layers": "statlig_sikra_polygon_01",
+        "layers": "hc_parkering_friluft_01",
         "format": "image/png"
       },
-      "guid": "5.statlig_sikra_polygon_01",
+      "guid": "5.hc_parkering_friluft_01",
       "options": {
         "isbaselayer": "false",
         "singletile": "true",
@@ -2274,8 +2396,11 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "Navn",
-          "name": "navn"
+          "name": "tilgjengvurderingrulleauto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
         }, {
           "alias": "Registrert",
           "name": "forstedatafangstdato"
@@ -2283,18 +2408,54 @@
           "alias": "Oppdatert",
           "name": "datafangstdato"
         }, {
+          "alias": "Skiltet",
+          "name": "skiltet"
+        }, {
+          "alias": "Merket",
+          "name": "merket"
+        }, {
+          "alias": "Avstand fasilitet",
+          "name": "avstandfasilitet",
+          "unit": "m"
+        }, {
+          "alias": "Bredde",
+          "name": "bredde",
+          "unit": "cm"
+        }, {
+          "alias": "Lengde",
+          "name": "lengde",
+          "unit": "cm"
+        }, {
+          "alias": "Avgift",
+          "name": "avgift"
+        }, {
+          "alias": "Automat høyde",
+          "name": "automathoyde",
+          "unit": "cm"
+        }, {
+          "alias": "Automat tilgjengelig",
+          "name": "tilgjengeligautomat"
+        }, {
+          "alias": "Kommentar",
+          "name": "kommentar"
+        }, {
+          "alias": "Bildefil 1",
+          "name": "bildefil1",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 2",
+          "name": "bildefil2",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 3",
+          "name": "bildefil3",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
           "alias": "Objekt ID",
           "name": "objektnr"
-        }, {
-          "alias": "Link til informasjonsark",
-          "name": "linkskjema",
-          "type": "link",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft-skjema-FRL-2012/"
-        }, {
-          "alias": "Link til bildeark",
-          "name": "linkbilde",
-          "type": "link",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft-skjema-FRL-2012/"
         }]
       }
     }, {
@@ -2450,22 +2611,22 @@
       "type": "overlay",
       "Layers": {
         "Layer": {
-          "name": "turisthytte_01",
+          "name": "statlig_sikra_polygon_02",
           "queryable": "True",
-          "title": "Turisthytte"
+          "title": "Statlig sikra"
         }
       },
       "gatekeeper": "true",
-      "name": "turisthytte",
+      "name": "statlig_sikret",
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "groupid": 5,
-      "order": 3,
+      "groupid": 7,
+      "order": 1,
       "params": {
-        "layers": "turisthytte_01",
+        "layers": "statlig_sikra_polygon_02",
         "format": "image/png"
       },
-      "guid": "5.turisthytte_01",
+      "guid": "7.statlig_sikra_polygon_02",
       "options": {
         "isbaselayer": "false",
         "singletile": "true",
@@ -2473,35 +2634,195 @@
       },
       "includedfields": {
         "field": [{
+          "alias": "Navn",
+          "name": "navn"
+        }, {
           "alias": "Registrert",
           "name": "forstedatafangstdato"
         }, {
           "alias": "Oppdatert",
           "name": "datafangstdato"
         }, {
-          "alias": "Navn",
-          "name": "navn"
-        }, {
-          "alias": "Eier",
-          "name": "eier"
-        }, {
-          "alias": "Kommentar",
-          "name": "kommentar"
-        }, {
           "alias": "Objekt ID",
           "name": "objektnr"
         }, {
-          "alias": "Lenke",
-          "name": "lenke",
+          "alias": "Link til informasjonsark",
+          "name": "linkskjema",
           "type": "link",
-          "baseurl": " "
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft-skjema-FRL-2012/"
+        }, {
+          "alias": "Link til bildeark",
+          "name": "linkbilde",
+          "type": "link",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft-skjema-FRL-2012/"
         }]
       }
     }, {
       "type": "overlay",
       "Layers": {
         "Layer": {
-          "name": "turvei_01",
+          "name": "friluftsomrade_02",
+          "queryable": "True",
+          "title": "Friluftsområde"
+        }
+      },
+      "gatekeeper": "true",
+      "name": "friluftsomrade",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "groupid": 7,
+      "order": 1,
+      "params": {
+        "layers": "friluftsomrade_02",
+        "format": "image/png"
+      },
+      "guid": "7.friluftsomrade_02",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "name": "forstedatafangstdato",
+          "alias": "Registrert"
+        }, {
+          "name": "datafangstdato",
+          "alias": "Oppdatert"
+        }, {
+          "name": "navn",
+          "alias": "Navn"
+        }, {
+          "alias": "Naturbasenummer",
+          "name": "naturbaseid"
+        }, {
+          "alias": "HC-parkering",
+          "name": "hcparkeringsplass"
+        }, {
+          "alias": "Toalett",
+          "name": "toalett"
+        }, {
+          "alias": "Turvei",
+          "name": "turvei"
+        }, {
+          "alias": "Baderampe",
+          "name": "baderampe"
+        }, {
+          "alias": "Fiskeplass",
+          "name": "fiskeplass"
+        }, {
+          "alias": "Grillbålplass",
+          "name": "grillbalplass"
+        }, {
+          "alias": "Sittegruppe",
+          "name": "sittegruppe"
+        }, {
+          "alias": "Gapahuk",
+          "name": "gapahuk"
+        }, {
+          "alias": "Informasjon",
+          "name": "informasjon"
+        }, {
+          "alias": "Kommentar",
+          "name": "kommentar"
+        }, {
+          "alias": "Bildefil 1",
+          "name": "bildefil1",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 2",
+          "name": "bildefil2",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 3",
+          "name": "bildefil3",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Objekt ID",
+          "name": "objektnr"
+        }]
+      }
+    }, {
+      "type": "overlay",
+      "Layers": {
+        "Layer": {
+          "name": "parkeringsomrader_friluft_02",
+          "queryable": "True",
+          "title": "Parkeringsområder"
+        }
+      },
+      "gatekeeper": "true",
+      "name": "parkeringsomrader",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "groupid": 7,
+      "order": 1,
+      "params": {
+        "layers": "parkeringsomrader_friluft_02",
+        "format": "image/png"
+      },
+      "guid": "7.parkeringsomrader_friluft_02",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "name": "tilgjengvurderingrulleauto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "alias": "Registrert",
+          "name": "forstedatafangstdato"
+        }, {
+          "alias": "Oppdatert",
+          "name": "datafangstdato"
+        }, {
+          "alias": "Kapasitet personbiler",
+          "name": "kapasitetpersonbiler"
+        }, {
+          "alias": "Kapasitet HC",
+          "name": "antalluu"
+        }, {
+          "alias": "Dekke",
+          "name": "dekke"
+        }, {
+          "alias": "Dekke tilstand",
+          "name": "dekketilstand"
+        }, {
+          "alias": "Kommentar",
+          "name": "kommentar"
+        }, {
+          "alias": "Bildefil 1",
+          "name": "bildefil1",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 2",
+          "name": "bildefil2",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 3",
+          "name": "bildefil3",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Objekt ID",
+          "name": "objektnr"
+        }]
+      }
+    }, {
+      "type": "overlay",
+      "Layers": {
+        "Layer": {
+          "name": "turvei_02",
           "queryable": "True",
           "title": "Turvei"
         }
@@ -2510,13 +2831,13 @@
       "name": "turvei",
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "groupid": 5,
+      "groupid": 7,
       "order": 2,
       "params": {
-        "layers": "turvei_01",
+        "layers": "turvei_02",
         "format": "image/png"
       },
-      "guid": "5.turvei_01",
+      "guid": "7.turvei_02",
       "options": {
         "isbaselayer": "false",
         "singletile": "true",
@@ -2584,6 +2905,176 @@
         }, {
           "alias": "Ledelinje ",
           "name": "ledelinje"
+        }, {
+          "alias": "Kommentar",
+          "name": "kommentar"
+        }, {
+          "alias": "Bildefil 1",
+          "name": "bildefil1",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 2",
+          "name": "bildefil2",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 3",
+          "name": "bildefil3",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Objekt ID",
+          "name": "objektnr"
+        }]
+      }
+    }, {
+      "type": "overlay",
+      "Layers": {
+        "Layer": {
+          "name": "turisthytte_02",
+          "queryable": "True",
+          "title": "turisthytte"
+        }
+      },
+      "gatekeeper": "true",
+      "name": "turisthytte",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "groupid": 7,
+      "order": 3,
+      "params": {
+        "layers": "turisthytte_02",
+        "format": "image/png"
+      },
+      "guid": "7.turisthytte_02",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Registrert",
+          "name": "forstedatafangstdato"
+        }, {
+          "alias": "Oppdatert",
+          "name": "datafangstdato"
+        }, {
+          "alias": "Navn",
+          "name": "navn"
+        }, {
+          "alias": "Eier",
+          "name": "eier"
+        }, {
+          "alias": "Kommentar",
+          "name": "kommentar"
+        }, {
+          "alias": "Objekt ID",
+          "name": "objektnr"
+        }, {
+          "alias": "Lenke",
+          "name": "lenke",
+          "type": "link",
+          "baseurl": " "
+        }]
+      }
+    }, {
+      "type": "overlay",
+      "Layers": {
+        "Layer": {
+          "name": "gapahukhytte_02",
+          "queryable": "True",
+          "title": "Gapahukhytte"
+        }
+      },
+      "gatekeeper": "true",
+      "name": "gapahukhytte",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "groupid": 7,
+      "order": 3,
+      "params": {
+        "layers": "gapahukhytte_02",
+        "format": "image/png"
+      },
+      "guid": "7.gapahukhytte_02",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "name": "tilgjengvurderingrulleauto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "tilgjengvurderingelrullestol",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
+          "filetype": "png"
+        }, {
+          "name": "tilgjengvurderingsyn",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
+          "filetype": "png"
+        }, {
+          "alias": "Registrert",
+          "name": "forstedatafangstdato"
+        }, {
+          "alias": "Oppdatert",
+          "name": "datafangstdato"
+        }, {
+          "alias": "Rampe bredde",
+          "name": "rampebredde",
+          "unit": "cm"
+        }, {
+          "alias": "Rampelengde",
+          "name": "rampelengde",
+          "unit": "cm"
+        }, {
+          "alias": "Rampe stigning",
+          "name": "rampestigning",
+          "unit": "°"
+        }, {
+          "alias": "Rampe terskel",
+          "name": "rampeterskel",
+          "unit": "cm"
+        }, {
+          "alias": "Rampe tilgjengelig",
+          "name": "rampetilgjengelig"
+        }, {
+          "alias": "Håndlist",
+          "name": "handlist"
+        }, {
+          "alias": "Håndlist høyde øvre",
+          "name": "handlisthoydeovre",
+          "unit": "cm"
+        }, {
+          "alias": "Håndlist høyde nedre",
+          "name": "handlisthoydenedre",
+          "unit": "cm"
+        }, {
+          "alias": "Diameter",
+          "name": "diameter",
+          "unit": "cm"
+        }, {
+          "alias": "Inngang bredde",
+          "name": "breddeinngang",
+          "unit": "cm"
+        }, {
+          "alias": "Inngang høyde",
+          "name": "hoydeinngang",
+          "unit": "cm"
+        }, {
+          "alias": "Terskel høyde",
+          "name": "terskelhoyde",
+          "unit": "cm"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
@@ -2734,213 +3225,6 @@
       "type": "overlay",
       "Layers": {
         "Layer": {
-          "name": "friluftsomrade_02",
-          "queryable": "True",
-          "title": "Friluftsområde"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "friluftsomrade",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "groupid": 7,
-      "order": 1,
-      "params": {
-        "layers": "friluftsomrade_02",
-        "format": "image/png"
-      },
-      "guid": "7.friluftsomrade_02",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "name": "forstedatafangstdato",
-          "alias": "Registrert"
-        }, {
-          "name": "datafangstdato",
-          "alias": "Oppdatert"
-        }, {
-          "name": "navn",
-          "alias": "Navn"
-        }, {
-          "alias": "Naturbasenummer",
-          "name": "naturbaseid"
-        }, {
-          "alias": "HC-parkering",
-          "name": "hcparkeringsplass"
-        }, {
-          "alias": "Toalett",
-          "name": "toalett"
-        }, {
-          "alias": "Turvei",
-          "name": "turvei"
-        }, {
-          "alias": "Baderampe",
-          "name": "baderampe"
-        }, {
-          "alias": "Fiskeplass",
-          "name": "fiskeplass"
-        }, {
-          "alias": "Grillbålplass",
-          "name": "grillbalplass"
-        }, {
-          "alias": "Sittegruppe",
-          "name": "sittegruppe"
-        }, {
-          "alias": "Gapahuk",
-          "name": "gapahuk"
-        }, {
-          "alias": "Informasjon",
-          "name": "informasjon"
-        }, {
-          "alias": "Kommentar",
-          "name": "kommentar"
-        }, {
-          "alias": "Bildefil 1",
-          "name": "bildefil1",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 2",
-          "name": "bildefil2",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 3",
-          "name": "bildefil3",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Objekt ID",
-          "name": "objektnr"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "gapahukhytte_02",
-          "queryable": "True",
-          "title": "Gapahukhytte"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "gapahukhytte",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "groupid": 7,
-      "order": 3,
-      "params": {
-        "layers": "gapahukhytte_02",
-        "format": "image/png"
-      },
-      "guid": "7.gapahukhytte_02",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "name": "tilgjengvurderingrulleauto",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
-          "filetype": "png"
-        }, {
-          "name": "tilgjengvurderingelrullestol",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
-          "filetype": "png"
-        }, {
-          "name": "tilgjengvurderingsyn",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
-          "filetype": "png"
-        }, {
-          "alias": "Registrert",
-          "name": "forstedatafangstdato"
-        }, {
-          "alias": "Oppdatert",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Rampe bredde",
-          "name": "rampebredde",
-          "unit": "cm"
-        }, {
-          "alias": "Rampelengde",
-          "name": "rampelengde",
-          "unit": "cm"
-        }, {
-          "alias": "Rampe stigning",
-          "name": "rampestigning",
-          "unit": "°"
-        }, {
-          "alias": "Rampe terskel",
-          "name": "rampeterskel",
-          "unit": "cm"
-        }, {
-          "alias": "Rampe tilgjengelig",
-          "name": "rampetilgjengelig"
-        }, {
-          "alias": "Håndlist",
-          "name": "handlist"
-        }, {
-          "alias": "Håndlist høyde øvre",
-          "name": "handlisthoydeovre",
-          "unit": "cm"
-        }, {
-          "alias": "Håndlist høyde nedre",
-          "name": "handlisthoydenedre",
-          "unit": "cm"
-        }, {
-          "alias": "Diameter",
-          "name": "diameter",
-          "unit": "cm"
-        }, {
-          "alias": "Inngang bredde",
-          "name": "breddeinngang",
-          "unit": "cm"
-        }, {
-          "alias": "Inngang høyde",
-          "name": "hoydeinngang",
-          "unit": "cm"
-        }, {
-          "alias": "Terskel høyde",
-          "name": "terskelhoyde",
-          "unit": "cm"
-        }, {
-          "alias": "Kommentar",
-          "name": "kommentar"
-        }, {
-          "alias": "Bildefil 1",
-          "name": "bildefil1",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 2",
-          "name": "bildefil2",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 3",
-          "name": "bildefil3",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Objekt ID",
-          "name": "objektnr"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
           "name": "grillbalplass_02",
           "queryable": "True",
           "title": "Grillbålplass"
@@ -2988,168 +3272,6 @@
           "alias": "Helning",
           "name": "helning",
           "unit": "°"
-        }, {
-          "alias": "Kommentar",
-          "name": "kommentar"
-        }, {
-          "alias": "Bildefil 1",
-          "name": "bildefil1",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 2",
-          "name": "bildefil2",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 3",
-          "name": "bildefil3",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Objekt ID",
-          "name": "objektnr"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "hc_parkering_friluft_02",
-          "queryable": "True",
-          "title": "HC-parkering"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "hc_parkering",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "groupid": 7,
-      "order": 3,
-      "params": {
-        "layers": "hc_parkering_friluft_02",
-        "format": "image/png"
-      },
-      "guid": "7.hc_parkering_friluft_02",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "name": "tilgjengvurderingrulleauto",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
-          "filetype": "png"
-        }, {
-          "alias": "Registrert",
-          "name": "forstedatafangstdato"
-        }, {
-          "alias": "Oppdatert",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Skiltet",
-          "name": "skiltet"
-        }, {
-          "alias": "Merket",
-          "name": "merket"
-        }, {
-          "alias": "Avstand fasilitet",
-          "name": "avstandfasilitet",
-          "unit": "m"
-        }, {
-          "alias": "Bredde",
-          "name": "bredde",
-          "unit": "cm"
-        }, {
-          "alias": "Lengde",
-          "name": "lengde",
-          "unit": "cm"
-        }, {
-          "alias": "Avgift",
-          "name": "avgift"
-        }, {
-          "alias": "Automat høyde",
-          "name": "automathoyde",
-          "unit": "cm"
-        }, {
-          "alias": "Automat tilgjengelig",
-          "name": "tilgjengeligautomat"
-        }, {
-          "alias": "Kommentar",
-          "name": "kommentar"
-        }, {
-          "alias": "Bildefil 1",
-          "name": "bildefil1",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 2",
-          "name": "bildefil2",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 3",
-          "name": "bildefil3",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Objekt ID",
-          "name": "objektnr"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "parkeringsomrader_friluft_02",
-          "queryable": "True",
-          "title": "Parkeringsområder"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "parkeringsomrader",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "groupid": 7,
-      "order": 1,
-      "params": {
-        "layers": "parkeringsomrader_friluft_02",
-        "format": "image/png"
-      },
-      "guid": "7.parkeringsomrader_friluft_02",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "name": "tilgjengvurderingrulleauto",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
-          "filetype": "png"
-        }, {
-          "alias": "Registrert",
-          "name": "forstedatafangstdato"
-        }, {
-          "alias": "Oppdatert",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Kapasitet personbiler",
-          "name": "kapasitetpersonbiler"
-        }, {
-          "alias": "Kapasitet HC",
-          "name": "antalluu"
-        }, {
-          "alias": "Dekke",
-          "name": "dekke"
-        }, {
-          "alias": "Dekke tilstand",
-          "name": "dekketilstand"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
@@ -3266,22 +3388,22 @@
       "type": "overlay",
       "Layers": {
         "Layer": {
-          "name": "statlig_sikra_polygon_02",
+          "name": "hc_parkering_friluft_02",
           "queryable": "True",
-          "title": "Statlig sikra"
+          "title": "HC-parkering"
         }
       },
       "gatekeeper": "true",
-      "name": "statlig_sikret",
+      "name": "hc_parkering",
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 7,
-      "order": 1,
+      "order": 3,
       "params": {
-        "layers": "statlig_sikra_polygon_02",
+        "layers": "hc_parkering_friluft_02",
         "format": "image/png"
       },
-      "guid": "7.statlig_sikra_polygon_02",
+      "guid": "7.hc_parkering_friluft_02",
       "options": {
         "isbaselayer": "false",
         "singletile": "true",
@@ -3289,8 +3411,11 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "Navn",
-          "name": "navn"
+          "name": "tilgjengvurderingrulleauto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
         }, {
           "alias": "Registrert",
           "name": "forstedatafangstdato"
@@ -3298,18 +3423,54 @@
           "alias": "Oppdatert",
           "name": "datafangstdato"
         }, {
+          "alias": "Skiltet",
+          "name": "skiltet"
+        }, {
+          "alias": "Merket",
+          "name": "merket"
+        }, {
+          "alias": "Avstand fasilitet",
+          "name": "avstandfasilitet",
+          "unit": "m"
+        }, {
+          "alias": "Bredde",
+          "name": "bredde",
+          "unit": "cm"
+        }, {
+          "alias": "Lengde",
+          "name": "lengde",
+          "unit": "cm"
+        }, {
+          "alias": "Avgift",
+          "name": "avgift"
+        }, {
+          "alias": "Automat høyde",
+          "name": "automathoyde",
+          "unit": "cm"
+        }, {
+          "alias": "Automat tilgjengelig",
+          "name": "tilgjengeligautomat"
+        }, {
+          "alias": "Kommentar",
+          "name": "kommentar"
+        }, {
+          "alias": "Bildefil 1",
+          "name": "bildefil1",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 2",
+          "name": "bildefil2",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 3",
+          "name": "bildefil3",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
           "alias": "Objekt ID",
           "name": "objektnr"
-        }, {
-          "alias": "Link til informasjonsark",
-          "name": "linkskjema",
-          "type": "link",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft-skjema-FRL-2012/"
-        }, {
-          "alias": "Link til bildeark",
-          "name": "linkbilde",
-          "type": "link",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft-skjema-FRL-2012/"
         }]
       }
     }, {
@@ -3465,22 +3626,22 @@
       "type": "overlay",
       "Layers": {
         "Layer": {
-          "name": "turisthytte_02",
+          "name": "statlig_sikra_polygon_03",
           "queryable": "True",
-          "title": "turisthytte"
+          "title": "Statlig sikra"
         }
       },
       "gatekeeper": "true",
-      "name": "turisthytte",
+      "name": "statlig_sikret",
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "groupid": 7,
-      "order": 3,
+      "groupid": 3,
+      "order": 1,
       "params": {
-        "layers": "turisthytte_02",
+        "layers": "statlig_sikra_polygon_03",
         "format": "image/png"
       },
-      "guid": "7.turisthytte_02",
+      "guid": "3.statlig_sikra_polygon_03",
       "options": {
         "isbaselayer": "false",
         "singletile": "true",
@@ -3488,35 +3649,195 @@
       },
       "includedfields": {
         "field": [{
+          "alias": "Navn",
+          "name": "navn"
+        }, {
           "alias": "Registrert",
           "name": "forstedatafangstdato"
         }, {
           "alias": "Oppdatert",
           "name": "datafangstdato"
         }, {
-          "alias": "Navn",
-          "name": "navn"
-        }, {
-          "alias": "Eier",
-          "name": "eier"
-        }, {
-          "alias": "Kommentar",
-          "name": "kommentar"
-        }, {
           "alias": "Objekt ID",
           "name": "objektnr"
         }, {
-          "alias": "Lenke",
-          "name": "lenke",
+          "alias": "Link til informasjonsark",
+          "name": "linkskjema",
           "type": "link",
-          "baseurl": " "
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft-skjema-FRL-2012/"
+        }, {
+          "alias": "Link til bildeark",
+          "name": "linkbilde",
+          "type": "link",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft-skjema-FRL-2012/"
         }]
       }
     }, {
       "type": "overlay",
       "Layers": {
         "Layer": {
-          "name": "turvei_02",
+          "name": "friluftsomrade_03",
+          "queryable": "True",
+          "title": "Friluftsområde"
+        }
+      },
+      "gatekeeper": "true",
+      "name": "friluftsomrade",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "groupid": 3,
+      "order": 1,
+      "params": {
+        "layers": "friluftsomrade_03",
+        "format": "image/png"
+      },
+      "guid": "3.friluftsomrade_03",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "name": "forstedatafangstdato",
+          "alias": "Registrert"
+        }, {
+          "name": "datafangstdato",
+          "alias": "Oppdatert"
+        }, {
+          "name": "navn",
+          "alias": "Navn"
+        }, {
+          "alias": "Naturbasenummer",
+          "name": "naturbaseid"
+        }, {
+          "alias": "HC-parkering",
+          "name": "hcparkeringsplass"
+        }, {
+          "alias": "Toalett",
+          "name": "toalett"
+        }, {
+          "alias": "Turvei",
+          "name": "turvei"
+        }, {
+          "alias": "Baderampe",
+          "name": "baderampe"
+        }, {
+          "alias": "Fiskeplass",
+          "name": "fiskeplass"
+        }, {
+          "alias": "Grillbålplass",
+          "name": "grillbalplass"
+        }, {
+          "alias": "Sittegruppe",
+          "name": "sittegruppe"
+        }, {
+          "alias": "Gapahuk",
+          "name": "gapahuk"
+        }, {
+          "alias": "Informasjon",
+          "name": "informasjon"
+        }, {
+          "alias": "Kommentar",
+          "name": "kommentar"
+        }, {
+          "alias": "Bildefil 1",
+          "name": "bildefil1",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 2",
+          "name": "bildefil2",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 3",
+          "name": "bildefil3",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Objekt ID",
+          "name": "objektnr"
+        }]
+      }
+    }, {
+      "type": "overlay",
+      "Layers": {
+        "Layer": {
+          "name": "parkeringsomrader_friluft_03",
+          "queryable": "True",
+          "title": "Parkeringsområder"
+        }
+      },
+      "gatekeeper": "true",
+      "name": "parkeringsomrader",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "groupid": 3,
+      "order": 1,
+      "params": {
+        "layers": "parkeringsomrader_friluft_03",
+        "format": "image/png"
+      },
+      "guid": "3.parkeringsomrader_friluft_03",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "name": "tilgjengvurderingrulleauto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "alias": "Registrert",
+          "name": "forstedatafangstdato"
+        }, {
+          "alias": "Oppdatert",
+          "name": "datafangstdato"
+        }, {
+          "alias": "Kapasitet personbiler",
+          "name": "kapasitetpersonbiler"
+        }, {
+          "alias": "Kapasitet HC",
+          "name": "antalluu"
+        }, {
+          "alias": "Dekke",
+          "name": "dekke"
+        }, {
+          "alias": "Dekke tilstand",
+          "name": "dekketilstand"
+        }, {
+          "alias": "Kommentar",
+          "name": "kommentar"
+        }, {
+          "alias": "Bildefil 1",
+          "name": "bildefil1",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 2",
+          "name": "bildefil2",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 3",
+          "name": "bildefil3",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Objekt ID",
+          "name": "objektnr"
+        }]
+      }
+    }, {
+      "type": "overlay",
+      "Layers": {
+        "Layer": {
+          "name": "turvei_03",
           "queryable": "True",
           "title": "Turvei"
         }
@@ -3525,13 +3846,13 @@
       "name": "turvei",
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "groupid": 7,
+      "groupid": 3,
       "order": 2,
       "params": {
-        "layers": "turvei_02",
+        "layers": "turvei_03",
         "format": "image/png"
       },
-      "guid": "7.turvei_02",
+      "guid": "3.turvei_03",
       "options": {
         "isbaselayer": "false",
         "singletile": "true",
@@ -3626,22 +3947,73 @@
       "type": "overlay",
       "Layers": {
         "Layer": {
-          "name": "baderampe_02",
+          "name": "turisthytte_03",
           "queryable": "True",
-          "title": "Baderampe"
+          "title": "Turisthytte"
         }
       },
       "gatekeeper": "true",
-      "name": "baderampe",
+      "name": "turisthytte",
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 3,
       "order": 3,
       "params": {
-        "layers": "baderampe_02",
+        "layers": "turisthytte_03",
         "format": "image/png"
       },
-      "guid": "3.baderampe_02",
+      "guid": "3.turisthytte_03",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "alias": "Registrert",
+          "name": "forstedatafangstdato"
+        }, {
+          "alias": "Oppdatert",
+          "name": "datafangstdato"
+        }, {
+          "alias": "Navn",
+          "name": "navn"
+        }, {
+          "alias": "Eier",
+          "name": "eier"
+        }, {
+          "alias": "Kommentar",
+          "name": "kommentar"
+        }, {
+          "alias": "Objekt ID",
+          "name": "objektnr"
+        }, {
+          "alias": "Lenke",
+          "name": "lenke",
+          "type": "link",
+          "baseurl": " "
+        }]
+      }
+    }, {
+      "type": "overlay",
+      "Layers": {
+        "Layer": {
+          "name": "gapahukhytte_03",
+          "queryable": "True",
+          "title": "Gapahukhytte"
+        }
+      },
+      "gatekeeper": "true",
+      "name": "gapahukhytte",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "groupid": 3,
+      "order": 3,
+      "params": {
+        "layers": "gapahukhytte_03",
+        "format": "image/png"
+      },
+      "guid": "3.gapahukhytte_03",
       "options": {
         "isbaselayer": "false",
         "singletile": "true",
@@ -3653,6 +4025,12 @@
           "type": "symbol",
           "alias": "tilgjengelighet",
           "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "tilgjengvurderingelrullestol",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
           "filetype": "png"
         }, {
           "name": "tilgjengvurderingsyn",
@@ -3669,6 +4047,10 @@
         }, {
           "alias": "Rampe bredde",
           "name": "rampebredde",
+          "unit": "cm"
+        }, {
+          "alias": "Rampelengde",
+          "name": "rampelengde",
           "unit": "cm"
         }, {
           "alias": "Rampe stigning",
@@ -3691,6 +4073,22 @@
         }, {
           "alias": "Håndlist høyde nedre",
           "name": "handlisthoydenedre",
+          "unit": "cm"
+        }, {
+          "alias": "Diameter",
+          "name": "diameter",
+          "unit": "cm"
+        }, {
+          "alias": "Inngang bredde",
+          "name": "breddeinngang",
+          "unit": "cm"
+        }, {
+          "alias": "Inngang høyde",
+          "name": "hoydeinngang",
+          "unit": "cm"
+        }, {
+          "alias": "Terskel høyde",
+          "name": "terskelhoyde",
           "unit": "cm"
         }, {
           "alias": "Kommentar",
@@ -3846,213 +4244,6 @@
       "type": "overlay",
       "Layers": {
         "Layer": {
-          "name": "friluftsomrade_03",
-          "queryable": "True",
-          "title": "Friluftsområde"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "friluftsomrade",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "groupid": 3,
-      "order": 1,
-      "params": {
-        "layers": "friluftsomrade_03",
-        "format": "image/png"
-      },
-      "guid": "3.friluftsomrade_03",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "name": "forstedatafangstdato",
-          "alias": "Registrert"
-        }, {
-          "name": "datafangstdato",
-          "alias": "Oppdatert"
-        }, {
-          "name": "navn",
-          "alias": "Navn"
-        }, {
-          "alias": "Naturbasenummer",
-          "name": "naturbaseid"
-        }, {
-          "alias": "HC-parkering",
-          "name": "hcparkeringsplass"
-        }, {
-          "alias": "Toalett",
-          "name": "toalett"
-        }, {
-          "alias": "Turvei",
-          "name": "turvei"
-        }, {
-          "alias": "Baderampe",
-          "name": "baderampe"
-        }, {
-          "alias": "Fiskeplass",
-          "name": "fiskeplass"
-        }, {
-          "alias": "Grillbålplass",
-          "name": "grillbalplass"
-        }, {
-          "alias": "Sittegruppe",
-          "name": "sittegruppe"
-        }, {
-          "alias": "Gapahuk",
-          "name": "gapahuk"
-        }, {
-          "alias": "Informasjon",
-          "name": "informasjon"
-        }, {
-          "alias": "Kommentar",
-          "name": "kommentar"
-        }, {
-          "alias": "Bildefil 1",
-          "name": "bildefil1",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 2",
-          "name": "bildefil2",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 3",
-          "name": "bildefil3",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Objekt ID",
-          "name": "objektnr"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "gapahukhytte_03",
-          "queryable": "True",
-          "title": "Gapahukhytte"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "gapahukhytte",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "groupid": 3,
-      "order": 3,
-      "params": {
-        "layers": "gapahukhytte_03",
-        "format": "image/png"
-      },
-      "guid": "3.gapahukhytte_03",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "name": "tilgjengvurderingrulleauto",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
-          "filetype": "png"
-        }, {
-          "name": "tilgjengvurderingelrullestol",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
-          "filetype": "png"
-        }, {
-          "name": "tilgjengvurderingsyn",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
-          "filetype": "png"
-        }, {
-          "alias": "Registrert",
-          "name": "forstedatafangstdato"
-        }, {
-          "alias": "Oppdatert",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Rampe bredde",
-          "name": "rampebredde",
-          "unit": "cm"
-        }, {
-          "alias": "Rampelengde",
-          "name": "rampelengde",
-          "unit": "cm"
-        }, {
-          "alias": "Rampe stigning",
-          "name": "rampestigning",
-          "unit": "°"
-        }, {
-          "alias": "Rampe terskel",
-          "name": "rampeterskel",
-          "unit": "cm"
-        }, {
-          "alias": "Rampe tilgjengelig",
-          "name": "rampetilgjengelig"
-        }, {
-          "alias": "Håndlist",
-          "name": "handlist"
-        }, {
-          "alias": "Håndlist høyde øvre",
-          "name": "handlisthoydeovre",
-          "unit": "cm"
-        }, {
-          "alias": "Håndlist høyde nedre",
-          "name": "handlisthoydenedre",
-          "unit": "cm"
-        }, {
-          "alias": "Diameter",
-          "name": "diameter",
-          "unit": "cm"
-        }, {
-          "alias": "Inngang bredde",
-          "name": "breddeinngang",
-          "unit": "cm"
-        }, {
-          "alias": "Inngang høyde",
-          "name": "hoydeinngang",
-          "unit": "cm"
-        }, {
-          "alias": "Terskel høyde",
-          "name": "terskelhoyde",
-          "unit": "cm"
-        }, {
-          "alias": "Kommentar",
-          "name": "kommentar"
-        }, {
-          "alias": "Bildefil 1",
-          "name": "bildefil1",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 2",
-          "name": "bildefil2",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 3",
-          "name": "bildefil3",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Objekt ID",
-          "name": "objektnr"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
           "name": "grillbalplass_03",
           "queryable": "True",
           "title": "Grillbålplass"
@@ -4127,22 +4318,22 @@
       "type": "overlay",
       "Layers": {
         "Layer": {
-          "name": "hc_parkering_friluft_03",
+          "name": "baderampe_02",
           "queryable": "True",
-          "title": "HC-parkering"
+          "title": "Baderampe"
         }
       },
       "gatekeeper": "true",
-      "name": "hc_parkering",
+      "name": "baderampe",
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 3,
       "order": 3,
       "params": {
-        "layers": "hc_parkering_friluft_03",
+        "layers": "baderampe_02",
         "format": "image/png"
       },
-      "guid": "3.hc_parkering_friluft_03",
+      "guid": "3.baderampe_02",
       "options": {
         "isbaselayer": "false",
         "singletile": "true",
@@ -4156,93 +4347,10 @@
           "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
           "filetype": "png"
         }, {
-          "alias": "Registrert",
-          "name": "forstedatafangstdato"
-        }, {
-          "alias": "Oppdatert",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Skiltet",
-          "name": "skiltet"
-        }, {
-          "alias": "Merket",
-          "name": "merket"
-        }, {
-          "alias": "Avstand fasilitet",
-          "name": "avstandfasilitet",
-          "unit": "m"
-        }, {
-          "alias": "Bredde",
-          "name": "bredde",
-          "unit": "cm"
-        }, {
-          "alias": "Lengde",
-          "name": "lengde",
-          "unit": "cm"
-        }, {
-          "alias": "Avgift",
-          "name": "avgift"
-        }, {
-          "alias": "Automat høyde",
-          "name": "automathoyde",
-          "unit": "cm"
-        }, {
-          "alias": "Automat tilgjengelig",
-          "name": "tilgjengeligautomat"
-        }, {
-          "alias": "Kommentar",
-          "name": "kommentar"
-        }, {
-          "alias": "Bildefil 1",
-          "name": "bildefil1",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 2",
-          "name": "bildefil2",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 3",
-          "name": "bildefil3",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Objekt ID",
-          "name": "objektnr"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "parkeringsomrader_friluft_03",
-          "queryable": "True",
-          "title": "Parkeringsområder"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "parkeringsomrader",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "groupid": 3,
-      "order": 1,
-      "params": {
-        "layers": "parkeringsomrader_friluft_03",
-        "format": "image/png"
-      },
-      "guid": "3.parkeringsomrader_friluft_03",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "name": "tilgjengvurderingrulleauto",
+          "name": "tilgjengvurderingsyn",
           "type": "symbol",
           "alias": "tilgjengelighet",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
           "filetype": "png"
         }, {
           "alias": "Registrert",
@@ -4251,17 +4359,31 @@
           "alias": "Oppdatert",
           "name": "datafangstdato"
         }, {
-          "alias": "Kapasitet personbiler",
-          "name": "kapasitetpersonbiler"
+          "alias": "Rampe bredde",
+          "name": "rampebredde",
+          "unit": "cm"
         }, {
-          "alias": "Kapasitet HC",
-          "name": "antalluu"
+          "alias": "Rampe stigning",
+          "name": "rampestigning",
+          "unit": "°"
         }, {
-          "alias": "Dekke",
-          "name": "dekke"
+          "alias": "Rampe terskel",
+          "name": "rampeterskel",
+          "unit": "cm"
         }, {
-          "alias": "Dekke tilstand",
-          "name": "dekketilstand"
+          "alias": "Rampe tilgjengelig",
+          "name": "rampetilgjengelig"
+        }, {
+          "alias": "Håndlist",
+          "name": "handlist"
+        }, {
+          "alias": "Håndlist høyde øvre",
+          "name": "handlisthoydeovre",
+          "unit": "cm"
+        }, {
+          "alias": "Håndlist høyde nedre",
+          "name": "handlisthoydenedre",
+          "unit": "cm"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
@@ -4378,22 +4500,22 @@
       "type": "overlay",
       "Layers": {
         "Layer": {
-          "name": "statlig_sikra_polygon_03",
+          "name": "hc_parkering_friluft_03",
           "queryable": "True",
-          "title": "Statlig sikra"
+          "title": "HC-parkering"
         }
       },
       "gatekeeper": "true",
-      "name": "statlig_sikret",
+      "name": "hc_parkering",
       "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
       "groupid": 3,
-      "order": 1,
+      "order": 3,
       "params": {
-        "layers": "statlig_sikra_polygon_03",
+        "layers": "hc_parkering_friluft_03",
         "format": "image/png"
       },
-      "guid": "3.statlig_sikra_polygon_03",
+      "guid": "3.hc_parkering_friluft_03",
       "options": {
         "isbaselayer": "false",
         "singletile": "true",
@@ -4401,8 +4523,11 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "Navn",
-          "name": "navn"
+          "name": "tilgjengvurderingrulleauto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
         }, {
           "alias": "Registrert",
           "name": "forstedatafangstdato"
@@ -4410,18 +4535,54 @@
           "alias": "Oppdatert",
           "name": "datafangstdato"
         }, {
+          "alias": "Skiltet",
+          "name": "skiltet"
+        }, {
+          "alias": "Merket",
+          "name": "merket"
+        }, {
+          "alias": "Avstand fasilitet",
+          "name": "avstandfasilitet",
+          "unit": "m"
+        }, {
+          "alias": "Bredde",
+          "name": "bredde",
+          "unit": "cm"
+        }, {
+          "alias": "Lengde",
+          "name": "lengde",
+          "unit": "cm"
+        }, {
+          "alias": "Avgift",
+          "name": "avgift"
+        }, {
+          "alias": "Automat høyde",
+          "name": "automathoyde",
+          "unit": "cm"
+        }, {
+          "alias": "Automat tilgjengelig",
+          "name": "tilgjengeligautomat"
+        }, {
+          "alias": "Kommentar",
+          "name": "kommentar"
+        }, {
+          "alias": "Bildefil 1",
+          "name": "bildefil1",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 2",
+          "name": "bildefil2",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 3",
+          "name": "bildefil3",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
           "alias": "Objekt ID",
           "name": "objektnr"
-        }, {
-          "alias": "Link til informasjonsark",
-          "name": "linkskjema",
-          "type": "link",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft-skjema-FRL-2012/"
-        }, {
-          "alias": "Link til bildeark",
-          "name": "linkbilde",
-          "type": "link",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft-skjema-FRL-2012/"
         }]
       }
     }, {
@@ -4550,167 +4711,6 @@
         }, {
           "alias": "WC",
           "name": "wctilgjengelig"
-        }, {
-          "alias": "Kommentar",
-          "name": "kommentar"
-        }, {
-          "alias": "Bildefil 1",
-          "name": "bildefil1",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 2",
-          "name": "bildefil2",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 3",
-          "name": "bildefil3",
-          "type": "picture",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Objekt ID",
-          "name": "objektnr"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "turisthytte_03",
-          "queryable": "True",
-          "title": "Turisthytte"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "turisthytte",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "groupid": 3,
-      "order": 3,
-      "params": {
-        "layers": "turisthytte_03",
-        "format": "image/png"
-      },
-      "guid": "3.turisthytte_03",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "alias": "Registrert",
-          "name": "forstedatafangstdato"
-        }, {
-          "alias": "Oppdatert",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Navn",
-          "name": "navn"
-        }, {
-          "alias": "Eier",
-          "name": "eier"
-        }, {
-          "alias": "Kommentar",
-          "name": "kommentar"
-        }, {
-          "alias": "Objekt ID",
-          "name": "objektnr"
-        }, {
-          "alias": "Lenke",
-          "name": "lenke",
-          "type": "link",
-          "baseurl": " "
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "turvei_03",
-          "queryable": "True",
-          "title": "Turvei"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "turvei",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "groupid": 3,
-      "order": 2,
-      "params": {
-        "layers": "turvei_03",
-        "format": "image/png"
-      },
-      "guid": "3.turvei_03",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "name": "tilgjengvurderingrulleauto",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
-          "filetype": "png"
-        }, {
-          "name": "tilgjengvurderingelrullestol",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
-          "filetype": "png"
-        }, {
-          "name": "tilgjengvurderingsyn",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/syn/",
-          "filetype": "png"
-        }, {
-          "alias": "Registrert",
-          "name": "forstedatafangstdato"
-        }, {
-          "alias": "Oppdatert",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Veitype",
-          "name": "veitype"
-        }, {
-          "alias": "Spesial fottyperute",
-          "name": "spesialfotrutetype"
-        }, {
-          "alias": "Dekke",
-          "name": "dekke"
-        }, {
-          "alias": "Plankeavstand",
-          "name": "plankeavstand",
-          "unit": "cm"
-        }, {
-          "alias": "Dekke tilstand",
-          "name": "dekketilstand"
-        }, {
-          "alias": "Bredde",
-          "name": "bredde",
-          "unit": "cm"
-        }, {
-          "alias": "Stigning",
-          "name": "stigning",
-          "unit": "°"
-        }, {
-          "alias": "Tverrfall",
-          "name": "tverrfall",
-          "unit": "°"
-        }, {
-          "alias": "Belysning",
-          "name": "belysning"
-        }, {
-          "alias": "Fri høyde",
-          "name": "frihoyde"
-        }, {
-          "alias": "Ledelinje ",
-          "name": "ledelinje"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
