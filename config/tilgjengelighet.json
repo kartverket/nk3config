@@ -394,6 +394,100 @@
         }]
       }
     }, {
+	   "type": "overlay",
+      "Layers": {
+        "Layer": {
+          "name": "t_sittegruppe_r",
+          "queryable": "True",
+          "title": "Sittegruppe"
+        }
+      },
+      "gatekeeper": "true",
+      "name": "sittegruppe",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "groupid": 6,
+      "params": {
+        "layers": "t_sittegruppe_r",
+        "format": "image/png"
+      },
+      "guid": "6.t_sittegruppe_r",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "name": "tilgjengvurderingrulleauto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "tilgjengvurderingelrullestol",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
+          "filetype": "png"
+        }, {
+          "alias": "Registrert",
+          "name": "forstedatafangstdato"
+        }, {
+          "alias": "Oppdatert",
+          "name": "datafangstdato"
+        }, {
+          "alias": "Dekke",
+          "name": "dekke"
+        }, {
+          "alias": "Dekke tilstand",
+          "name": "dekketilstand"
+        }, {
+          "alias": "Helning",
+          "name": "helning",
+          "unit": "°"
+        }, {
+          "alias": "Høyde benk",
+          "name": "hoydebenk",
+          "unit": "cm"
+        }, {
+          "alias": "Armlene",
+          "name": "armlene"
+        }, {
+          "alias": "Ryggstøtte",
+          "name": "ryggstotte"
+        }, {
+          "alias": "Bord høyde",
+          "name": "hoydebord",
+          "unit": "cm"
+        }, {
+          "alias": "Bord utstikk",
+          "name": "utstikkbord",
+          "unit": "cm"
+        }, {
+          "alias": "Kommentar",
+          "name": "kommentar"
+        }, {
+          "alias": "Bildefil 1",
+          "name": "bildefil1",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/tettsted/"
+        }, {
+          "alias": "Bildefil 2",
+          "name": "bildefil2",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/tettsted/"
+        }, {
+          "alias": "Bildefil 3",
+          "name": "bildefil3",
+          "type": "picture",
+          "baseurl": "http://data.kartverket.no/tilgjengelighet/tettsted/"
+        }, {
+          "alias": "Objekt ID",
+          "name": "objektnr"
+        }]
+      }
+	}, {
       "type": "overlay",
       "Layers": {
         "Layer": {
