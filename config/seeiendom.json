@@ -229,7 +229,7 @@
       "type": "overlay",
       "gatekeeper": "true",
       "name": "bygninger",
-      "url": "//wms.geonorge.no/skwms1/wms.matrikkel.seeiendom2/?CQL_FILTER=BYGNINGSTATUS%3C9%20OR%20BYGNINGSTATUS=13",
+      "url": "//wms.geonorge.no/skwms1/wms.matrikkel.seeiendom2/?CQL_FILTER=BYGNINGSTATUS<9 OR BYGNINGSTATUS=13",
       "groupid": 1,
       "maxResolution": 2,
       "params": {
