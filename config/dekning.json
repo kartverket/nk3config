@@ -236,7 +236,7 @@
           "width": 1
         },
         "text": {
-          "text": "{_id}",
+          "text": "{id}",
           "scale": 1.3,
           "fill": {
             "color": "#000000"
