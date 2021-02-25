@@ -235,8 +235,8 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "NRL-ID",
-          "name": "nrl-id"
+          "alias": "nrl_id",
+          "name": "nrl_id"
         }, {
           "alias": "Navn",
           "name": "navn"
@@ -291,8 +291,8 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "NRL-ID",
-          "name": "nrl-id"
+          "alias": "nrl_id",
+          "name": "nrl_id"
         }, {
           "alias": "Navn",
           "name": "navn"
@@ -347,8 +347,8 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "NRL-ID",
-          "name": "nrl-id"
+          "alias": "nrl_id",
+          "name": "nrl_id"
         }, {
           "alias": "Navn",
           "name": "navn"
@@ -403,8 +403,8 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "NRL-ID",
-          "name": "nrl-id"
+          "alias": "nrl_id",
+          "name": "nrl_id"
         }, {
           "alias": "Navn",
           "name": "navn"
@@ -459,8 +459,8 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "NRL-ID",
-          "name": "nrl-id"
+          "alias": "nrl_id",
+          "name": "nrl_id"
         }, {
           "alias": "Navn",
           "name": "navn"
@@ -515,8 +515,8 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "NRL-ID",
-          "name": "nrl-id"
+          "alias": "nrl_id",
+          "name": "nrl_id"
         }, {
           "alias": "Navn",
           "name": "navn"
@@ -571,8 +571,8 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "NRL-ID",
-          "name": "nrl-id"
+          "alias": "nrl_id",
+          "name": "nrl_id"
         }, {
           "alias": "Navn",
           "name": "navn"
@@ -627,8 +627,8 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "NRL-ID",
-          "name": "nrl-id"
+          "alias": "nrl_id",
+          "name": "nrl_id"
         }, {
           "alias": "Navn",
           "name": "navn"
@@ -683,8 +683,8 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "NRL-ID",
-          "name": "nrl-id"
+          "alias": "nrl_id",
+          "name": "nrl_id"
         }, {
           "alias": "Navn",
           "name": "navn"
@@ -739,8 +739,8 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "NRL-ID",
-          "name": "nrl-id"
+          "alias": "nrl_id",
+          "name": "nrl_id"
         }, {
           "alias": "Navn",
           "name": "navn"
@@ -795,8 +795,8 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "NRL-ID",
-          "name": "nrl-id"
+          "alias": "nrl_id",
+          "name": "nrl_id"
         }, {
           "alias": "Navn",
           "name": "navn"
@@ -851,8 +851,8 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "NRL-ID",
-          "name": "nrl-id"
+          "alias": "nrl_id",
+          "name": "nrl_id"
         }, {
           "alias": "Navn",
           "name": "navn"
@@ -907,8 +907,8 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "NRL-ID",
-          "name": "nrl-id"
+          "alias": "nrl_id",
+          "name": "nrl_id"
         }, {
           "alias": "Navn",
           "name": "navn"
@@ -963,8 +963,8 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "NRL-ID",
-          "name": "nrl-id"
+          "alias": "nrl_id",
+          "name": "nrl_id"
         }, {
           "alias": "Navn",
           "name": "navn"
@@ -1019,8 +1019,8 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "NRL-ID",
-          "name": "nrl-id"
+          "alias": "nrl_id",
+          "name": "nrl_id"
         }, {
           "alias": "Navn",
           "name": "navn"
@@ -1075,8 +1075,8 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "NRL-ID",
-          "name": "nrl-id"
+          "alias": "nrl_id",
+          "name": "nrl_id"
         }, {
           "alias": "Navn",
           "name": "navn"
@@ -1131,8 +1131,8 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "NRL-ID",
-          "name": "nrl-id"
+          "alias": "nrl_id",
+          "name": "nrl_id"
         }, {
           "alias": "Navn",
           "name": "navn"
@@ -1187,8 +1187,8 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "NRL-ID",
-          "name": "nrl-id"
+          "alias": "nrl_id",
+          "name": "nrl_id"
         }, {
           "alias": "Navn",
           "name": "navn"
@@ -1243,8 +1243,8 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "NRL-ID",
-          "name": "nrl-id"
+          "alias": "nrl_id",
+          "name": "nrl_id"
         }, {
           "alias": "Navn",
           "name": "navn"
@@ -1299,8 +1299,8 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "NRL-ID",
-          "name": "nrl-id"
+          "alias": "nrl_id",
+          "name": "nrl_id"
         }, {
           "alias": "Navn",
           "name": "navn"
