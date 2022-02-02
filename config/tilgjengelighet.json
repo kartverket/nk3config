@@ -2548,6 +2548,107 @@
           "name": "objektnr"
         }]
       }
+    },{
+      "type": "overlay",
+      "Layers": {
+        "Layer": {
+          "name": "skiloype_01",
+          "queryable": "True",
+          "title": "Skiløype"
+        }
+      },
+      "gatekeeper": "true",
+      "name": "Skiløype",
+      "url": "http://rin-te0031/cgi-bin/tilgjengelighet3?",
+      "legendurl": "http://rin-te0031/cgi-bin/tilgjengelighet3?",
+      "groupid": 5,
+      "order": 3,
+      "params": {
+        "layers": "skiloype_01",
+        "format": "image/png"
+      },
+      "guid": "5.skiloype_01",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "name": "tilgjengvurderingrulleman",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        },{
+          "name": "tilgjengvurderingsyn",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/syn/",
+          "filetype": "png"
+        }, {
+          "alias": "Registrert",
+          "name": "forstedatafangstdato"
+        }, {
+          "alias": "Oppdatert",
+          "name": "datafangstdato"
+        }, {
+          "alias": "Avstand HC",
+          "name": "avstandhc",
+          "unit": "cm"
+        }, {
+          "alias": "Tverrfall",
+          "name": "tverrfall",
+          "unit": "°"
+        }, {
+          "alias": "Sperrebom",
+          "name": "sperrebom"
+        }, {
+          "alias": "Sperrebom tilgjengelig",
+          "name": "sperrebomtilgjengelig"
+        },{
+          "alias": "Stigning",
+          "name": "stigning",
+          "unit": "°"
+        }, {
+          "alias": "Bredde",
+          "name": "bredde",
+          "unit": "cm"
+        },  {
+          "alias": "Dobbelspor",
+          "name": "dobbelspor"
+        }, {
+          "alias": "Frihoyde",
+          "name": "frihoyde"
+        }, {
+          "alias": "Belysning",
+          "name": "belysning"
+        }, {
+          "alias": "Kommentar",
+          "name": "kommentar"
+        }, {
+          "alias": "Forbedringsforslag",
+          "name": "forbedringsforslag"
+        }, {
+          "alias": "Bildefil 1",
+          "name": "bildefil1",
+          "type": "picture",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 2",
+          "name": "bildefil2",
+          "type": "picture",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 3",
+          "name": "bildefil3",
+          "type": "picture",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Objekt ID",
+          "name": "objektnr"
+        }]
+      }
     }, {
       "type": "overlay",
       "Layers": {
@@ -3463,6 +3564,107 @@
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
+        }, {
+          "alias": "Bildefil 1",
+          "name": "bildefil1",
+          "type": "picture",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 2",
+          "name": "bildefil2",
+          "type": "picture",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 3",
+          "name": "bildefil3",
+          "type": "picture",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Objekt ID",
+          "name": "objektnr"
+        }]
+      }
+    }, {
+      "type": "overlay",
+      "Layers": {
+        "Layer": {
+          "name": "skiloype_02",
+          "queryable": "True",
+          "title": "Skiløype"
+        }
+      },
+      "gatekeeper": "true",
+      "name": "Skiløype",
+      "url": "http://rin-te0031/cgi-bin/tilgjengelighet3?",
+      "legendurl": "http://rin-te0031/cgi-bin/tilgjengelighet3?",
+      "groupid": 7,
+      "order": 3,
+      "params": {
+        "layers": "skiloype_02",
+        "format": "image/png"
+      },
+      "guid": "7.skiloype_02",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "name": "tilgjengvurderingrulleman",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        },{
+          "name": "tilgjengvurderingsyn",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/syn/",
+          "filetype": "png"
+        }, {
+          "alias": "Registrert",
+          "name": "forstedatafangstdato"
+        }, {
+          "alias": "Oppdatert",
+          "name": "datafangstdato"
+        }, {
+          "alias": "Avstand HC",
+          "name": "avstandhc",
+          "unit": "cm"
+        }, {
+          "alias": "Tverrfall",
+          "name": "tverrfall",
+          "unit": "°"
+        }, {
+          "alias": "Sperrebom",
+          "name": "sperrebom"
+        }, {
+          "alias": "Sperrebom tilgjengelig",
+          "name": "sperrebomtilgjengelig"
+        },{
+          "alias": "Stigning",
+          "name": "stigning",
+          "unit": "°"
+        }, {
+          "alias": "Bredde",
+          "name": "bredde",
+          "unit": "cm"
+        },  {
+          "alias": "Dobbelspor",
+          "name": "dobbelspor"
+        }, {
+          "alias": "Frihoyde",
+          "name": "frihoyde"
+        }, {
+          "alias": "Belysning",
+          "name": "belysning"
+        }, {
+          "alias": "Kommentar",
+          "name": "kommentar"
+        }, {
+          "alias": "Forbedringsforslag",
+          "name": "forbedringsforslag"
         }, {
           "alias": "Bildefil 1",
           "name": "bildefil1",
@@ -4495,6 +4697,107 @@
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
+        }, {
+          "alias": "Bildefil 1",
+          "name": "bildefil1",
+          "type": "picture",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 2",
+          "name": "bildefil2",
+          "type": "picture",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 3",
+          "name": "bildefil3",
+          "type": "picture",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Objekt ID",
+          "name": "objektnr"
+        }]
+      }
+    },{
+      "type": "overlay",
+      "Layers": {
+        "Layer": {
+          "name": "skiloype_03",
+          "queryable": "True",
+          "title": "Skiløype"
+        }
+      },
+      "gatekeeper": "true",
+      "name": "Skiløype",
+      "url": "http://rin-te0031/cgi-bin/tilgjengelighet3?",
+      "legendurl": "http://rin-te0031/cgi-bin/tilgjengelighet3?",
+      "groupid": 3,
+      "order": 3,
+      "params": {
+        "layers": "skiloype_03",
+        "format": "image/png"
+      },
+      "guid": "3.skiloype_03",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "name": "tilgjengvurderingrulleman",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        },{
+          "name": "tilgjengvurderingsyn",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/syn/",
+          "filetype": "png"
+        }, {
+          "alias": "Registrert",
+          "name": "forstedatafangstdato"
+        }, {
+          "alias": "Oppdatert",
+          "name": "datafangstdato"
+        }, {
+          "alias": "Avstand HC",
+          "name": "avstandhc",
+          "unit": "cm"
+        }, {
+          "alias": "Tverrfall",
+          "name": "tverrfall",
+          "unit": "°"
+        }, {
+          "alias": "Sperrebom",
+          "name": "sperrebom"
+        }, {
+          "alias": "Sperrebom tilgjengelig",
+          "name": "sperrebomtilgjengelig"
+        },{
+          "alias": "Stigning",
+          "name": "stigning",
+          "unit": "°"
+        }, {
+          "alias": "Bredde",
+          "name": "bredde",
+          "unit": "cm"
+        },  {
+          "alias": "Dobbelspor",
+          "name": "dobbelspor"
+        }, {
+          "alias": "Frihoyde",
+          "name": "frihoyde"
+        }, {
+          "alias": "Belysning",
+          "name": "belysning"
+        }, {
+          "alias": "Kommentar",
+          "name": "kommentar"
+        }, {
+          "alias": "Forbedringsforslag",
+          "name": "forbedringsforslag"
         }, {
           "alias": "Bildefil 1",
           "name": "bildefil1",
