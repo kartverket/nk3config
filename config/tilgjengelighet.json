@@ -2403,155 +2403,6 @@
       "type": "overlay",
       "Layers": {
         "Layer": {
-          "name": "toalett_01",
-          "queryable": "True",
-          "title": "Toalett"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "toalett",
-      "url": "http://rin-te0031/cgi-bin/tilgjengelighet3?",
-      "legendurl": "http://rin-te0031/cgi-bin/tilgjengelighet3?",
-      "groupid": 5,
-      "order": 3,
-      "params": {
-        "layers": "toalett_01",
-        "format": "image/png"
-      },
-      "guid": "5.toalett_01",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "name": "tilgjengvurderingrulleauto",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
-          "filetype": "png"
-        }, {
-          "name": "tilgjengvurderingelrullestol",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
-          "filetype": "png"
-        }, {
-          "name": "tilgjengvurderingsyn",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/syn/",
-          "filetype": "png"
-        }, {
-          "alias": "Registrert",
-          "name": "forstedatafangstdato"
-        }, {
-          "alias": "Oppdatert",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Rampe bredde",
-          "name": "rampebredde",
-          "unit": "cm"
-        }, {
-          "alias": "Rampe lengde",
-          "name": "rampelengde",
-          "unit": "cm"
-        }, {
-          "alias": "Rampe stigning",
-          "name": "rampestigning",
-          "unit": "°"
-        }, {
-          "alias": "Rampe terskel",
-          "name": "rampeterskel",
-          "unit": "cm"
-        }, {
-          "alias": "Rampe tilgjengelig",
-          "name": "rampetilgjengelig"
-        }, {
-          "alias": "Håndlist",
-          "name": "handlist"
-        }, {
-          "alias": "Håndlist høyde øvre",
-          "name": "handlisthoydeovre",
-          "unit": "cm"
-        }, {
-          "alias": "Håndlist høyde nedre",
-          "name": "handlisthoydenedre",
-          "unit": "cm"
-        }, {
-          "alias": "Trapp",
-          "name": "trapp"
-        }, {
-          "alias": "Rekkverk",
-          "name": "rekkverk"
-        }, {
-          "alias": "Trapp kontrast",
-          "name": "trappkontrast"
-        }, {
-          "alias": "Horisontalt felt",
-          "name": "horisontalfelt",
-          "unit": "cm"
-        }, {
-          "alias": "Dørtype",
-          "name": "dortype"
-        }, {
-          "alias": "Døråpner",
-          "name": "dorapner"
-        }, {
-          "alias": "Inngang bredde",
-          "name": "breddeinngang",
-          "unit": "cm"
-        }, {
-          "alias": "Inngang kontrast",
-          "name": "kontrastinngang"
-        }, {
-          "alias": "Terskel høyde",
-          "name": "terskelhoyde",
-          "unit": "cm"
-        }, {
-          "alias": "Diameter",
-          "name": "diameter",
-          "unit": "cm"
-        }, {
-          "alias": "Belysning",
-          "name": "belysninginne"
-        }, {
-          "alias": "Omkledning",
-          "name": "omkledningtilgjengelig"
-        }, {
-          "alias": "Servant",
-          "name": "servanttilgjengelig"
-        }, {
-          "alias": "WC",
-          "name": "wctilgjengelig"
-        }, {
-          "alias": "Kommentar",
-          "name": "kommentar"
-        }, {
-          "alias": "Bildefil 1",
-          "name": "bildefil1",
-          "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 2",
-          "name": "bildefil2",
-          "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 3",
-          "name": "bildefil3",
-          "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Objekt ID",
-          "name": "objektnr"
-        }]
-      }
-    },{
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
           "name": "skiloype_01",
           "queryable": "True",
           "title": "Skiløype"
@@ -3412,155 +3263,6 @@
         }, {
           "alias": "Automat tilgjengelig",
           "name": "tilgjengeligautomat"
-        }, {
-          "alias": "Kommentar",
-          "name": "kommentar"
-        }, {
-          "alias": "Bildefil 1",
-          "name": "bildefil1",
-          "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 2",
-          "name": "bildefil2",
-          "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 3",
-          "name": "bildefil3",
-          "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Objekt ID",
-          "name": "objektnr"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "toalett_02",
-          "queryable": "True",
-          "title": "Toalett"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "toalett",
-      "url": "http://rin-te0031/cgi-bin/tilgjengelighet3?",
-      "legendurl": "http://rin-te0031/cgi-bin/tilgjengelighet3?",
-      "groupid": 7,
-      "order": 3,
-      "params": {
-        "layers": "toalett_02",
-        "format": "image/png"
-      },
-      "guid": "7.toalett_02",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "name": "tilgjengvurderingrulleauto",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
-          "filetype": "png"
-        }, {
-          "name": "tilgjengvurderingelrullestol",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
-          "filetype": "png"
-        }, {
-          "name": "tilgjengvurderingsyn",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/syn/",
-          "filetype": "png"
-        }, {
-          "alias": "Registrert",
-          "name": "forstedatafangstdato"
-        }, {
-          "alias": "Oppdatert",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Rampe bredde",
-          "name": "rampebredde",
-          "unit": "cm"
-        }, {
-          "alias": "Rampe lengde",
-          "name": "rampelengde",
-          "unit": "cm"
-        }, {
-          "alias": "Rampe stigning",
-          "name": "rampestigning",
-          "unit": "°"
-        }, {
-          "alias": "Rampe terskel",
-          "name": "rampeterskel",
-          "unit": "cm"
-        }, {
-          "alias": "Rampe tilgjengelig",
-          "name": "rampetilgjengelig"
-        }, {
-          "alias": "Håndlist",
-          "name": "handlist"
-        }, {
-          "alias": "Håndlist høyde øvre",
-          "name": "handlisthoydeovre",
-          "unit": "cm"
-        }, {
-          "alias": "Håndlist høyde nedre",
-          "name": "handlisthoydenedre",
-          "unit": "cm"
-        }, {
-          "alias": "Trapp",
-          "name": "trapp"
-        }, {
-          "alias": "Rekkverk",
-          "name": "rekkverk"
-        }, {
-          "alias": "Trapp kontrast",
-          "name": "trappkontrast"
-        }, {
-          "alias": "Horisontalt felt",
-          "name": "horisontalfelt",
-          "unit": "cm"
-        }, {
-          "alias": "Dørtype",
-          "name": "dortype"
-        }, {
-          "alias": "Døråpner",
-          "name": "dorapner"
-        }, {
-          "alias": "Inngang bredde",
-          "name": "breddeinngang",
-          "unit": "cm"
-        }, {
-          "alias": "Inngang kontrast",
-          "name": "kontrastinngang"
-        }, {
-          "alias": "Terskel høyde",
-          "name": "terskelhoyde",
-          "unit": "cm"
-        }, {
-          "alias": "Diameter",
-          "name": "diameter",
-          "unit": "cm"
-        }, {
-          "alias": "Belysning",
-          "name": "belysninginne"
-        }, {
-          "alias": "Omkledning",
-          "name": "omkledningtilgjengelig"
-        }, {
-          "alias": "Servant",
-          "name": "servanttilgjengelig"
-        }, {
-          "alias": "WC",
-          "name": "wctilgjengelig"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
@@ -4572,155 +4274,6 @@
       "type": "overlay",
       "Layers": {
         "Layer": {
-          "name": "toalett_03",
-          "queryable": "True",
-          "title": "Toalett"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "toalett",
-      "url": "http://rin-te0031/cgi-bin/tilgjengelighet3?",
-      "legendurl": "http://rin-te0031/cgi-bin/tilgjengelighet3?",
-      "groupid": 3,
-      "order": 3,
-      "params": {
-        "layers": "toalett_03",
-        "format": "image/png"
-      },
-      "guid": "3.toalett_03",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "name": "tilgjengvurderingrulleauto",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
-          "filetype": "png"
-        }, {
-          "name": "tilgjengvurderingelrullestol",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
-          "filetype": "png"
-        }, {
-          "name": "tilgjengvurderingsyn",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/syn/",
-          "filetype": "png"
-        }, {
-          "alias": "Registrert",
-          "name": "forstedatafangstdato"
-        }, {
-          "alias": "Oppdatert",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Rampe bredde",
-          "name": "rampebredde",
-          "unit": "cm"
-        }, {
-          "alias": "Rampe lengde",
-          "name": "rampelengde",
-          "unit": "cm"
-        }, {
-          "alias": "Rampe stigning",
-          "name": "rampestigning",
-          "unit": "°"
-        }, {
-          "alias": "Rampe terskel",
-          "name": "rampeterskel",
-          "unit": "cm"
-        }, {
-          "alias": "Rampe tilgjengelig",
-          "name": "rampetilgjengelig"
-        }, {
-          "alias": "Håndlist",
-          "name": "handlist"
-        }, {
-          "alias": "Håndlist høyde øvre",
-          "name": "handlisthoydeovre",
-          "unit": "cm"
-        }, {
-          "alias": "Håndlist høyde nedre",
-          "name": "handlisthoydenedre",
-          "unit": "cm"
-        }, {
-          "alias": "Trapp",
-          "name": "trapp"
-        }, {
-          "alias": "Rekkverk",
-          "name": "rekkverk"
-        }, {
-          "alias": "Trapp kontrast",
-          "name": "trappkontrast"
-        }, {
-          "alias": "Horisontalt felt",
-          "name": "horisontalfelt",
-          "unit": "cm"
-        }, {
-          "alias": "Dørtype",
-          "name": "dortype"
-        }, {
-          "alias": "Døråpner",
-          "name": "dorapner"
-        }, {
-          "alias": "Inngang bredde",
-          "name": "breddeinngang",
-          "unit": "cm"
-        }, {
-          "alias": "Inngang kontrast",
-          "name": "kontrastinngang"
-        }, {
-          "alias": "Terskel høyde",
-          "name": "terskelhoyde",
-          "unit": "cm"
-        }, {
-          "alias": "Diameter",
-          "name": "diameter",
-          "unit": "cm"
-        }, {
-          "alias": "Belysning",
-          "name": "belysninginne"
-        }, {
-          "alias": "Omkledning",
-          "name": "omkledningtilgjengelig"
-        }, {
-          "alias": "Servant",
-          "name": "servanttilgjengelig"
-        }, {
-          "alias": "WC",
-          "name": "wctilgjengelig"
-        }, {
-          "alias": "Kommentar",
-          "name": "kommentar"
-        }, {
-          "alias": "Bildefil 1",
-          "name": "bildefil1",
-          "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 2",
-          "name": "bildefil2",
-          "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 3",
-          "name": "bildefil3",
-          "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Objekt ID",
-          "name": "objektnr"
-        }]
-      }
-    },{
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
           "name": "skiloype_03",
           "queryable": "True",
           "title": "Skiløype"
@@ -4911,6 +4464,155 @@
           "name": "bildefil3",
           "type": "picture",
           "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+        }, {
+          "alias": "Objekt ID",
+          "name": "objektnr"
+        }]
+      }
+    },{
+      "type": "overlay",
+      "Layers": {
+        "Layer": {
+          "name": "toalett",
+          "queryable": "True",
+          "title": "Toalett"
+        }
+      },
+      "gatekeeper": "true",
+      "name": "toalett",
+      "url": "http://rin-te0031/cgi-bin/tilgjengelighet3?",
+      "legendurl": "http://rin-te0031/cgi-bin/tilgjengelighet3?",
+      "groupid": 10,
+      "order": 3,
+      "params": {
+        "layers": "toalett",
+        "format": "image/png"
+      },
+      "guid": "10.toalett",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "name": "tilgjengvurderingrulleauto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "tilgjengvurderingelrullestol",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
+          "filetype": "png"
+        }, {
+          "name": "tilgjengvurderingsyn",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/syn/",
+          "filetype": "png"
+        }, {
+          "alias": "Registrert",
+          "name": "forstedatafangstdato"
+        }, {
+          "alias": "Oppdatert",
+          "name": "datafangstdato"
+        }, {
+          "alias": "Rampe bredde",
+          "name": "rampebredde",
+          "unit": "cm"
+        }, {
+          "alias": "Rampe lengde",
+          "name": "rampelengde",
+          "unit": "cm"
+        }, {
+          "alias": "Rampe stigning",
+          "name": "rampestigning",
+          "unit": "°"
+        }, {
+          "alias": "Rampe terskel",
+          "name": "rampeterskel",
+          "unit": "cm"
+        }, {
+          "alias": "Rampe tilgjengelig",
+          "name": "rampetilgjengelig"
+        }, {
+          "alias": "Håndlist",
+          "name": "handlist"
+        }, {
+          "alias": "Håndlist høyde øvre",
+          "name": "handlisthoydeovre",
+          "unit": "cm"
+        }, {
+          "alias": "Håndlist høyde nedre",
+          "name": "handlisthoydenedre",
+          "unit": "cm"
+        }, {
+          "alias": "Trapp",
+          "name": "trapp"
+        }, {
+          "alias": "Rekkverk",
+          "name": "rekkverk"
+        }, {
+          "alias": "Trapp kontrast",
+          "name": "trappkontrast"
+        }, {
+          "alias": "Horisontalt felt",
+          "name": "horisontalfelt",
+          "unit": "cm"
+        }, {
+          "alias": "Dørtype",
+          "name": "dortype"
+        }, {
+          "alias": "Døråpner",
+          "name": "dorapner"
+        }, {
+          "alias": "Inngang bredde",
+          "name": "breddeinngang",
+          "unit": "cm"
+        }, {
+          "alias": "Inngang kontrast",
+          "name": "kontrastinngang"
+        }, {
+          "alias": "Terskel høyde",
+          "name": "terskelhoyde",
+          "unit": "cm"
+        }, {
+          "alias": "Diameter",
+          "name": "diameter",
+          "unit": "cm"
+        }, {
+          "alias": "Belysning",
+          "name": "belysninginne"
+        }, {
+          "alias": "Omkledning",
+          "name": "omkledningtilgjengelig"
+        }, {
+          "alias": "Servant",
+          "name": "servanttilgjengelig"
+        }, {
+          "alias": "WC",
+          "name": "wctilgjengelig"
+        }, {
+          "alias": "Kommentar",
+          "name": "kommentar"
+        }, {
+          "alias": "Bildefil 1",
+          "name": "bildefil1",
+          "type": "picture",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 2",
+          "name": "bildefil2",
+          "type": "picture",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+        }, {
+          "alias": "Bildefil 3",
+          "name": "bildefil3",
+          "type": "picture",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
