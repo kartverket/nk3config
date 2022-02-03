@@ -4453,17 +4453,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
