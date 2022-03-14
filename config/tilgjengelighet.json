@@ -225,8 +225,8 @@
       },
       "gatekeeper": "true",
       "name": "parkerings_omrade",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 6,
       "params": {
         "layers": "t_parkeringsomrade_r",
@@ -255,11 +255,14 @@
           "alias": "Kapasitet personbiler",
           "name": "kapasitetpersonbiler"
         }, {
-          "alias": "Dekke",
-          "name": "dekke"
+          "alias": "Dekke materiale",
+          "name": "dekkemateriale"
         }, {
           "alias": "Dekke tilstand",
           "name": "dekketilstand"
+        }, {
+          "alias": "Dekke fasthet",
+          "name": "dekkefasthet"
         }, {
           "alias": "Kapasitet HC",
           "name": "antalluu"
@@ -270,17 +273,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -297,8 +300,8 @@
       },
       "gatekeeper": "true",
       "name": "vei",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 6,
       "params": {
         "layers": "t_vei_r",
@@ -339,11 +342,14 @@
           "alias": "Gatetype",
           "name": "gatetype"
         }, {
-          "alias": "Dekke",
-          "name": "dekke"
+          "alias": "Dekke materiale",
+          "name": "dekkemateriale"
         }, {
           "alias": "Dekke tilstand",
           "name": "dekketilstand"
+        }, {
+          "alias": "Dekke fasthet",
+          "name": "dekkefasthet"
         }, {
           "alias": "Bredde",
           "name": "bredde",
@@ -383,117 +389,23 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
         }]
       }
     }, {
-	   "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "t_sittegruppe_r",
-          "queryable": "True",
-          "title": "Sittegruppe"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "sittegruppe",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "groupid": 6,
-      "params": {
-        "layers": "t_sittegruppe_r",
-        "format": "image/png"
-      },
-      "guid": "6.t_sittegruppe_r",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "name": "tilgjengvurderingrulleauto",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
-          "filetype": "png"
-        }, {
-          "name": "tilgjengvurderingelrullestol",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
-          "filetype": "png"
-        }, {
-          "alias": "Registrert",
-          "name": "forstedatafangstdato"
-        }, {
-          "alias": "Oppdatert",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Dekke",
-          "name": "dekke"
-        }, {
-          "alias": "Dekke tilstand",
-          "name": "dekketilstand"
-        }, {
-          "alias": "Helning",
-          "name": "helning",
-          "unit": "°"
-        }, {
-          "alias": "Høyde benk",
-          "name": "hoydebenk",
-          "unit": "cm"
-        }, {
-          "alias": "Armlene",
-          "name": "armlene"
-        }, {
-          "alias": "Ryggstøtte",
-          "name": "ryggstotte"
-        }, {
-          "alias": "Bord høyde",
-          "name": "hoydebord",
-          "unit": "cm"
-        }, {
-          "alias": "Bord utstikk",
-          "name": "utstikkbord",
-          "unit": "cm"
-        }, {
-          "alias": "Kommentar",
-          "name": "kommentar"
-        }, {
-          "alias": "Bildefil 1",
-          "name": "bildefil1",
-          "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
-        }, {
-          "alias": "Bildefil 2",
-          "name": "bildefil2",
-          "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
-        }, {
-          "alias": "Bildefil 3",
-          "name": "bildefil3",
-          "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
-        }, {
-          "alias": "Objekt ID",
-          "name": "objektnr"
-        }]
-      }
-	}, {
       "type": "overlay",
       "Layers": {
         "Layer": {
@@ -504,8 +416,8 @@
       },
       "gatekeeper": "true",
       "name": "hc_parkering",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 6,
       "params": {
         "layers": "t_HC_parkering_r",
@@ -584,17 +496,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -611,8 +523,8 @@
       },
       "gatekeeper": "true",
       "name": "inngang_bygg",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 6,
       "params": {
         "layers": "t_inngangbygg_r_01",
@@ -726,17 +638,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -753,8 +665,8 @@
       },
       "gatekeeper": "true",
       "name": "parkerings_omrade",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 9,
       "params": {
         "layers": "t_parkeringsomrade_el",
@@ -783,11 +695,14 @@
           "alias": "Kapasitet personbiler",
           "name": "kapasitetpersonbiler"
         }, {
-          "alias": "Dekke",
-          "name": "dekke"
+          "alias": "Dekke materiale",
+          "name": "dekkemateriale"
         }, {
           "alias": "Dekke tilstand",
           "name": "dekketilstand"
+        }, {
+          "alias": "Dekke fasthet",
+          "name": "dekkefasthet"
         }, {
           "alias": "Kapasitet HC",
           "name": "antalluu"
@@ -798,17 +713,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -825,8 +740,8 @@
       },
       "gatekeeper": "true",
       "name": "vei",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 9,
       "params": {
         "layers": "t_vei_el",
@@ -867,11 +782,14 @@
           "alias": "Gatetype",
           "name": "gatetype"
         }, {
-          "alias": "Dekke",
-          "name": "dekke"
+          "alias": "Dekke materiale",
+          "name": "dekkemateriale"
         }, {
           "alias": "Dekke tilstand",
           "name": "dekketilstand"
+        }, {
+          "alias": "Dekke fasthet",
+          "name": "dekkefasthet"
         }, {
           "alias": "Bredde",
           "name": "bredde",
@@ -911,17 +829,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -938,8 +856,8 @@
       },
       "gatekeeper": "true",
       "name": "hc_parkering",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 9,
       "params": {
         "layers": "t_HC_parkering_el",
@@ -1018,17 +936,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -1045,8 +963,8 @@
       },
       "gatekeeper": "true",
       "name": "inngang_bygg",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 9,
       "params": {
         "layers": "t_inngangbygg_r_02",
@@ -1160,17 +1078,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -1187,8 +1105,8 @@
       },
       "gatekeeper": "true",
       "name": "parkerings_omrade",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 8,
       "params": {
         "layers": "t_parkeringsomrade",
@@ -1217,11 +1135,14 @@
           "alias": "Kapasitet personbiler",
           "name": "kapasitetpersonbiler"
         }, {
-          "alias": "Dekke",
-          "name": "dekke"
+          "alias": "Dekke materiale",
+          "name": "dekkemateriale"
         }, {
           "alias": "Dekke tilstand",
           "name": "dekketilstand"
+        }, {
+          "alias": "Dekke fasthet",
+          "name": "dekkefasthet"
         }, {
           "alias": "Kapasitet HC",
           "name": "antalluu"
@@ -1232,17 +1153,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -1259,8 +1180,8 @@
       },
       "gatekeeper": "true",
       "name": "vei",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 8,
       "params": {
         "layers": "t_vei",
@@ -1301,11 +1222,14 @@
           "alias": "Gatetype",
           "name": "gatetype"
         }, {
-          "alias": "Dekke",
-          "name": "dekke"
+          "alias": "Dekke materiale",
+          "name": "dekkemateriale"
         }, {
           "alias": "Dekke tilstand",
           "name": "dekketilstand"
+        }, {
+          "alias": "Dekke fasthet",
+          "name": "dekkefasthet"
         }, {
           "alias": "Bredde",
           "name": "bredde",
@@ -1357,8 +1281,8 @@
       },
       "gatekeeper": "true",
       "name": "hc_parkering",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 8,
       "params": {
         "layers": "t_HC_parkering",
@@ -1437,17 +1361,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -1464,8 +1388,8 @@
       },
       "gatekeeper": "true",
       "name": "inngang_bygg",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 8,
       "params": {
         "layers": "t_inngangbygg",
@@ -1579,17 +1503,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -1606,8 +1530,8 @@
       },
       "gatekeeper": "true",
       "name": "statlig_sikret",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 5,
       "order": 1,
       "params": {
@@ -1656,8 +1580,8 @@
       },
       "gatekeeper": "true",
       "name": "friluftsomrade",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 5,
       "order": 1,
       "params": {
@@ -1717,17 +1641,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -1744,8 +1668,8 @@
       },
       "gatekeeper": "true",
       "name": "parkeringsomrader",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 5,
       "order": 1,
       "params": {
@@ -1778,11 +1702,14 @@
           "alias": "Kapasitet HC",
           "name": "antalluu"
         }, {
-          "alias": "Dekke",
-          "name": "dekke"
+          "alias": "Dekke materiale",
+          "name": "dekkemateriale"
         }, {
           "alias": "Dekke tilstand",
           "name": "dekketilstand"
+        }, {
+          "alias": "Dekke fasthet",
+          "name": "dekkefasthet"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
@@ -1790,17 +1717,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -1817,8 +1744,8 @@
       },
       "gatekeeper": "true",
       "name": "turvei",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 5,
       "order": 2,
       "params": {
@@ -1863,8 +1790,8 @@
           "alias": "Spesial fottyperute",
           "name": "spesialfotrutetype"
         }, {
-          "alias": "Dekke",
-          "name": "dekke"
+          "alias": "Dekke materiale",
+          "name": "dekkemateriale"
         }, {
           "alias": "Plankeavstand",
           "name": "plankeavstand",
@@ -1872,6 +1799,9 @@
         }, {
           "alias": "Dekke tilstand",
           "name": "dekketilstand"
+        }, {
+          "alias": "Dekke fasthet",
+          "name": "dekkefasthet"
         }, {
           "alias": "Bredde",
           "name": "bredde",
@@ -1900,17 +1830,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -1927,8 +1857,8 @@
       },
       "gatekeeper": "true",
       "name": "turisthytte",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 5,
       "order": 3,
       "params": {
@@ -1978,8 +1908,8 @@
       },
       "gatekeeper": "true",
       "name": "gapahukhytte",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 5,
       "order": 3,
       "params": {
@@ -2070,17 +2000,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -2097,8 +2027,8 @@
       },
       "gatekeeper": "true",
       "name": "fiskeplass",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 5,
       "order": 3,
       "params": {
@@ -2166,8 +2096,8 @@
           "name": "handlisthoydenedre",
           "unit": "cm"
         }, {
-          "alias": "Dekke",
-          "name": "dekke"
+          "alias": "Dekke materiale",
+          "name": "dekkemateriale"
         }, {
           "alias": "Planke avstand",
           "name": "plankeavstand",
@@ -2193,17 +2123,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -2220,8 +2150,8 @@
       },
       "gatekeeper": "true",
       "name": "grillbalplass",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 5,
       "order": 3,
       "params": {
@@ -2251,11 +2181,14 @@
           "alias": "Type",
           "name": "plasstype"
         }, {
-          "alias": "Dekke",
-          "name": "dekke"
+          "alias": "Dekke materiale",
+          "name": "dekkemateriale"
         }, {
           "alias": "Dekke tilstand",
           "name": "dekketilstand"
+        }, {
+          "alias": "Dekke fasthet",
+          "name": "dekkefasthet"
         }, {
           "alias": "Helning",
           "name": "helning",
@@ -2267,17 +2200,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -2294,8 +2227,8 @@
       },
       "gatekeeper": "true",
       "name": "baderampe",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 5,
       "order": 3,
       "params": {
@@ -2364,106 +2297,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Objekt ID",
-          "name": "objektnr"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "sittegruppe_01",
-          "queryable": "True",
-          "title": "Sittegruppe"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "sittegruppe",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "groupid": 5,
-      "order": 3,
-      "params": {
-        "layers": "sittegruppe_01",
-        "format": "image/png"
-      },
-      "guid": "5.sittegruppe_01",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "name": "tilgjengvurderingrulleauto",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
-          "filetype": "png"
-        }, {
-          "alias": "Registrert",
-          "name": "forstedatafangstdato"
-        }, {
-          "alias": "Oppdatert",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Dekke",
-          "name": "dekke"
-        }, {
-          "alias": "Dekke tilstand",
-          "name": "dekketilstand"
-        }, {
-          "alias": "Helning",
-          "name": "helning",
-          "unit": "°"
-        }, {
-          "alias": "Høyde benk",
-          "name": "hoydebenk",
-          "unit": "cm"
-        }, {
-          "alias": "Armlene",
-          "name": "armlene"
-        }, {
-          "alias": "Ryggstøtte",
-          "name": "ryggstotte"
-        }, {
-          "alias": "Bord høyde",
-          "name": "hoydebord",
-          "unit": "cm"
-        }, {
-          "alias": "Bord utstikk",
-          "name": "utstikkbord",
-          "unit": "cm"
-        }, {
-          "alias": "Kommentar",
-          "name": "kommentar"
-        }, {
-          "alias": "Bildefil 1",
-          "name": "bildefil1",
-          "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 2",
-          "name": "bildefil2",
-          "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 3",
-          "name": "bildefil3",
-          "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -2480,8 +2324,8 @@
       },
       "gatekeeper": "true",
       "name": "hc_parkering",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 5,
       "order": 3,
       "params": {
@@ -2542,17 +2386,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -2562,22 +2406,22 @@
       "type": "overlay",
       "Layers": {
         "Layer": {
-          "name": "toalett_01",
+          "name": "skiloype_01",
           "queryable": "True",
-          "title": "Toalett"
+          "title": "Skiløype"
         }
       },
       "gatekeeper": "true",
-      "name": "toalett",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "name": "Skiløype",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 5,
       "order": 3,
       "params": {
-        "layers": "toalett_01",
+        "layers": "skiloype_01",
         "format": "image/png"
       },
-      "guid": "5.toalett_01",
+      "guid": "5.skiloype_01",
       "options": {
         "isbaselayer": "false",
         "singletile": "true",
@@ -2585,18 +2429,12 @@
       },
       "includedfields": {
         "field": [{
-          "name": "tilgjengvurderingrulleauto",
+          "name": "tilgjengvurderingrulleman",
           "type": "symbol",
           "alias": "tilgjengelighet",
           "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
           "filetype": "png"
-        }, {
-          "name": "tilgjengvurderingelrullestol",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
-          "filetype": "png"
-        }, {
+        },{
           "name": "tilgjengvurderingsyn",
           "type": "symbol",
           "alias": "tilgjengelighet",
@@ -2609,99 +2447,57 @@
           "alias": "Oppdatert",
           "name": "datafangstdato"
         }, {
-          "alias": "Rampe bredde",
-          "name": "rampebredde",
+          "alias": "Avstand HC",
+          "name": "avstandhc",
           "unit": "cm"
         }, {
-          "alias": "Rampe lengde",
-          "name": "rampelengde",
-          "unit": "cm"
-        }, {
-          "alias": "Rampe stigning",
-          "name": "rampestigning",
+          "alias": "Tverrfall",
+          "name": "tverrfall",
           "unit": "°"
         }, {
-          "alias": "Rampe terskel",
-          "name": "rampeterskel",
+          "alias": "Sperrebom",
+          "name": "sperrebom"
+        }, {
+          "alias": "Sperrebom tilgjengelig",
+          "name": "sperrebomtilgjengelig"
+        },{
+          "alias": "Stigning",
+          "name": "stigning",
+          "unit": "°"
+        }, {
+          "alias": "Bredde",
+          "name": "bredde",
           "unit": "cm"
+        },  {
+          "alias": "Dobbelspor",
+          "name": "dobbelspor"
         }, {
-          "alias": "Rampe tilgjengelig",
-          "name": "rampetilgjengelig"
-        }, {
-          "alias": "Håndlist",
-          "name": "handlist"
-        }, {
-          "alias": "Håndlist høyde øvre",
-          "name": "handlisthoydeovre",
-          "unit": "cm"
-        }, {
-          "alias": "Håndlist høyde nedre",
-          "name": "handlisthoydenedre",
-          "unit": "cm"
-        }, {
-          "alias": "Trapp",
-          "name": "trapp"
-        }, {
-          "alias": "Rekkverk",
-          "name": "rekkverk"
-        }, {
-          "alias": "Trapp kontrast",
-          "name": "trappkontrast"
-        }, {
-          "alias": "Horisontalt felt",
-          "name": "horisontalfelt",
-          "unit": "cm"
-        }, {
-          "alias": "Dørtype",
-          "name": "dortype"
-        }, {
-          "alias": "Døråpner",
-          "name": "dorapner"
-        }, {
-          "alias": "Inngang bredde",
-          "name": "breddeinngang",
-          "unit": "cm"
-        }, {
-          "alias": "Inngang kontrast",
-          "name": "kontrastinngang"
-        }, {
-          "alias": "Terskel høyde",
-          "name": "terskelhoyde",
-          "unit": "cm"
-        }, {
-          "alias": "Diameter",
-          "name": "diameter",
-          "unit": "cm"
+          "alias": "Frihoyde",
+          "name": "frihoyde"
         }, {
           "alias": "Belysning",
-          "name": "belysninginne"
-        }, {
-          "alias": "Omkledning",
-          "name": "omkledningtilgjengelig"
-        }, {
-          "alias": "Servant",
-          "name": "servanttilgjengelig"
-        }, {
-          "alias": "WC",
-          "name": "wctilgjengelig"
+          "name": "belysning"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
         }, {
+          "alias": "Forbedringsforslag",
+          "name": "forbedringsforslag"
+        }, {
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -2718,8 +2514,8 @@
       },
       "gatekeeper": "true",
       "name": "statlig_sikret",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 7,
       "order": 1,
       "params": {
@@ -2768,8 +2564,8 @@
       },
       "gatekeeper": "true",
       "name": "friluftsomrade",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 7,
       "order": 1,
       "params": {
@@ -2829,17 +2625,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -2856,8 +2652,8 @@
       },
       "gatekeeper": "true",
       "name": "parkeringsomrader",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 7,
       "order": 1,
       "params": {
@@ -2890,11 +2686,14 @@
           "alias": "Kapasitet HC",
           "name": "antalluu"
         }, {
-          "alias": "Dekke",
-          "name": "dekke"
+          "alias": "Dekke materiale",
+          "name": "dekkemateriale"
         }, {
           "alias": "Dekke tilstand",
           "name": "dekketilstand"
+        }, {
+          "alias": "Dekke fasthet",
+          "name": "dekkefasthet"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
@@ -2902,17 +2701,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -2929,8 +2728,8 @@
       },
       "gatekeeper": "true",
       "name": "turvei",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 7,
       "order": 2,
       "params": {
@@ -2975,8 +2774,8 @@
           "alias": "Spesial fottyperute",
           "name": "spesialfotrutetype"
         }, {
-          "alias": "Dekke",
-          "name": "dekke"
+          "alias": "Dekke materiale",
+          "name": "dekkemateriale"
         }, {
           "alias": "Plankeavstand",
           "name": "plankeavstand",
@@ -2984,6 +2783,9 @@
         }, {
           "alias": "Dekke tilstand",
           "name": "dekketilstand"
+        }, {
+          "alias": "Dekke fasthet",
+          "name": "dekkefasthet"
         }, {
           "alias": "Bredde",
           "name": "bredde",
@@ -3012,17 +2814,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -3039,8 +2841,8 @@
       },
       "gatekeeper": "true",
       "name": "turisthytte",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 7,
       "order": 3,
       "params": {
@@ -3090,8 +2892,8 @@
       },
       "gatekeeper": "true",
       "name": "gapahukhytte",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 7,
       "order": 3,
       "params": {
@@ -3182,17 +2984,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -3209,8 +3011,8 @@
       },
       "gatekeeper": "true",
       "name": "fiskeplass",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 7,
       "order": 3,
       "params": {
@@ -3278,8 +3080,8 @@
           "name": "handlisthoydenedre",
           "unit": "cm"
         }, {
-          "alias": "Dekke",
-          "name": "dekke"
+          "alias": "Dekke materiale",
+          "name": "dekkemateriale"
         }, {
           "alias": "Planke avstand",
           "name": "plankeavstand",
@@ -3305,17 +3107,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -3332,8 +3134,8 @@
       },
       "gatekeeper": "true",
       "name": "grillbalplass",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 7,
       "order": 3,
       "params": {
@@ -3363,11 +3165,14 @@
           "alias": "Type",
           "name": "plasstype"
         }, {
-          "alias": "Dekke",
-          "name": "dekke"
+          "alias": "Dekke materiale",
+          "name": "dekkemateriale"
         }, {
           "alias": "Dekke tilstand",
           "name": "dekketilstand"
+        }, {
+          "alias": "Dekke fasthet",
+          "name": "dekkefasthet"
         }, {
           "alias": "Helning",
           "name": "helning",
@@ -3379,106 +3184,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Objekt ID",
-          "name": "objektnr"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "sittegruppe_02",
-          "queryable": "True",
-          "title": "Sittegruppe"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "sittegruppe",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "groupid": 7,
-      "order": 3,
-      "params": {
-        "layers": "sittegruppe_02",
-        "format": "image/png"
-      },
-      "guid": "7.sittegruppe_02",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "name": "tilgjengvurderingrulleauto",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
-          "filetype": "png"
-        }, {
-          "alias": "Registrert",
-          "name": "forstedatafangstdato"
-        }, {
-          "alias": "Oppdatert",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Dekke",
-          "name": "dekke"
-        }, {
-          "alias": "Dekke tilstand",
-          "name": "dekketilstand"
-        }, {
-          "alias": "Helning",
-          "name": "helning",
-          "unit": "°"
-        }, {
-          "alias": "Høyde benk",
-          "name": "hoydebenk",
-          "unit": "cm"
-        }, {
-          "alias": "Armlene",
-          "name": "armlene"
-        }, {
-          "alias": "Ryggstøtte",
-          "name": "ryggstotte"
-        }, {
-          "alias": "Bord høyde",
-          "name": "hoydebord",
-          "unit": "cm"
-        }, {
-          "alias": "Bord utstikk",
-          "name": "utstikkbord",
-          "unit": "cm"
-        }, {
-          "alias": "Kommentar",
-          "name": "kommentar"
-        }, {
-          "alias": "Bildefil 1",
-          "name": "bildefil1",
-          "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 2",
-          "name": "bildefil2",
-          "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 3",
-          "name": "bildefil3",
-          "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -3495,8 +3211,8 @@
       },
       "gatekeeper": "true",
       "name": "hc_parkering",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 7,
       "order": 3,
       "params": {
@@ -3557,17 +3273,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -3577,22 +3293,22 @@
       "type": "overlay",
       "Layers": {
         "Layer": {
-          "name": "toalett_02",
+          "name": "skiloype_02",
           "queryable": "True",
-          "title": "Toalett"
+          "title": "Skiløype"
         }
       },
       "gatekeeper": "true",
-      "name": "toalett",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "name": "Skiløype",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 7,
       "order": 3,
       "params": {
-        "layers": "toalett_02",
+        "layers": "skiloype_02",
         "format": "image/png"
       },
-      "guid": "7.toalett_02",
+      "guid": "7.skiloype_02",
       "options": {
         "isbaselayer": "false",
         "singletile": "true",
@@ -3600,18 +3316,12 @@
       },
       "includedfields": {
         "field": [{
-          "name": "tilgjengvurderingrulleauto",
+          "name": "tilgjengvurderingrulleman",
           "type": "symbol",
           "alias": "tilgjengelighet",
           "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
           "filetype": "png"
-        }, {
-          "name": "tilgjengvurderingelrullestol",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
-          "filetype": "png"
-        }, {
+        },{
           "name": "tilgjengvurderingsyn",
           "type": "symbol",
           "alias": "tilgjengelighet",
@@ -3624,99 +3334,57 @@
           "alias": "Oppdatert",
           "name": "datafangstdato"
         }, {
-          "alias": "Rampe bredde",
-          "name": "rampebredde",
+          "alias": "Avstand HC",
+          "name": "avstandhc",
           "unit": "cm"
         }, {
-          "alias": "Rampe lengde",
-          "name": "rampelengde",
-          "unit": "cm"
-        }, {
-          "alias": "Rampe stigning",
-          "name": "rampestigning",
+          "alias": "Tverrfall",
+          "name": "tverrfall",
           "unit": "°"
         }, {
-          "alias": "Rampe terskel",
-          "name": "rampeterskel",
+          "alias": "Sperrebom",
+          "name": "sperrebom"
+        }, {
+          "alias": "Sperrebom tilgjengelig",
+          "name": "sperrebomtilgjengelig"
+        },{
+          "alias": "Stigning",
+          "name": "stigning",
+          "unit": "°"
+        }, {
+          "alias": "Bredde",
+          "name": "bredde",
           "unit": "cm"
+        },  {
+          "alias": "Dobbelspor",
+          "name": "dobbelspor"
         }, {
-          "alias": "Rampe tilgjengelig",
-          "name": "rampetilgjengelig"
-        }, {
-          "alias": "Håndlist",
-          "name": "handlist"
-        }, {
-          "alias": "Håndlist høyde øvre",
-          "name": "handlisthoydeovre",
-          "unit": "cm"
-        }, {
-          "alias": "Håndlist høyde nedre",
-          "name": "handlisthoydenedre",
-          "unit": "cm"
-        }, {
-          "alias": "Trapp",
-          "name": "trapp"
-        }, {
-          "alias": "Rekkverk",
-          "name": "rekkverk"
-        }, {
-          "alias": "Trapp kontrast",
-          "name": "trappkontrast"
-        }, {
-          "alias": "Horisontalt felt",
-          "name": "horisontalfelt",
-          "unit": "cm"
-        }, {
-          "alias": "Dørtype",
-          "name": "dortype"
-        }, {
-          "alias": "Døråpner",
-          "name": "dorapner"
-        }, {
-          "alias": "Inngang bredde",
-          "name": "breddeinngang",
-          "unit": "cm"
-        }, {
-          "alias": "Inngang kontrast",
-          "name": "kontrastinngang"
-        }, {
-          "alias": "Terskel høyde",
-          "name": "terskelhoyde",
-          "unit": "cm"
-        }, {
-          "alias": "Diameter",
-          "name": "diameter",
-          "unit": "cm"
+          "alias": "Frihoyde",
+          "name": "frihoyde"
         }, {
           "alias": "Belysning",
-          "name": "belysninginne"
-        }, {
-          "alias": "Omkledning",
-          "name": "omkledningtilgjengelig"
-        }, {
-          "alias": "Servant",
-          "name": "servanttilgjengelig"
-        }, {
-          "alias": "WC",
-          "name": "wctilgjengelig"
+          "name": "belysning"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
         }, {
+          "alias": "Forbedringsforslag",
+          "name": "forbedringsforslag"
+        }, {
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -3733,8 +3401,8 @@
       },
       "gatekeeper": "true",
       "name": "statlig_sikret",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 3,
       "order": 1,
       "params": {
@@ -3783,8 +3451,8 @@
       },
       "gatekeeper": "true",
       "name": "friluftsomrade",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 3,
       "order": 1,
       "params": {
@@ -3844,17 +3512,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -3871,8 +3539,8 @@
       },
       "gatekeeper": "true",
       "name": "parkeringsomrader",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 3,
       "order": 1,
       "params": {
@@ -3905,11 +3573,14 @@
           "alias": "Kapasitet HC",
           "name": "antalluu"
         }, {
-          "alias": "Dekke",
-          "name": "dekke"
+          "alias": "Dekke materiale",
+          "name": "dekkemateriale"
         }, {
           "alias": "Dekke tilstand",
           "name": "dekketilstand"
+        }, {
+          "alias": "Dekke fasthet",
+          "name": "dekkefasthet"
         }, {
           "alias": "Kommentar",
           "name": "kommentar"
@@ -3917,17 +3588,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -3944,8 +3615,8 @@
       },
       "gatekeeper": "true",
       "name": "turvei",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 3,
       "order": 2,
       "params": {
@@ -3990,8 +3661,8 @@
           "alias": "Spesial fottyperute",
           "name": "spesialfotrutetype"
         }, {
-          "alias": "Dekke",
-          "name": "dekke"
+          "alias": "Dekke materiale",
+          "name": "dekkemateriale"
         }, {
           "alias": "Plankeavstand",
           "name": "plankeavstand",
@@ -3999,6 +3670,9 @@
         }, {
           "alias": "Dekke tilstand",
           "name": "dekketilstand"
+        }, {
+          "alias": "Dekke fasthet",
+          "name": "dekkefasthet"
         }, {
           "alias": "Bredde",
           "name": "bredde",
@@ -4027,17 +3701,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -4054,8 +3728,8 @@
       },
       "gatekeeper": "true",
       "name": "turisthytte",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 3,
       "order": 3,
       "params": {
@@ -4105,8 +3779,8 @@
       },
       "gatekeeper": "true",
       "name": "gapahukhytte",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 3,
       "order": 3,
       "params": {
@@ -4197,17 +3871,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -4224,8 +3898,8 @@
       },
       "gatekeeper": "true",
       "name": "fiskeplass",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 3,
       "order": 3,
       "params": {
@@ -4297,8 +3971,8 @@
           "name": "handlisthoydenedre",
           "unit": "cm"
         }, {
-          "alias": "Dekke",
-          "name": "dekke"
+          "alias": "Dekke materiale",
+          "name": "dekkemateriale"
         }, {
           "alias": "Planke avstand",
           "name": "plankeavstand",
@@ -4324,17 +3998,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -4351,8 +4025,8 @@
       },
       "gatekeeper": "true",
       "name": "grillbalplass",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 3,
       "order": 3,
       "params": {
@@ -4382,11 +4056,14 @@
           "alias": "Type",
           "name": "plasstype"
         }, {
-          "alias": "Dekke",
-          "name": "dekke"
+          "alias": "Dekke materiale",
+          "name": "dekkemateriale"
         }, {
           "alias": "Dekke tilstand",
           "name": "dekketilstand"
+        }, {
+          "alias": "Dekke fasthet",
+          "name": "dekkefasthet"
         }, {
           "alias": "Helning",
           "name": "helning",
@@ -4398,17 +4075,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/tettsted/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -4425,8 +4102,8 @@
       },
       "gatekeeper": "true",
       "name": "baderampe",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 3,
       "order": 3,
       "params": {
@@ -4491,106 +4168,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Objekt ID",
-          "name": "objektnr"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "sittegruppe_03",
-          "queryable": "True",
-          "title": "Sittegruppe"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "sittegruppe",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "groupid": 3,
-      "order": 3,
-      "params": {
-        "layers": "sittegruppe_03",
-        "format": "image/png"
-      },
-      "guid": "3.sittegruppe_03",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "name": "tilgjengvurderingrulleauto",
-          "type": "symbol",
-          "alias": "tilgjengelighet",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
-          "filetype": "png"
-        }, {
-          "alias": "Registrert",
-          "name": "forstedatafangstdato"
-        }, {
-          "alias": "Oppdatert",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Dekke",
-          "name": "dekke"
-        }, {
-          "alias": "Dekke tilstand",
-          "name": "dekketilstand"
-        }, {
-          "alias": "Helning",
-          "name": "helning",
-          "unit": "°"
-        }, {
-          "alias": "Høyde benk",
-          "name": "hoydebenk",
-          "unit": "cm"
-        }, {
-          "alias": "Armlene",
-          "name": "armlene"
-        }, {
-          "alias": "Ryggstøtte",
-          "name": "ryggstotte"
-        }, {
-          "alias": "Bord høyde",
-          "name": "hoydebord",
-          "unit": "cm"
-        }, {
-          "alias": "Bord utstikk",
-          "name": "utstikkbord",
-          "unit": "cm"
-        }, {
-          "alias": "Kommentar",
-          "name": "kommentar"
-        }, {
-          "alias": "Bildefil 1",
-          "name": "bildefil1",
-          "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 2",
-          "name": "bildefil2",
-          "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
-        }, {
-          "alias": "Bildefil 3",
-          "name": "bildefil3",
-          "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -4607,8 +4195,8 @@
       },
       "gatekeeper": "true",
       "name": "hc_parkering",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
       "groupid": 3,
       "order": 3,
       "params": {
@@ -4669,17 +4257,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -4689,22 +4277,221 @@
       "type": "overlay",
       "Layers": {
         "Layer": {
-          "name": "toalett_03",
+          "name": "skiloype_03",
+          "queryable": "True",
+          "title": "Skiløype"
+        }
+      },
+      "gatekeeper": "true",
+      "name": "Skiløype",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "groupid": 3,
+      "order": 3,
+      "params": {
+        "layers": "skiloype_03",
+        "format": "image/png"
+      },
+      "guid": "3.skiloype_03",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "name": "tilgjengvurderingrulleman",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        },{
+          "name": "tilgjengvurderingsyn",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/syn/",
+          "filetype": "png"
+        }, {
+          "alias": "Registrert",
+          "name": "forstedatafangstdato"
+        }, {
+          "alias": "Oppdatert",
+          "name": "datafangstdato"
+        }, {
+          "alias": "Avstand HC",
+          "name": "avstandhc",
+          "unit": "cm"
+        }, {
+          "alias": "Tverrfall",
+          "name": "tverrfall",
+          "unit": "°"
+        }, {
+          "alias": "Sperrebom",
+          "name": "sperrebom"
+        }, {
+          "alias": "Sperrebom tilgjengelig",
+          "name": "sperrebomtilgjengelig"
+        },{
+          "alias": "Stigning",
+          "name": "stigning",
+          "unit": "°"
+        }, {
+          "alias": "Bredde",
+          "name": "bredde",
+          "unit": "cm"
+        },  {
+          "alias": "Dobbelspor",
+          "name": "dobbelspor"
+        }, {
+          "alias": "Frihoyde",
+          "name": "frihoyde"
+        }, {
+          "alias": "Belysning",
+          "name": "belysning"
+        }, {
+          "alias": "Kommentar",
+          "name": "kommentar"
+        }, {
+          "alias": "Forbedringsforslag",
+          "name": "forbedringsforslag"
+        }, {
+          "alias": "Bildefil 1",
+          "name": "bildefil1",
+          "type": "picture",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
+        }, {
+          "alias": "Bildefil 2",
+          "name": "bildefil2",
+          "type": "picture",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
+        }, {
+          "alias": "Bildefil 3",
+          "name": "bildefil3",
+          "type": "picture",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
+        }, {
+          "alias": "Objekt ID",
+          "name": "objektnr"
+        }]
+      }
+    },{
+      "type": "overlay",
+      "Layers": {
+        "Layer": {
+          "name": "sittegruppe",
+          "queryable": "True",
+          "title": "Sittegruppe"
+        }
+      },
+      "gatekeeper": "true",
+      "name": "sittegruppe",
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "groupid": 10,
+      "order": 3,
+      "params": {
+        "layers": "sittegruppe",
+        "format": "image/png"
+      },
+      "guid": "10.sittegruppe",
+      "options": {
+        "isbaselayer": "false",
+        "singletile": "true",
+        "visibility": "false"
+      },
+      "includedfields": {
+        "field": [{
+          "name": "tilgjengvurderingrulleauto",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/rullestol/",
+          "filetype": "png"
+        }, {
+          "name": "tilgjengvurderingelrullestol",
+          "type": "symbol",
+          "alias": "tilgjengelighet",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/symboler/rullestol_el/",
+          "filetype": "png"
+        }, {
+          "alias": "Registrert",
+          "name": "forstedatafangstdato"
+        }, {
+          "alias": "Oppdatert",
+          "name": "datafangstdato"
+        }, {
+          "alias": "Dekke materiale",
+          "name": "dekkemateriale"
+        }, {
+          "alias": "Dekke tilstand",
+          "name": "dekketilstand"
+        }, {
+          "alias": "Dekke fasthet",
+          "name": "dekkefasthet"
+        }, {
+          "alias": "Helning",
+          "name": "helning",
+          "unit": "°"
+        }, {
+          "alias": "Høyde benk",
+          "name": "hoydebenk",
+          "unit": "cm"
+        }, {
+          "alias": "Armlene",
+          "name": "armlene"
+        }, {
+          "alias": "Ryggstøtte",
+          "name": "ryggstotte"
+        }, {
+          "alias": "Bord høyde",
+          "name": "hoydebord",
+          "unit": "cm"
+        }, {
+          "alias": "Bord utstikk",
+          "name": "utstikkbord",
+          "unit": "cm"
+        }, {
+          "alias": "Kommentar",
+          "name": "kommentar"
+        }, {
+          "alias": "Bildefil 1",
+          "name": "bildefil1",
+          "type": "picture",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
+        }, {
+          "alias": "Bildefil 2",
+          "name": "bildefil2",
+          "type": "picture",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
+        }, {
+          "alias": "Bildefil 3",
+          "name": "bildefil3",
+          "type": "picture",
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
+        }, {
+          "alias": "Objekt ID",
+          "name": "objektnr"
+        }]
+      }
+    },{
+      "type": "overlay",
+      "Layers": {
+        "Layer": {
+          "name": "toalett",
           "queryable": "True",
           "title": "Toalett"
         }
       },
       "gatekeeper": "true",
       "name": "toalett",
-      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet2?",
-      "groupid": 3,
+      "url": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.tilgjengelighet3?",
+      "groupid": 10,
       "order": 3,
       "params": {
-        "layers": "toalett_03",
+        "layers": "toalett",
         "format": "image/png"
       },
-      "guid": "3.toalett_03",
+      "guid": "10.toalett",
       "options": {
         "isbaselayer": "false",
         "singletile": "true",
@@ -4818,17 +4605,17 @@
           "alias": "Bildefil 1",
           "name": "bildefil1",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 2",
           "name": "bildefil2",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Bildefil 3",
           "name": "bildefil3",
           "type": "picture",
-          "baseurl": "https://data.kartverket.no/tilgjengelighet/friluft/"
+          "baseurl": "https://data.kartverket.no/tilgjengelighet/tilgjengelighet/"
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
@@ -4859,6 +4646,10 @@
       "index": 3,
       "name": "friluft_syn",
       "groupid": 3
+    }, {
+      "index": 10,
+      "name": "Felles",
+      "groupid": 10
     }],
     "mapbounds": {
       "mapbound": [{
