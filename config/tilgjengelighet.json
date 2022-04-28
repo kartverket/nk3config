@@ -287,6 +287,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -403,6 +406,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -510,6 +516,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -652,6 +661,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -727,6 +739,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -843,6 +858,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -950,6 +968,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -1092,6 +1113,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -1167,6 +1191,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -1268,6 +1295,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -1375,6 +1405,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -1517,6 +1550,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -1557,6 +1593,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }, {
           "alias": "Link til informasjonsark",
           "name": "linkskjema",
@@ -1655,6 +1694,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -1731,6 +1773,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -1844,6 +1889,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -1891,6 +1939,9 @@
           "alias": "Objekt ID",
           "name": "objektnr"
         }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
+        },{
           "alias": "Lenke",
           "name": "lenke",
           "type": "link",
@@ -2014,6 +2065,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -2137,6 +2191,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -2214,6 +2271,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -2311,6 +2371,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -2400,6 +2463,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -2501,6 +2567,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -2541,6 +2610,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }, {
           "alias": "Link til informasjonsark",
           "name": "linkskjema",
@@ -2639,6 +2711,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -2715,6 +2790,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -2828,6 +2906,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -2874,6 +2955,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }, {
           "alias": "Lenke",
           "name": "lenke",
@@ -2998,6 +3082,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -3121,6 +3208,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -3198,6 +3288,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -3287,6 +3380,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -3388,6 +3484,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -3428,6 +3527,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }, {
           "alias": "Link til informasjonsark",
           "name": "linkskjema",
@@ -3526,6 +3628,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -3602,6 +3707,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -3715,6 +3823,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -3761,6 +3872,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }, {
           "alias": "Lenke",
           "name": "lenke",
@@ -3885,6 +3999,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -4012,6 +4129,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -4089,6 +4209,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -4182,6 +4305,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -4271,6 +4397,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }, {
@@ -4372,6 +4501,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     },{
@@ -4470,6 +4602,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     },{
@@ -4619,6 +4754,9 @@
         }, {
           "alias": "Objekt ID",
           "name": "objektnr"
+        }, {
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }]
       }
     }],
