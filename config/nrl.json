@@ -208,26 +208,26 @@
         "singletile": "true",
         "visibility": "false"
       }
-    }, {
+    },{
       "type": "overlay",
       "Layers": {
         "Layer": {
-          "name": "andre_linjer_60m_og_over",
+          "name": "nrlflate",
           "queryable": "false",
-          "title": "Andre linjer 60m og over"
+          "title": "NRL Flate"
         }
       },
       "gatekeeper": "true",
-      "name": "andre_linjer_60m_og_over",
-      "info": "Linjehinder som ikke er kraftledning, med største høyde over underliggende overflate 60 meter eller mer.",
+      "name": "NRL Flate",
+      "info": "NRL Flate",
       "url": "https://wms.geonorge.no/skwms1/wms.nrl5?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.nrl5?",
       "groupid": 5,
       "params": {
-        "layers": "andre_linjer_60m_og_over",
+        "layers": "nrlflate",
         "format": "image/png"
       },
-      "guid": "5.andre_linjer_60m_og_over",
+      "guid": "5.nrlflate",
       "options": {
         "isbaselayer": "false",
         "singletile": "true",
@@ -235,55 +235,81 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "Nrl-id",
-          "name": "nrl_id"
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }, {
           "alias": "Navn",
           "name": "navn"
         }, {
-          "alias": "Vertikalutstrekning",
-          "name": "vertikalutstrekning",
+          "alias": "Luftspenntype",
+          "name": "luftspenntype "
+        }, {
+          "alias": "Vertikalavstand",
+          "name": "vertikalavstand",
           "unit": " m"
         }, {
-          "alias": "Lyssetting",
-          "name": "lyssetting"
+          "alias": "Anleggsbredde",
+          "name": "anleggsbredde"
         }, {
           "alias": "Status",
           "name": "status"
         }, {
-          "alias": "Verifiseringsdato",
-          "name": "verifiseringsdato"
+          "alias": "Oppdateringsdato",
+          "name": "oppdateringsdato"
         }, {
-          "alias": "Hindertype",
-          "name": "hindertype"
+          "alias": "Verifisert rapporteringsnøyaktighet",
+          "name": "verifisertrapporteringsnoyaktighet"
+        }, {
+          "alias": "Registreringsdato",
+          "name": "registreringsdato"
+        }, {
+          "alias": "Luftfartshindermerking",
+          "name": "luftfartshindermerking"
+        }, {
+          "alias": "Luftfartshinderlyssetting",
+          "name": "luftfartshinderlyssetting"
+        }, {
+          "alias": "Materiale",
+          "name": "materiale"
         }, {
           "alias": "Datafangstdato",
-          "name": "datafangstdato"
+          "name": "datafangstdato "
         }, {
-          "alias": "Merking",
-          "name": "merking"
-        }]
+          "alias": "Datafangstmetode",
+          "name": "datafangstmetode"
+        }, {
+          "alias": "Nøyaktighet",
+          "name": "noyaktighet"
+        }, {
+          "alias": "Informasjon",
+          "name": "informasjon "
+        }, {
+          "alias": "Historisk NRL ID",
+          "name": "luftfartshinderid"
+        }
+      ]
       }
-    }, {
+    },
+    {
       "type": "overlay",
       "Layers": {
         "Layer": {
-          "name": "andre_linjer_mellom_40m_60m",
+          "name": "nrllinje",
           "queryable": "false",
-          "title": "Andre linjer 40m-60m"
+          "title": "NRL Linje"
         }
       },
       "gatekeeper": "true",
-      "name": "andre_linjer_40m_60m",
-      "info": "Linjehinder som ikke er kraftledning, med største høyde over underliggende overflate mellom 40 og 60 meter.",
+      "name": "NRL Linje",
+      "info": "NRL Linje",
       "url": "https://wms.geonorge.no/skwms1/wms.nrl5?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.nrl5?",
       "groupid": 5,
       "params": {
-        "layers": "andre_linjer_mellom_40m_60m",
+        "layers": "nrllinje",
         "format": "image/png"
       },
-      "guid": "5.andre_linjer_mellom_40m_60m",
+      "guid": "5.nrllinje",
       "options": {
         "isbaselayer": "false",
         "singletile": "true",
@@ -291,55 +317,81 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "Nrl-id",
-          "name": "nrl_id"
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }, {
           "alias": "Navn",
           "name": "navn"
         }, {
-          "alias": "Vertikalutstrekning",
-          "name": "vertikalutstrekning",
+          "alias": "Luftspenntype",
+          "name": "luftspenntype "
+        }, {
+          "alias": "Vertikalavstand",
+          "name": "vertikalavstand",
           "unit": " m"
         }, {
-          "alias": "Lyssetting",
-          "name": "lyssetting"
+          "alias": "Anleggsbredde",
+          "name": "anleggsbredde"
         }, {
           "alias": "Status",
           "name": "status"
         }, {
-          "alias": "Verifiseringsdato",
-          "name": "verifiseringsdato"
+          "alias": "Oppdateringsdato",
+          "name": "oppdateringsdato"
         }, {
-          "alias": "Hindertype",
-          "name": "hindertype"
+          "alias": "Verifisert rapporteringsnøyaktighet",
+          "name": "verifisertrapporteringsnoyaktighet"
+        }, {
+          "alias": "Registreringsdato",
+          "name": "registreringsdato"
+        }, {
+          "alias": "Luftfartshindermerking",
+          "name": "luftfartshindermerking"
+        }, {
+          "alias": "Luftfartshinderlyssetting",
+          "name": "luftfartshinderlyssetting"
+        }, {
+          "alias": "Materiale",
+          "name": "materiale"
         }, {
           "alias": "Datafangstdato",
-          "name": "datafangstdato"
+          "name": "datafangstdato "
         }, {
-          "alias": "Merking",
-          "name": "merking"
-        }]
+          "alias": "Datafangstmetode",
+          "name": "datafangstmetode"
+        }, {
+          "alias": "Nøyaktighet",
+          "name": "noyaktighet"
+        }, {
+          "alias": "Informasjon",
+          "name": "informasjon "
+        }, {
+          "alias": "Historisk NRL ID",
+          "name": "luftfartshinderid"
+        }
+      ]
       }
-    }, {
+    },
+    {
       "type": "overlay",
       "Layers": {
         "Layer": {
-          "name": "andre_linjer_under_40m",
+          "name": "nrlluftspenn",
           "queryable": "false",
-          "title": "Andre linjer under 40 m"
+          "title": "NRL Luftspenn"
         }
       },
       "gatekeeper": "true",
-      "name": "andre_linjer_under_40m",
-      "info": "Linjehinder som ikke er kraftledning, med største høyde over underliggende overflate under 40 meter.",
+      "name": "NRL Luftspenn",
+      "info": "NRL Luftspenn",
       "url": "https://wms.geonorge.no/skwms1/wms.nrl5?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.nrl5?",
       "groupid": 5,
       "params": {
-        "layers": "andre_linjer_under_40m",
+        "layers": "nrlluftspenn",
         "format": "image/png"
       },
-      "guid": "5.andre_linjer_under_40m",
+      "guid": "5.nrlluftspenn",
       "options": {
         "isbaselayer": "false",
         "singletile": "true",
@@ -347,55 +399,81 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "Nrl-id",
-          "name": "nrl_id"
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }, {
           "alias": "Navn",
           "name": "navn"
         }, {
-          "alias": "Vertikalutstrekning",
-          "name": "vertikalutstrekning",
+          "alias": "Luftspenntype",
+          "name": "luftspenntype "
+        }, {
+          "alias": "Vertikalavstand",
+          "name": "vertikalavstand",
           "unit": " m"
         }, {
-          "alias": "Lyssetting",
-          "name": "lyssetting"
+          "alias": "Anleggsbredde",
+          "name": "anleggsbredde"
         }, {
           "alias": "Status",
           "name": "status"
         }, {
-          "alias": "Verifiseringsdato",
-          "name": "verifiseringsdato"
+          "alias": "Oppdateringsdato",
+          "name": "oppdateringsdato"
         }, {
-          "alias": "Hindertype",
-          "name": "hindertype"
+          "alias": "Verifisert rapporteringsnøyaktighet",
+          "name": "verifisertrapporteringsnoyaktighet"
+        }, {
+          "alias": "Registreringsdato",
+          "name": "registreringsdato"
+        }, {
+          "alias": "Luftfartshindermerking",
+          "name": "luftfartshindermerking"
+        }, {
+          "alias": "Luftfartshinderlyssetting",
+          "name": "luftfartshinderlyssetting"
+        }, {
+          "alias": "Materiale",
+          "name": "materiale"
         }, {
           "alias": "Datafangstdato",
-          "name": "datafangstdato"
+          "name": "datafangstdato "
         }, {
-          "alias": "Merking",
-          "name": "merking"
-        }]
+          "alias": "Datafangstmetode",
+          "name": "datafangstmetode"
+        }, {
+          "alias": "Nøyaktighet",
+          "name": "noyaktighet"
+        }, {
+          "alias": "Informasjon",
+          "name": "informasjon "
+        }, {
+          "alias": "Historisk NRL ID",
+          "name": "luftfartshinderid"
+        }
+      ]
       }
-    }, {
+    },
+    {
       "type": "overlay",
       "Layers": {
         "Layer": {
-          "name": "andre_linjer_uten_hoyde",
+          "name": "nrlmast",
           "queryable": "false",
-          "title": "Andre linjer uten hoyde"
+          "title": "NRL Mast"
         }
       },
       "gatekeeper": "true",
-      "name": "andre_linjer_uten_hoyde",
-      "info": "Linjehinder som ikke er kraftledning, der største høyde over underliggende overflate er ukjent.",
+      "name": "NRL Mast",
+      "info": "NRL Mast",
       "url": "https://wms.geonorge.no/skwms1/wms.nrl5?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.nrl5?",
       "groupid": 5,
       "params": {
-        "layers": "andre_linjer_uten_hoyde",
+        "layers": "nrlmast",
         "format": "image/png"
       },
-      "guid": "5.andre_linjer_uten_hoyde",
+      "guid": "5.nrlmast",
       "options": {
         "isbaselayer": "false",
         "singletile": "true",
@@ -403,55 +481,81 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "Nrl-id",
-          "name": "nrl_id"
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }, {
           "alias": "Navn",
           "name": "navn"
         }, {
-          "alias": "Vertikalutstrekning",
-          "name": "vertikalutstrekning",
+          "alias": "Masttype",
+          "name": "masttype"
+        }, {
+          "alias": "Vertikalavstand",
+          "name": "vertikalavstand",
           "unit": " m"
         }, {
-          "alias": "Lyssetting",
-          "name": "lyssetting"
+          "alias": "Horisontalavstand",
+          "name": "horisontalavstand"
         }, {
           "alias": "Status",
           "name": "status"
         }, {
-          "alias": "Verifiseringsdato",
-          "name": "verifiseringsdato"
+          "alias": "Oppdateringsdato",
+          "name": "oppdateringsdato"
         }, {
-          "alias": "Hindertype",
-          "name": "hindertype"
+          "alias": "Verifisert rapporteringsnøyaktighet",
+          "name": "verifisertrapporteringsnoyaktighet"
+        }, {
+          "alias": "Registreringsdato",
+          "name": "registreringsdato"
+        }, {
+          "alias": "Luftfartshindermerking",
+          "name": "luftfartshindermerking"
+        }, {
+          "alias": "Luftfartshinderlyssetting",
+          "name": "luftfartshinderlyssetting"
+        }, {
+          "alias": "Materiale",
+          "name": "materiale"
         }, {
           "alias": "Datafangstdato",
-          "name": "datafangstdato"
+          "name": "datafangstdato "
         }, {
-          "alias": "Merking",
-          "name": "merking"
-        }]
+          "alias": "Datafangstmetode",
+          "name": "datafangstmetode"
+        }, {
+          "alias": "Nøyaktighet",
+          "name": "noyaktighet"
+        }, {
+          "alias": "Informasjon",
+          "name": "informasjon "
+        }, {
+          "alias": "Historisk NRL ID",
+          "name": "luftfartshinderid"
+        }
+      ]
       }
-    }, {
+    },
+    {
       "type": "overlay",
       "Layers": {
         "Layer": {
-          "name": "linjepunkt_60m_og_over",
+          "name": "nrlpunkt",
           "queryable": "false",
-          "title": "Linjepunkt 60m og over"
+          "title": "NRL Punkt"
         }
       },
       "gatekeeper": "true",
-      "name": "linjepunkt_60m_og_over",
-      "info": "Endepunkt, knekkpunkt eller mast/stolpe tilknyttet et linjehinder som ikke er en kraftledning, med vertikalutstrekning 60 meter eller mer.",
+      "name": "NRL Punkt",
+      "info": "NRL Punkt",
       "url": "https://wms.geonorge.no/skwms1/wms.nrl5?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.nrl5?",
       "groupid": 5,
       "params": {
-        "layers": "linjepunkt_60m_og_over",
+        "layers": "nrlpunkt",
         "format": "image/png"
       },
-      "guid": "5.linjepunkt_60m_og_over",
+      "guid": "5.nrlpunkt",
       "options": {
         "isbaselayer": "false",
         "singletile": "true",
@@ -459,888 +563,65 @@
       },
       "includedfields": {
         "field": [{
-          "alias": "Nrl-id",
-          "name": "nrl_id"
+          "alias": "Lokal ID",
+          "name": "lokalid"
         }, {
           "alias": "Navn",
           "name": "navn"
         }, {
-          "alias": "Vertikalutstrekning",
-          "name": "vertikalutstrekning",
+          "alias": "Punkttype",
+          "name": "punkttype"
+        }, {
+          "alias": "Vertikalavstand",
+          "name": "vertikalavstand",
           "unit": " m"
         }, {
-          "alias": "Lyssetting",
-          "name": "lyssetting"
+          "alias": "Anleggsbredde",
+          "name": "anleggsbredde"
         }, {
           "alias": "Status",
           "name": "status"
         }, {
-          "alias": "Verifiseringsdato",
-          "name": "verifiseringsdato"
+          "alias": "Oppdateringsdato",
+          "name": "oppdateringsdato"
         }, {
-          "alias": "Hindertype",
-          "name": "hindertype"
+          "alias": "Verifisert rapporteringsnøyaktighet",
+          "name": "verifisertrapporteringsnoyaktighet"
+        }, {
+          "alias": "Registreringsdato",
+          "name": "registreringsdato"
+        }, {
+          "alias": "Luftfartshindermerking",
+          "name": "luftfartshindermerking"
+        }, {
+          "alias": "Luftfartshinderlyssetting",
+          "name": "luftfartshinderlyssetting"
+        }, {
+          "alias": "Materiale",
+          "name": "materiale"
         }, {
           "alias": "Datafangstdato",
-          "name": "datafangstdato"
+          "name": "datafangstdato "
         }, {
-          "alias": "Merking",
-          "name": "merking"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "linjepunkt_mellom_40m_60m",
-          "queryable": "false",
-          "title": "Linjepunkt 40m-60m"
+          "alias": "Datafangstmetode",
+          "name": "datafangstmetode"
+        }, {
+          "alias": "Nøyaktighet",
+          "name": "noyaktighet"
+        }, {
+          "alias": "Informasjon",
+          "name": "informasjon "
+        }, {
+          "alias": "Historisk NRL ID",
+          "name": "luftfartshinderid"
         }
-      },
-      "gatekeeper": "true",
-      "name": "linjepunkt_40m_60m",
-      "info": "Endepunkt, knekkpunkt eller mast/stolpe tilknyttet et linjehinder som ikke er en kraftledning, med vertikalutstrekning mellom 40 og 60 meter.",
-      "url": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "groupid": 5,
-      "params": {
-        "layers": "linjepunkt_mellom_40m_60m",
-        "format": "image/png"
-      },
-      "guid": "5.linjepunkt_mellom_40m_60m",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "alias": "Nrl-id",
-          "name": "nrl_id"
-        }, {
-          "alias": "Navn",
-          "name": "navn"
-        }, {
-          "alias": "Vertikalutstrekning",
-          "name": "vertikalutstrekning",
-          "unit": " m"
-        }, {
-          "alias": "Lyssetting",
-          "name": "lyssetting"
-        }, {
-          "alias": "Status",
-          "name": "status"
-        }, {
-          "alias": "Verifiseringsdato",
-          "name": "verifiseringsdato"
-        }, {
-          "alias": "Hindertype",
-          "name": "hindertype"
-        }, {
-          "alias": "Datafangstdato",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Merking",
-          "name": "merking"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "linjepunkt_under_40m",
-          "queryable": "false",
-          "title": "Linjepunkt under 40 m"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "linjepunkt_under_40m",
-      "info": "Endepunkt, knekkpunkt eller mast/stolpe tilknyttet et linjehinder som ikke er en kraftledning, med vertikalutstrekning lavere enn 40 meter.",
-      "url": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "groupid": 5,
-      "params": {
-        "layers": "linjepunkt_under_40m",
-        "format": "image/png"
-      },
-      "guid": "5.linjepunkt_under_40m",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "alias": "Nrl-id",
-          "name": "nrl_id"
-        }, {
-          "alias": "Navn",
-          "name": "navn"
-        }, {
-          "alias": "Vertikalutstrekning",
-          "name": "vertikalutstrekning",
-          "unit": " m"
-        }, {
-          "alias": "Lyssetting",
-          "name": "lyssetting"
-        }, {
-          "alias": "Status",
-          "name": "status"
-        }, {
-          "alias": "Verifiseringsdato",
-          "name": "verifiseringsdato"
-        }, {
-          "alias": "Hindertype",
-          "name": "hindertype"
-        }, {
-          "alias": "Datafangstdato",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Merking",
-          "name": "merking"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "linjepunkt_uten_hoyde",
-          "queryable": "false",
-          "title": "Linjepunkt uten hoyde"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "linjepunkt_uten_hoyde",
-      "info": "Endepunkt, knekkpunkt eller mast/stolpe tilknyttet et linjehinder som ikke er en kraftledning, med ukjent vertikalutstrekning.",
-      "url": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "groupid": 5,
-      "params": {
-        "layers": "linjepunkt_uten_hoyde",
-        "format": "image/png"
-      },
-      "guid": "5.linjepunkt_uten_hoyde",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "alias": "Nrl-id",
-          "name": "nrl_id"
-        }, {
-          "alias": "Navn",
-          "name": "navn"
-        }, {
-          "alias": "Vertikalutstrekning",
-          "name": "vertikalutstrekning",
-          "unit": " m"
-        }, {
-          "alias": "Lyssetting",
-          "name": "lyssetting"
-        }, {
-          "alias": "Status",
-          "name": "status"
-        }, {
-          "alias": "Verifiseringsdato",
-          "name": "verifiseringsdato"
-        }, {
-          "alias": "Hindertype",
-          "name": "hindertype"
-        }, {
-          "alias": "Datafangstdato",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Merking",
-          "name": "merking"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "kraftledning_60m_og_over",
-          "queryable": "false",
-          "title": "Kraftledning 60m og over"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "kraftledning_60m_og_over",
-      "info": "Kraftledning med største høyde over underliggende overflate 60 meter eller mer.",
-      "url": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "groupid": 3,
-      "params": {
-        "layers": "kraftledning_60m_og_over",
-        "format": "image/png"
-      },
-      "guid": "3.kraftledning_60m_og_over",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "alias": "Nrl-id",
-          "name": "nrl_id"
-        }, {
-          "alias": "Navn",
-          "name": "navn"
-        }, {
-          "alias": "Vertikalutstrekning",
-          "name": "vertikalutstrekning",
-          "unit": " m"
-        }, {
-          "alias": "Lyssetting",
-          "name": "lyssetting"
-        }, {
-          "alias": "Status",
-          "name": "status"
-        }, {
-          "alias": "Verifiseringsdato",
-          "name": "verifiseringsdato"
-        }, {
-          "alias": "Hindertype",
-          "name": "hindertype"
-        }, {
-          "alias": "Datafangstdato",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Merking",
-          "name": "merking"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "kraftledning_mellom_40m_60m",
-          "queryable": "false",
-          "title": "Kraftledning 40m-60m"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "kraftledning_40m_60m",
-      "info": "Kraftledning med største høyde over underliggende overflate mellom 40 og 60 meter.",
-      "url": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "groupid": 3,
-      "params": {
-        "layers": "kraftledning_mellom_40m_60m",
-        "format": "image/png"
-      },
-      "guid": "3.kraftledning_mellom_40m_60m",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "alias": "Nrl-id",
-          "name": "nrl_id"
-        }, {
-          "alias": "Navn",
-          "name": "navn"
-        }, {
-          "alias": "Vertikalutstrekning",
-          "name": "vertikalutstrekning",
-          "unit": " m"
-        }, {
-          "alias": "Lyssetting",
-          "name": "lyssetting"
-        }, {
-          "alias": "Status",
-          "name": "status"
-        }, {
-          "alias": "Verifiseringsdato",
-          "name": "verifiseringsdato"
-        }, {
-          "alias": "Hindertype",
-          "name": "hindertype"
-        }, {
-          "alias": "Datafangstdato",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Merking",
-          "name": "merking"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "kraftledning_under_40m",
-          "queryable": "false",
-          "title": "Kraftledning under 40 m"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "kraftledning_under_40m",
-      "info": "Kraftledning med største høyde over underliggende overflate lavere enn 40 meter.",
-      "url": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "groupid": 3,
-      "params": {
-        "layers": "kraftledning_under_40m",
-        "format": "image/png"
-      },
-      "guid": "3.kraftledning_under_40m",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "alias": "Nrl-id",
-          "name": "nrl_id"
-        }, {
-          "alias": "Navn",
-          "name": "navn"
-        }, {
-          "alias": "Vertikalutstrekning",
-          "name": "vertikalutstrekning",
-          "unit": " m"
-        }, {
-          "alias": "Lyssetting",
-          "name": "lyssetting"
-        }, {
-          "alias": "Status",
-          "name": "status"
-        }, {
-          "alias": "Verifiseringsdato",
-          "name": "verifiseringsdato"
-        }, {
-          "alias": "Hindertype",
-          "name": "hindertype"
-        }, {
-          "alias": "Datafangstdato",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Merking",
-          "name": "merking"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "kraftledning_uten_hoyde",
-          "queryable": "false",
-          "title": "Kraftledning uten hoyde"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "kraftledning_uten_hoyde",
-      "info": "Kraftledning der største høyde over underliggende overflate er ukjent.",
-      "url": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "groupid": 3,
-      "params": {
-        "layers": "kraftledning_uten_hoyde",
-        "format": "image/png"
-      },
-      "guid": "3.kraftledning_uten_hoyde",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "alias": "Nrl-id",
-          "name": "nrl_id"
-        }, {
-          "alias": "Navn",
-          "name": "navn"
-        }, {
-          "alias": "Vertikalutstrekning",
-          "name": "vertikalutstrekning",
-          "unit": " m"
-        }, {
-          "alias": "Lyssetting",
-          "name": "lyssetting"
-        }, {
-          "alias": "Status",
-          "name": "status"
-        }, {
-          "alias": "Verifiseringsdato",
-          "name": "verifiseringsdato"
-        }, {
-          "alias": "Hindertype",
-          "name": "hindertype"
-        }, {
-          "alias": "Datafangstdato",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Merking",
-          "name": "merking"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "kraftstolpe_60m_og_over",
-          "queryable": "false",
-          "title": "Kraftstolpe 60m og over"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "kraftstolpe_60m_og_over",
-      "info": "Kraftstolpe med vertikalutstrekning 60 meter eller mer.",
-      "url": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "groupid": 3,
-      "params": {
-        "layers": "kraftstolpe_60m_og_over",
-        "format": "image/png"
-      },
-      "guid": "3.kraftstolpe_60m_og_over",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "alias": "Nrl-id",
-          "name": "nrl_id"
-        }, {
-          "alias": "Navn",
-          "name": "navn"
-        }, {
-          "alias": "Vertikalutstrekning",
-          "name": "vertikalutstrekning",
-          "unit": " m"
-        }, {
-          "alias": "Lyssetting",
-          "name": "lyssetting"
-        }, {
-          "alias": "Status",
-          "name": "status"
-        }, {
-          "alias": "Verifiseringsdato",
-          "name": "verifiseringsdato"
-        }, {
-          "alias": "Hindertype",
-          "name": "hindertype"
-        }, {
-          "alias": "Datafangstdato",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Merking",
-          "name": "merking"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "kraftstolpe_mellom_40m_60m",
-          "queryable": "false",
-          "title": "Kraftstolpe 40m-60m"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "kraftstolpe_40m_60m",
-      "info": "Kraftstolpe med vertikalutstrekning mellom 40 og 60 meter.",
-      "url": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "groupid": 3,
-      "params": {
-        "layers": "kraftstolpe_mellom_40m_60m",
-        "format": "image/png"
-      },
-      "guid": "3.kraftstolpe_mellom_40m_60m",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "alias": "Nrl-id",
-          "name": "nrl_id"
-        }, {
-          "alias": "Navn",
-          "name": "navn"
-        }, {
-          "alias": "Vertikalutstrekning",
-          "name": "vertikalutstrekning",
-          "unit": " m"
-        }, {
-          "alias": "Lyssetting",
-          "name": "lyssetting"
-        }, {
-          "alias": "Status",
-          "name": "status"
-        }, {
-          "alias": "Verifiseringsdato",
-          "name": "verifiseringsdato"
-        }, {
-          "alias": "Hindertype",
-          "name": "hindertype"
-        }, {
-          "alias": "Datafangstdato",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Merking",
-          "name": "merking"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "kraftstolpe_under_40m",
-          "queryable": "false",
-          "title": "Kraftstolpe under 40 m"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "kraftstolpe_under_40m",
-      "info": "Kraftstolpe med vertikalutstrekning lavere enn 40 meter.",
-      "url": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "groupid": 3,
-      "params": {
-        "layers": "kraftstolpe_under_40m",
-        "format": "image/png"
-      },
-      "guid": "3.kraftstolpe_under_40m",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "alias": "Nrl-id",
-          "name": "nrl_id"
-        }, {
-          "alias": "Navn",
-          "name": "navn"
-        }, {
-          "alias": "Vertikalutstrekning",
-          "name": "vertikalutstrekning",
-          "unit": " m"
-        }, {
-          "alias": "Lyssetting",
-          "name": "lyssetting"
-        }, {
-          "alias": "Status",
-          "name": "status"
-        }, {
-          "alias": "Verifiseringsdato",
-          "name": "verifiseringsdato"
-        }, {
-          "alias": "Hindertype",
-          "name": "hindertype"
-        }, {
-          "alias": "Datafangstdato",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Merking",
-          "name": "merking"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "kraftstolpe_uten_hoyde",
-          "queryable": "false",
-          "title": "Kraftstolpe uten hoyde"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "kraftstolpe_uten_hoyde",
-      "info": "Kraftstolpe der vertikalutstrekning er ukjent.",
-      "url": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "groupid": 3,
-      "params": {
-        "layers": "kraftstolpe_uten_hoyde",
-        "format": "image/png"
-      },
-      "guid": "3.kraftstolpe_uten_hoyde",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "alias": "Nrl-id",
-          "name": "nrl_id"
-        }, {
-          "alias": "Navn",
-          "name": "navn"
-        }, {
-          "alias": "Vertikalutstrekning",
-          "name": "vertikalutstrekning",
-          "unit": " m"
-        }, {
-          "alias": "Lyssetting",
-          "name": "lyssetting"
-        }, {
-          "alias": "Status",
-          "name": "status"
-        }, {
-          "alias": "Verifiseringsdato",
-          "name": "verifiseringsdato"
-        }, {
-          "alias": "Hindertype",
-          "name": "hindertype"
-        }, {
-          "alias": "Datafangstdato",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Merking",
-          "name": "merking"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "Punkthindre_60m_og_over",
-          "queryable": "false",
-          "title": "Punkthindre 60m og over"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "punkthindre_60m_og_over",
-      "info": "Punkthinder med vertikalutstrekning 60 meter eller mer.",
-      "url": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "groupid": 7,
-      "params": {
-        "layers": "Punkthindre_60m_og_over",
-        "format": "image/png"
-      },
-      "guid": "7.Punkthindre_60m_og_over",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "alias": "Nrl-id",
-          "name": "nrl_id"
-        }, {
-          "alias": "Navn",
-          "name": "navn"
-        }, {
-          "alias": "Vertikalutstrekning",
-          "name": "vertikalutstrekning",
-          "unit": " m"
-        }, {
-          "alias": "Lyssetting",
-          "name": "lyssetting"
-        }, {
-          "alias": "Status",
-          "name": "status"
-        }, {
-          "alias": "Verifiseringsdato",
-          "name": "verifiseringsdato"
-        }, {
-          "alias": "Hindertype",
-          "name": "hindertype"
-        }, {
-          "alias": "Datafangstdato",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Merking",
-          "name": "merking"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "punkthindre_mellom_40m_60m",
-          "queryable": "false",
-          "title": "Punkthindre 40m-60m"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "punkthindre_40m_60m",
-      "info": "Punkthinder med vertikalutstrekning mellom 40 og 60 meter.",
-      "url": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "groupid": 7,
-      "params": {
-        "layers": "punkthindre_mellom_40m_60m",
-        "format": "image/png"
-      },
-      "guid": "7.punkthindre_mellom_40m_60m",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "alias": "Nrl-id",
-          "name": "nrl_id"
-        }, {
-          "alias": "Navn",
-          "name": "navn"
-        }, {
-          "alias": "Vertikalutstrekning",
-          "name": "vertikalutstrekning",
-          "unit": " m"
-        }, {
-          "alias": "Lyssetting",
-          "name": "lyssetting"
-        }, {
-          "alias": "Status",
-          "name": "status"
-        }, {
-          "alias": "Verifiseringsdato",
-          "name": "verifiseringsdato"
-        }, {
-          "alias": "Hindertype",
-          "name": "hindertype"
-        }, {
-          "alias": "Datafangstdato",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Merking",
-          "name": "merking"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "punkthindre_under_40m",
-          "queryable": "false",
-          "title": "Punkthindre under 40"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "punkthindre_under_40m",
-      "info": "Punkthinder med vertikalutstrekning lavere enn 40 meter.",
-      "url": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "groupid": 7,
-      "params": {
-        "layers": "punkthindre_under_40m",
-        "format": "image/png"
-      },
-      "guid": "7.punkthindre_under_40m",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "alias": "Nrl-id",
-          "name": "nrl_id"
-        }, {
-          "alias": "Navn",
-          "name": "navn"
-        }, {
-          "alias": "Vertikalutstrekning",
-          "name": "vertikalutstrekning",
-          "unit": " m"
-        }, {
-          "alias": "Lyssetting",
-          "name": "lyssetting"
-        }, {
-          "alias": "Status",
-          "name": "status"
-        }, {
-          "alias": "Verifiseringsdato",
-          "name": "verifiseringsdato"
-        }, {
-          "alias": "Hindertype",
-          "name": "hindertype"
-        }, {
-          "alias": "Datafangstdato",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Merking",
-          "name": "merking"
-        }]
-      }
-    }, {
-      "type": "overlay",
-      "Layers": {
-        "Layer": {
-          "name": "punkthindre_uten_hoyde",
-          "queryable": "false",
-          "title": "Punkthindre uten hoyde"
-        }
-      },
-      "gatekeeper": "true",
-      "name": "punkthindre_uten_hoyde",
-      "info": "Punkthinder der vertikalutstrekning er ukjent.",
-      "url": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "legendurl": "https://wms.geonorge.no/skwms1/wms.nrl5?",
-      "groupid": 7,
-      "params": {
-        "layers": "punkthindre_uten_hoyde",
-        "format": "image/png"
-      },
-      "guid": "7.punkthindre_uten_hoyde",
-      "options": {
-        "isbaselayer": "false",
-        "singletile": "true",
-        "visibility": "false"
-      },
-      "includedfields": {
-        "field": [{
-          "alias": "Nrl-id",
-          "name": "nrl_id"
-        }, {
-          "alias": "Navn",
-          "name": "navn"
-        }, {
-          "alias": "Vertikalutstrekning",
-          "name": "vertikalutstrekning",
-          "unit": " m"
-        }, {
-          "alias": "Lyssetting",
-          "name": "lyssetting"
-        }, {
-          "alias": "Status",
-          "name": "status"
-        }, {
-          "alias": "Verifiseringsdato",
-          "name": "verifiseringsdato"
-        }, {
-          "alias": "Hindertype",
-          "name": "hindertype"
-        }, {
-          "alias": "Datafangstdato",
-          "name": "datafangstdato"
-        }, {
-          "alias": "Merking",
-          "name": "merking"
-        }]
+      ]
       }
     }],
     "maplayer": [{
-      "index": 3,
-      "name": "kraftledninger",
-      "groupid": 3
-    }, {
       "index": 5,
-      "name": "andre_linjehindre",
+      "name": "NRL",
       "groupid": 5
-    }, {
-      "index": 7,
-      "name": "punkthindre",
-      "groupid": 7
     }],
     "featureDict": {
       "Status": {
