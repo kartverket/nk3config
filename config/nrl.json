@@ -242,7 +242,7 @@
           "name": "navn"
         }, {
           "alias": "Luftspenntype",
-          "name": "luftspenntype "
+          "name": "luftspenntype"
         }, {
           "alias": "Vertikalavstand",
           "name": "vertikalavstand",
@@ -273,7 +273,7 @@
           "name": "materiale"
         }, {
           "alias": "Datafangstdato",
-          "name": "datafangstdato "
+          "name": "datafangstdato"
         }, {
           "alias": "Datafangstmetode",
           "name": "datafangstmetode"
@@ -282,7 +282,7 @@
           "name": "noyaktighet"
         }, {
           "alias": "Informasjon",
-          "name": "informasjon "
+          "name": "informasjon"
         }, {
           "alias": "Historisk NRL ID",
           "name": "luftfartshinderid"
@@ -324,7 +324,7 @@
           "name": "navn"
         }, {
           "alias": "Luftspenntype",
-          "name": "luftspenntype "
+          "name": "luftspenntype"
         }, {
           "alias": "Vertikalavstand",
           "name": "vertikalavstand",
@@ -355,7 +355,7 @@
           "name": "materiale"
         }, {
           "alias": "Datafangstdato",
-          "name": "datafangstdato "
+          "name": "datafangstdato"
         }, {
           "alias": "Datafangstmetode",
           "name": "datafangstmetode"
@@ -364,7 +364,7 @@
           "name": "noyaktighet"
         }, {
           "alias": "Informasjon",
-          "name": "informasjon "
+          "name": "informasjon"
         }, {
           "alias": "Historisk NRL ID",
           "name": "luftfartshinderid"
@@ -406,7 +406,7 @@
           "name": "navn"
         }, {
           "alias": "Luftspenntype",
-          "name": "luftspenntype "
+          "name": "luftspenntype"
         }, {
           "alias": "Vertikalavstand",
           "name": "vertikalavstand",
@@ -437,7 +437,7 @@
           "name": "materiale"
         }, {
           "alias": "Datafangstdato",
-          "name": "datafangstdato "
+          "name": "datafangstdato"
         }, {
           "alias": "Datafangstmetode",
           "name": "datafangstmetode"
@@ -446,7 +446,7 @@
           "name": "noyaktighet"
         }, {
           "alias": "Informasjon",
-          "name": "informasjon "
+          "name": "informasjon"
         }, {
           "alias": "Historisk NRL ID",
           "name": "luftfartshinderid"
@@ -519,7 +519,7 @@
           "name": "materiale"
         }, {
           "alias": "Datafangstdato",
-          "name": "datafangstdato "
+          "name": "datafangstdato"
         }, {
           "alias": "Datafangstmetode",
           "name": "datafangstmetode"
@@ -528,7 +528,7 @@
           "name": "noyaktighet"
         }, {
           "alias": "Informasjon",
-          "name": "informasjon "
+          "name": "informasjon"
         }, {
           "alias": "Historisk NRL ID",
           "name": "luftfartshinderid"
@@ -601,7 +601,7 @@
           "name": "materiale"
         }, {
           "alias": "Datafangstdato",
-          "name": "datafangstdato "
+          "name": "datafangstdato"
         }, {
           "alias": "Datafangstmetode",
           "name": "datafangstmetode"
@@ -610,7 +610,7 @@
           "name": "noyaktighet"
         }, {
           "alias": "Informasjon",
-          "name": "informasjon "
+          "name": "informasjon"
         }, {
           "alias": "Historisk NRL ID",
           "name": "luftfartshinderid"
@@ -623,33 +623,6 @@
       "name": "NRL",
       "groupid": 5
     }],
-    "featureDict": {
-      "Status": {
-        "E": "Eksisterende",
-        "P": "Planlagt",
-        "O": "Ombygd",
-        "U": "Under arbeid"
-      },
-      "Lyssetting": {
-        "IL": "Ikke lyssatt",
-        "UKJ": "Ukjent",
-        "LIA": "Lyssatt",
-        "LIB": "Lyssatt",
-        "LIC": "Lyssatt",
-        "LID": "Lyssatt",
-        "MIA": "Lyssatt",
-        "MIB": "Lyssatt",
-        "MIC": "Lyssatt",
-        "HIA": "Lyssatt",
-        "HIB": "Lyssatt",
-        "FLO": "Lyssatt",
-        "FR": "Lyssatt",
-        "FH": "Lyssatt",
-        "BH": "Lyssatt",
-        "BR": "Lyssatt",
-        "L": "Lyssatt"
-      }
-    },
     "mapbounds": {
       "mapbound": [{
         "epsg": "EPSG:23031",
