@@ -323,8 +323,8 @@
           "alias": "Navn",
           "name": "navn"
         }, {
-          "alias": "Luftspenntype",
-          "name": "luftspenntype"
+          "alias": "Linjetype",
+          "name": "linjetype"
         }, {
           "alias": "Vertikalavstand",
           "name": "vertikalavstand",
