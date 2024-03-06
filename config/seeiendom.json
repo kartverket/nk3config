@@ -227,6 +227,7 @@
       }
     }, {
       "type": "overlay",
+      "queryable": false,
       "gatekeeper": "true",
       "name": "bygninger",
       "url": "//wms.geonorge.no/skwms1/wms.matrikkel.seeiendom2/?CQL_FILTER=BYGNINGSTATUS<9 OR BYGNINGSTATUS=13",
