@@ -8,7 +8,7 @@ metadata:
 spec:
   type: "service"
   lifecycle: "production"
-  owner: "tnt"
+  owner: "team_norgeskart_og_topo"
   system: "norgeskart"
   providesApis:
   - "nk3config-api"
@@ -48,7 +48,7 @@ metadata:
 spec:
   type: "openapi"
   lifecycle: "production"
-  owner: "tnt"
+  owner: "team_norgeskart_og_topo"
   definition: |
     openapi: "3.0.0"
     info:
