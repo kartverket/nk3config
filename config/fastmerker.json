@@ -352,6 +352,10 @@
           "name": "kvalitet_nn1954",
           "unit": " mm"
         }, {
+          "alias": "Kvalitet_nn2000",
+          "name": "kvalitet_nn2000",
+          "unit": " mm"
+        }, {
           "alias": "Kvalitet_grunnriss",
           "name": "kvalitet_grunnriss",
           "unit": " mm"
@@ -429,6 +433,10 @@
           "name": "kvalitet_nn1954",
           "unit": " mm"
         }, {
+          "alias": "Kvalitet_nn2000",
+          "name": "kvalitet_nn2000",
+          "unit": " mm"
+        }, {
           "alias": "Kvalitet_grunnriss",
           "name": "kvalitet_grunnriss",
           "unit": " mm"
@@ -504,6 +512,10 @@
         }, {
           "alias": "Kvalitet_nn1954",
           "name": "kvalitet_nn1954",
+          "unit": " mm"
+        }, {
+          "alias": "Kvalitet_nn2000",
+          "name": "kvalitet_nn2000",
           "unit": " mm"
         }, {
           "alias": "Kvalitet_grunnriss",
