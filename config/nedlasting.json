@@ -83,7 +83,7 @@
       "type": "map",
       "gatekeeper": "true",
       "name": "Sjøkart",
-      "url": "https://cache.kartverket.no/wmts/1.0.0/sjokartraster?|https://cache.kartverket.no/wmts/1.0.0/sjokartraster?",
+      "url": "https://cache.kartverket.no/v1/wmts|https://cache.kartverket.no/v1/wmts",
       "params": {
         "layers": "sjokartraster",
         "format": "image/png"
