@@ -28,7 +28,7 @@
       "options": {
         "isbaselayer": "true",
         "singletile": "false",
-        "visibility": "false"
+        "visibility": "true"
       },
       "thumbnail": "land"
     }, {
@@ -79,7 +79,7 @@
       "options": {
         "isbaselayer": "true",
         "singletile": "false",
-        "visibility": "true"
+        "visibility": "false"
       },
       "thumbnail": "grey"
     }, {
