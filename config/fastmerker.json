@@ -561,7 +561,7 @@
       },
       "gatekeeper": "true",
       "name": "utm_rutenett",
-      "url": "https://openwms.statkart.no/skwms1/wms.rutenett?",
+      "url": "https://wms.geonorge.no/skwms1/wms.rutenett?",
       "legendurl": "https://wms.geonorge.no/skwms1/wms.rutenett?",
       "groupid": 5,
       "params": {
