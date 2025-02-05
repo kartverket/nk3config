@@ -231,8 +231,8 @@
       "gatekeeper": "true",
       "name": "Arbeidsgiveravgiftsoner",
       "info": "Arbeidsgiveravgiftsoner",
-      "url": "https://openwms.statkart.no/skwms1/wms.arbeidsgiveravgiftsoner",
-      "legendurl": "https://openwms.statkart.no/skwms1/wms.arbeidsgiveravgiftsoner",
+      "url": "https://wms.geonorge.no/skwms1/wms.arbeidsgiveravgiftsoner",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.arbeidsgiveravgiftsoner",
       "groupid": 2,
       "params": {
         "layers": "soner",
@@ -258,8 +258,8 @@
       "gatekeeper": "true",
       "name": "Kommuner",
       "info": "Arbeidsgiveravgiftsoner",
-      "url": "https://openwms.statkart.no/skwms1/wms.arbeidsgiveravgiftsoner",
-      "legendurl": "https://openwms.statkart.no/skwms1/wms.arbeidsgiveravgiftsoner",
+      "url": "https://wms.geonorge.no/skwms1/wms.arbeidsgiveravgiftsoner",
+      "legendurl": "https://wms.geonorge.no/skwms1/wms.arbeidsgiveravgiftsoner",
       "groupid": 2,
       "params": {
         "layers": "kommuner",
