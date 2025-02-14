@@ -1,0 +1,3 @@
+Kartverkets WMTS-tjenester har i lengre tid hatt utfordringer knyttet til ytelsen. Dette skjer i forbindelse med overgang til en ny og moderne plattform (gitt at vi får flyttet over), som ledd i moderniseringen av applikasjonen Norgeskart. Dagens tjenester er i stor grad bygget opp på eldre systemer og programvare, og har behov for et løft. Overgangen til ny plattform vil sørge for stabile og fremtidsrettede tjenester.
+Det kan forventes utfordringer med ytelsen i lengre tid fremover grunnet denne overgangen, og vi estimerer at tjenesten kjører på nye systemer innen utgangen av april/mai.
+Vi beklager på det sterkeste ulempene dette medfører for brukerne våre, og forsikrer om at vi jobber på spreng for å bedre ytelsen raskest mulig.
