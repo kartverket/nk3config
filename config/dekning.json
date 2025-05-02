@@ -288,7 +288,7 @@
     }, {
       "type": "overlay",
       "name": "norge_1_50000",
-      "url": "https://www.norgeskart.no/json/dekning/land/n50/n50_pod-inndeling2025.json",
+      "url": "https://www.norgeskart.no/json/dekning/land/n50/n50_pod_inndeling2025.json",
       "epsg": "EPSG:25833",
       "groupid": 1,
       "params": {
