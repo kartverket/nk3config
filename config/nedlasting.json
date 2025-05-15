@@ -16,7 +16,7 @@
       "type": "map",
       "gatekeeper": "true",
       "name": "Landkart",
-      "url": "https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?",
+      "url": "https://cache.atgcp1-prod.kartverket.cloud/v1/service",
       "params": {
         "layers": "topo",
         "format": "image/png"
