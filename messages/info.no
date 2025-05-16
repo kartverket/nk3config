@@ -1,3 +1,1 @@
-Vi opplever utfordringer med ytelsen, noe som medfører tregheter og blanke fliser i kartbildet.
-
-Grunnet overgang til nye systemer viser ikke kartet nyeste kartdata. Kartdata er sist oppdatert 10. januar. Vi jobber på for å løse dette, og forventer at kartdata oppdateres ukentlig innen midten av mai måned. 
+Det er gjort oppgraderinger av Norgeskart, noe som medfører bedre ytelse og oppdaterte kartdata. Vi vil jobbe videre med å bedre ytelsen ytterligere i tiden som kommer, slik at kartet vises raskere i alle zoom-nivåer.
