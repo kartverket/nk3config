@@ -1,1 +1,2 @@
 Det er gjort oppgraderinger av Norgeskart, noe som medfører bedre ytelse og oppdaterte kartdata. Vi vil jobbe videre med å bedre ytelsen ytterligere i tiden som kommer, slik at kartet vises raskere i alle zoom-nivåer.
+NB: Dette gjelder brukere av landkartet i farger. Gråtone og rasterkart vil ha tilsvarende oppgrdadering klar innen starten av uke 22. 
