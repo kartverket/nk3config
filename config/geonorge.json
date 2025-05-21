@@ -66,22 +66,6 @@
     }, {
       "type": "map",
       "gatekeeper": "true",
-      "name": "enkel",
-      "url": "https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?",
-      "params": {
-        "layers": "norges_grunnkart",
-        "format": "image/png"
-      },
-      "matrixprefix": "true",
-      "guid": "0.norges_grunnkart",
-      "options": {
-        "isbaselayer": "true",
-        "singletile": "false",
-        "visibility": "false"
-      }
-    }, {
-      "type": "map",
-      "gatekeeper": "true",
       "name": "sjokart",
       "url": "https://cache.kartverket.no/v1/wmts|https://cache.kartverket.no/v1/wmts",
       "params": {
