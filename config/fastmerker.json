@@ -53,7 +53,7 @@
       "name": "rasterkart",
       "url": "https://cache.kartverket.no/v1/service|https://cache.kartverket.no/v1/service",
       "params": {
-        "layers": "topoRaster",
+        "layers": "toporaster",
         "format": "image/png"
       },
       "matrixprefix": "false",
@@ -70,7 +70,7 @@
       "name": "gratone",
       "url": "https://cache.kartverket.no/v1/service|https://cache.kartverket.no/v1/service",
       "params": {
-        "layers": "topoGraatone",
+        "layers": "topograatone",
         "format": "image/png"
       },
       "matrixprefix": "false",
@@ -87,7 +87,7 @@
       "name": "sjokart",
       "url": "https://cache.kartverket.no/v1/service|https://cache.kartverket.no/v1/service",
       "params": {
-        "layers": "sjokartRaster",
+        "layers": "sjokartraster",
         "format": "image/png"
       },
       "matrixprefix": "false",
