@@ -52,11 +52,11 @@
       "name": "Gråtone",
       "url": "https://gatekeeper1.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?|https://gatekeeper2.geonorge.no/BaatGatekeeper/gk/gk.cache_wmts?",
       "params": {
-        "layers": "topograatone",
+        "layers": "topoGraatone",
         "format": "image/png"
       },
       "matrixprefix": "true",
-      "guid": "0.topograatone",
+      "guid": "0.topoGraatone",
       "options": {
         "isbaselayer": "true",
         "singletile": "false",
@@ -67,14 +67,14 @@
       "type": "map",
       "gatekeeper": "true",
       "name": "Sjøkart",
-      "url": "https://cache.kartverket.no/v1/wmts|https://cache.kartverket.no/v1/wmts",
+      "url": "https://cache.kartverket.no/v1/service|https://cache.kartverket.no/v1/service",
       "params": {
-        "layers": "sjokartraster",
+        "layers": "sjokartRaster",
         "format": "image/png"
       },
       "matrixprefix": "false",
       "matrixset": "utm33n",
-      "guid": "0.sjokartraster",
+      "guid": "0.sjokartRaster",
       "options": {
         "isbaselayer": "true",
         "singletile": "false",

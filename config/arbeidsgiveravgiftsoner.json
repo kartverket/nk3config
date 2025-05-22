@@ -51,9 +51,9 @@
     }, {
       "type": "map",
       "name": "rasterkart",
-      "url": "https://cache.kartverket.no/v1/wmts|https://cache.kartverket.no/v1/wmts",
+      "url": "https://cache.kartverket.no/v1/service|https://cache.kartverket.no/v1/service",
       "params": {
-        "layers": "toporaster",
+        "layers": "topoRaster",
         "format": "image/png"
       },
       "matrixprefix": "false",
@@ -68,9 +68,9 @@
     }, {
       "type": "map",
       "name": "gratone",
-      "url": "https://cache.kartverket.no/v1/wmts|https://cache.kartverket.no/v1/wmts",
+      "url": "https://cache.kartverket.no/v1/service|https://cache.kartverket.no/v1/service",
       "params": {
-        "layers": "topograatone",
+        "layers": "topoGraatone",
         "format": "image/png"
       },
       "matrixprefix": "false",
@@ -85,9 +85,9 @@
     }, {
       "type": "map",
       "name": "sjokart",
-      "url": "https://cache.kartverket.no/v1/wmts|https://cache.kartverket.no/v1/wmts",
+      "url": "https://cache.kartverket.no/v1/service|https://cache.kartverket.no/v1/service",
       "params": {
-        "layers": "sjokartraster",
+        "layers": "sjokartRaster",
         "format": "image/png"
       },
       "matrixprefix": "false",
