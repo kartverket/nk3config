@@ -16,7 +16,7 @@
       "type": "map",
       "gatekeeper": "true",
       "name": "landkart",
-      "url": "https://cache.atgcp1-prod.kartverket.cloud/v1/service|https://cache.atgcp1-prod.kartverket.cloud/v1/service",
+      "url": "https://cache.kartverket.no/v1/service|https://cache.kartverket.no/v1/service",
       "params": {
         "layers": "topo",
         "format": "image/png"
