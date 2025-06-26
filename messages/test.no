@@ -1,2 +1,2 @@
-Dette er et testsida.
+Dette er et testside.
 Info om kartet som vises finnes her: <a href="https://github.com/kartverket/tnt-topo/wiki/Topo-2025-Project-Layers-Layer-Documentation">https://github.com/kartverket/tnt-topo/wiki/Topo-2025-Project-Layers-Layer-Documentation</a>
