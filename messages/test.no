@@ -1,2 +1,6 @@
-Dette er et testside.
-Info om kartet som vises finnes her: <a href="https://github.com/kartverket/tnt-topo/wiki/Topo-2025-Project-Layers-Layer-Documentation">https://github.com/kartverket/tnt-topo/wiki/Topo-2025-Project-Layers-Layer-Documentation</a>
+Dette er en testside.
+Kartet som vises er Nytt Topografisk Norgeskart som lanseres 18. august.
+Brukere av WMTS-tjenesten behøver ikke å tilpasse seg endringene.
+Dersom du har bygget inn WMS-tjenesten i egne løsninger er det muligheter for at du må gjøre tilpasninger. Ny versjon bruker andre lagnavn enn eksisterende Topo.
+ 
+Informasjon om kartet som vises finnes her:: <a href="https://github.com/kartverket/tnt-topo/wiki/Topo-2025-Project-Layers-Layer-Documentation">https://github.com/kartverket/tnt-topo/wiki/Topo-2025-Project-Layers-Layer-Documentation</a>
