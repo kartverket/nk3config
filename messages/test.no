@@ -1,6 +1,15 @@
 Dette er en testside.
+
 Kartet som vises er Nytt Topografisk Norgeskart som lanseres 18. august.
 Brukere av WMTS-tjenesten behøver ikke å tilpasse seg endringene.
-Dersom du har bygget inn WMS-tjenesten i egne løsninger er det muligheter for at du må gjøre tilpasninger. Ny versjon bruker andre lagnavn enn eksisterende Topo.
+
+Dersom du har bygget inn WMS-tjenesten i egne løsninger er det muligheter for at du må gjøre tilpasninger. Det gjelder uavhengig om du bruker Topo farger eller Topo gråtone. Ny versjon bruker andre lagnavn enn eksisterende Topo. En oversikt over gamle og nye lagnavn er lagt til i dokumentasjonen under. Denne oversikten kan brukes for å tilpasse egne løsninger.
  
-Informasjon om kartet som vises finnes her:: <a href="https://github.com/kartverket/tnt-topo/wiki/Topo-2025-Project-Layers-Layer-Documentation">https://github.com/kartverket/tnt-topo/wiki/Topo-2025-Project-Layers-Layer-Documentation</a>
+Overgangen skjer kveld/natt og er aktiv fom. 18. august.
+ 
+I overgangsfasen er det aktivert en egen tjeneste som viser gammel versjon av Topo. Denne er aktiv ut september måned. Denne muliggjør at du kan holde oppe egen løsning dersom du aktivt endrer url. Denne er aktiv nå, og du kan gjerne benytte denne i overgangsfasen. Vi anbefaler likevel å ta i bruk ny versjon raskest mulig.
+Url som peker mot gamle Topo (stenges 1. oktober):
+https://wms.geonorge.no/skwms1/wms.topo_expired?service=wms&request=getcapabilities
+https://wms.geonorge.no/skwms1/wms.topograatone_expired?service=wms&request=getcapabilities
+
+Informasjon om kartet som vises finnes her:: https://github.com/kartverket/tnt-topo/wiki/Topo-2025-Project-Layers-Layer-Documentation
