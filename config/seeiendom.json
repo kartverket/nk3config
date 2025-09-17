@@ -198,7 +198,7 @@
       "type": "overlay",
       "gatekeeper": "true",
       "name": "adresser",
-      "url": "//wms.geonorge.no/skwms1/wms.matrikkel.seeiendom2",
+      "url": "//testapi.norgeskart.no/v1/matrikkel/wms",
       "groupid": 1,
       "maxResolution": 2,
       "params": {
@@ -216,7 +216,7 @@
       "queryable": false,
       "gatekeeper": "true",
       "name": "bygninger",
-      "url": "//wms.geonorge.no/skwms1/wms.matrikkel.seeiendom2/?CQL_FILTER=BYGNINGSTATUS<9 OR BYGNINGSTATUS=13",
+      "url": "//testapi.norgeskart.no/v1/matrikkel/wms?CQL_FILTER=BYGNINGSTATUS<9 OR BYGNINGSTATUS=13",
       "groupid": 1,
       "maxResolution": 2,
       "params": {
@@ -233,7 +233,7 @@
       "type": "overlay",
       "gatekeeper": "true",
       "name": "teiger_og_grenser",
-      "url": "//wms.geonorge.no/skwms1/wms.matrikkel.seeiendom2",
+      "url": "//testapi.norgeskart.no/v1/matrikkel/wms",
       "groupid": 1,
       "maxResolution": 2,
       "params": {
