@@ -202,7 +202,7 @@
     "vector": [{
       "type": "overlay",
       "name": "hovedkart_sjo",
-      "url": "https://www.norgeskart.no/json/dekning/sjo/hovedserie_ny.json",
+      "url": "https://norgeskart.no/json/dekning/sjo/hovedserie_ny.json",
       "epsg": "EPSG:4326",
       "groupid": 1,
       "params": {
@@ -256,7 +256,7 @@
     }, {
       "type": "overlay",
       "name": "norge_1_50000",
-      "url": "https://www.norgeskart.no/json/dekning/land/n50/n50_pod_inndeling2025.json",
+      "url": "https://norgeskart.no/json/dekning/land/n50/n50_pod_inndeling2025.json",
       "epsg": "EPSG:25833",
       "groupid": 1,
       "params": {
@@ -340,7 +340,7 @@
     }, {
       "type": "overlay",
       "name": "overseilingskart",
-      "url": "https://www.norgeskart.no/json/dekning/sjo/overseilingskart_ny.json",
+      "url": "https://norgeskart.no/json/dekning/sjo/overseilingskart_ny.json",
       "epsg": "EPSG:4326",
       "groupid": 1,
       "params": {
@@ -394,7 +394,7 @@
     }, {
       "type": "overlay",
       "name": "kystkart",
-      "url": "https://www.norgeskart.no/json/dekning/sjo/kystkart_ny.json",
+      "url": "https://norgeskart.no/json/dekning/sjo/kystkart_ny.json",
       "epsg": "EPSG:4326",
       "groupid": 1,
       "params": {
@@ -445,7 +445,7 @@
     }, {
       "type": "overlay",
       "name": "havnekart",
-      "url": "https://www.norgeskart.no/json/dekning/sjo/havnekart_ny.json",
+      "url": "https://norgeskart.no/json/dekning/sjo/havnekart_ny.json",
       "epsg": "EPSG:4326",
       "groupid": 1,
       "params": {
@@ -496,7 +496,7 @@
     }, {
       "type": "overlay",
       "name": "svalbardkart_sjo",
-      "url": "https://www.norgeskart.no/json/dekning/sjo/svalbardkart_ny.json",
+      "url": "https://norgeskart.no/json/dekning/sjo/svalbardkart_ny.json",
       "epsg": "EPSG:4326",
       "groupid": 1,
       "params": {

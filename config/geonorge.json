@@ -9,7 +9,7 @@
       "displaycenterepsgcode": "EPSG:25833",
       "displayCenter": "306722,7197864",
       "displayprojectionepsgcode": "EPSG:25833",
-      "isygatekeeper": "https://www.norgeskart.no/ws/gatekeeper.py?key=73e029c3632c49bb1586fc57a60fb701kv",
+      "isygatekeeper": "https://api.norgeskart.no/ws/gatekeeper.py?key=73e029c3632c49bb1586fc57a60fb701kv",
       "name": "geoportal"
     },
     "wmts": [{
