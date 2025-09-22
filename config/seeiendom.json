@@ -197,7 +197,7 @@
       "type": "overlay",
       "gatekeeper": "true",
       "name": "adresser",
-      "url": "//api.norgeskart.no/v1/matrikkel/wms",
+      "url": "https://api.norgeskart.no/v1/matrikkel/wms",
       "groupid": 1,
       "maxResolution": 2,
       "params": {
@@ -215,7 +215,7 @@
       "queryable": false,
       "gatekeeper": "true",
       "name": "bygninger",
-      "url": "//api.norgeskart.no/v1/matrikkel/wms?CQL_FILTER=BYGNINGSTATUS<9 OR BYGNINGSTATUS=13",
+      "url": "https://api.norgeskart.no/v1/matrikkel/wms?CQL_FILTER=BYGNINGSTATUS<9 OR BYGNINGSTATUS=13",
       "groupid": 1,
       "maxResolution": 2,
       "params": {
@@ -232,7 +232,7 @@
       "type": "overlay",
       "gatekeeper": "true",
       "name": "teiger_og_grenser",
-      "url": "//api.norgeskart.no/v1/matrikkel/wms",
+      "url": "https://api.norgeskart.no/v1/matrikkel/wms",
       "groupid": 1,
       "maxResolution": 2,
       "params": {
