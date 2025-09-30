@@ -1,1 +1,1 @@
-Dette er en lokal testfil på bokmål
+Dette er en lokal testfil på bokmål.
