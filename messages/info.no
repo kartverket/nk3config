@@ -1,5 +1,0 @@
-## Nye Norgeskart lanseres 17. mars 2026
-
-**Vi oppgraderer Norgeskart**, og en helt ny versjon blir lansert 17. mars 2026 mellom kl. 10:45 og 11:15.
-
-Du kan allerede nå utforske den nye løsningen på [test.norgeskart.no](https://test.norgeskart.no). Den er fortsatt under utvikling, og vi kommer til å forbedre den videre også etter lansering - basert på tilbakemeldingene vi får fra brukerne.
