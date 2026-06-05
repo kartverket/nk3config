@@ -14,32 +14,6 @@ spec:
   - "nk3config-api"
 ---
 apiVersion: "backstage.io/v1alpha1"
-kind: "Group"
-metadata:
-  name: "security_champion_nk3config"
-  title: "Security Champion nk3config"
-spec:
-  type: "security_champion"
-  parent: "land_security_champions"
-  members:
-  - "carsmie"
-  children:
-  - "resource:nk3config"
----
-apiVersion: "backstage.io/v1alpha1"
-kind: "Resource"
-metadata:
-  name: "nk3config"
-  links:
-  - url: "https://github.com/kartverket/nk3config"
-    title: "nk3config på GitHub"
-spec:
-  type: "repo"
-  owner: "security_champion_nk3config"
-  dependencyOf:
-  - "component:nk3config"
----
-apiVersion: "backstage.io/v1alpha1"
 kind: "API"
 metadata:
   name: "nk3config-api"
